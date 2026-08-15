@@ -1087,7 +1087,7 @@ function parseDirectories(yaml) {
   const entries = section.split(/\n  - name:/);
   for (let i = 1; i < entries.length; i++) {
     const block = entries[i];
-    const name  = block.match(/^"([^"]*)"/)?.[1] || '';
+    const name  = block.match(/^\s*"([^"]*)"/)?.[1] || '';
     const url   = block.match(/url:\s*"([^"]*)"/)?.[1] || '';
     const type  = block.match(/type:\s*(\S+)/)?.[1] || 'form';
     const notes = block.match(/notes:\s*"([^"]*)"/)?.[1] || '';
