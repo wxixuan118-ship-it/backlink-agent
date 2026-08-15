@@ -1,0 +1,400 @@
+{
+  "submissions": [
+    {
+      "name": "AI Finder Africa",
+      "url": "https://aifinder.africa/",
+      "status": "manual",
+      "http_status": null,
+      "attempt": 1,
+      "timestamp": "2026-08-15 12:39:46.000000+00:00",
+      "notes": "Find submit link on homepage manually"
+    },
+    {
+      "name": "AI Tool Guru",
+      "url": "https://aitoolguru.com/submit-ai-tool",
+      "status": "failed",
+      "http_status": 200,
+      "attempt": 1,
+      "timestamp": "2026-08-15 12:36:44.000000+00:00",
+      "notes": ""
+    },
+    {
+      "name": "AI-Tool.ai",
+      "url": "https://ai-tool.ai/submit-tool",
+      "status": "failed",
+      "http_status": 403,
+      "attempt": 1,
+      "timestamp": "2026-08-15 12:37:42.000000+00:00",
+      "notes": ""
+    },
+    {
+      "name": "AI41",
+      "url": "https://ai41.org/submit-ai",
+      "status": "success",
+      "http_status": 200,
+      "attempt": 1,
+      "timestamp": "2026-08-15 12:37:50.000000+00:00",
+      "notes": ""
+    },
+    {
+      "name": "AIKendra",
+      "url": "https://aikendra.com/submit/",
+      "status": "failed",
+      "http_status": 405,
+      "attempt": 1,
+      "timestamp": "2026-08-15 12:38:11.000000+00:00",
+      "notes": ""
+    },
+    {
+      "name": "AIToolBoard",
+      "url": "https://aitoolboard.com/submit",
+      "status": "failed",
+      "http_status": 405,
+      "attempt": 1,
+      "timestamp": "2026-08-15 12:39:24.000000+00:00",
+      "notes": ""
+    },
+    {
+      "name": "AIToolsHunt",
+      "url": "https://aitoolshunt.com/contact-us/",
+      "status": "failed",
+      "http_status": 404,
+      "attempt": 1,
+      "timestamp": "2026-08-15 12:39:13.000000+00:00",
+      "notes": ""
+    },
+    {
+      "name": "AIToolsMagic",
+      "url": "https://aitoolsmagic.com/submit-tool",
+      "status": "success",
+      "http_status": 200,
+      "attempt": 1,
+      "timestamp": "2026-08-15 12:38:01.000000+00:00",
+      "notes": ""
+    },
+    {
+      "name": "AItools.inc",
+      "url": "https://aitools.inc/submit",
+      "status": "failed",
+      "http_status": 403,
+      "attempt": 1,
+      "timestamp": "2026-08-15 12:35:05.000000+00:00",
+      "notes": ""
+    },
+    {
+      "name": "Bing Webmaster",
+      "url": "https://www.bing.com/webmasters/",
+      "status": "manual",
+      "http_status": null,
+      "attempt": 1,
+      "timestamp": "2026-08-15 12:39:46.000000+00:00",
+      "notes": "Submit sitemap at Bing Webmaster Tools — requires Microsoft account"
+    },
+    {
+      "name": "DevPages",
+      "url": "https://www.devpages.io/submit-a-tool",
+      "status": "success",
+      "http_status": 200,
+      "attempt": 1,
+      "timestamp": "2026-08-15 12:36:53.000000+00:00",
+      "notes": ""
+    },
+    {
+      "name": "Entireweb",
+      "url": "https://www.entireweb.com/free_submission/",
+      "status": "success",
+      "http_status": 200,
+      "attempt": 1,
+      "timestamp": "2026-08-15 12:39:43.000000+00:00",
+      "notes": ""
+    },
+    {
+      "name": "FiveTaco",
+      "url": "https://fivetaco.com/submit",
+      "status": "success",
+      "http_status": 200,
+      "attempt": 1,
+      "timestamp": "2026-08-15 12:35:14.000000+00:00",
+      "notes": ""
+    },
+    {
+      "name": "FutureTools",
+      "url": "https://www.futuretools.io/submit-a-tool",
+      "status": "failed",
+      "http_status": 200,
+      "attempt": 1,
+      "timestamp": "2026-08-15 12:34:56.000000+00:00",
+      "notes": ""
+    },
+    {
+      "name": "Google Form 1",
+      "url": "https://forms.gle/Ze6pdWzmweCfKWnLA",
+      "status": "manual",
+      "http_status": null,
+      "attempt": 1,
+      "timestamp": "2026-08-15 12:39:46.000000+00:00",
+      "notes": "Google Form — open in browser and fill manually"
+    },
+    {
+      "name": "Google Form 2",
+      "url": "https://docs.google.com/forms/d/e/1FAIpQLSeuaZvj-s7KkI5Zp41q9LX0i9suH61c7JR2qe6sBdDtP9r9Sg/viewform",
+      "status": "manual",
+      "http_status": null,
+      "attempt": 1,
+      "timestamp": "2026-08-15 12:39:46.000000+00:00",
+      "notes": "Google Form — open in browser and fill manually"
+    },
+    {
+      "name": "Insidr",
+      "url": "https://insidr.ai/ai-tools",
+      "status": "failed",
+      "http_status": 404,
+      "attempt": 1,
+      "timestamp": "2026-08-15 12:35:51.000000+00:00",
+      "notes": ""
+    },
+    {
+      "name": "LaunchingNext",
+      "url": "https://www.launchingnext.com/submit/",
+      "status": "failed",
+      "http_status": 403,
+      "attempt": 1,
+      "timestamp": "2026-08-15 12:35:28.000000+00:00",
+      "notes": ""
+    },
+    {
+      "name": "ListAI",
+      "url": "https://listai.cc/submit",
+      "status": "success",
+      "http_status": 200,
+      "attempt": 1,
+      "timestamp": "2026-08-15 12:38:19.000000+00:00",
+      "notes": ""
+    },
+    {
+      "name": "Marketing Internet Directory",
+      "url": "https://www.marketinginternetdirectory.com/submit.php",
+      "status": "success",
+      "http_status": 200,
+      "attempt": 1,
+      "timestamp": "2026-08-15 12:36:09.000000+00:00",
+      "notes": ""
+    },
+    {
+      "name": "NavTools",
+      "url": "https://navtools.ai/submit",
+      "status": "success",
+      "http_status": 200,
+      "attempt": 1,
+      "timestamp": "2026-08-15 12:38:37.000000+00:00",
+      "notes": ""
+    },
+    {
+      "name": "Pitchwall",
+      "url": "https://pitchwall.co/product/submit",
+      "status": "manual",
+      "http_status": null,
+      "attempt": 1,
+      "timestamp": "2026-08-15 12:39:46.000000+00:00",
+      "notes": "Requires account login to submit"
+    },
+    {
+      "name": "Quality Internet Directory",
+      "url": "https://www.qualityinternetdirectory.com/",
+      "status": "manual",
+      "http_status": null,
+      "attempt": 1,
+      "timestamp": "2026-08-15 12:39:46.000000+00:00",
+      "notes": "Find submit link on homepage manually"
+    },
+    {
+      "name": "SaaSHub",
+      "url": "https://www.saashub.com/submit",
+      "status": "success",
+      "http_status": 200,
+      "attempt": 1,
+      "timestamp": "2026-08-15 12:39:34.000000+00:00",
+      "notes": ""
+    },
+    {
+      "name": "SearchAITool",
+      "url": "https://searchaitool.com/submit",
+      "status": "failed",
+      "http_status": 403,
+      "attempt": 1,
+      "timestamp": "2026-08-15 12:37:33.000000+00:00",
+      "notes": ""
+    },
+    {
+      "name": "ShareTool",
+      "url": "https://sharetool.com/submit",
+      "status": "success",
+      "http_status": 200,
+      "attempt": 1,
+      "timestamp": "2026-08-15 12:37:23.000000+00:00",
+      "notes": ""
+    },
+    {
+      "name": "Sites Web Directory",
+      "url": "https://www.siteswebdirectory.com/submit.php",
+      "status": "failed",
+      "http_status": 200,
+      "attempt": 1,
+      "timestamp": "2026-08-15 12:36:34.000000+00:00",
+      "notes": ""
+    },
+    {
+      "name": "StartupBuffer",
+      "url": "https://startupbuffer.com",
+      "status": "manual",
+      "http_status": null,
+      "attempt": 1,
+      "timestamp": "2026-08-15 12:39:46.000000+00:00",
+      "notes": "Requires account — submit at startupbuffer.com"
+    },
+    {
+      "name": "Stremit",
+      "url": "https://stremit.io/submit-tool-form",
+      "status": "failed",
+      "http_status": 405,
+      "attempt": 1,
+      "timestamp": "2026-08-15 12:37:04.000000+00:00",
+      "notes": ""
+    },
+    {
+      "name": "SubmitAITools",
+      "url": "https://submitaitools.org/",
+      "status": "failed",
+      "http_status": 200,
+      "attempt": 1,
+      "timestamp": "2026-08-15 12:39:02.000000+00:00",
+      "notes": ""
+    },
+    {
+      "name": "Tally Form (3qVzOG)",
+      "url": "https://tally.so/r/3qVzOG",
+      "status": "manual",
+      "http_status": null,
+      "attempt": 1,
+      "timestamp": "2026-08-15 12:39:46.000000+00:00",
+      "notes": "Tally JS form — open in browser and fill manually"
+    },
+    {
+      "name": "Tally Form (wvB7Xg)",
+      "url": "https://tally.so/r/wvB7Xg",
+      "status": "manual",
+      "http_status": null,
+      "attempt": 1,
+      "timestamp": "2026-08-15 12:39:46.000000+00:00",
+      "notes": "Tally JS form — open in browser and fill manually"
+    },
+    {
+      "name": "Tally Form (wvY09d)",
+      "url": "https://tally.so/r/wvY09d",
+      "status": "manual",
+      "http_status": null,
+      "attempt": 1,
+      "timestamp": "2026-08-15 12:39:46.000000+00:00",
+      "notes": "Tally JS form — open in browser and fill manually"
+    },
+    {
+      "name": "TheAIway",
+      "url": "https://theaiway.net/product-submit/",
+      "status": "failed",
+      "http_status": 403,
+      "attempt": 1,
+      "timestamp": "2026-08-15 12:37:14.000000+00:00",
+      "notes": ""
+    },
+    {
+      "name": "TheKnownApp",
+      "url": "https://www.theknownapp.io/#waitlist",
+      "status": "manual",
+      "http_status": null,
+      "attempt": 1,
+      "timestamp": "2026-08-15 12:39:46.000000+00:00",
+      "notes": "Waitlist — sign up manually"
+    },
+    {
+      "name": "ToolPilot",
+      "url": "https://www.toolpilot.ai/pages/submit-your-ai-tool",
+      "status": "success",
+      "http_status": 200,
+      "attempt": 1,
+      "timestamp": "2026-08-15 12:35:38.000000+00:00",
+      "notes": ""
+    },
+    {
+      "name": "ToolPilot.tools",
+      "url": "https://toolpilot.tools/submit",
+      "status": "failed",
+      "http_status": 405,
+      "attempt": 1,
+      "timestamp": "2026-08-15 12:38:28.000000+00:00",
+      "notes": ""
+    },
+    {
+      "name": "ToolScout",
+      "url": "https://toolscout.ai/submit",
+      "status": "failed",
+      "http_status": 401,
+      "attempt": 1,
+      "timestamp": "2026-08-15 12:36:20.000000+00:00",
+      "notes": ""
+    },
+    {
+      "name": "ToolWise",
+      "url": "https://toolwise.ai/submit-tool",
+      "status": "failed",
+      "http_status": 405,
+      "attempt": 1,
+      "timestamp": "2026-08-15 12:38:47.000000+00:00",
+      "notes": ""
+    },
+    {
+      "name": "Tools.so",
+      "url": "https://tools.so/submit",
+      "status": "failed",
+      "http_status": 405,
+      "attempt": 1,
+      "timestamp": "2026-08-15 12:36:01.000000+00:00",
+      "notes": ""
+    },
+    {
+      "name": "Typeform (AItools.inc)",
+      "url": "https://loxr142exnq.typeform.com/to/RB6ZnEf2",
+      "status": "manual",
+      "http_status": null,
+      "attempt": 1,
+      "timestamp": "2026-08-15 12:39:46.000000+00:00",
+      "notes": "Typeform — open in browser and fill manually"
+    },
+    {
+      "name": "Typeform (Startup88)",
+      "url": "https://startup88.typeform.com/to/CRjWqM",
+      "status": "manual",
+      "http_status": null,
+      "attempt": 1,
+      "timestamp": "2026-08-15 12:39:46.000000+00:00",
+      "notes": "Typeform — open in browser and fill manually"
+    },
+    {
+      "name": "Uneed",
+      "url": "https://www.uneed.best",
+      "status": "manual",
+      "http_status": null,
+      "attempt": 1,
+      "timestamp": "2026-08-15 12:39:46.000000+00:00",
+      "notes": "Requires account login to submit tool"
+    }
+  ],
+  "summary": {
+    "total": 43,
+    "success": 11,
+    "failed": 18,
+    "skipped": 0,
+    "manual": 14,
+    "manually_submitted": 0,
+    "last_run": "2026-08-15T12:39:46.886964+00:00"
+  }
+}
