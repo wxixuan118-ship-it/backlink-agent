@@ -46,6 +46,7 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Install Playwright browsers
+        continue-on-error: true   # playwright install 失败不阻断 form 提交
         run: playwright install chromium --with-deps
 
       # ── 根据上次结果自动调整提交策略 ────────────────────────────

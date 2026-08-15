@@ -100,26 +100,38 @@ def already_submitted(results: dict, directory_name: str) -> bool:
 
 
 def detect_success(response: httpx.Response) -> bool:
-    """Heuristic: look for common success signals in the response body."""
+    """Heuristic: look for success/failure signals in the response body.
+
+    Uses specific multi-word phrases only — single generic words like 'error'
+    or 'invalid' appear on almost every page and produce too many false negatives.
+    A 2xx/3xx with no explicit failure phrase is treated as likely success.
+    """
     text = response.text.lower()
     success_phrases = [
         "thank you", "thanks for submitting", "successfully submitted",
         "submission received", "added successfully", "url has been added",
         "your site has been", "submission complete", "received your submission",
+        "we'll review", "we will review", "under review", "pending review",
+        "site submitted", "listing submitted", "tool submitted",
     ]
+    # Specific failure phrases — avoid single words that appear in normal pages
     failure_phrases = [
-        "error", "invalid", "already submitted", "captcha", "spam",
-        "bad request",
+        "your submission could not", "submission failed", "submission error",
+        "invalid url", "invalid website", "url is not valid",
+        "already submitted", "already listed", "already in our",
+        "captcha", "spam detected", "bot detected",
+        "please fill in", "this field is required",
+        "invalid email address",
     ]
     if response.status_code >= 400:
         return False
     for phrase in success_phrases:
         if phrase in text:
             return True
-    # If no obvious error and status is 2xx/3xx, treat as likely success
     for phrase in failure_phrases:
         if phrase in text:
             return False
+    # 2xx with no explicit failure signal → treat as success
     return response.status_code < 400
 
 
