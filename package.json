@@ -1,0 +1,12 @@
+{
+  "name": "backlink-agent",
+  "version": "1.0.0",
+  "description": "Backlink directory submission agent — web management UI",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
