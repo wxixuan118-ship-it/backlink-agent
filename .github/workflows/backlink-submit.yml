@@ -45,6 +45,13 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
+      - name: Install Playwright browsers
+        run: playwright install chromium --with-deps
+
+      # ── 根据上次结果自动调整提交策略 ────────────────────────────
+      - name: Update directory types
+        run: cd scripts && python update_types.py
+
       # ── 构建提交参数 ────────────────────────────────────────────
       - name: Build submission flags
         id: flags

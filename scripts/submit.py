@@ -19,6 +19,7 @@ import yaml
 from bs4 import BeautifulSoup
 
 from content_generator import generate_submission_content
+import playwright_submit as pw_submit
 
 # ── Logging ────────────────────────────────────────────────────────────────────
 logging.basicConfig(
@@ -300,17 +301,15 @@ def main() -> None:
             if dtype == "manual":
                 log.info("[ MANUAL ] %s  →  %s", name, directory["url"])
                 manual_list.append(directory)
-                record = {
-                    "name": name,
-                    "url": directory["url"],
-                    "status": "manual",
-                    "http_status": None,
-                    "timestamp": datetime.now(timezone.utc).isoformat(),
-                    "notes": directory.get("notes", ""),
-                }
-                # Only add if not already in results
                 if not any(r["name"] == name for r in results["submissions"]):
-                    results["submissions"].append(record)
+                    results["submissions"].append({
+                        "name": name,
+                        "url": directory["url"],
+                        "status": "manual",
+                        "http_status": None,
+                        "timestamp": datetime.now(timezone.utc).isoformat(),
+                        "notes": directory.get("notes", ""),
+                    })
                 continue
 
             # Skip already-submitted directories
@@ -319,21 +318,27 @@ def main() -> None:
                 continue
 
             if args.dry_run:
-                log.info("[ DRY    ] Would submit to: %s  (%s)", name, directory["url"])
+                log.info("[ DRY    ] Would submit to: %s  (%s, type=%s)", name, directory["url"], dtype)
                 continue
 
-            log.info("[ SUBMIT ] %s  →  %s", name, directory["url"])
-            record = submit_form(client, directory, site, settings)
+            # ── Playwright submission ──────────────────────────────────────
+            if dtype == "playwright":
+                log.info("[ BROWSER] %s  →  %s", name, directory["url"])
+                generated = generate_submission_content(site, directory)
+                record = pw_submit.submit(directory, site, generated,
+                                          timeout_ms=settings.get("request_timeout_seconds", 40) * 1000)
 
-            # Remove previous record for this directory, then append new one
-            results["submissions"] = [
-                r for r in results["submissions"] if r["name"] != name
-            ]
+            # ── HTTP form submission ───────────────────────────────────────
+            else:
+                log.info("[ SUBMIT ] %s  →  %s", name, directory["url"])
+                record = submit_form(client, directory, site, settings)
+
+            results["submissions"] = [r for r in results["submissions"] if r["name"] != name]
             results["submissions"].append(record)
             save_results(results)
 
             emoji = "✓" if record["status"] == "success" else "✗"
-            log.info("           %s %s  (HTTP %s)", emoji, record["status"].upper(), record["http_status"])
+            log.info("           %s %s  (HTTP %s)", emoji, record["status"].upper(), record.get("http_status"))
 
             time.sleep(delay)
 
