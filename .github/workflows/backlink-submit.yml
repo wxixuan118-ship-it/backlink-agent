@@ -84,14 +84,16 @@ jobs:
 
       # ── 把结果文件 commit 回仓库 ────────────────────────────────
       - name: Commit results
-        if: "!github.event.inputs.dry_run && always()"
+        if: always()
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add results/
           # 只有有变化时才 commit
-          git diff --staged --quiet || \
-            git commit -m "chore: update backlink submission results [$(date -u +%Y-%m-%d)]"
+          git diff --staged --quiet && exit 0
+          git commit -m "chore: update backlink submission results [$(date -u +%Y-%m-%d)]"
+          # rebase on remote changes before pushing (avoids rejection when code was updated)
+          git pull --rebase origin main
           git push
 
       # ── 把报告输出到 Job Summary ────────────────────────────────
