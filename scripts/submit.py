@@ -130,6 +130,7 @@ def detect_success(response: httpx.Response) -> bool:
             return True
     for phrase in failure_phrases:
         if phrase in text:
+            log.info("detect_success: failure phrase %r found → marking failed", phrase)
             return False
     # 2xx with no explicit failure signal → treat as success
     return response.status_code < 400
