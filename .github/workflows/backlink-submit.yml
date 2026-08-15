@@ -5,11 +5,11 @@ on:
   schedule:
     - cron: "0 9 * * 1"
 
-  # 也可以手动触发，并可选择只跑指定的 directory
+  # 手动触发
   workflow_dispatch:
     inputs:
       site_slug:
-        description: "目标站点 slug（留空 = 所有站点）"
+        description: "目标站点 slug（留空 = 所有站点并行）"
         required: false
         default: ""
       only:
@@ -26,108 +26,160 @@ on:
         default: false
 
 jobs:
-  submit:
-    name: Submit Backlinks
+  # ── 1. 准备：更新 directory 类型 + 生成站点矩阵 ─────────────────
+  setup:
+    name: Prepare
     runs-on: ubuntu-latest
-    timeout-minutes: 30
     permissions:
-      contents: write   # 用于 commit 结果文件
+      contents: write
+    outputs:
+      slugs: ${{ steps.matrix.outputs.slugs }}
 
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
         with:
-          # 拉取完整历史，方便 push 结果
           fetch-depth: 0
 
-      - name: Set up Python
-        uses: actions/setup-python@v5
+      - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
           cache: pip
 
-      - name: Install dependencies
-        run: pip install -r requirements.txt
+      - run: pip install -r requirements.txt
 
-      - name: Install Playwright browsers
-        continue-on-error: true   # playwright install 失败不阻断 form 提交
-        run: playwright install chromium --with-deps
-
-      # ── 根据上次结果自动调整提交策略 ────────────────────────────
       - name: Update directory types
         run: cd scripts && python update_types.py
 
-      # ── 构建提交参数 ────────────────────────────────────────────
+      - name: Commit config changes
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add config/submission_config.yaml
+          git diff --staged --quiet && exit 0
+          git commit -m "chore: auto-update directory types [$(date -u +%Y-%m-%d)]"
+          git pull --rebase origin main
+          git push
+
+      - name: Build site matrix
+        id: matrix
+        run: |
+          if [ -n "${{ github.event.inputs.site_slug }}" ]; then
+            echo 'slugs=["${{ github.event.inputs.site_slug }}"]' >> "$GITHUB_OUTPUT"
+          else
+            python3 -c "
+          import yaml, json, sys
+          with open('config/sites.yaml') as f:
+              sites = yaml.safe_load(f).get('sites', [])
+          if not sites:
+              print('slugs=[]', file=open('/dev/stderr', 'w'))
+              sys.exit(1)
+          print('slugs=' + json.dumps([s['slug'] for s in sites]))
+          " >> "$GITHUB_OUTPUT"
+          fi
+
+  # ── 2. 并行提交：每个站点独立的 job ────────────────────────────
+  submit:
+    name: Submit — ${{ matrix.slug }}
+    needs: setup
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    permissions:
+      contents: write
+    strategy:
+      matrix:
+        slug: ${{ fromJson(needs.setup.outputs.slugs) }}
+      fail-fast: false   # 一个站点失败不影响其他站点
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          ref: main   # 拉最新（含 setup job 提交的 type 更新）
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - run: pip install -r requirements.txt
+
+      - name: Install Playwright browsers
+        continue-on-error: true
+        run: playwright install chromium --with-deps
+
       - name: Build submission flags
         id: flags
         run: |
-          FLAGS=""
-          if [ "${{ github.event.inputs.dry_run }}" = "true" ]; then
-            FLAGS="$FLAGS --dry-run"
-          fi
-          if [ "${{ github.event.inputs.force }}" = "true" ]; then
-            FLAGS="$FLAGS --force"
-          fi
-          if [ -n "${{ github.event.inputs.only }}" ]; then
-            FLAGS="$FLAGS --only '${{ github.event.inputs.only }}'"
-          fi
-          if [ -n "${{ github.event.inputs.site_slug }}" ]; then
-            FLAGS="$FLAGS --site '${{ github.event.inputs.site_slug }}'"
-          fi
+          FLAGS="--site '${{ matrix.slug }}'"
+          if [ "${{ github.event.inputs.dry_run }}" = "true" ]; then FLAGS="$FLAGS --dry-run"; fi
+          if [ "${{ github.event.inputs.force }}"   = "true" ]; then FLAGS="$FLAGS --force";   fi
+          if [ -n "${{ github.event.inputs.only }}"           ]; then FLAGS="$FLAGS --only '${{ github.event.inputs.only }}'"; fi
           echo "flags=$FLAGS" >> "$GITHUB_OUTPUT"
 
-      # ── 运行提交脚本 ────────────────────────────────────────────
       - name: Run submission script
-        continue-on-error: true   # 部分失败不阻断后续 email/commit 步骤
+        continue-on-error: true
         env:
           ZHIPUAI_API_KEY: ${{ secrets.ZHIPUAI_API_KEY }}
-        run: |
-          cd scripts && python submit.py ${{ steps.flags.outputs.flags }}
+        run: cd scripts && python submit.py ${{ steps.flags.outputs.flags }}
 
-      # ── 生成报告 ────────────────────────────────────────────────
       - name: Generate report
         if: always()
-        run: |
-          SITE_FLAG=""
-          if [ -n "${{ github.event.inputs.site_slug }}" ]; then
-            SITE_FLAG="--site '${{ github.event.inputs.site_slug }}'"
-          fi
-          cd scripts && python generate_report.py $SITE_FLAG
+        run: cd scripts && python generate_report.py --site '${{ matrix.slug }}'
 
-      # ── 把结果文件 commit 回仓库 ────────────────────────────────
       - name: Commit results
         if: always()
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add results/
-          # 只有有变化时才 commit
           git diff --staged --quiet && exit 0
-          git commit -m "chore: update backlink submission results [$(date -u +%Y-%m-%d)]"
-          # rebase on remote changes before pushing (avoids rejection when code was updated)
-          git pull --rebase origin main
-          git push
+          git commit -m "chore: update results [${{ matrix.slug }}] [$(date -u +%Y-%m-%d)]"
+          # 并行 job 同时 push 可能冲突，最多重试 5 次
+          for i in 1 2 3 4 5; do
+            git pull --rebase origin main && git push && break
+            echo "Push attempt $i failed, retrying in a moment..."
+            sleep $((RANDOM % 15 + 5))
+          done
 
-      # ── 把报告输出到 Job Summary ────────────────────────────────
       - name: Post to Job Summary
         if: always()
         run: |
-          if [ -f results/report.md ]; then
-            cat results/report.md >> "$GITHUB_STEP_SUMMARY"
+          if [ -f "results/${{ matrix.slug }}/report.md" ]; then
+            echo "## ${{ matrix.slug }}" >> "$GITHUB_STEP_SUMMARY"
+            cat "results/${{ matrix.slug }}/report.md" >> "$GITHUB_STEP_SUMMARY"
           fi
 
-      # ── 上传结果作为 Artifact ────────────────────────────────────
       - name: Upload results artifact
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: submission-results-${{ github.run_number }}
-          path: results/
+          name: results-${{ matrix.slug }}-${{ github.run_number }}
+          path: results/${{ matrix.slug }}/
           retention-days: 30
 
-      # ── 发邮件通知 ────────────────────────────────────────────────
+  # ── 3. 汇总通知：所有站点完成后发邮件 ──────────────────────────
+  notify:
+    name: Email notification
+    needs: submit
+    if: always()
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main   # 拉最新（含所有 submit job 提交的结果）
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - run: pip install -r requirements.txt
+
+      - name: Generate combined report
+        run: cd scripts && python generate_report.py
+
       - name: Send email report
-        if: always()
         uses: dawidd6/action-send-mail@v3
         with:
           server_address: smtp.gmail.com
@@ -135,17 +187,16 @@ jobs:
           secure: true
           username: ${{ secrets.MAIL_USERNAME }}
           password: ${{ secrets.MAIL_PASSWORD }}
-          subject: "Backlink 提交报告 [${{ job.status }}] — ${{ github.run_number }}次"
+          subject: "Backlink 提交报告 [${{ needs.submit.result }}] — Run #${{ github.run_number }}"
           to: wxixuan118@gmail.com
           from: "Backlink Agent <${{ secrets.MAIL_USERNAME }}>"
           body: |
-            本次 Backlink 提交任务已完成。
+            所有站点提交任务已完成。
 
-            运行结果：${{ job.status }}
+            整体结果：${{ needs.submit.result }}
             触发方式：${{ github.event_name }}
-            运行时间：${{ github.run_id }}
 
-            详细报告请查看：
+            详细报告：
             https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}
           html_body: file://results/report.md
           convert_markdown: true
