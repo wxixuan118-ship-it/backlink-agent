@@ -1,0 +1,926 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Backlink Agent</title>
+<style>
+/* ── Design tokens ─────────────────────────────────────────── */
+:root {
+  --bg:         #F8F6F1;
+  --bg-panel:   #FFFFFF;
+  --bg-input:   #F2EFE8;
+  --border:     #DDD9CE;
+  --text:       #1C1A13;
+  --text-2:     #6B6455;
+  --accent:     #B86A0C;
+  --accent-lo:  #FDF0DC;
+  --success:    #166534;
+  --success-bg: #DCFCE7;
+  --fail:       #991B1B;
+  --fail-bg:    #FEE2E2;
+  --warn:       #92400E;
+  --warn-bg:    #FEF3C7;
+  --manual:     #4338CA;
+  --manual-bg:  #EEF2FF;
+  --mono: "Menlo","Consolas","Liberation Mono",monospace;
+  --sans: system-ui,-apple-system,sans-serif;
+  --r: 6px;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme=light]) {
+  --bg:         #0F0E09;
+  --bg-panel:   #1A1914;
+  --bg-input:   #252318;
+  --border:     #302E22;
+  --text:       #EDE9DC;
+  --text-2:     #8A8370;
+  --accent:     #E8923A;
+  --accent-lo:  #2A1A05;
+  --success:    #4ADE80;
+  --success-bg: #052E16;
+  --fail:       #FCA5A5;
+  --fail-bg:    #450A0A;
+  --warn:       #FCD34D;
+  --warn-bg:    #1C1002;
+  --manual:     #A5B4FC;
+  --manual-bg:  #1E1B4B;
+}}
+:root[data-theme=dark] {
+  --bg:#0F0E09;--bg-panel:#1A1914;--bg-input:#252318;--border:#302E22;
+  --text:#EDE9DC;--text-2:#8A8370;--accent:#E8923A;--accent-lo:#2A1A05;
+  --success:#4ADE80;--success-bg:#052E16;--fail:#FCA5A5;--fail-bg:#450A0A;
+  --warn:#FCD34D;--warn-bg:#1C1002;--manual:#A5B4FC;--manual-bg:#1E1B4B;
+}
+
+/* ── Reset ─────────────────────────────────────────────────── */
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+body{font-family:var(--sans);background:var(--bg);color:var(--text);
+  font-size:14px;line-height:1.5;min-height:100vh}
+button{cursor:pointer;font-family:inherit;font-size:14px}
+input,textarea,select{font-family:inherit;font-size:14px}
+a{color:var(--accent);text-decoration:none}
+a:hover{text-decoration:underline}
+
+/* ── Header ─────────────────────────────────────────────────── */
+.header{height:52px;background:var(--bg-panel);border-bottom:1px solid var(--border);
+  display:flex;align-items:center;justify-content:space-between;padding:0 20px;
+  position:sticky;top:0;z-index:100}
+.logo{display:flex;align-items:center;gap:8px;font-weight:700;font-size:15px;letter-spacing:-.02em}
+.logo-mark{width:22px;height:22px;background:var(--accent);border-radius:4px;
+  display:flex;align-items:center;justify-content:center;color:#fff;font-size:12px;font-weight:800}
+.header-right{display:flex;align-items:center;gap:12px}
+.repo-label{font-family:var(--mono);font-size:11px;color:var(--text-2);
+  background:var(--bg-input);border:1px solid var(--border);border-radius:4px;padding:3px 8px}
+.btn-icon{background:none;border:1px solid var(--border);border-radius:var(--r);
+  padding:5px 8px;color:var(--text-2);font-size:13px;transition:.15s}
+.btn-icon:hover{color:var(--text);border-color:var(--text-2)}
+
+/* ── Nav tabs ──────────────────────────────────────────────── */
+.nav{background:var(--bg-panel);border-bottom:1px solid var(--border);
+  display:flex;padding:0 20px;gap:0}
+.nav-tab{padding:10px 16px;font-size:13px;font-weight:500;color:var(--text-2);
+  background:none;border:none;border-bottom:2px solid transparent;
+  transition:.15s;cursor:pointer;white-space:nowrap}
+.nav-tab:hover{color:var(--text)}
+.nav-tab.active{color:var(--accent);border-bottom-color:var(--accent)}
+
+/* ── Page container ─────────────────────────────────────────── */
+.page{display:none;max-width:960px;margin:0 auto;padding:28px 20px}
+.page.active{display:block}
+
+/* ── Cards / panels ─────────────────────────────────────────── */
+.card{background:var(--bg-panel);border:1px solid var(--border);border-radius:var(--r);
+  overflow:hidden;margin-bottom:16px}
+.card-head{padding:12px 16px;border-bottom:1px solid var(--border);
+  font-weight:600;font-size:13px;display:flex;align-items:center;
+  justify-content:space-between;gap:8px}
+.card-body{padding:16px}
+
+/* ── Stats row ──────────────────────────────────────────────── */
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-bottom:16px}
+.stat{background:var(--bg-panel);border:1px solid var(--border);border-radius:var(--r);
+  padding:14px 16px}
+.stat-val{font-size:28px;font-weight:700;font-family:var(--mono);
+  font-variant-numeric:tabular-nums;line-height:1}
+.stat-label{font-size:12px;color:var(--text-2);margin-top:4px}
+.stat.success .stat-val{color:var(--success)}
+.stat.fail    .stat-val{color:var(--fail)}
+.stat.warn    .stat-val{color:var(--warn)}
+.stat.info    .stat-val{color:var(--manual)}
+
+/* ── Table ──────────────────────────────────────────────────── */
+.tbl-wrap{overflow-x:auto}
+table{width:100%;border-collapse:collapse;font-size:13px}
+th{text-align:left;padding:8px 12px;font-size:11px;font-weight:600;
+  letter-spacing:.06em;text-transform:uppercase;color:var(--text-2);
+  border-bottom:1px solid var(--border);background:var(--bg-input)}
+td{padding:9px 12px;border-bottom:1px solid var(--border);vertical-align:middle}
+tr:last-child td{border-bottom:none}
+tr:hover td{background:var(--bg-input)}
+
+/* ── Badges ─────────────────────────────────────────────────── */
+.badge{display:inline-flex;align-items:center;gap:4px;font-size:11px;font-weight:600;
+  padding:2px 7px;border-radius:3px;white-space:nowrap}
+.badge-success{color:var(--success);background:var(--success-bg)}
+.badge-fail   {color:var(--fail);   background:var(--fail-bg)}
+.badge-manual {color:var(--manual); background:var(--manual-bg)}
+.badge-warn   {color:var(--warn);   background:var(--warn-bg)}
+.badge-form   {color:var(--success);background:var(--success-bg)}
+.badge-playwright{color:var(--manual);background:var(--manual-bg)}
+
+/* ── Form controls ──────────────────────────────────────────── */
+.form-group{margin-bottom:16px}
+.form-group label{display:block;font-size:12px;font-weight:600;
+  color:var(--text-2);margin-bottom:5px;letter-spacing:.01em}
+.form-group input,.form-group textarea,.form-group select{
+  width:100%;background:var(--bg-input);border:1px solid var(--border);
+  border-radius:var(--r);color:var(--text);padding:8px 10px;outline:none;
+  transition:border-color .15s}
+.form-group input:focus,.form-group textarea:focus,.form-group select:focus{
+  border-color:var(--accent)}
+.form-group textarea{min-height:80px;resize:vertical;font-family:var(--mono);font-size:12px}
+.form-hint{font-size:11px;color:var(--text-2);margin-top:4px}
+.form-row{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+
+/* ── Buttons ─────────────────────────────────────────────────── */
+.btn{display:inline-flex;align-items:center;gap:6px;padding:7px 14px;
+  border-radius:var(--r);font-weight:500;border:none;transition:.15s}
+.btn-primary{background:var(--accent);color:#fff}
+.btn-primary:hover{opacity:.9}
+.btn-secondary{background:var(--bg-input);color:var(--text);border:1px solid var(--border)}
+.btn-secondary:hover{border-color:var(--text-2)}
+.btn-danger{background:var(--fail-bg);color:var(--fail);border:1px solid var(--fail-bg)}
+.btn-danger:hover{opacity:.85}
+.btn-sm{padding:4px 10px;font-size:12px}
+.btn-row{display:flex;gap:8px;flex-wrap:wrap;margin-top:12px}
+
+/* ── URL list ───────────────────────────────────────────────── */
+.dir-item{display:flex;align-items:center;gap:10px;padding:9px 12px;
+  border-bottom:1px solid var(--border)}
+.dir-item:last-child{border-bottom:none}
+.dir-info{flex:1;min-width:0}
+.dir-name{font-weight:500;font-size:13px}
+.dir-url{font-family:var(--mono);font-size:11px;color:var(--text-2);
+  white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.dir-del{background:none;border:none;color:var(--text-2);font-size:16px;
+  padding:2px 6px;border-radius:3px;opacity:.5;transition:.1s}
+.dir-del:hover{opacity:1;color:var(--fail)}
+
+/* ── Setup screen ───────────────────────────────────────────── */
+.setup{max-width:480px;margin:80px auto;padding:0 20px}
+.setup-title{font-size:22px;font-weight:700;margin-bottom:6px}
+.setup-sub{color:var(--text-2);margin-bottom:24px}
+
+/* ── Toast ──────────────────────────────────────────────────── */
+#toast{position:fixed;bottom:24px;right:24px;background:var(--text);color:var(--bg);
+  padding:10px 16px;border-radius:var(--r);font-size:13px;font-weight:500;
+  opacity:0;transform:translateY(8px);transition:.25s;pointer-events:none;z-index:999}
+#toast.show{opacity:1;transform:translateY(0)}
+
+/* ── Run page ───────────────────────────────────────────────── */
+.run-card{background:var(--accent-lo);border:1px solid var(--border);border-radius:var(--r);
+  padding:20px;display:flex;align-items:center;gap:16px;margin-bottom:16px}
+.run-icon{font-size:32px}
+.run-info{flex:1}
+.run-info h3{font-size:15px;font-weight:600;margin-bottom:4px}
+.run-info p{color:var(--text-2);font-size:13px}
+.workflow-item{padding:12px 16px;border-bottom:1px solid var(--border);
+  display:flex;align-items:center;gap:12px}
+.workflow-item:last-child{border-bottom:none}
+.wf-status{width:8px;height:8px;border-radius:50%;flex-shrink:0}
+.wf-success{background:var(--success)}
+.wf-fail{background:var(--fail)}
+.wf-running{background:var(--accent);animation:pulse 1.2s infinite}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.4}}
+.wf-info{flex:1;min-width:0}
+.wf-name{font-size:13px;font-weight:500}
+.wf-meta{font-size:11px;color:var(--text-2);font-family:var(--mono)}
+
+/* ── Empty / loading ─────────────────────────────────────────── */
+.empty{text-align:center;padding:40px 20px;color:var(--text-2)}
+.empty-icon{font-size:32px;margin-bottom:8px}
+.loading{display:flex;align-items:center;justify-content:center;gap:8px;
+  padding:30px;color:var(--text-2);font-size:13px}
+.spin{animation:spin .8s linear infinite}
+@keyframes spin{to{transform:rotate(360deg)}}
+
+/* ── Misc ───────────────────────────────────────────────────── */
+.mono{font-family:var(--mono);font-size:12px}
+.muted{color:var(--text-2)}
+.section-title{font-size:11px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;
+  color:var(--text-2);margin-bottom:10px}
+.divider{height:1px;background:var(--border);margin:20px 0}
+
+@media(max-width:600px){
+  .stats{grid-template-columns:repeat(2,1fr)}
+  .form-row{grid-template-columns:1fr}
+}
+</style>
+</head>
+<body>
+
+<!-- ── Toast ── -->
+<div id="toast"></div>
+
+<!-- ── Setup screen ── -->
+<div id="setup-screen" style="display:none">
+  <div class="setup">
+    <div class="logo" style="margin-bottom:24px">
+      <div class="logo-mark">B</div>
+      Backlink Agent
+    </div>
+    <div class="setup-title">Connect to GitHub</div>
+    <div class="setup-sub">Your credentials are stored locally in this browser only.</div>
+    <div class="form-group">
+      <label>GitHub Personal Access Token</label>
+      <input type="password" id="setup-token" placeholder="ghp_xxxxxxxxxxxx">
+      <div class="form-hint">
+        Needs <strong>repo</strong> + <strong>actions</strong> scopes.
+        <a href="https://github.com/settings/tokens/new?scopes=repo,actions" target="_blank">Generate →</a>
+      </div>
+    </div>
+    <div class="form-row">
+      <div class="form-group">
+        <label>GitHub Username</label>
+        <input type="text" id="setup-owner" placeholder="wxixuan118-ship-it">
+      </div>
+      <div class="form-group">
+        <label>Repository Name</label>
+        <input type="text" id="setup-repo" placeholder="backlink-agent">
+      </div>
+    </div>
+    <button class="btn btn-primary" onclick="saveSetup()" style="width:100%">
+      Connect →
+    </button>
+  </div>
+</div>
+
+<!-- ── Main app ── -->
+<div id="app" style="display:none">
+  <div class="header">
+    <div class="logo">
+      <div class="logo-mark">B</div>
+      Backlink Agent
+    </div>
+    <div class="header-right">
+      <span class="repo-label" id="repo-label"></span>
+      <button class="btn-icon" onclick="toggleTheme()" title="Toggle theme">◐</button>
+      <button class="btn-icon" onclick="logout()" title="Disconnect">✕</button>
+    </div>
+  </div>
+
+  <nav class="nav">
+    <button class="nav-tab active" onclick="showTab('dashboard')">Dashboard</button>
+    <button class="nav-tab" onclick="showTab('site')">Site Profile</button>
+    <button class="nav-tab" onclick="showTab('directories')">Directories</button>
+    <button class="nav-tab" onclick="showTab('run')">Run</button>
+  </nav>
+
+  <!-- ── Dashboard ── -->
+  <div id="tab-dashboard" class="page active">
+    <div class="stats" id="stats-row">
+      <div class="stat"><div class="stat-val" id="s-total">—</div><div class="stat-label">Total</div></div>
+      <div class="stat success"><div class="stat-val" id="s-success">—</div><div class="stat-label">Success</div></div>
+      <div class="stat fail"><div class="stat-val" id="s-fail">—</div><div class="stat-label">Failed</div></div>
+      <div class="stat info"><div class="stat-val" id="s-manual">—</div><div class="stat-label">Manual</div></div>
+    </div>
+
+    <div class="card">
+      <div class="card-head">
+        Submission Results
+        <div style="display:flex;gap:8px">
+          <span class="muted mono" id="last-run" style="font-size:11px"></span>
+          <button class="btn btn-secondary btn-sm" onclick="loadDashboard()">↻ Refresh</button>
+        </div>
+      </div>
+      <div id="results-table">
+        <div class="loading">
+          <svg class="spin" width="16" height="16" viewBox="0 0 16 16"><circle cx="8" cy="8" r="6" stroke="var(--border)" stroke-width="2" fill="none"/><path d="M8 2a6 6 0 0 1 6 6" stroke="var(--accent)" stroke-width="2" fill="none" stroke-linecap="round"/></svg>
+          Loading results…
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ── Site Profile ── -->
+  <div id="tab-site" class="page">
+    <div class="card">
+      <div class="card-head">
+        Your Website Info
+        <span class="muted" style="font-size:12px;font-weight:400">Used for all submissions</span>
+      </div>
+      <div class="card-body">
+        <div id="site-loading" class="loading">
+          <svg class="spin" width="16" height="16" viewBox="0 0 16 16"><circle cx="8" cy="8" r="6" stroke="var(--border)" stroke-width="2" fill="none"/><path d="M8 2a6 6 0 0 1 6 6" stroke="var(--accent)" stroke-width="2" fill="none" stroke-linecap="round"/></svg>
+          Loading config…
+        </div>
+        <div id="site-form" style="display:none">
+          <div class="form-row">
+            <div class="form-group">
+              <label>Website URL *</label>
+              <input type="url" id="f-url" placeholder="https://yoursite.com">
+            </div>
+            <div class="form-group">
+              <label>Email *</label>
+              <input type="email" id="f-email" placeholder="you@example.com">
+            </div>
+          </div>
+          <div class="form-group">
+            <label>Site Title *</label>
+            <input type="text" id="f-title" placeholder="Your Site — Tagline">
+          </div>
+          <div class="form-group">
+            <label>Description <span class="muted">(under 250 chars)</span></label>
+            <textarea id="f-desc" rows="3"></textarea>
+            <div class="form-hint" id="desc-count">0 / 250</div>
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label>Keywords <span class="muted">(comma-separated)</span></label>
+              <input type="text" id="f-keywords" placeholder="keyword1, keyword2, keyword3">
+            </div>
+            <div class="form-group">
+              <label>Owner Name</label>
+              <input type="text" id="f-owner">
+            </div>
+          </div>
+          <div class="form-group">
+            <label>Category</label>
+            <select id="f-category">
+              <option>Technology</option><option>Business</option><option>Entertainment</option>
+              <option>Health</option><option>Education</option><option>Finance</option>
+              <option>Shopping</option><option>Travel</option><option>Sports</option>
+              <option>News</option><option>Lifestyle</option>
+            </select>
+          </div>
+          <div class="btn-row">
+            <button class="btn btn-primary" onclick="saveSiteConfig()">
+              Save &amp; Commit to GitHub
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-head">Upload Assets <span class="muted" style="font-weight:400;font-size:12px">Optional — paste text you want AI to use when generating descriptions</span></div>
+      <div class="card-body">
+        <div class="form-group">
+          <label>Product Description / About Page Copy</label>
+          <textarea id="f-assets" rows="5" placeholder="Paste your full product description, features list, or marketing copy here. The AI will use this to generate better, more accurate descriptions for each directory submission."></textarea>
+          <div class="form-hint">This is saved as notes in your site config and referenced by the AI content generator.</div>
+        </div>
+        <div class="btn-row">
+          <button class="btn btn-primary" onclick="saveAssets()">Save Assets</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ── Directories ── -->
+  <div id="tab-directories" class="page">
+    <div class="card">
+      <div class="card-head">Add New Directories</div>
+      <div class="card-body">
+        <div class="form-group">
+          <label>Paste URLs <span class="muted">(one per line, or separated by |)</span></label>
+          <textarea id="new-urls" rows="5" placeholder="https://aitools.inc/submit&#10;https://tally.so/r/abc123&#10;https://futuretools.io/submit-a-tool"></textarea>
+          <div class="form-hint">Tally / Typeform / Google Forms → auto-tagged as manual</div>
+        </div>
+        <div class="btn-row">
+          <button class="btn btn-primary" onclick="addDirectories()">Add to Config</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-head">
+        Current Directories
+        <div style="display:flex;gap:6px">
+          <button class="btn btn-secondary btn-sm" onclick="filterDirs('all')" id="f-all">All</button>
+          <button class="btn btn-secondary btn-sm" onclick="filterDirs('form')" id="f-form">Auto</button>
+          <button class="btn btn-secondary btn-sm" onclick="filterDirs('playwright')" id="f-playwright">Browser</button>
+          <button class="btn btn-secondary btn-sm" onclick="filterDirs('manual')" id="f-manual">Manual</button>
+        </div>
+      </div>
+      <div id="dir-list">
+        <div class="loading">
+          <svg class="spin" width="16" height="16" viewBox="0 0 16 16"><circle cx="8" cy="8" r="6" stroke="var(--border)" stroke-width="2" fill="none"/><path d="M8 2a6 6 0 0 1 6 6" stroke="var(--accent)" stroke-width="2" fill="none" stroke-linecap="round"/></svg>
+          Loading directories…
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ── Run ── -->
+  <div id="tab-run" class="page">
+    <div class="run-card">
+      <div class="run-icon">🚀</div>
+      <div class="run-info">
+        <h3>Trigger Submission Run</h3>
+        <p>Runs update_types.py → submit.py on GitHub Actions. Results emailed when done.</p>
+      </div>
+      <button class="btn btn-primary" onclick="triggerRun()">Run Now</button>
+    </div>
+
+    <div class="card">
+      <div class="card-head">
+        Run Options
+      </div>
+      <div class="card-body">
+        <div class="form-group">
+          <label>Only these directories <span class="muted">(leave blank = all)</span></label>
+          <input type="text" id="run-only" placeholder="FutureTools, AItools.inc">
+        </div>
+        <div style="display:flex;gap:16px">
+          <label style="display:flex;align-items:center;gap:6px;cursor:pointer">
+            <input type="checkbox" id="run-force"> <span>Force re-submit already-submitted</span>
+          </label>
+          <label style="display:flex;align-items:center;gap:6px;cursor:pointer">
+            <input type="checkbox" id="run-dry"> <span>Dry run (no actual submission)</span>
+          </label>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-head">
+        Recent Workflow Runs
+        <button class="btn btn-secondary btn-sm" onclick="loadRuns()">↻ Refresh</button>
+      </div>
+      <div id="runs-list">
+        <div class="loading">
+          <svg class="spin" width="16" height="16" viewBox="0 0 16 16"><circle cx="8" cy="8" r="6" stroke="var(--border)" stroke-width="2" fill="none"/><path d="M8 2a6 6 0 0 1 6 6" stroke="var(--accent)" stroke-width="2" fill="none" stroke-linecap="round"/></svg>
+          Loading runs…
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+// ── State ──────────────────────────────────────────────────────────────────
+const LS = {
+  get: k => localStorage.getItem('bla_' + k),
+  set: (k,v) => localStorage.setItem('bla_' + k, v),
+  del: k => localStorage.removeItem('bla_' + k),
+};
+let TOKEN = LS.get('token') || '';
+let OWNER = LS.get('owner') || '';
+let REPO  = LS.get('repo')  || '';
+let configRaw = '';
+let configSha = '';
+let dirFilter = 'all';
+let allDirs = [];
+
+// ── GitHub API ─────────────────────────────────────────────────────────────
+const GH = 'https://api.github.com';
+const headers = () => ({
+  'Authorization': `token ${TOKEN}`,
+  'Accept': 'application/vnd.github.v3+json',
+  'Content-Type': 'application/json',
+});
+
+async function ghGet(path) {
+  const r = await fetch(`${GH}/repos/${OWNER}/${REPO}${path}`, { headers: headers() });
+  if (!r.ok) throw new Error(`GitHub ${r.status}: ${r.statusText}`);
+  return r.json();
+}
+
+async function ghGetFile(path) {
+  const d = await ghGet(`/contents/${path}`);
+  return { content: b64decode(d.content), sha: d.sha };
+}
+
+async function ghPutFile(path, content, sha, message) {
+  const r = await fetch(`${GH}/repos/${OWNER}/${REPO}/contents/${path}`, {
+    method: 'PUT', headers: headers(),
+    body: JSON.stringify({ message, content: b64encode(content), sha }),
+  });
+  if (!r.ok) {
+    const e = await r.json().catch(() => ({}));
+    throw new Error(e.message || `GitHub ${r.status}`);
+  }
+  return r.json();
+}
+
+async function ghTriggerWorkflow(inputs = {}) {
+  const r = await fetch(
+    `${GH}/repos/${OWNER}/${REPO}/actions/workflows/backlink-submit.yml/dispatches`,
+    { method: 'POST', headers: headers(),
+      body: JSON.stringify({ ref: 'main', inputs }) }
+  );
+  if (!r.ok) throw new Error(`GitHub ${r.status}`);
+}
+
+// ── Base64 (handles UTF-8) ─────────────────────────────────────────────────
+function b64encode(str) {
+  return btoa(unescape(encodeURIComponent(str)));
+}
+function b64decode(b64) {
+  return decodeURIComponent(escape(atob(b64.replace(/\n/g, ''))));
+}
+
+// ── Toast ──────────────────────────────────────────────────────────────────
+let _toastTimer;
+function toast(msg, ok = true) {
+  const el = document.getElementById('toast');
+  el.textContent = msg;
+  el.style.background = ok ? 'var(--success)' : 'var(--fail)';
+  el.classList.add('show');
+  clearTimeout(_toastTimer);
+  _toastTimer = setTimeout(() => el.classList.remove('show'), 3000);
+}
+
+// ── Setup ──────────────────────────────────────────────────────────────────
+function saveSetup() {
+  TOKEN = document.getElementById('setup-token').value.trim();
+  OWNER = document.getElementById('setup-owner').value.trim();
+  REPO  = document.getElementById('setup-repo').value.trim();
+  if (!TOKEN || !OWNER || !REPO) { toast('Fill all fields', false); return; }
+  LS.set('token', TOKEN); LS.set('owner', OWNER); LS.set('repo', REPO);
+  initApp();
+}
+
+function logout() {
+  ['token','owner','repo'].forEach(k => LS.del(k));
+  location.reload();
+}
+
+function initApp() {
+  const hasAuth = TOKEN && OWNER && REPO;
+  document.getElementById('setup-screen').style.display = hasAuth ? 'none' : 'block';
+  document.getElementById('app').style.display          = hasAuth ? 'block' : 'none';
+  if (hasAuth) {
+    document.getElementById('repo-label').textContent = `${OWNER}/${REPO}`;
+    loadDashboard();
+  }
+}
+
+// ── Navigation ─────────────────────────────────────────────────────────────
+function showTab(name) {
+  document.querySelectorAll('.page').forEach(p => p.classList.remove('active'));
+  document.querySelectorAll('.nav-tab').forEach(t => t.classList.remove('active'));
+  document.getElementById('tab-' + name).classList.add('active');
+  document.querySelectorAll('.nav-tab').forEach(t => {
+    if (t.textContent.toLowerCase().startsWith(name)) t.classList.add('active');
+  });
+  if (name === 'site') loadSiteConfig();
+  if (name === 'directories') loadDirectories();
+  if (name === 'run') loadRuns();
+}
+
+// ── Dashboard ──────────────────────────────────────────────────────────────
+async function loadDashboard() {
+  document.getElementById('results-table').innerHTML =
+    '<div class="loading"><svg class="spin" width="16" height="16" viewBox="0 0 16 16"><circle cx="8" cy="8" r="6" stroke="var(--border)" stroke-width="2" fill="none"/><path d="M8 2a6 6 0 0 1 6 6" stroke="var(--accent)" stroke-width="2" fill="none" stroke-linecap="round"/></svg>Loading results…</div>';
+  try {
+    const { content } = await ghGetFile('results/submission_log.json');
+    const data = JSON.parse(content);
+    const s = data.summary || {};
+    document.getElementById('s-total').textContent   = s.total   ?? '—';
+    document.getElementById('s-success').textContent = s.success ?? '—';
+    document.getElementById('s-fail').textContent    = s.failed  ?? '—';
+    document.getElementById('s-manual').textContent  = s.manual  ?? '—';
+    if (s.last_run) {
+      document.getElementById('last-run').textContent =
+        'Last run: ' + new Date(s.last_run).toLocaleString();
+    }
+    renderResultsTable(data.submissions || []);
+  } catch (e) {
+    document.getElementById('results-table').innerHTML =
+      `<div class="empty"><div class="empty-icon">📭</div><div>No results yet — run a submission first.</div><div style="font-size:12px;margin-top:4px">${e.message}</div></div>`;
+  }
+}
+
+const STATUS_BADGE = {
+  success:  '<span class="badge badge-success">✓ Success</span>',
+  failed:   '<span class="badge badge-fail">✗ Failed</span>',
+  manual:   '<span class="badge badge-manual">✋ Manual</span>',
+  skipped:  '<span class="badge badge-warn">⏭ Skipped</span>',
+};
+
+function renderResultsTable(submissions) {
+  if (!submissions.length) {
+    document.getElementById('results-table').innerHTML =
+      '<div class="empty"><div class="empty-icon">📋</div><div>No submissions recorded.</div></div>';
+    return;
+  }
+  const sorted = [...submissions].sort((a,b) => a.name.localeCompare(b.name));
+  const rows = sorted.map(r => `
+    <tr>
+      <td><a href="${r.url}" target="_blank">${esc(r.name)}</a></td>
+      <td>${STATUS_BADGE[r.status] || r.status}</td>
+      <td class="mono">${r.http_status ?? '—'}</td>
+      <td class="mono muted">${(r.timestamp||'').slice(0,16).replace('T',' ')}</td>
+      <td class="muted" style="max-width:200px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">${esc(r.notes||'')}</td>
+    </tr>`).join('');
+  document.getElementById('results-table').innerHTML = `
+    <div class="tbl-wrap"><table>
+      <thead><tr><th>Directory</th><th>Status</th><th>HTTP</th><th>Time</th><th>Notes</th></tr></thead>
+      <tbody>${rows}</tbody>
+    </table></div>`;
+}
+
+// ── Site Config ────────────────────────────────────────────────────────────
+async function loadSiteConfig() {
+  document.getElementById('site-loading').style.display = 'flex';
+  document.getElementById('site-form').style.display = 'none';
+  try {
+    const { content, sha } = await ghGetFile('config/submission_config.yaml');
+    configRaw = content;
+    configSha = sha;
+    const site = parseSiteSection(content);
+    document.getElementById('f-url').value      = site.url      || '';
+    document.getElementById('f-email').value    = site.email    || '';
+    document.getElementById('f-title').value    = site.title    || '';
+    document.getElementById('f-desc').value     = site.description || '';
+    document.getElementById('f-keywords').value = site.keywords  || '';
+    document.getElementById('f-owner').value    = site.owner_name || '';
+    const cat = document.getElementById('f-category');
+    [...cat.options].forEach(o => { if (o.value === site.category) cat.value = site.category; });
+    updateDescCount();
+    document.getElementById('site-loading').style.display = 'none';
+    document.getElementById('site-form').style.display = 'block';
+  } catch (e) {
+    document.getElementById('site-loading').innerHTML =
+      `<span style="color:var(--fail)">Failed to load config: ${e.message}</span>`;
+  }
+}
+
+function parseSiteSection(yaml) {
+  const fields = {};
+  const siteBlock = yaml.match(/^site:\n((?:[ \t]+.+\n?)*)/m);
+  if (!siteBlock) return fields;
+  for (const line of siteBlock[1].split('\n')) {
+    const m = line.match(/^\s+(\w+):\s+"(.*?)"\s*(?:#.*)?$/);
+    if (m) fields[m[1]] = m[2];
+    const m2 = line.match(/^\s+(\w+):\s+([^"#\n]+?)\s*(?:#.*)?$/);
+    if (!m && m2) fields[m2[1]] = m2[2].trim();
+  }
+  return fields;
+}
+
+function updateSiteField(yaml, key, value) {
+  // Replace quoted value
+  const r1 = new RegExp(`(^  ${key}:\\s*)"[^"]*"`, 'm');
+  if (r1.test(yaml)) return yaml.replace(r1, `$1"${value}"`);
+  // Replace unquoted value
+  const r2 = new RegExp(`(^  ${key}:\\s*)\\S+`, 'm');
+  return yaml.replace(r2, `$1"${value}"`);
+}
+
+async function saveSiteConfig() {
+  const vals = {
+    url:        document.getElementById('f-url').value.trim(),
+    email:      document.getElementById('f-email').value.trim(),
+    title:      document.getElementById('f-title').value.trim(),
+    description:document.getElementById('f-desc').value.trim(),
+    keywords:   document.getElementById('f-keywords').value.trim(),
+    owner_name: document.getElementById('f-owner').value.trim(),
+    category:   document.getElementById('f-category').value,
+  };
+  if (!vals.url || !vals.email || !vals.title) { toast('URL, email and title are required', false); return; }
+  let yaml = configRaw;
+  for (const [k, v] of Object.entries(vals)) yaml = updateSiteField(yaml, k, v);
+  try {
+    const res = await ghPutFile('config/submission_config.yaml', yaml,
+      configSha, 'config: update site info via web UI');
+    configSha = res.content.sha;
+    configRaw = yaml;
+    toast('Saved and committed to GitHub ✓');
+  } catch (e) {
+    toast('Save failed: ' + e.message, false);
+  }
+}
+
+async function saveAssets() {
+  const assets = document.getElementById('f-assets').value.trim();
+  if (!assets) return;
+  if (!configRaw) { toast('Load site config first', false); return; }
+  // Append as a YAML comment block above settings
+  const marker = '\n# ── Product assets (used by AI generator) ──\n# ' +
+    assets.split('\n').join('\n# ') + '\n';
+  let yaml = configRaw;
+  if (!yaml.includes('# ── Product assets')) yaml += marker;
+  else yaml = yaml.replace(/\n# ── Product assets[\s\S]*?(?=\n[a-z])/m, marker);
+  try {
+    const res = await ghPutFile('config/submission_config.yaml', yaml,
+      configSha, 'config: update product assets');
+    configSha = res.content.sha;
+    configRaw = yaml;
+    toast('Assets saved ✓');
+  } catch (e) {
+    toast('Save failed: ' + e.message, false);
+  }
+}
+
+function updateDescCount() {
+  const v = document.getElementById('f-desc').value.length;
+  const el = document.getElementById('desc-count');
+  el.textContent = `${v} / 250`;
+  el.style.color = v > 250 ? 'var(--fail)' : 'var(--text-2)';
+}
+document.getElementById('f-desc')?.addEventListener('input', updateDescCount);
+
+// ── Directories ────────────────────────────────────────────────────────────
+const MANUAL_PATS = ['tally.so','typeform.com','forms.gle','docs.google.com/forms',
+                     'airtable.com','jotform.com','waitlist'];
+
+function detectType(url) {
+  const u = url.toLowerCase();
+  return MANUAL_PATS.some(p => u.includes(p)) ? 'manual' : 'form';
+}
+function extractName(url) {
+  try {
+    const host = new URL(url.startsWith('http') ? url : 'https://' + url)
+      .hostname.replace(/^www\./, '').split('.')[0];
+    return host.split('-').map(w => w[0].toUpperCase() + w.slice(1)).join(' ');
+  } catch { return 'Unknown'; }
+}
+
+function parseDirectories(yaml) {
+  const dirs = [];
+  const dirsMatch = yaml.match(/^directories:\n([\s\S]*?)(?=^settings:|^#={10}|$)/m);
+  if (!dirsMatch) return dirs;
+  const entries = dirsMatch[1].split(/\n  - name:/g);
+  for (let i = 1; i < entries.length; i++) {
+    const block = entries[i];
+    const name  = block.match(/^"([^"]*)"/)?.[1] || '';
+    const url   = block.match(/url:\s*"([^"]*)"/)?.[1] || '';
+    const type  = block.match(/type:\s*(\S+)/)?.[1] || 'form';
+    const notes = block.match(/notes:\s*"([^"]*)"/)?.[1] || '';
+    if (name && url) dirs.push({ name, url, type, notes });
+  }
+  return dirs;
+}
+
+function buildDirEntry(d) {
+  if (d.type === 'manual') {
+    return `  - name: "${d.name}"\n    url: "${d.url}"\n    type: manual\n    notes: "${d.notes || 'Open in browser and fill manually'}"\n\n`;
+  }
+  if (d.type === 'playwright') {
+    return `  - name: "${d.name}"\n    url: "${d.url}"\n    type: playwright\n\n`;
+  }
+  return `  - name: "${d.name}"\n    url: "${d.url}"\n    type: form\n    method: POST\n    fields:\n      name: "{gen.title}"\n      url: "{site.url}"\n      description: "{gen.description}"\n      email: "{site.email}"\n\n`;
+}
+
+function rebuildDirectoriesSection(dirs) {
+  const form  = dirs.filter(d => d.type === 'form');
+  const pw    = dirs.filter(d => d.type === 'playwright');
+  const manual= dirs.filter(d => d.type === 'manual');
+  let out = 'directories:\n\n';
+  if (form.length)  { out += '  # ═══ Auto-submit ══════════════════════════════\n'; form.forEach(d => out += buildDirEntry(d)); }
+  if (pw.length)    { out += '  # ═══ Playwright (JS forms) ═══════════════════\n'; pw.forEach(d => out += buildDirEntry(d)); }
+  if (manual.length){ out += '  # ═══ Manual ════════════════════════════════════\n'; manual.forEach(d => out += buildDirEntry(d)); }
+  return out;
+}
+
+async function loadDirectories() {
+  try {
+    if (!configRaw) {
+      const { content, sha } = await ghGetFile('config/submission_config.yaml');
+      configRaw = content; configSha = sha;
+    }
+    allDirs = parseDirectories(configRaw);
+    renderDirs();
+  } catch (e) {
+    document.getElementById('dir-list').innerHTML =
+      `<div class="empty"><span style="color:var(--fail)">${e.message}</span></div>`;
+  }
+}
+
+function filterDirs(type) {
+  dirFilter = type;
+  renderDirs();
+}
+
+function renderDirs() {
+  const filtered = dirFilter === 'all' ? allDirs : allDirs.filter(d => d.type === dirFilter);
+  const typeBadge = {
+    form:       '<span class="badge badge-form">AUTO</span>',
+    playwright: '<span class="badge badge-playwright">BROWSER</span>',
+    manual:     '<span class="badge badge-manual">MANUAL</span>',
+  };
+  if (!filtered.length) {
+    document.getElementById('dir-list').innerHTML =
+      '<div class="empty"><div class="empty-icon">📋</div><div>No directories in this category.</div></div>';
+    return;
+  }
+  document.getElementById('dir-list').innerHTML = filtered.map((d, i) => `
+    <div class="dir-item">
+      <div class="dir-info">
+        <div class="dir-name">${esc(d.name)}</div>
+        <div class="dir-url"><a href="${d.url}" target="_blank">${esc(d.url)}</a></div>
+      </div>
+      ${typeBadge[d.type] || d.type}
+      <button class="dir-del" onclick="removeDir('${esc(d.name)}')" title="Remove">×</button>
+    </div>`).join('');
+}
+
+async function addDirectories() {
+  const raw = document.getElementById('new-urls').value;
+  const lines = raw.split('\n').map(l => l.trim()).filter(Boolean);
+  let added = 0;
+  for (const line of lines) {
+    const url = line.split('|')[0].trim();
+    if (!url || url.startsWith('#')) continue;
+    if (allDirs.some(d => d.url === url)) continue;
+    allDirs.push({ name: extractName(url), url, type: detectType(url), notes: '' });
+    added++;
+  }
+  if (!added) { toast('No new URLs added', false); return; }
+  await saveDirectories();
+  document.getElementById('new-urls').value = '';
+  renderDirs();
+  toast(`Added ${added} director${added===1?'y':'ies'} ✓`);
+}
+
+async function removeDir(name) {
+  allDirs = allDirs.filter(d => d.name !== name);
+  await saveDirectories();
+  renderDirs();
+  toast('Removed ' + name);
+}
+
+async function saveDirectories() {
+  if (!configRaw) return;
+  const newDirsSection = rebuildDirectoriesSection(allDirs);
+  const updated = configRaw.replace(/^directories:\n[\s\S]*?(?=^settings:|^#={10}|$)/m,
+    newDirsSection + '\n');
+  try {
+    const res = await ghPutFile('config/submission_config.yaml', updated,
+      configSha, 'config: update directories via web UI');
+    configSha = res.content.sha;
+    configRaw = updated;
+  } catch (e) {
+    toast('Save failed: ' + e.message, false);
+  }
+}
+
+// ── Run ────────────────────────────────────────────────────────────────────
+async function triggerRun() {
+  const inputs = {};
+  const only  = document.getElementById('run-only').value.trim();
+  const force = document.getElementById('run-force').checked;
+  const dry   = document.getElementById('run-dry').checked;
+  if (only)  inputs.only      = only;
+  if (force) inputs.force     = 'true';
+  if (dry)   inputs.dry_run   = 'true';
+  try {
+    await ghTriggerWorkflow(inputs);
+    toast('Workflow triggered ✓ — check GitHub Actions');
+    setTimeout(loadRuns, 3000);
+  } catch (e) {
+    toast('Trigger failed: ' + e.message, false);
+  }
+}
+
+async function loadRuns() {
+  try {
+    const data = await ghGet('/actions/workflows/backlink-submit.yml/runs?per_page=8');
+    const runs = data.workflow_runs || [];
+    if (!runs.length) {
+      document.getElementById('runs-list').innerHTML =
+        '<div class="empty"><div class="empty-icon">🏃</div><div>No runs yet.</div></div>';
+      return;
+    }
+    const statusDot = r => {
+      if (r.conclusion === 'success') return 'wf-success';
+      if (r.conclusion === 'failure') return 'wf-fail';
+      if (r.status === 'in_progress' || r.status === 'queued') return 'wf-running';
+      return '';
+    };
+    document.getElementById('runs-list').innerHTML = runs.map(r => `
+      <div class="workflow-item">
+        <div class="wf-status ${statusDot(r)}"></div>
+        <div class="wf-info">
+          <div class="wf-name">
+            <a href="${r.html_url}" target="_blank">#${r.run_number} — ${esc(r.event)}</a>
+          </div>
+          <div class="wf-meta">${r.status}${r.conclusion?' · '+r.conclusion:''} · ${new Date(r.created_at).toLocaleString()}</div>
+        </div>
+      </div>`).join('');
+  } catch (e) {
+    document.getElementById('runs-list').innerHTML =
+      `<div class="empty"><span style="color:var(--fail)">${e.message}</span></div>`;
+  }
+}
+
+// ── Theme ──────────────────────────────────────────────────────────────────
+function toggleTheme() {
+  const r = document.documentElement;
+  r.setAttribute('data-theme', r.getAttribute('data-theme') === 'dark' ? 'light' : 'dark');
+}
+
+// ── Utils ──────────────────────────────────────────────────────────────────
+function esc(s) {
+  return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;')
+                  .replace(/"/g,'&quot;');
+}
+
+// ── Boot ───────────────────────────────────────────────────────────────────
+initApp();
+</script>
+</body>
+</html>
