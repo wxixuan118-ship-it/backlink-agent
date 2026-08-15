@@ -27,16 +27,37 @@ DOWNGRADE_TO_MANUAL = {401, 404}
 
 
 def main() -> None:
-    if not RESULTS_PATH.exists():
+    # Collect submissions from all per-site result files + legacy path
+    all_submissions: list[dict] = []
+
+    results_root = ROOT / "results"
+    for path in results_root.glob("*/submission_log.json"):
+        try:
+            with open(path, encoding="utf-8") as f:
+                all_submissions.extend(json.load(f).get("submissions", []))
+        except Exception as e:
+            print(f"  Warning: could not read {path}: {e}")
+
+    if not all_submissions:
+        # Also try legacy flat path
+        if RESULTS_PATH.exists():
+            with open(RESULTS_PATH, encoding="utf-8") as f:
+                all_submissions.extend(json.load(f).get("submissions", []))
+
+    if not all_submissions:
         print("No results file — nothing to update.")
         return
 
-    with open(RESULTS_PATH, encoding="utf-8") as f:
-        data = json.load(f)
-
+    # For each directory: keep best result across all sites
+    # (success from any site beats failure from all others)
     last: dict[str, dict] = {}
-    for rec in data.get("submissions", []):
-        last[rec["name"]] = rec
+    for rec in all_submissions:
+        name = rec["name"]
+        existing = last.get(name)
+        if not existing:
+            last[name] = rec
+        elif rec["status"] == "success" and existing["status"] != "success":
+            last[name] = rec  # promote to success
 
     yaml = YAML()
     yaml.preserve_quotes = True

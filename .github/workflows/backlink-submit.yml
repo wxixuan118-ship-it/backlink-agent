@@ -8,6 +8,10 @@ on:
   # 也可以手动触发，并可选择只跑指定的 directory
   workflow_dispatch:
     inputs:
+      site_slug:
+        description: "目标站点 slug（留空 = 所有站点）"
+        required: false
+        default: ""
       only:
         description: "只提交指定 directory（逗号分隔，留空 = 全部）"
         required: false
@@ -67,6 +71,9 @@ jobs:
           if [ -n "${{ github.event.inputs.only }}" ]; then
             FLAGS="$FLAGS --only '${{ github.event.inputs.only }}'"
           fi
+          if [ -n "${{ github.event.inputs.site_slug }}" ]; then
+            FLAGS="$FLAGS --site '${{ github.event.inputs.site_slug }}'"
+          fi
           echo "flags=$FLAGS" >> "$GITHUB_OUTPUT"
 
       # ── 运行提交脚本 ────────────────────────────────────────────
@@ -80,7 +87,12 @@ jobs:
       # ── 生成报告 ────────────────────────────────────────────────
       - name: Generate report
         if: always()
-        run: cd scripts && python generate_report.py
+        run: |
+          SITE_FLAG=""
+          if [ -n "${{ github.event.inputs.site_slug }}" ]; then
+            SITE_FLAG="--site '${{ github.event.inputs.site_slug }}'"
+          fi
+          cd scripts && python generate_report.py $SITE_FLAG
 
       # ── 把结果文件 commit 回仓库 ────────────────────────────────
       - name: Commit results

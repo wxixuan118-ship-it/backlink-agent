@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
 """
 Backlink Directory Auto-Submitter
-Reads config/submission_config.yaml and submits your site to each directory.
-Uses ZhipuAI to generate tailored submission content when ZHIPUAI_API_KEY is set.
+Supports multiple target sites via config/sites.yaml.
+Directories are shared across all sites (config/submission_config.yaml).
+Results stored per-site: results/{slug}/submission_log.json
 """
 
 import json
@@ -30,9 +31,9 @@ logging.basicConfig(
 log = logging.getLogger(__name__)
 
 # ── Constants ──────────────────────────────────────────────────────────────────
-ROOT = Path(__file__).parent.parent
+ROOT        = Path(__file__).parent.parent
 CONFIG_PATH = ROOT / "config" / "submission_config.yaml"
-RESULTS_PATH = ROOT / "results" / "submission_log.json"
+SITES_PATH  = ROOT / "config" / "sites.yaml"
 
 HEADERS = {
     "User-Agent": (
@@ -52,15 +53,30 @@ def load_config() -> dict:
         return yaml.safe_load(f)
 
 
-def load_results() -> dict:
-    RESULTS_PATH.parent.mkdir(parents=True, exist_ok=True)
-    if RESULTS_PATH.exists():
-        with open(RESULTS_PATH, encoding="utf-8") as f:
+def load_sites() -> list[dict]:
+    """Load sites from config/sites.yaml; fallback to submission_config.yaml site: section."""
+    if SITES_PATH.exists():
+        with open(SITES_PATH, encoding="utf-8") as f:
+            return yaml.safe_load(f).get("sites", [])
+    cfg = load_config()
+    site = cfg.get("site", {})
+    site.setdefault("slug", "default")
+    return [site]
+
+
+def results_path_for(slug: str) -> Path:
+    return ROOT / "results" / slug / "submission_log.json"
+
+
+def load_results(rp: Path) -> dict:
+    rp.parent.mkdir(parents=True, exist_ok=True)
+    if rp.exists():
+        with open(rp, encoding="utf-8") as f:
             return json.load(f)
     return {"submissions": [], "summary": {}}
 
 
-def save_results(results: dict) -> None:
+def save_results(results: dict, rp: Path) -> None:
     submitted = results["submissions"]
     results["summary"] = {
         "total": len(submitted),
@@ -68,19 +84,15 @@ def save_results(results: dict) -> None:
         "failed": sum(1 for r in submitted if r["status"] == "failed"),
         "skipped": sum(1 for r in submitted if r["status"] == "skipped"),
         "manual": sum(1 for r in submitted if r["status"] == "manual"),
+        "manually_submitted": sum(1 for r in submitted if r.get("manually_submitted")),
         "last_run": datetime.now(timezone.utc).isoformat(),
     }
-    with open(RESULTS_PATH, "w", encoding="utf-8") as f:
+    with open(rp, "w", encoding="utf-8") as f:
         json.dump(results, f, indent=2, ensure_ascii=False)
 
 
 def resolve_fields(fields: dict, site: dict, generated: dict) -> dict:
-    """Replace {site.xxx} and {gen.xxx} placeholders with actual values.
-
-    {gen.title}, {gen.description}, {gen.keywords} use AI-generated content
-    when available, otherwise fall back to config values.
-    """
-    merged = {**site, **{f"gen_{k}": v for k, v in generated.items()}}
+    """Replace {site.xxx} and {gen.xxx} placeholders with actual values."""
     resolved = {}
     for key, tpl in fields.items():
         val = tpl
@@ -272,118 +284,117 @@ def submit_form(client: httpx.Client, directory: dict, site: dict, settings: dic
     }
 
 
-# ── Main ───────────────────────────────────────────────────────────────────────
+# ── Per-site submission ────────────────────────────────────────────────────────
 
-def main() -> None:
-    parser = argparse.ArgumentParser(description="Submit your site to backlink directories")
-    parser.add_argument("--dry-run", action="store_true", help="Print actions without submitting")
-    parser.add_argument("--only", help="Comma-separated list of directory names to run")
-    parser.add_argument("--force", action="store_true", help="Re-submit even if already submitted")
-    args = parser.parse_args()
-
-    cfg = load_config()
-    site = cfg["site"]
-    directories = cfg["directories"]
-    settings = cfg.get("settings", {})
-    delay = settings.get("request_delay_seconds", 3)
+def run_site(site: dict, directories: list, settings: dict, args) -> None:
+    slug      = site.get("slug", "default")
+    rp        = results_path_for(slug)
+    delay     = settings.get("request_delay_seconds", 3)
     skip_done = settings.get("skip_already_submitted", True)
 
-    results = load_results()
+    results = load_results(rp)
 
-    # Filter by --only flag
+    dirs = list(directories)
     if args.only:
         wanted = {n.strip().lower() for n in args.only.split(",")}
-        directories = [d for d in directories if d["name"].lower() in wanted]
+        dirs = [d for d in dirs if d["name"].lower() in wanted]
 
     ai_enabled = bool(os.environ.get("ZHIPUAI_API_KEY"))
     log.info("=" * 60)
-    log.info("Target site : %s", site["url"])
-    log.info("Directories : %d", len(directories))
-    log.info("AI content  : %s", "enabled (ZhipuAI)" if ai_enabled else "disabled (using config values)")
+    log.info("Site        : %s  (slug: %s)", site["url"], slug)
+    log.info("Directories : %d", len(dirs))
+    log.info("AI content  : %s", "enabled" if ai_enabled else "disabled")
     log.info("Dry run     : %s", args.dry_run)
     log.info("=" * 60)
 
-    manual_list = []
+    manual_list: list[dict] = []
 
     with httpx.Client(headers=HEADERS, follow_redirects=True) as client:
-        for directory in directories:
-            name = directory["name"]
+        for directory in dirs:
+            name  = directory["name"]
             dtype = directory.get("type", "form")
 
-            # Manual directories — queue for human action
             if dtype == "manual":
                 log.info("[ MANUAL ] %s  →  %s", name, directory["url"])
                 manual_list.append(directory)
                 if not any(r["name"] == name for r in results["submissions"]):
                     results["submissions"].append({
-                        "name": name,
-                        "url": directory["url"],
-                        "status": "manual",
-                        "http_status": None,
+                        "name": name, "url": directory["url"],
+                        "status": "manual", "http_status": None,
                         "timestamp": datetime.now(timezone.utc).isoformat(),
                         "notes": directory.get("notes", ""),
                     })
                 continue
 
-            # Skip already-submitted directories
             if not args.force and skip_done and already_submitted(results, name):
                 log.info("[ SKIP   ] %s  (already submitted)", name)
                 continue
 
             if args.dry_run:
-                log.info("[ DRY    ] Would submit to: %s  (%s, type=%s)", name, directory["url"], dtype)
+                log.info("[ DRY    ] %s  (%s)", name, dtype)
                 continue
 
-            # ── Playwright submission ──────────────────────────────────────
             if dtype == "playwright":
                 log.info("[ BROWSER] %s  →  %s", name, directory["url"])
                 generated = generate_submission_content(site, directory)
                 record = pw_submit.submit(directory, site, generated,
                                           timeout_ms=settings.get("request_timeout_seconds", 40) * 1000)
-
-            # ── HTTP form submission ───────────────────────────────────────
             else:
                 log.info("[ SUBMIT ] %s  →  %s", name, directory["url"])
                 record = submit_form(client, directory, site, settings)
 
             results["submissions"] = [r for r in results["submissions"] if r["name"] != name]
             results["submissions"].append(record)
-            save_results(results)
+            save_results(results, rp)
 
             emoji = "✓" if record["status"] == "success" else "✗"
             log.info("           %s %s  (HTTP %s)", emoji, record["status"].upper(), record.get("http_status"))
-
             time.sleep(delay)
 
-    save_results(results)
+    save_results(results, rp)
 
-    # ── Summary ────────────────────────────────────────────────────────────────
     s = results["summary"]
     log.info("")
-    log.info("=" * 60)
-    log.info("DONE — Success: %d  Failed: %d  Skipped: %d  Manual: %d",
-             s.get("success", 0), s.get("failed", 0),
+    log.info("DONE [%s] — Success: %d  Failed: %d  Skipped: %d  Manual: %d",
+             slug, s.get("success", 0), s.get("failed", 0),
              s.get("skipped", 0), s.get("manual", 0))
-
     if manual_list:
-        log.info("")
-        log.info("── Manual submission required ──")
+        log.info("── Manual needed ──")
         for d in manual_list:
             log.info("  • %-30s %s", d["name"], d["url"])
-            if d.get("notes"):
-                log.info("    Note: %s", d["notes"])
+    log.info("Results: %s", rp)
 
-    log.info("Results saved to: %s", RESULTS_PATH)
 
-    # Only fail CI when the script itself had an unrecoverable error.
-    # Individual submission failures are normal (sites change forms, add CAPTCHAs, etc.)
-    # and are recorded in the JSON for review — they should not block email/commit steps.
-    failed = s.get("failed", 0)
-    success = s.get("success", 0)
-    if failed > 0:
-        log.warning("%d submission(s) failed — see results/submission_log.json", failed)
-    if success == 0 and failed > 0:
-        log.warning("No submissions succeeded this run.")
+# ── Main ───────────────────────────────────────────────────────────────────────
+
+def main() -> None:
+    parser = argparse.ArgumentParser(description="Submit sites to backlink directories")
+    parser.add_argument("--site",    help="Site slug from config/sites.yaml (default: all sites)")
+    parser.add_argument("--dry-run", action="store_true")
+    parser.add_argument("--only",    help="Comma-separated directory names to run")
+    parser.add_argument("--force",   action="store_true", help="Re-submit already-submitted")
+    args = parser.parse_args()
+
+    cfg        = load_config()
+    directories = cfg["directories"]
+    settings   = cfg.get("settings", {})
+
+    all_sites = load_sites()
+    if args.site:
+        sites = [s for s in all_sites if s.get("slug") == args.site]
+        if not sites:
+            log.error("Site slug '%s' not found in config/sites.yaml", args.site)
+            sys.exit(1)
+    else:
+        sites = all_sites
+
+    log.info("Processing %d site(s)…", len(sites))
+    for site in sites:
+        try:
+            run_site(site, directories, settings, args)
+        except Exception as exc:
+            log.error("Failed processing site %s: %s", site.get("url"), exc)
+
     # Always exit 0 so downstream steps (email, commit) still run
 
 
