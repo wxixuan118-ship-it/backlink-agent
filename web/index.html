@@ -846,7 +846,8 @@ function parseSitesYaml(yaml) {
   const sites = [];
   const sitesBlock = yaml.match(/^sites:\n([\s\S]*)/m);
   if (!sitesBlock) return sites;
-  const entries = sitesBlock[1].split(/\n  - slug:/g);
+  // Prepend '\n' so the first entry (which has no leading newline) is also captured
+  const entries = ('\n' + sitesBlock[1]).split(/\n  - slug:/);
   for (let i = 1; i < entries.length; i++) {
     const block = entries[i];
     const getField = (k) => {
