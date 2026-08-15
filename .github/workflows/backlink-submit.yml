@@ -1,0 +1,101 @@
+name: Backlink Directory Submission
+
+on:
+  # 每周一 UTC 09:00 自动运行
+  schedule:
+    - cron: "0 9 * * 1"
+
+  # 也可以手动触发，并可选择只跑指定的 directory
+  workflow_dispatch:
+    inputs:
+      only:
+        description: "只提交指定 directory（逗号分隔，留空 = 全部）"
+        required: false
+        default: ""
+      force:
+        description: "强制重新提交已提交过的 directory"
+        type: boolean
+        default: false
+      dry_run:
+        description: "只打印，不实际提交"
+        type: boolean
+        default: false
+
+jobs:
+  submit:
+    name: Submit Backlinks
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    permissions:
+      contents: write   # 用于 commit 结果文件
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          # 拉取完整历史，方便 push 结果
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      # ── 构建提交参数 ────────────────────────────────────────────
+      - name: Build submission flags
+        id: flags
+        run: |
+          FLAGS=""
+          if [ "${{ github.event.inputs.dry_run }}" = "true" ]; then
+            FLAGS="$FLAGS --dry-run"
+          fi
+          if [ "${{ github.event.inputs.force }}" = "true" ]; then
+            FLAGS="$FLAGS --force"
+          fi
+          if [ -n "${{ github.event.inputs.only }}" ]; then
+            FLAGS="$FLAGS --only '${{ github.event.inputs.only }}'"
+          fi
+          echo "flags=$FLAGS" >> "$GITHUB_OUTPUT"
+
+      # ── 运行提交脚本 ────────────────────────────────────────────
+      - name: Run submission script
+        run: |
+          python scripts/submit.py ${{ steps.flags.outputs.flags }}
+
+      # ── 生成报告 ────────────────────────────────────────────────
+      - name: Generate report
+        if: always()
+        run: python scripts/generate_report.py
+
+      # ── 把结果文件 commit 回仓库 ────────────────────────────────
+      - name: Commit results
+        if: "!github.event.inputs.dry_run && always()"
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add results/
+          # 只有有变化时才 commit
+          git diff --staged --quiet || \
+            git commit -m "chore: update backlink submission results [$(date -u +%Y-%m-%d)]"
+          git push
+
+      # ── 把报告输出到 Job Summary ────────────────────────────────
+      - name: Post to Job Summary
+        if: always()
+        run: |
+          if [ -f results/report.md ]; then
+            cat results/report.md >> "$GITHUB_STEP_SUMMARY"
+          fi
+
+      # ── 上传结果作为 Artifact ────────────────────────────────────
+      - name: Upload results artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: submission-results-${{ github.run_number }}
+          path: results/
+          retention-days: 30

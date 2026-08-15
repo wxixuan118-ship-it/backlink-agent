@@ -1,0 +1,152 @@
+# ============================================================
+# 你的网站信息 — 修改这里
+# ============================================================
+site:
+  url: "https://your-site.com"
+  title: "Your Site Title"
+  description: "A brief description of your website (under 250 chars)"
+  keywords: "keyword1, keyword2, keyword3"
+  email: "your@email.com"
+  owner_name: "Your Name"
+  category: "Technology"  # Business / Health / Shopping / Technology / Travel / etc.
+
+# ============================================================
+# 目标 Directory 列表
+# 每个 directory 的 type:
+#   form    — 简单 HTTP 表单提交
+#   manual  — 需要人工处理（有验证码等）
+# ============================================================
+directories:
+
+  # ---------- 可自动提交的 ----------
+  - name: "Entireweb"
+    url: "https://www.entireweb.com/free_submission/"
+    type: form
+    method: POST
+    fields:
+      url: "{site.url}"
+      email: "{site.email}"
+    notes: "Free crawler submission"
+
+  - name: "ExactSeek"
+    url: "https://www.exactseek.com/add.html"
+    type: form
+    method: POST
+    fields:
+      sitename: "{site.title}"
+      url: "{site.url}"
+      email: "{site.email}"
+    notes: "Submit by form"
+
+  - name: "SoMuch"
+    url: "https://www.somuch.com/submit-links/"
+    type: form
+    method: POST
+    fields:
+      site_name: "{site.title}"
+      site_url: "{site.url}"
+      site_desc: "{site.description}"
+      contact_email: "{site.email}"
+    notes: "General directory"
+
+  - name: "Jasmine Directory"
+    url: "https://www.jasminedirectory.com/submit.php"
+    type: form
+    method: POST
+    fields:
+      site_title: "{site.title}"
+      site_url: "{site.url}"
+      site_desc: "{site.description}"
+      owner_email: "{site.email}"
+      category: "{site.category}"
+
+  - name: "Abilogic"
+    url: "https://www.abilogic.com/add-site.php"
+    type: form
+    method: POST
+    fields:
+      title: "{site.title}"
+      url: "{site.url}"
+      description: "{site.description}"
+      email: "{site.email}"
+
+  - name: "Cipinet"
+    url: "https://www.cipinet.com/add-url.php"
+    type: form
+    method: POST
+    fields:
+      url: "{site.url}"
+      title: "{site.title}"
+      description: "{site.description}"
+      email: "{site.email}"
+
+  - name: "Skaffe"
+    url: "https://www.skaffe.com/addsite.php"
+    type: form
+    method: POST
+    fields:
+      url: "{site.url}"
+      title: "{site.title}"
+      description: "{site.description}"
+      email: "{site.email}"
+
+  - name: "Directory World"
+    url: "https://www.directory-world.com/submit.php"
+    type: form
+    method: POST
+    fields:
+      url: "{site.url}"
+      title: "{site.title}"
+      description: "{site.description}"
+      email: "{site.email}"
+
+  - name: "Alive Directory"
+    url: "https://www.alive-directory.com/submit.php"
+    type: form
+    method: POST
+    fields:
+      url: "{site.url}"
+      title: "{site.title}"
+      description: "{site.description}"
+      email: "{site.email}"
+
+  - name: "Go Beacon"
+    url: "https://www.gobeacon.net/add.aspx"
+    type: form
+    method: POST
+    fields:
+      url: "{site.url}"
+      title: "{site.title}"
+      description: "{site.description}"
+      email: "{site.email}"
+
+  # ---------- 需要人工处理的（会生成任务清单）----------
+  - name: "DMOZ / Curlie"
+    url: "https://curlie.org/docs/en/add.html"
+    type: manual
+    notes: "Requires editor review, submit manually"
+
+  - name: "Best of the Web"
+    url: "https://botw.org/add-a-listing/"
+    type: manual
+    notes: "Paid premium listing; free basic needs manual review"
+
+  - name: "Aviva Directory"
+    url: "https://www.avivadirectory.com/submit/"
+    type: manual
+    notes: "Requires manual category selection"
+
+  - name: "eDirectory"
+    url: "https://www.edirectory.com"
+    type: manual
+    notes: "Manual submission"
+
+# ============================================================
+# 运行设置
+# ============================================================
+settings:
+  request_delay_seconds: 3       # 每次提交之间的间隔（秒）
+  request_timeout_seconds: 20    # 单次请求超时
+  max_retries: 2                 # 失败重试次数
+  skip_already_submitted: true   # 跳过已提交过的 directory
+  results_file: "results/submission_log.json"
