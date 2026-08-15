@@ -1,39 +1,12 @@
 {
   "submissions": [
     {
-      "name": "Sourceforge",
-      "url": "https://sourceforge.net",
-      "status": "failed",
-      "http_status": 403,
-      "attempt": 1,
-      "timestamp": "2026-08-15T14:10:28.580605+00:00",
-      "notes": ""
-    },
-    {
-      "name": "Producthunt",
-      "url": "https://producthunt.com",
-      "status": "failed",
-      "http_status": 403,
-      "attempt": 1,
-      "timestamp": "2026-08-15T14:10:38.641322+00:00",
-      "notes": ""
-    },
-    {
       "name": "News",
       "url": "https://news.ycombinator.com",
       "status": "success",
       "http_status": 200,
       "attempt": 1,
       "timestamp": "2026-08-15T14:10:45.483900+00:00",
-      "notes": ""
-    },
-    {
-      "name": "Crunchbase",
-      "url": "https://crunchbase.com",
-      "status": "failed",
-      "http_status": 403,
-      "attempt": 1,
-      "timestamp": "2026-08-15T14:10:53.055428+00:00",
       "notes": ""
     },
     {
@@ -46,48 +19,12 @@
       "notes": ""
     },
     {
-      "name": "G2",
-      "url": "https://g2.com",
-      "status": "failed",
-      "http_status": 403,
-      "attempt": 1,
-      "timestamp": "2026-08-15T14:11:07.218755+00:00",
-      "notes": ""
-    },
-    {
-      "name": "Goodfirms",
-      "url": "https://goodfirms.co",
-      "status": "failed",
-      "http_status": 403,
-      "attempt": 1,
-      "timestamp": "2026-08-15T14:11:15.058893+00:00",
-      "notes": ""
-    },
-    {
-      "name": "Getapp",
-      "url": "https://getapp.com",
-      "status": "failed",
-      "http_status": 403,
-      "attempt": 1,
-      "timestamp": "2026-08-15T14:11:23.385387+00:00",
-      "notes": ""
-    },
-    {
       "name": "Geekwire",
       "url": "https://geekwire.com",
       "status": "failed",
       "http_status": 404,
       "attempt": 1,
       "timestamp": "2026-08-15T14:11:31.670471+00:00",
-      "notes": ""
-    },
-    {
-      "name": "Trustradius",
-      "url": "https://trustradius.com",
-      "status": "failed",
-      "http_status": 403,
-      "attempt": 1,
-      "timestamp": "2026-08-15T14:11:38.532888+00:00",
       "notes": ""
     },
     {
@@ -145,15 +82,6 @@
       "notes": ""
     },
     {
-      "name": "Hotfrog",
-      "url": "https://hotfrog.com",
-      "status": "failed",
-      "http_status": 403,
-      "attempt": 1,
-      "timestamp": "2026-08-15T14:12:48.894047+00:00",
-      "notes": ""
-    },
-    {
       "name": "Turbo0",
       "url": "https://turbo0.com",
       "status": "success",
@@ -190,15 +118,6 @@
       "notes": ""
     },
     {
-      "name": "Brownbook",
-      "url": "https://brownbook.net",
-      "status": "failed",
-      "http_status": 405,
-      "attempt": 1,
-      "timestamp": "2026-08-15T14:13:33.217161+00:00",
-      "notes": ""
-    },
-    {
       "name": "Stackshare",
       "url": "https://stackshare.io",
       "status": "failed",
@@ -208,30 +127,12 @@
       "notes": ""
     },
     {
-      "name": "Eu Startups",
-      "url": "https://eu-startups.com",
-      "status": "failed",
-      "http_status": 403,
-      "attempt": 1,
-      "timestamp": "2026-08-15T14:13:51.150766+00:00",
-      "notes": ""
-    },
-    {
       "name": "Toolpilot",
       "url": "https://toolpilot.ai",
       "status": "success",
       "http_status": 200,
       "attempt": 1,
       "timestamp": "2026-08-15T14:13:59.403651+00:00",
-      "notes": ""
-    },
-    {
-      "name": "Peerlist",
-      "url": "https://peerlist.io",
-      "status": "failed",
-      "http_status": 403,
-      "attempt": 1,
-      "timestamp": "2026-08-15T14:14:18.187955+00:00",
       "notes": ""
     },
     {
@@ -250,15 +151,6 @@
       "http_status": 200,
       "attempt": 1,
       "timestamp": "2026-08-15T14:14:34.735653+00:00",
-      "notes": ""
-    },
-    {
-      "name": "Launchigniter",
-      "url": "https://launchigniter.com",
-      "status": "failed",
-      "http_status": 403,
-      "attempt": 1,
-      "timestamp": "2026-08-15T14:14:42.629738+00:00",
       "notes": ""
     },
     {
@@ -307,24 +199,6 @@
       "notes": ""
     },
     {
-      "name": "Land Book",
-      "url": "https://land-book.com",
-      "status": "failed",
-      "http_status": 403,
-      "attempt": 1,
-      "timestamp": "2026-08-15T14:16:11.044683+00:00",
-      "notes": ""
-    },
-    {
-      "name": "Softwareworld",
-      "url": "https://softwareworld.co",
-      "status": "failed",
-      "http_status": 403,
-      "attempt": 1,
-      "timestamp": "2026-08-15T14:16:19.549102+00:00",
-      "notes": ""
-    },
-    {
       "name": "Aistage",
       "url": "https://aistage.net",
       "status": "success",
@@ -340,15 +214,6 @@
       "http_status": 200,
       "attempt": 1,
       "timestamp": "2026-08-15T14:16:31.780434+00:00",
-      "notes": ""
-    },
-    {
-      "name": "Startupblink",
-      "url": "https://startupblink.com",
-      "status": "failed",
-      "http_status": 403,
-      "attempt": 1,
-      "timestamp": "2026-08-15T14:16:39.740980+00:00",
       "notes": ""
     },
     {
@@ -397,15 +262,6 @@
       "notes": ""
     },
     {
-      "name": "Sideprojectors",
-      "url": "https://sideprojectors.com",
-      "status": "failed",
-      "http_status": 403,
-      "attempt": 1,
-      "timestamp": "2026-08-15T14:17:48.872945+00:00",
-      "notes": ""
-    },
-    {
       "name": "Futuretools",
       "url": "https://futuretools.io",
       "status": "success",
@@ -433,15 +289,6 @@
       "notes": ""
     },
     {
-      "name": "Openhunts",
-      "url": "https://openhunts.com",
-      "status": "failed",
-      "http_status": 405,
-      "attempt": 1,
-      "timestamp": "2026-08-15T14:18:26.957854+00:00",
-      "notes": ""
-    },
-    {
       "name": "Opentools",
       "url": "https://opentools.ai",
       "status": "success",
@@ -457,15 +304,6 @@
       "http_status": 200,
       "attempt": 1,
       "timestamp": "2026-08-15T14:18:44.932741+00:00",
-      "notes": ""
-    },
-    {
-      "name": "Indiepa",
-      "url": "https://indiepa.ge",
-      "status": "failed",
-      "http_status": 405,
-      "attempt": 1,
-      "timestamp": "2026-08-15T14:18:51.970534+00:00",
       "notes": ""
     },
     {
@@ -502,24 +340,6 @@
       "http_status": 404,
       "attempt": 1,
       "timestamp": "2026-08-15T14:19:28.768886+00:00",
-      "notes": ""
-    },
-    {
-      "name": "Sitelike",
-      "url": "https://sitelike.org",
-      "status": "failed",
-      "http_status": 403,
-      "attempt": 1,
-      "timestamp": "2026-08-15T14:19:36.533251+00:00",
-      "notes": ""
-    },
-    {
-      "name": "Ufind",
-      "url": "https://ufind.best",
-      "status": "failed",
-      "http_status": 405,
-      "attempt": 1,
-      "timestamp": "2026-08-15T14:19:53.139457+00:00",
       "notes": ""
     },
     {
@@ -568,24 +388,6 @@
       "notes": ""
     },
     {
-      "name": "Superlaun",
-      "url": "https://superlaun.ch",
-      "status": "failed",
-      "http_status": 405,
-      "attempt": 1,
-      "timestamp": "2026-08-15T14:20:55.336712+00:00",
-      "notes": ""
-    },
-    {
-      "name": "Startupranking",
-      "url": "https://startupranking.com",
-      "status": "failed",
-      "http_status": 403,
-      "attempt": 1,
-      "timestamp": "2026-08-15T14:21:11.345659+00:00",
-      "notes": ""
-    },
-    {
       "name": "Navfolders",
       "url": "https://navfolders.com",
       "status": "success",
@@ -604,39 +406,12 @@
       "notes": ""
     },
     {
-      "name": "Aiwith",
-      "url": "https://aiwith.me",
-      "status": "failed",
-      "http_status": 403,
-      "attempt": 1,
-      "timestamp": "2026-08-15T14:21:40.451734+00:00",
-      "notes": ""
-    },
-    {
-      "name": "Microlaunch",
-      "url": "https://microlaunch.net",
-      "status": "failed",
-      "http_status": 405,
-      "attempt": 1,
-      "timestamp": "2026-08-15T14:21:47.352749+00:00",
-      "notes": ""
-    },
-    {
       "name": "Tinylaun",
       "url": "https://tinylaun.ch",
       "status": "success",
       "http_status": 200,
       "attempt": 1,
       "timestamp": "2026-08-15T14:21:56.577654+00:00",
-      "notes": ""
-    },
-    {
-      "name": "Startupinspire",
-      "url": "https://startupinspire.com",
-      "status": "failed",
-      "http_status": 403,
-      "attempt": 1,
-      "timestamp": "2026-08-15T14:22:04.396195+00:00",
       "notes": ""
     },
     {
@@ -655,15 +430,6 @@
       "http_status": 200,
       "attempt": 1,
       "timestamp": "2026-08-15T14:22:20.761219+00:00",
-      "notes": ""
-    },
-    {
-      "name": "Huzzler",
-      "url": "https://huzzler.so",
-      "status": "failed",
-      "http_status": 405,
-      "attempt": 1,
-      "timestamp": "2026-08-15T14:22:28.114503+00:00",
       "notes": ""
     },
     {
@@ -691,15 +457,6 @@
       "http_status": 200,
       "attempt": 1,
       "timestamp": "2026-08-15T14:22:57.083202+00:00",
-      "notes": ""
-    },
-    {
-      "name": "Saaspo",
-      "url": "https://saaspo.com",
-      "status": "failed",
-      "http_status": 403,
-      "attempt": 1,
-      "timestamp": "2026-08-15T14:23:06.724357+00:00",
       "notes": ""
     },
     {
@@ -736,15 +493,6 @@
       "http_status": 200,
       "attempt": 1,
       "timestamp": "2026-08-15T14:23:50.326445+00:00",
-      "notes": ""
-    },
-    {
-      "name": "Startupslab",
-      "url": "https://startupslab.site",
-      "status": "failed",
-      "http_status": 405,
-      "attempt": 1,
-      "timestamp": "2026-08-15T14:23:58.313437+00:00",
       "notes": ""
     },
     {
@@ -802,15 +550,6 @@
       "notes": ""
     },
     {
-      "name": "10015",
-      "url": "https://10015.io",
-      "status": "failed",
-      "http_status": 405,
-      "attempt": 1,
-      "timestamp": "2026-08-15T14:25:07.016500+00:00",
-      "notes": ""
-    },
-    {
       "name": "Saasaitools",
       "url": "https://saasaitools.com",
       "status": "failed",
@@ -826,24 +565,6 @@
       "http_status": 200,
       "attempt": 1,
       "timestamp": "2026-08-15T14:25:39.697041+00:00",
-      "notes": ""
-    },
-    {
-      "name": "Launchvault",
-      "url": "https://launchvault.dev",
-      "status": "failed",
-      "http_status": 405,
-      "attempt": 1,
-      "timestamp": "2026-08-15T14:25:49.354862+00:00",
-      "notes": ""
-    },
-    {
-      "name": "Footer",
-      "url": "https://footer.design",
-      "status": "failed",
-      "http_status": 405,
-      "attempt": 1,
-      "timestamp": "2026-08-15T14:25:56.614449+00:00",
       "notes": ""
     },
     {
@@ -919,15 +640,6 @@
       "notes": ""
     },
     {
-      "name": "Submito",
-      "url": "https://submito.net",
-      "status": "failed",
-      "http_status": 403,
-      "attempt": 1,
-      "timestamp": "2026-08-15T14:27:25.277955+00:00",
-      "notes": ""
-    },
-    {
       "name": "Fwfw",
       "url": "https://fwfw.app",
       "status": "success",
@@ -946,15 +658,6 @@
       "notes": ""
     },
     {
-      "name": "Rarebigdeal",
-      "url": "https://rarebigdeal.com",
-      "status": "failed",
-      "http_status": 405,
-      "attempt": 1,
-      "timestamp": "2026-08-15T14:27:51.409189+00:00",
-      "notes": ""
-    },
-    {
       "name": "Aimojo",
       "url": "https://aimojo.io",
       "status": "failed",
@@ -964,39 +667,12 @@
       "notes": ""
     },
     {
-      "name": "Basedtools",
-      "url": "https://basedtools.ai",
-      "status": "failed",
-      "http_status": 405,
-      "attempt": 1,
-      "timestamp": "2026-08-15T14:28:30.541947+00:00",
-      "notes": ""
-    },
-    {
       "name": "Appscribed",
       "url": "https://appscribed.com",
       "status": "failed",
       "http_status": 404,
       "attempt": 1,
       "timestamp": "2026-08-15T14:28:40.174800+00:00",
-      "notes": ""
-    },
-    {
-      "name": "Aihubs",
-      "url": "https://aihubs.ai",
-      "status": "failed",
-      "http_status": 403,
-      "attempt": 1,
-      "timestamp": "2026-08-15T14:28:46.167059+00:00",
-      "notes": ""
-    },
-    {
-      "name": "Make",
-      "url": "https://make.rs",
-      "status": "failed",
-      "http_status": 403,
-      "attempt": 1,
-      "timestamp": "2026-08-15T14:28:55.265558+00:00",
       "notes": ""
     },
     {
@@ -1036,24 +712,6 @@
       "notes": ""
     },
     {
-      "name": "Devresourc",
-      "url": "https://devresourc.es",
-      "status": "failed",
-      "http_status": 405,
-      "attempt": 1,
-      "timestamp": "2026-08-15T14:29:59.596960+00:00",
-      "notes": ""
-    },
-    {
-      "name": "Startupbuffer",
-      "url": "https://startupbuffer.com",
-      "status": "failed",
-      "http_status": 403,
-      "attempt": 1,
-      "timestamp": "2026-08-15T14:30:08.777682+00:00",
-      "notes": ""
-    },
-    {
       "name": "Bestdirectories",
       "url": "https://bestdirectories.org",
       "status": "success",
@@ -1069,24 +727,6 @@
       "http_status": 404,
       "attempt": 1,
       "timestamp": "2026-08-15T14:30:25.540956+00:00",
-      "notes": ""
-    },
-    {
-      "name": "Huntscreens",
-      "url": "https://huntscreens.com",
-      "status": "failed",
-      "http_status": 403,
-      "attempt": 1,
-      "timestamp": "2026-08-15T14:30:34.589396+00:00",
-      "notes": ""
-    },
-    {
-      "name": "Aitoolsmarketer",
-      "url": "https://aitoolsmarketer.com",
-      "status": "failed",
-      "http_status": 405,
-      "attempt": 1,
-      "timestamp": "2026-08-15T14:30:42.928255+00:00",
       "notes": ""
     },
     {
@@ -1132,15 +772,6 @@
       "http_status": 200,
       "attempt": 1,
       "timestamp": "2026-08-15T14:31:43.476785+00:00",
-      "notes": ""
-    },
-    {
-      "name": "Saaspa",
-      "url": "https://saaspa.ge",
-      "status": "failed",
-      "http_status": 405,
-      "attempt": 1,
-      "timestamp": "2026-08-15T14:31:52.172741+00:00",
       "notes": ""
     },
     {
@@ -1198,30 +829,12 @@
       "notes": ""
     },
     {
-      "name": "10words",
-      "url": "https://10words.io",
-      "status": "failed",
-      "http_status": 403,
-      "attempt": 1,
-      "timestamp": "2026-08-15T14:33:24.450593+00:00",
-      "notes": ""
-    },
-    {
       "name": "Powerusers",
       "url": "https://powerusers.ai",
       "status": "failed",
       "http_status": 404,
       "attempt": 1,
       "timestamp": "2026-08-15T14:33:32.349851+00:00",
-      "notes": ""
-    },
-    {
-      "name": "Boilerplatehub",
-      "url": "https://boilerplatehub.com",
-      "status": "failed",
-      "http_status": 403,
-      "attempt": 1,
-      "timestamp": "2026-08-15T14:33:40.360981+00:00",
       "notes": ""
     },
     {
@@ -1243,15 +856,6 @@
       "notes": ""
     },
     {
-      "name": "Ogimage",
-      "url": "https://ogimage.gallery",
-      "status": "failed",
-      "http_status": 405,
-      "attempt": 1,
-      "timestamp": "2026-08-15T14:34:23.036864+00:00",
-      "notes": ""
-    },
-    {
       "name": "Aivalley",
       "url": "https://aivalley.ai",
       "status": "failed",
@@ -1261,30 +865,12 @@
       "notes": ""
     },
     {
-      "name": "Startups",
-      "url": "https://startups.fyi",
-      "status": "failed",
-      "http_status": 405,
-      "attempt": 1,
-      "timestamp": "2026-08-15T14:34:37.804246+00:00",
-      "notes": ""
-    },
-    {
       "name": "Webcurate",
       "url": "https://webcurate.co",
       "status": "failed",
       "http_status": 200,
       "attempt": 1,
       "timestamp": "2026-08-15T14:34:47.434024+00:00",
-      "notes": ""
-    },
-    {
-      "name": "Resource",
-      "url": "https://resource.fyi",
-      "status": "failed",
-      "http_status": 405,
-      "attempt": 1,
-      "timestamp": "2026-08-15T14:34:55.180340+00:00",
       "notes": ""
     },
     {
@@ -1324,39 +910,12 @@
       "notes": ""
     },
     {
-      "name": "Awesomeindie",
-      "url": "https://awesomeindie.com",
-      "status": "failed",
-      "http_status": 403,
-      "attempt": 1,
-      "timestamp": "2026-08-15T14:35:51.443587+00:00",
-      "notes": ""
-    },
-    {
       "name": "Directoryscout",
       "url": "https://directoryscout.com",
       "status": "success",
       "http_status": 200,
       "attempt": 1,
       "timestamp": "2026-08-15T14:36:00.693689+00:00",
-      "notes": ""
-    },
-    {
-      "name": "Indiehackerstacks",
-      "url": "https://indiehackerstacks.com",
-      "status": "failed",
-      "http_status": 405,
-      "attempt": 1,
-      "timestamp": "2026-08-15T14:36:07.762643+00:00",
-      "notes": ""
-    },
-    {
-      "name": "Tools",
-      "url": "https://tools.robingood.com",
-      "status": "failed",
-      "http_status": 405,
-      "attempt": 1,
-      "timestamp": "2026-08-15T14:36:26.920730+00:00",
       "notes": ""
     },
     {
@@ -1396,15 +955,6 @@
       "notes": ""
     },
     {
-      "name": "Toolhub",
-      "url": "https://toolhub.me",
-      "status": "failed",
-      "http_status": 405,
-      "attempt": 1,
-      "timestamp": "2026-08-15T14:37:16.330940+00:00",
-      "notes": ""
-    },
-    {
       "name": "Digitalsamaritan",
       "url": "https://digitalsamaritan.co",
       "status": "success",
@@ -1423,30 +973,12 @@
       "notes": ""
     },
     {
-      "name": "AItools.inc",
-      "url": "https://aitools.inc/submit",
-      "status": "failed",
-      "http_status": 403,
-      "attempt": 1,
-      "timestamp": "2026-08-15T14:37:44.842362+00:00",
-      "notes": ""
-    },
-    {
       "name": "FiveTaco",
       "url": "https://fivetaco.com/submit",
       "status": "success",
       "http_status": 200,
       "attempt": 1,
       "timestamp": "2026-08-15T14:37:52.398349+00:00",
-      "notes": ""
-    },
-    {
-      "name": "LaunchingNext",
-      "url": "https://www.launchingnext.com/submit/",
-      "status": "failed",
-      "http_status": 403,
-      "attempt": 1,
-      "timestamp": "2026-08-15T14:38:01.579267+00:00",
       "notes": ""
     },
     {
@@ -1465,15 +997,6 @@
       "http_status": 404,
       "attempt": 1,
       "timestamp": "2026-08-15T14:38:22.472048+00:00",
-      "notes": ""
-    },
-    {
-      "name": "Tools.so",
-      "url": "https://tools.so/submit",
-      "status": "failed",
-      "http_status": 405,
-      "attempt": 1,
-      "timestamp": "2026-08-15T14:38:29.445047+00:00",
       "notes": ""
     },
     {
@@ -1522,48 +1045,12 @@
       "notes": ""
     },
     {
-      "name": "Stremit",
-      "url": "https://stremit.io/submit-tool-form",
-      "status": "failed",
-      "http_status": 405,
-      "attempt": 1,
-      "timestamp": "2026-08-15T14:39:20.091348+00:00",
-      "notes": ""
-    },
-    {
-      "name": "TheAIway",
-      "url": "https://theaiway.net/product-submit/",
-      "status": "failed",
-      "http_status": 403,
-      "attempt": 1,
-      "timestamp": "2026-08-15T14:39:31.499854+00:00",
-      "notes": ""
-    },
-    {
       "name": "ShareTool",
       "url": "https://sharetool.com/submit",
       "status": "success",
       "http_status": 200,
       "attempt": 1,
       "timestamp": "2026-08-15T14:39:38.641978+00:00",
-      "notes": ""
-    },
-    {
-      "name": "SearchAITool",
-      "url": "https://searchaitool.com/submit",
-      "status": "failed",
-      "http_status": 403,
-      "attempt": 1,
-      "timestamp": "2026-08-15T14:39:48.560985+00:00",
-      "notes": ""
-    },
-    {
-      "name": "AI-Tool.ai",
-      "url": "https://ai-tool.ai/submit-tool",
-      "status": "failed",
-      "http_status": 403,
-      "attempt": 1,
-      "timestamp": "2026-08-15T14:39:55.199025+00:00",
       "notes": ""
     },
     {
@@ -1615,102 +1102,12 @@
       "notes": "Playwright error: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL\nCall log:\n  - navigating to \"creati.ai\", waiting until \"networkidle\"\n"
     },
     {
-      "name": "Rundown",
-      "url": "rundown.ai/tools",
-      "status": "failed",
-      "http_status": null,
-      "attempt": 3,
-      "timestamp": "2026-08-15T15:32:53.743324+00:00",
-      "notes": "Exceeded retries"
-    },
-    {
-      "name": "Aiagentstore",
-      "url": "aiagentstore.ai",
-      "status": "failed",
-      "http_status": null,
-      "attempt": 3,
-      "timestamp": "2026-08-15T15:33:05.410147+00:00",
-      "notes": "Exceeded retries"
-    },
-    {
-      "name": "Easywithai",
-      "url": "easywithai.com",
-      "status": "failed",
-      "http_status": null,
-      "attempt": 3,
-      "timestamp": "2026-08-15T15:33:17.525398+00:00",
-      "notes": "Exceeded retries"
-    },
-    {
       "name": "Bestofai",
       "url": "bestofai.com",
       "status": "failed",
       "http_status": null,
       "timestamp": "2026-08-15T15:33:21.035118+00:00",
       "notes": "Playwright error: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL\nCall log:\n  - navigating to \"bestofai.com\", waiting until \"networkidle\"\n"
-    },
-    {
-      "name": "Waytoagi",
-      "url": "waytoagi.com",
-      "status": "failed",
-      "http_status": null,
-      "attempt": 3,
-      "timestamp": "2026-08-15T15:33:36.232558+00:00",
-      "notes": "Exceeded retries"
-    },
-    {
-      "name": "Genai",
-      "url": "genai.works/applications",
-      "status": "failed",
-      "http_status": null,
-      "attempt": 3,
-      "timestamp": "2026-08-15T15:33:48.251152+00:00",
-      "notes": "Exceeded retries"
-    },
-    {
-      "name": "Aitoolsdirectory",
-      "url": "aitoolsdirectory.com",
-      "status": "failed",
-      "http_status": null,
-      "attempt": 3,
-      "timestamp": "2026-08-15T15:34:00.605498+00:00",
-      "notes": "Exceeded retries"
-    },
-    {
-      "name": "Ai Hunter",
-      "url": "ai-hunter.io",
-      "status": "failed",
-      "http_status": null,
-      "attempt": 3,
-      "timestamp": "2026-08-15T15:34:11.965760+00:00",
-      "notes": "Exceeded retries"
-    },
-    {
-      "name": "Wisepickai",
-      "url": "wisepickai.com",
-      "status": "failed",
-      "http_status": null,
-      "attempt": 3,
-      "timestamp": "2026-08-15T15:34:23.188648+00:00",
-      "notes": "Exceeded retries"
-    },
-    {
-      "name": "Aichief",
-      "url": "aichief.com",
-      "status": "failed",
-      "http_status": null,
-      "attempt": 3,
-      "timestamp": "2026-08-15T15:34:33.826641+00:00",
-      "notes": "Exceeded retries"
-    },
-    {
-      "name": "Aitoptools",
-      "url": "aitoptools.com",
-      "status": "failed",
-      "http_status": null,
-      "attempt": 3,
-      "timestamp": "2026-08-15T15:34:44.329114+00:00",
-      "notes": "Exceeded retries"
     },
     {
       "name": "Eliteai",
@@ -1721,78 +1118,6 @@
       "notes": "Playwright error: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL\nCall log:\n  - navigating to \"eliteai.tools\", waiting until \"networkidle\"\n"
     },
     {
-      "name": "Aiapps",
-      "url": "aiapps.com",
-      "status": "failed",
-      "http_status": null,
-      "attempt": 3,
-      "timestamp": "2026-08-15T15:34:59.592856+00:00",
-      "notes": "Exceeded retries"
-    },
-    {
-      "name": "Bestfreeaiwebsites",
-      "url": "bestfreeaiwebsites.com/all-tools",
-      "status": "failed",
-      "http_status": null,
-      "attempt": 3,
-      "timestamp": "2026-08-15T15:35:11.538277+00:00",
-      "notes": "Exceeded retries"
-    },
-    {
-      "name": "Artificin",
-      "url": "artificin.com/tools",
-      "status": "failed",
-      "http_status": null,
-      "attempt": 3,
-      "timestamp": "2026-08-15T15:35:25.092305+00:00",
-      "notes": "Exceeded retries"
-    },
-    {
-      "name": "Toolhunt",
-      "url": "toolhunt.io",
-      "status": "failed",
-      "http_status": null,
-      "attempt": 3,
-      "timestamp": "2026-08-15T15:35:36.851464+00:00",
-      "notes": "Exceeded retries"
-    },
-    {
-      "name": "Soverin",
-      "url": "soverin.ai",
-      "status": "failed",
-      "http_status": null,
-      "attempt": 3,
-      "timestamp": "2026-08-15T15:35:48.234160+00:00",
-      "notes": "Exceeded retries"
-    },
-    {
-      "name": "Aiagentslist",
-      "url": "aiagentslist.com",
-      "status": "failed",
-      "http_status": null,
-      "attempt": 3,
-      "timestamp": "2026-08-15T15:35:59.308607+00:00",
-      "notes": "Exceeded retries"
-    },
-    {
-      "name": "Lachief",
-      "url": "lachief.io",
-      "status": "failed",
-      "http_status": null,
-      "attempt": 3,
-      "timestamp": "2026-08-15T15:36:13.415389+00:00",
-      "notes": "Exceeded retries"
-    },
-    {
-      "name": "Dessign",
-      "url": "dessign.net",
-      "status": "failed",
-      "http_status": null,
-      "attempt": 3,
-      "timestamp": "2026-08-15T15:36:24.501337+00:00",
-      "notes": "Exceeded retries"
-    },
-    {
       "name": "Toptool",
       "url": "toptool.app/en",
       "status": "failed",
@@ -1801,102 +1126,12 @@
       "notes": "Playwright error: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL\nCall log:\n  - navigating to \"toptool.app/en\", waiting until \"networkidle\"\n"
     },
     {
-      "name": "Mangoai",
-      "url": "mangoai.co",
-      "status": "failed",
-      "http_status": null,
-      "attempt": 3,
-      "timestamp": "2026-08-15T15:36:38.925898+00:00",
-      "notes": "Exceeded retries"
-    },
-    {
-      "name": "Tools Ai",
-      "url": "tools-ai.online",
-      "status": "failed",
-      "http_status": null,
-      "attempt": 3,
-      "timestamp": "2026-08-15T15:36:52.904700+00:00",
-      "notes": "Exceeded retries"
-    },
-    {
-      "name": "Bai",
-      "url": "bai.tools",
-      "status": "failed",
-      "http_status": null,
-      "attempt": 3,
-      "timestamp": "2026-08-15T15:37:04.674195+00:00",
-      "notes": "Exceeded retries"
-    },
-    {
-      "name": "Aiagentsdirectory",
-      "url": "aiagentsdirectory.com",
-      "status": "failed",
-      "http_status": null,
-      "attempt": 3,
-      "timestamp": "2026-08-15T15:37:15.869647+00:00",
-      "notes": "Exceeded retries"
-    },
-    {
-      "name": "Techpilot",
-      "url": "techpilot.ai/tools",
-      "status": "failed",
-      "http_status": null,
-      "attempt": 3,
-      "timestamp": "2026-08-15T15:37:29.567307+00:00",
-      "notes": "Exceeded retries"
-    },
-    {
-      "name": "Aitoolgo",
-      "url": "aitoolgo.com",
-      "status": "failed",
-      "http_status": null,
-      "attempt": 3,
-      "timestamp": "2026-08-15T15:37:40.474197+00:00",
-      "notes": "Exceeded retries"
-    },
-    {
-      "name": "Stratup",
-      "url": "stratup.ai/en/ais",
-      "status": "failed",
-      "http_status": null,
-      "attempt": 3,
-      "timestamp": "2026-08-15T15:37:51.751257+00:00",
-      "notes": "Exceeded retries"
-    },
-    {
-      "name": "Itirupati",
-      "url": "itirupati.com/ai-tools-apps",
-      "status": "failed",
-      "http_status": null,
-      "attempt": 3,
-      "timestamp": "2026-08-15T15:38:05.067479+00:00",
-      "notes": "Exceeded retries"
-    },
-    {
-      "name": "Topaitools",
-      "url": "topaitools.com/tools",
-      "status": "failed",
-      "http_status": null,
-      "attempt": 3,
-      "timestamp": "2026-08-15T15:38:16.644867+00:00",
-      "notes": "Exceeded retries"
-    },
-    {
       "name": "Ai Search",
       "url": "ai-search.io",
       "status": "failed",
       "http_status": null,
       "timestamp": "2026-08-15T15:38:20.180881+00:00",
       "notes": "Playwright error: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL\nCall log:\n  - navigating to \"ai-search.io\", waiting until \"networkidle\"\n"
-    },
-    {
-      "name": "Scriptbyai",
-      "url": "scriptbyai.com",
-      "status": "failed",
-      "http_status": null,
-      "attempt": 3,
-      "timestamp": "2026-08-15T15:38:32.227700+00:00",
-      "notes": "Exceeded retries"
     },
     {
       "name": "Aitoolnet",
@@ -1915,42 +1150,6 @@
       "notes": "Playwright error: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL\nCall log:\n  - navigating to \"theaisurf.com\", waiting until \"networkidle\"\n"
     },
     {
-      "name": "Aizones",
-      "url": "aizones.io",
-      "status": "failed",
-      "http_status": null,
-      "attempt": 3,
-      "timestamp": "2026-08-15T15:38:51.108209+00:00",
-      "notes": "Exceeded retries"
-    },
-    {
-      "name": "Gpt3demo",
-      "url": "gpt3demo.com",
-      "status": "failed",
-      "http_status": null,
-      "attempt": 3,
-      "timestamp": "2026-08-15T15:39:02.438035+00:00",
-      "notes": "Exceeded retries"
-    },
-    {
-      "name": "Aiforeveryone",
-      "url": "aiforeveryone.org",
-      "status": "failed",
-      "http_status": null,
-      "attempt": 3,
-      "timestamp": "2026-08-15T15:39:15.902331+00:00",
-      "notes": "Exceeded retries"
-    },
-    {
-      "name": "Powerfulai",
-      "url": "powerfulai.tools",
-      "status": "failed",
-      "http_status": null,
-      "attempt": 3,
-      "timestamp": "2026-08-15T15:39:28.592618+00:00",
-      "notes": "Exceeded retries"
-    },
-    {
       "name": "Foundr",
       "url": "foundr.ai",
       "status": "failed",
@@ -1965,33 +1164,6 @@
       "http_status": null,
       "timestamp": "2026-08-15T15:39:35.662639+00:00",
       "notes": "Playwright error: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL\nCall log:\n  - navigating to \"findmyaitool.com\", waiting until \"networkidle\"\n"
-    },
-    {
-      "name": "Allgpts",
-      "url": "allgpts.co",
-      "status": "failed",
-      "http_status": null,
-      "attempt": 3,
-      "timestamp": "2026-08-15T15:39:46.330457+00:00",
-      "notes": "Exceeded retries"
-    },
-    {
-      "name": "Aijourney",
-      "url": "aijourney.so",
-      "status": "failed",
-      "http_status": null,
-      "attempt": 3,
-      "timestamp": "2026-08-15T15:39:57.906722+00:00",
-      "notes": "Exceeded retries"
-    },
-    {
-      "name": "Aitechsuite",
-      "url": "aitechsuite.com",
-      "status": "failed",
-      "http_status": null,
-      "attempt": 3,
-      "timestamp": "2026-08-15T15:40:08.287423+00:00",
-      "notes": "Exceeded retries"
     },
     {
       "name": "Toolio",
@@ -2010,66 +1182,12 @@
       "notes": "Playwright error: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL\nCall log:\n  - navigating to \"openfuture.ai\", waiting until \"networkidle\"\n"
     },
     {
-      "name": "Groupify",
-      "url": "groupify.ai",
-      "status": "failed",
-      "http_status": null,
-      "attempt": 3,
-      "timestamp": "2026-08-15T15:40:25.498806+00:00",
-      "notes": "Exceeded retries"
-    },
-    {
-      "name": "App",
-      "url": "app.aibase.com",
-      "status": "failed",
-      "http_status": null,
-      "attempt": 3,
-      "timestamp": "2026-08-15T15:40:37.804579+00:00",
-      "notes": "Exceeded retries"
-    },
-    {
-      "name": "Simplifyaitools",
-      "url": "simplifyaitools.com",
-      "status": "failed",
-      "http_status": null,
-      "attempt": 3,
-      "timestamp": "2026-08-15T15:40:50.960442+00:00",
-      "notes": "Exceeded retries"
-    },
-    {
       "name": "Aitoolguru",
       "url": "aitoolguru.com",
       "status": "failed",
       "http_status": null,
       "timestamp": "2026-08-15T15:40:54.476117+00:00",
       "notes": "Playwright error: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL\nCall log:\n  - navigating to \"aitoolguru.com\", waiting until \"networkidle\"\n"
-    },
-    {
-      "name": "Domore",
-      "url": "domore.ai",
-      "status": "failed",
-      "http_status": null,
-      "attempt": 3,
-      "timestamp": "2026-08-15T15:41:05.237265+00:00",
-      "notes": "Exceeded retries"
-    },
-    {
-      "name": "Aibucket",
-      "url": "aibucket.io/ai-tools",
-      "status": "failed",
-      "http_status": null,
-      "attempt": 3,
-      "timestamp": "2026-08-15T15:41:18.155254+00:00",
-      "notes": "Exceeded retries"
-    },
-    {
-      "name": "Stork",
-      "url": "stork.ai",
-      "status": "failed",
-      "http_status": null,
-      "attempt": 3,
-      "timestamp": "2026-08-15T15:41:30.641547+00:00",
-      "notes": "Exceeded retries"
     },
     {
       "name": "Tipseason",
@@ -2080,489 +1198,12 @@
       "notes": "Playwright error: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL\nCall log:\n  - navigating to \"tipseason.com/ai-tools\", waiting until \"networkidle\"\n"
     },
     {
-      "name": "Aitoolly",
-      "url": "aitoolly.com",
-      "status": "failed",
-      "http_status": null,
-      "attempt": 3,
-      "timestamp": "2026-08-15T15:41:46.230942+00:00",
-      "notes": "Exceeded retries"
-    },
-    {
-      "name": "Hdrobots",
-      "url": "hdrobots.com",
-      "status": "failed",
-      "http_status": null,
-      "attempt": 3,
-      "timestamp": "2026-08-15T15:41:57.717915+00:00",
-      "notes": "Exceeded retries"
-    },
-    {
-      "name": "Serp",
-      "url": "serp.ai",
-      "status": "failed",
-      "http_status": null,
-      "attempt": 3,
-      "timestamp": "2026-08-15T15:42:09.819646+00:00",
-      "notes": "Exceeded retries"
-    },
-    {
-      "name": "Seofai",
-      "url": "seofai.com",
-      "status": "failed",
-      "http_status": null,
-      "attempt": 3,
-      "timestamp": "2026-08-15T15:42:20.873453+00:00",
-      "notes": "Exceeded retries"
-    },
-    {
-      "name": "Brouseai",
-      "url": "brouseai.com",
-      "status": "failed",
-      "http_status": null,
-      "attempt": 3,
-      "timestamp": "2026-08-15T15:42:32.163542+00:00",
-      "notes": "Exceeded retries"
-    },
-    {
       "name": "Thataicollection",
       "url": "thataicollection.com",
       "status": "failed",
       "http_status": null,
       "timestamp": "2026-08-15T15:42:35.704417+00:00",
       "notes": "Playwright error: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL\nCall log:\n  - navigating to \"thataicollection.com\", waiting until \"networkidle\"\n"
-    },
-    {
-      "name": "Agentlocker",
-      "url": "agentlocker.ai",
-      "status": "failed",
-      "http_status": null,
-      "attempt": 3,
-      "timestamp": "2026-08-15T15:42:47.900207+00:00",
-      "notes": "Exceeded retries"
-    },
-    {
-      "name": "Aitoolboard",
-      "url": "aitoolboard.com",
-      "status": "failed",
-      "http_status": null,
-      "attempt": 3,
-      "timestamp": "2026-08-15T15:42:58.137052+00:00",
-      "notes": "Exceeded retries"
-    },
-    {
-      "name": "Aitoolsarena",
-      "url": "aitoolsarena.com",
-      "status": "failed",
-      "http_status": null,
-      "attempt": 3,
-      "timestamp": "2026-08-15T15:43:08.535040+00:00",
-      "notes": "Exceeded retries"
-    },
-    {
-      "name": "Navtools",
-      "url": "navtools.ai",
-      "status": "failed",
-      "http_status": null,
-      "attempt": 3,
-      "timestamp": "2026-08-15T15:43:19.743517+00:00",
-      "notes": "Exceeded retries"
-    },
-    {
-      "name": "Poweredbyai",
-      "url": "poweredbyai.app",
-      "status": "failed",
-      "http_status": null,
-      "attempt": 3,
-      "timestamp": "2026-08-15T15:43:30.943976+00:00",
-      "notes": "Exceeded retries"
-    },
-    {
-      "name": "Listmyai",
-      "url": "listmyai.net/tools",
-      "status": "failed",
-      "http_status": null,
-      "attempt": 3,
-      "timestamp": "2026-08-15T15:43:43.587646+00:00",
-      "notes": "Exceeded retries"
-    },
-    {
-      "name": "Aitoolhub",
-      "url": "aitoolhub.net",
-      "status": "failed",
-      "http_status": null,
-      "attempt": 3,
-      "timestamp": "2026-08-15T15:43:55.135665+00:00",
-      "notes": "Exceeded retries"
-    },
-    {
-      "name": "Bestaiagents",
-      "url": "bestaiagents.ai",
-      "status": "failed",
-      "http_status": null,
-      "attempt": 3,
-      "timestamp": "2026-08-15T15:44:06.347524+00:00",
-      "notes": "Exceeded retries"
-    },
-    {
-      "name": "Future Pedia",
-      "url": "future-pedia.com",
-      "status": "failed",
-      "http_status": null,
-      "attempt": 3,
-      "timestamp": "2026-08-15T15:44:16.039099+00:00",
-      "notes": "Exceeded retries"
-    },
-    {
-      "name": "Listedai",
-      "url": "listedai.co",
-      "status": "failed",
-      "http_status": null,
-      "attempt": 3,
-      "timestamp": "2026-08-15T15:44:26.244429+00:00",
-      "notes": "Exceeded retries"
-    },
-    {
-      "name": "Iseoai",
-      "url": "iseoai.com",
-      "status": "failed",
-      "http_status": null,
-      "attempt": 3,
-      "timestamp": "2026-08-15T15:44:38.594586+00:00",
-      "notes": "Exceeded retries"
-    },
-    {
-      "name": "Theailibrary",
-      "url": "theailibrary.co",
-      "status": "failed",
-      "http_status": null,
-      "attempt": 3,
-      "timestamp": "2026-08-15T15:44:49.875465+00:00",
-      "notes": "Exceeded retries"
-    },
-    {
-      "name": "Aitoolselection",
-      "url": "aitoolselection.com",
-      "status": "failed",
-      "http_status": null,
-      "attempt": 3,
-      "timestamp": "2026-08-15T15:45:00.675331+00:00",
-      "notes": "Exceeded retries"
-    },
-    {
-      "name": "Mavtools",
-      "url": "mavtools.com",
-      "status": "failed",
-      "http_status": null,
-      "attempt": 3,
-      "timestamp": "2026-08-15T15:45:12.173589+00:00",
-      "notes": "Exceeded retries"
-    },
-    {
-      "name": "Aitrendz",
-      "url": "aitrendz.xyz",
-      "status": "failed",
-      "http_status": null,
-      "attempt": 3,
-      "timestamp": "2026-08-15T15:45:24.095979+00:00",
-      "notes": "Exceeded retries"
-    },
-    {
-      "name": "Itsbetterwithai",
-      "url": "itsbetterwithai.com",
-      "status": "failed",
-      "http_status": null,
-      "attempt": 3,
-      "timestamp": "2026-08-15T15:45:35.056890+00:00",
-      "notes": "Exceeded retries"
-    },
-    {
-      "name": "Aplicaciones",
-      "url": "aplicaciones.ai/en",
-      "status": "failed",
-      "http_status": null,
-      "attempt": 3,
-      "timestamp": "2026-08-15T15:45:47.112142+00:00",
-      "notes": "Exceeded retries"
-    },
-    {
-      "name": "Library",
-      "url": "library.phygital.plus",
-      "status": "failed",
-      "http_status": null,
-      "attempt": 3,
-      "timestamp": "2026-08-15T15:45:58.037901+00:00",
-      "notes": "Exceeded retries"
-    },
-    {
-      "name": "Waildworld",
-      "url": "waildworld.com",
-      "status": "failed",
-      "http_status": null,
-      "attempt": 3,
-      "timestamp": "2026-08-15T15:46:09.211593+00:00",
-      "notes": "Exceeded retries"
-    },
-    {
-      "name": "Aitooltips",
-      "url": "aitooltips.com",
-      "status": "failed",
-      "http_status": null,
-      "attempt": 3,
-      "timestamp": "2026-08-15T15:46:20.655126+00:00",
-      "notes": "Exceeded retries"
-    },
-    {
-      "name": "Aitoolsexplorer",
-      "url": "aitoolsexplorer.com",
-      "status": "failed",
-      "http_status": null,
-      "attempt": 3,
-      "timestamp": "2026-08-15T15:46:32.690215+00:00",
-      "notes": "Exceeded retries"
-    },
-    {
-      "name": "Fullstackai",
-      "url": "fullstackai.co/tools",
-      "status": "failed",
-      "http_status": null,
-      "attempt": 3,
-      "timestamp": "2026-08-15T15:46:44.149013+00:00",
-      "notes": "Exceeded retries"
-    },
-    {
-      "name": "Somi",
-      "url": "somi.ai",
-      "status": "failed",
-      "http_status": null,
-      "attempt": 3,
-      "timestamp": "2026-08-15T15:46:55.499926+00:00",
-      "notes": "Exceeded retries"
-    },
-    {
-      "name": "Toolscout",
-      "url": "toolscout.ai",
-      "status": "failed",
-      "http_status": null,
-      "attempt": 3,
-      "timestamp": "2026-08-15T15:47:07.244764+00:00",
-      "notes": "Exceeded retries"
-    },
-    {
-      "name": "Tooldirectory",
-      "url": "tooldirectory.ai",
-      "status": "failed",
-      "http_status": null,
-      "attempt": 3,
-      "timestamp": "2026-08-15T15:47:21.983668+00:00",
-      "notes": "Exceeded retries"
-    },
-    {
-      "name": "Theainavigator",
-      "url": "theainavigator.com/list-of-ai-tools",
-      "status": "failed",
-      "http_status": null,
-      "attempt": 3,
-      "timestamp": "2026-08-15T15:47:37.012903+00:00",
-      "notes": "Exceeded retries"
-    },
-    {
-      "name": "Ai Productreviews",
-      "url": "ai-productreviews.com",
-      "status": "failed",
-      "http_status": null,
-      "attempt": 3,
-      "timestamp": "2026-08-15T15:47:49.840715+00:00",
-      "notes": "Exceeded retries"
-    },
-    {
-      "name": "Marsx",
-      "url": "marsx.dev/ai-startups",
-      "status": "failed",
-      "http_status": null,
-      "attempt": 3,
-      "timestamp": "2026-08-15T15:48:02.523371+00:00",
-      "notes": "Exceeded retries"
-    },
-    {
-      "name": "Aitoolmall",
-      "url": "aitoolmall.com",
-      "status": "failed",
-      "http_status": null,
-      "attempt": 3,
-      "timestamp": "2026-08-15T15:48:15.735579+00:00",
-      "notes": "Exceeded retries"
-    },
-    {
-      "name": "Toolhunter",
-      "url": "toolhunter.ai",
-      "status": "failed",
-      "http_status": null,
-      "attempt": 3,
-      "timestamp": "2026-08-15T15:48:26.725785+00:00",
-      "notes": "Exceeded retries"
-    },
-    {
-      "name": "Humanornot",
-      "url": "humanornot.co",
-      "status": "failed",
-      "http_status": null,
-      "attempt": 3,
-      "timestamp": "2026-08-15T15:48:39.289325+00:00",
-      "notes": "Exceeded retries"
-    },
-    {
-      "name": "Toptools",
-      "url": "toptools.ai",
-      "status": "failed",
-      "http_status": null,
-      "attempt": 3,
-      "timestamp": "2026-08-15T15:48:50.934524+00:00",
-      "notes": "Exceeded retries"
-    },
-    {
-      "name": "Aitoolzi",
-      "url": "aitoolzi.com",
-      "status": "failed",
-      "http_status": null,
-      "attempt": 3,
-      "timestamp": "2026-08-15T15:49:03.746700+00:00",
-      "notes": "Exceeded retries"
-    },
-    {
-      "name": "Toolspedia",
-      "url": "toolspedia.io",
-      "status": "failed",
-      "http_status": null,
-      "attempt": 3,
-      "timestamp": "2026-08-15T15:49:15.344917+00:00",
-      "notes": "Exceeded retries"
-    },
-    {
-      "name": "Allinai",
-      "url": "allinai.tools",
-      "status": "failed",
-      "http_status": null,
-      "attempt": 3,
-      "timestamp": "2026-08-15T15:49:26.152240+00:00",
-      "notes": "Exceeded retries"
-    },
-    {
-      "name": "Aitechfy",
-      "url": "aitechfy.com",
-      "status": "failed",
-      "http_status": null,
-      "attempt": 3,
-      "timestamp": "2026-08-15T15:49:36.750748+00:00",
-      "notes": "Exceeded retries"
-    },
-    {
-      "name": "Dropyourai",
-      "url": "dropyourai.com",
-      "status": "failed",
-      "http_status": null,
-      "attempt": 3,
-      "timestamp": "2026-08-15T15:49:47.646947+00:00",
-      "notes": "Exceeded retries"
-    },
-    {
-      "name": "Aitoolhouse",
-      "url": "aitoolhouse.com",
-      "status": "failed",
-      "http_status": null,
-      "attempt": 3,
-      "timestamp": "2026-08-15T15:49:59.863301+00:00",
-      "notes": "Exceeded retries"
-    },
-    {
-      "name": "Guideofaitool",
-      "url": "guideofaitool.com",
-      "status": "failed",
-      "http_status": null,
-      "attempt": 3,
-      "timestamp": "2026-08-15T15:50:11.650749+00:00",
-      "notes": "Exceeded retries"
-    },
-    {
-      "name": "Aitoolsguide",
-      "url": "aitoolsguide.com",
-      "status": "failed",
-      "http_status": null,
-      "attempt": 3,
-      "timestamp": "2026-08-15T15:50:22.811353+00:00",
-      "notes": "Exceeded retries"
-    },
-    {
-      "name": "Victrays",
-      "url": "victrays.com/ai-tools",
-      "status": "failed",
-      "http_status": null,
-      "attempt": 3,
-      "timestamp": "2026-08-15T15:50:37.397276+00:00",
-      "notes": "Exceeded retries"
-    },
-    {
-      "name": "Every Ai",
-      "url": "every-ai.com",
-      "status": "failed",
-      "http_status": null,
-      "attempt": 3,
-      "timestamp": "2026-08-15T15:50:48.154133+00:00",
-      "notes": "Exceeded retries"
-    },
-    {
-      "name": "Bestaito",
-      "url": "bestaito.com",
-      "status": "failed",
-      "http_status": null,
-      "attempt": 3,
-      "timestamp": "2026-08-15T15:50:57.946080+00:00",
-      "notes": "Exceeded retries"
-    },
-    {
-      "name": "Aicyclopedia",
-      "url": "aicyclopedia.com/ai-tools",
-      "status": "failed",
-      "http_status": null,
-      "attempt": 3,
-      "timestamp": "2026-08-15T15:51:08.669876+00:00",
-      "notes": "Exceeded retries"
-    },
-    {
-      "name": "Altern",
-      "url": "altern.ai",
-      "status": "failed",
-      "http_status": null,
-      "attempt": 3,
-      "timestamp": "2026-08-15T15:51:20.124282+00:00",
-      "notes": "Exceeded retries"
-    },
-    {
-      "name": "Openpedia",
-      "url": "openpedia.io",
-      "status": "failed",
-      "http_status": null,
-      "attempt": 3,
-      "timestamp": "2026-08-15T15:51:31.661184+00:00",
-      "notes": "Exceeded retries"
-    },
-    {
-      "name": "Freeappsai",
-      "url": "freeappsai.com",
-      "status": "failed",
-      "http_status": null,
-      "attempt": 3,
-      "timestamp": "2026-08-15T15:51:42.511359+00:00",
-      "notes": "Exceeded retries"
-    },
-    {
-      "name": "Monkeyaitools",
-      "url": "monkeyaitools.com",
-      "status": "failed",
-      "http_status": null,
-      "attempt": 3,
-      "timestamp": "2026-08-15T15:51:52.859232+00:00",
-      "notes": "Exceeded retries"
     },
     {
       "name": "Toolnest",
@@ -2573,159 +1214,6 @@
       "notes": "Playwright error: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL\nCall log:\n  - navigating to \"toolnest.ai\", waiting until \"networkidle\"\n"
     },
     {
-      "name": "Toolsforhumans",
-      "url": "toolsforhumans.ai/tools-database",
-      "status": "failed",
-      "http_status": null,
-      "attempt": 3,
-      "timestamp": "2026-08-15T15:52:06.998129+00:00",
-      "notes": "Exceeded retries"
-    },
-    {
-      "name": "Videaitools",
-      "url": "videaitools.com",
-      "status": "failed",
-      "http_status": null,
-      "attempt": 3,
-      "timestamp": "2026-08-15T15:52:17.018283+00:00",
-      "notes": "Exceeded retries"
-    },
-    {
-      "name": "Aifindertools",
-      "url": "aifindertools.com",
-      "status": "failed",
-      "http_status": null,
-      "attempt": 3,
-      "timestamp": "2026-08-15T15:52:27.956242+00:00",
-      "notes": "Exceeded retries"
-    },
-    {
-      "name": "Neonrev",
-      "url": "neonrev.com",
-      "status": "failed",
-      "http_status": null,
-      "attempt": 3,
-      "timestamp": "2026-08-15T15:52:38.731806+00:00",
-      "notes": "Exceeded retries"
-    },
-    {
-      "name": "Freeaitool",
-      "url": "freeaitool.ai",
-      "status": "failed",
-      "http_status": null,
-      "attempt": 3,
-      "timestamp": "2026-08-15T15:52:50.525675+00:00",
-      "notes": "Exceeded retries"
-    },
-    {
-      "name": "Aihustle",
-      "url": "aihustle.tools",
-      "status": "failed",
-      "http_status": null,
-      "attempt": 3,
-      "timestamp": "2026-08-15T15:53:01.133704+00:00",
-      "notes": "Exceeded retries"
-    },
-    {
-      "name": "Intelligenttools",
-      "url": "intelligenttools.co",
-      "status": "failed",
-      "http_status": null,
-      "attempt": 3,
-      "timestamp": "2026-08-15T15:53:11.734867+00:00",
-      "notes": "Exceeded retries"
-    },
-    {
-      "name": "Fastpedia",
-      "url": "fastpedia.io",
-      "status": "failed",
-      "http_status": null,
-      "attempt": 3,
-      "timestamp": "2026-08-15T15:53:23.196302+00:00",
-      "notes": "Exceeded retries"
-    },
-    {
-      "name": "Magicbox",
-      "url": "magicbox.tools",
-      "status": "failed",
-      "http_status": null,
-      "attempt": 3,
-      "timestamp": "2026-08-15T15:53:35.889459+00:00",
-      "notes": "Exceeded retries"
-    },
-    {
-      "name": "Wavel",
-      "url": "wavel.io",
-      "status": "failed",
-      "http_status": null,
-      "attempt": 3,
-      "timestamp": "2026-08-15T15:53:47.290796+00:00",
-      "notes": "Exceeded retries"
-    },
-    {
-      "name": "Gogetgpt",
-      "url": "gogetgpt.com/en/c/best-tools",
-      "status": "failed",
-      "http_status": null,
-      "attempt": 3,
-      "timestamp": "2026-08-15T15:53:59.319127+00:00",
-      "notes": "Exceeded retries"
-    },
-    {
-      "name": "Aitoolshunt",
-      "url": "aitoolshunt.com",
-      "status": "failed",
-      "http_status": null,
-      "attempt": 3,
-      "timestamp": "2026-08-15T15:54:09.616850+00:00",
-      "notes": "Exceeded retries"
-    },
-    {
-      "name": "Aitoolsone",
-      "url": "aitoolsone.com",
-      "status": "failed",
-      "http_status": null,
-      "attempt": 3,
-      "timestamp": "2026-08-15T15:54:25.879318+00:00",
-      "notes": "Exceeded retries"
-    },
-    {
-      "name": "Theee",
-      "url": "theee.ai",
-      "status": "failed",
-      "http_status": null,
-      "attempt": 3,
-      "timestamp": "2026-08-15T15:54:40.962282+00:00",
-      "notes": "Exceeded retries"
-    },
-    {
-      "name": "Superaitools",
-      "url": "superaitools.io",
-      "status": "failed",
-      "http_status": null,
-      "attempt": 3,
-      "timestamp": "2026-08-15T15:54:53.340019+00:00",
-      "notes": "Exceeded retries"
-    },
-    {
-      "name": "Aijumble",
-      "url": "aijumble.com",
-      "status": "failed",
-      "http_status": null,
-      "attempt": 3,
-      "timestamp": "2026-08-15T15:55:03.527596+00:00",
-      "notes": "Exceeded retries"
-    },
-    {
-      "name": "Alternativeai",
-      "url": "alternativeai.io",
-      "status": "failed",
-      "http_status": null,
-      "attempt": 3,
-      "timestamp": "2026-08-15T15:55:13.869190+00:00",
-      "notes": "Exceeded retries"
-    },
-    {
       "name": "Showmebest",
       "url": "showmebest.ai",
       "status": "failed",
@@ -2734,319 +1222,2034 @@
       "notes": "Playwright error: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL\nCall log:\n  - navigating to \"showmebest.ai\", waiting until \"networkidle\"\n"
     },
     {
+      "name": "Rundown",
+      "url": "rundown.ai/tools",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-15T23:10:16.128822+00:00",
+      "notes": "Playwright error: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL\nCall log:\n  - navigating to \"rundown.ai/tools\", waiting until \"networkidle\"\n"
+    },
+    {
+      "name": "Aiagentstore",
+      "url": "aiagentstore.ai",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-15T23:10:19.675644+00:00",
+      "notes": "Playwright error: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL\nCall log:\n  - navigating to \"aiagentstore.ai\", waiting until \"networkidle\"\n"
+    },
+    {
+      "name": "Easywithai",
+      "url": "easywithai.com",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-15T23:10:23.213854+00:00",
+      "notes": "Playwright error: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL\nCall log:\n  - navigating to \"easywithai.com\", waiting until \"networkidle\"\n"
+    },
+    {
+      "name": "Waytoagi",
+      "url": "waytoagi.com",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-15T23:10:26.760741+00:00",
+      "notes": "Playwright error: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL\nCall log:\n  - navigating to \"waytoagi.com\", waiting until \"networkidle\"\n"
+    },
+    {
+      "name": "Genai",
+      "url": "genai.works/applications",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-15T23:10:30.292622+00:00",
+      "notes": "Playwright error: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL\nCall log:\n  - navigating to \"genai.works/applications\", waiting until \"networkidle\"\n"
+    },
+    {
+      "name": "Aitoolsdirectory",
+      "url": "aitoolsdirectory.com",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-15T23:10:33.831541+00:00",
+      "notes": "Playwright error: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL\nCall log:\n  - navigating to \"aitoolsdirectory.com\", waiting until \"networkidle\"\n"
+    },
+    {
+      "name": "Ai Hunter",
+      "url": "ai-hunter.io",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-15T23:10:37.372189+00:00",
+      "notes": "Playwright error: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL\nCall log:\n  - navigating to \"ai-hunter.io\", waiting until \"networkidle\"\n"
+    },
+    {
+      "name": "Wisepickai",
+      "url": "wisepickai.com",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-15T23:10:40.901791+00:00",
+      "notes": "Playwright error: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL\nCall log:\n  - navigating to \"wisepickai.com\", waiting until \"networkidle\"\n"
+    },
+    {
+      "name": "Aichief",
+      "url": "aichief.com",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-15T23:10:44.427145+00:00",
+      "notes": "Playwright error: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL\nCall log:\n  - navigating to \"aichief.com\", waiting until \"networkidle\"\n"
+    },
+    {
+      "name": "Aitoptools",
+      "url": "aitoptools.com",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-15T23:10:47.957259+00:00",
+      "notes": "Playwright error: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL\nCall log:\n  - navigating to \"aitoptools.com\", waiting until \"networkidle\"\n"
+    },
+    {
+      "name": "Aiapps",
+      "url": "aiapps.com",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-15T23:10:51.651470+00:00",
+      "notes": "Playwright error: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL\nCall log:\n  - navigating to \"aiapps.com\", waiting until \"networkidle\"\n"
+    },
+    {
+      "name": "Bestfreeaiwebsites",
+      "url": "bestfreeaiwebsites.com/all-tools",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-15T23:10:55.444327+00:00",
+      "notes": "Playwright error: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL\nCall log:\n  - navigating to \"bestfreeaiwebsites.com/all-tools\", waiting until \"networkidle\"\n"
+    },
+    {
+      "name": "Artificin",
+      "url": "artificin.com/tools",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-15T23:10:58.986050+00:00",
+      "notes": "Playwright error: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL\nCall log:\n  - navigating to \"artificin.com/tools\", waiting until \"networkidle\"\n"
+    },
+    {
+      "name": "Toolhunt",
+      "url": "toolhunt.io",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-15T23:11:02.509713+00:00",
+      "notes": "Playwright error: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL\nCall log:\n  - navigating to \"toolhunt.io\", waiting until \"networkidle\"\n"
+    },
+    {
+      "name": "Soverin",
+      "url": "soverin.ai",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-15T23:11:06.051935+00:00",
+      "notes": "Playwright error: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL\nCall log:\n  - navigating to \"soverin.ai\", waiting until \"networkidle\"\n"
+    },
+    {
+      "name": "Aiagentslist",
+      "url": "aiagentslist.com",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-15T23:11:09.607027+00:00",
+      "notes": "Playwright error: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL\nCall log:\n  - navigating to \"aiagentslist.com\", waiting until \"networkidle\"\n"
+    },
+    {
+      "name": "Lachief",
+      "url": "lachief.io",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-15T23:11:13.172646+00:00",
+      "notes": "Playwright error: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL\nCall log:\n  - navigating to \"lachief.io\", waiting until \"networkidle\"\n"
+    },
+    {
+      "name": "Dessign",
+      "url": "dessign.net",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-15T23:11:16.722570+00:00",
+      "notes": "Playwright error: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL\nCall log:\n  - navigating to \"dessign.net\", waiting until \"networkidle\"\n"
+    },
+    {
+      "name": "Mangoai",
+      "url": "mangoai.co",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-15T23:11:20.266200+00:00",
+      "notes": "Playwright error: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL\nCall log:\n  - navigating to \"mangoai.co\", waiting until \"networkidle\"\n"
+    },
+    {
+      "name": "Tools Ai",
+      "url": "tools-ai.online",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-15T23:11:23.816220+00:00",
+      "notes": "Playwright error: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL\nCall log:\n  - navigating to \"tools-ai.online\", waiting until \"networkidle\"\n"
+    },
+    {
+      "name": "Bai",
+      "url": "bai.tools",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-15T23:11:27.352092+00:00",
+      "notes": "Playwright error: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL\nCall log:\n  - navigating to \"bai.tools\", waiting until \"networkidle\"\n"
+    },
+    {
+      "name": "Aiagentsdirectory",
+      "url": "aiagentsdirectory.com",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-15T23:11:30.893091+00:00",
+      "notes": "Playwright error: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL\nCall log:\n  - navigating to \"aiagentsdirectory.com\", waiting until \"networkidle\"\n"
+    },
+    {
+      "name": "Techpilot",
+      "url": "techpilot.ai/tools",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-15T23:11:34.427812+00:00",
+      "notes": "Playwright error: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL\nCall log:\n  - navigating to \"techpilot.ai/tools\", waiting until \"networkidle\"\n"
+    },
+    {
+      "name": "Aitoolgo",
+      "url": "aitoolgo.com",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-15T23:11:37.974242+00:00",
+      "notes": "Playwright error: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL\nCall log:\n  - navigating to \"aitoolgo.com\", waiting until \"networkidle\"\n"
+    },
+    {
+      "name": "Stratup",
+      "url": "stratup.ai/en/ais",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-15T23:11:41.552208+00:00",
+      "notes": "Playwright error: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL\nCall log:\n  - navigating to \"stratup.ai/en/ais\", waiting until \"networkidle\"\n"
+    },
+    {
+      "name": "Itirupati",
+      "url": "itirupati.com/ai-tools-apps",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-15T23:11:45.088965+00:00",
+      "notes": "Playwright error: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL\nCall log:\n  - navigating to \"itirupati.com/ai-tools-apps\", waiting until \"networkidle\"\n"
+    },
+    {
+      "name": "Topaitools",
+      "url": "topaitools.com/tools",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-15T23:11:48.616766+00:00",
+      "notes": "Playwright error: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL\nCall log:\n  - navigating to \"topaitools.com/tools\", waiting until \"networkidle\"\n"
+    },
+    {
+      "name": "Scriptbyai",
+      "url": "scriptbyai.com",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-15T23:11:52.149764+00:00",
+      "notes": "Playwright error: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL\nCall log:\n  - navigating to \"scriptbyai.com\", waiting until \"networkidle\"\n"
+    },
+    {
+      "name": "Aizones",
+      "url": "aizones.io",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-15T23:11:55.687280+00:00",
+      "notes": "Playwright error: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL\nCall log:\n  - navigating to \"aizones.io\", waiting until \"networkidle\"\n"
+    },
+    {
+      "name": "Gpt3demo",
+      "url": "gpt3demo.com",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-15T23:11:59.236227+00:00",
+      "notes": "Playwright error: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL\nCall log:\n  - navigating to \"gpt3demo.com\", waiting until \"networkidle\"\n"
+    },
+    {
+      "name": "Aiforeveryone",
+      "url": "aiforeveryone.org",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-15T23:12:02.764293+00:00",
+      "notes": "Playwright error: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL\nCall log:\n  - navigating to \"aiforeveryone.org\", waiting until \"networkidle\"\n"
+    },
+    {
+      "name": "Powerfulai",
+      "url": "powerfulai.tools",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-15T23:12:06.303336+00:00",
+      "notes": "Playwright error: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL\nCall log:\n  - navigating to \"powerfulai.tools\", waiting until \"networkidle\"\n"
+    },
+    {
+      "name": "Allgpts",
+      "url": "allgpts.co",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-15T23:12:09.862271+00:00",
+      "notes": "Playwright error: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL\nCall log:\n  - navigating to \"allgpts.co\", waiting until \"networkidle\"\n"
+    },
+    {
+      "name": "Aijourney",
+      "url": "aijourney.so",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-15T23:12:13.420356+00:00",
+      "notes": "Playwright error: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL\nCall log:\n  - navigating to \"aijourney.so\", waiting until \"networkidle\"\n"
+    },
+    {
+      "name": "Aitechsuite",
+      "url": "aitechsuite.com",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-15T23:12:16.956142+00:00",
+      "notes": "Playwright error: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL\nCall log:\n  - navigating to \"aitechsuite.com\", waiting until \"networkidle\"\n"
+    },
+    {
+      "name": "Groupify",
+      "url": "groupify.ai",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-15T23:12:20.493660+00:00",
+      "notes": "Playwright error: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL\nCall log:\n  - navigating to \"groupify.ai\", waiting until \"networkidle\"\n"
+    },
+    {
+      "name": "App",
+      "url": "app.aibase.com",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-15T23:12:24.025168+00:00",
+      "notes": "Playwright error: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL\nCall log:\n  - navigating to \"app.aibase.com\", waiting until \"networkidle\"\n"
+    },
+    {
+      "name": "Simplifyaitools",
+      "url": "simplifyaitools.com",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-15T23:12:27.557128+00:00",
+      "notes": "Playwright error: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL\nCall log:\n  - navigating to \"simplifyaitools.com\", waiting until \"networkidle\"\n"
+    },
+    {
+      "name": "Domore",
+      "url": "domore.ai",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-15T23:12:31.094207+00:00",
+      "notes": "Playwright error: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL\nCall log:\n  - navigating to \"domore.ai\", waiting until \"networkidle\"\n"
+    },
+    {
+      "name": "Aibucket",
+      "url": "aibucket.io/ai-tools",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-15T23:12:34.619809+00:00",
+      "notes": "Playwright error: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL\nCall log:\n  - navigating to \"aibucket.io/ai-tools\", waiting until \"networkidle\"\n"
+    },
+    {
+      "name": "Stork",
+      "url": "stork.ai",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-15T23:12:38.145950+00:00",
+      "notes": "Playwright error: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL\nCall log:\n  - navigating to \"stork.ai\", waiting until \"networkidle\"\n"
+    },
+    {
+      "name": "Aitoolly",
+      "url": "aitoolly.com",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-15T23:12:41.726143+00:00",
+      "notes": "Playwright error: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL\nCall log:\n  - navigating to \"aitoolly.com\", waiting until \"networkidle\"\n"
+    },
+    {
+      "name": "Hdrobots",
+      "url": "hdrobots.com",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-15T23:12:45.263306+00:00",
+      "notes": "Playwright error: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL\nCall log:\n  - navigating to \"hdrobots.com\", waiting until \"networkidle\"\n"
+    },
+    {
+      "name": "Serp",
+      "url": "serp.ai",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-15T23:12:48.794868+00:00",
+      "notes": "Playwright error: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL\nCall log:\n  - navigating to \"serp.ai\", waiting until \"networkidle\"\n"
+    },
+    {
+      "name": "Seofai",
+      "url": "seofai.com",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-15T23:12:52.336666+00:00",
+      "notes": "Playwright error: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL\nCall log:\n  - navigating to \"seofai.com\", waiting until \"networkidle\"\n"
+    },
+    {
+      "name": "Brouseai",
+      "url": "brouseai.com",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-15T23:12:55.861197+00:00",
+      "notes": "Playwright error: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL\nCall log:\n  - navigating to \"brouseai.com\", waiting until \"networkidle\"\n"
+    },
+    {
+      "name": "Agentlocker",
+      "url": "agentlocker.ai",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-15T23:12:59.394876+00:00",
+      "notes": "Playwright error: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL\nCall log:\n  - navigating to \"agentlocker.ai\", waiting until \"networkidle\"\n"
+    },
+    {
+      "name": "Aitoolboard",
+      "url": "aitoolboard.com",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-15T23:13:02.936119+00:00",
+      "notes": "Playwright error: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL\nCall log:\n  - navigating to \"aitoolboard.com\", waiting until \"networkidle\"\n"
+    },
+    {
+      "name": "Aitoolsarena",
+      "url": "aitoolsarena.com",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-15T23:13:06.470713+00:00",
+      "notes": "Playwright error: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL\nCall log:\n  - navigating to \"aitoolsarena.com\", waiting until \"networkidle\"\n"
+    },
+    {
+      "name": "Navtools",
+      "url": "navtools.ai",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-15T23:13:09.998319+00:00",
+      "notes": "Playwright error: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL\nCall log:\n  - navigating to \"navtools.ai\", waiting until \"networkidle\"\n"
+    },
+    {
+      "name": "Poweredbyai",
+      "url": "poweredbyai.app",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-15T23:13:13.540767+00:00",
+      "notes": "Playwright error: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL\nCall log:\n  - navigating to \"poweredbyai.app\", waiting until \"networkidle\"\n"
+    },
+    {
+      "name": "Listmyai",
+      "url": "listmyai.net/tools",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-15T23:13:17.077027+00:00",
+      "notes": "Playwright error: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL\nCall log:\n  - navigating to \"listmyai.net/tools\", waiting until \"networkidle\"\n"
+    },
+    {
+      "name": "Aitoolhub",
+      "url": "aitoolhub.net",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-15T23:13:20.620392+00:00",
+      "notes": "Playwright error: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL\nCall log:\n  - navigating to \"aitoolhub.net\", waiting until \"networkidle\"\n"
+    },
+    {
+      "name": "Bestaiagents",
+      "url": "bestaiagents.ai",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-15T23:13:24.169241+00:00",
+      "notes": "Playwright error: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL\nCall log:\n  - navigating to \"bestaiagents.ai\", waiting until \"networkidle\"\n"
+    },
+    {
+      "name": "Future Pedia",
+      "url": "future-pedia.com",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-15T23:13:27.713631+00:00",
+      "notes": "Playwright error: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL\nCall log:\n  - navigating to \"future-pedia.com\", waiting until \"networkidle\"\n"
+    },
+    {
+      "name": "Listedai",
+      "url": "listedai.co",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-15T23:13:31.248145+00:00",
+      "notes": "Playwright error: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL\nCall log:\n  - navigating to \"listedai.co\", waiting until \"networkidle\"\n"
+    },
+    {
+      "name": "Iseoai",
+      "url": "iseoai.com",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-15T23:13:34.791267+00:00",
+      "notes": "Playwright error: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL\nCall log:\n  - navigating to \"iseoai.com\", waiting until \"networkidle\"\n"
+    },
+    {
+      "name": "Theailibrary",
+      "url": "theailibrary.co",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-15T23:13:38.343777+00:00",
+      "notes": "Playwright error: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL\nCall log:\n  - navigating to \"theailibrary.co\", waiting until \"networkidle\"\n"
+    },
+    {
+      "name": "Aitoolselection",
+      "url": "aitoolselection.com",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-15T23:13:41.946393+00:00",
+      "notes": "Playwright error: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL\nCall log:\n  - navigating to \"aitoolselection.com\", waiting until \"networkidle\"\n"
+    },
+    {
+      "name": "Mavtools",
+      "url": "mavtools.com",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-15T23:13:45.495512+00:00",
+      "notes": "Playwright error: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL\nCall log:\n  - navigating to \"mavtools.com\", waiting until \"networkidle\"\n"
+    },
+    {
+      "name": "Aitrendz",
+      "url": "aitrendz.xyz",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-15T23:13:49.032696+00:00",
+      "notes": "Playwright error: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL\nCall log:\n  - navigating to \"aitrendz.xyz\", waiting until \"networkidle\"\n"
+    },
+    {
+      "name": "Itsbetterwithai",
+      "url": "itsbetterwithai.com",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-15T23:13:52.581722+00:00",
+      "notes": "Playwright error: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL\nCall log:\n  - navigating to \"itsbetterwithai.com\", waiting until \"networkidle\"\n"
+    },
+    {
+      "name": "Aplicaciones",
+      "url": "aplicaciones.ai/en",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-15T23:13:56.128496+00:00",
+      "notes": "Playwright error: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL\nCall log:\n  - navigating to \"aplicaciones.ai/en\", waiting until \"networkidle\"\n"
+    },
+    {
+      "name": "Library",
+      "url": "library.phygital.plus",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-15T23:13:59.674076+00:00",
+      "notes": "Playwright error: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL\nCall log:\n  - navigating to \"library.phygital.plus\", waiting until \"networkidle\"\n"
+    },
+    {
+      "name": "Waildworld",
+      "url": "waildworld.com",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-15T23:14:03.224845+00:00",
+      "notes": "Playwright error: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL\nCall log:\n  - navigating to \"waildworld.com\", waiting until \"networkidle\"\n"
+    },
+    {
+      "name": "Aitooltips",
+      "url": "aitooltips.com",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-15T23:14:06.761634+00:00",
+      "notes": "Playwright error: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL\nCall log:\n  - navigating to \"aitooltips.com\", waiting until \"networkidle\"\n"
+    },
+    {
+      "name": "Aitoolsexplorer",
+      "url": "aitoolsexplorer.com",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-15T23:14:10.319312+00:00",
+      "notes": "Playwright error: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL\nCall log:\n  - navigating to \"aitoolsexplorer.com\", waiting until \"networkidle\"\n"
+    },
+    {
+      "name": "Fullstackai",
+      "url": "fullstackai.co/tools",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-15T23:14:13.866915+00:00",
+      "notes": "Playwright error: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL\nCall log:\n  - navigating to \"fullstackai.co/tools\", waiting until \"networkidle\"\n"
+    },
+    {
+      "name": "Somi",
+      "url": "somi.ai",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-15T23:14:17.418581+00:00",
+      "notes": "Playwright error: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL\nCall log:\n  - navigating to \"somi.ai\", waiting until \"networkidle\"\n"
+    },
+    {
+      "name": "Toolscout",
+      "url": "toolscout.ai",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-15T23:14:20.979193+00:00",
+      "notes": "Playwright error: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL\nCall log:\n  - navigating to \"toolscout.ai\", waiting until \"networkidle\"\n"
+    },
+    {
+      "name": "Tooldirectory",
+      "url": "tooldirectory.ai",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-15T23:14:24.527830+00:00",
+      "notes": "Playwright error: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL\nCall log:\n  - navigating to \"tooldirectory.ai\", waiting until \"networkidle\"\n"
+    },
+    {
+      "name": "Theainavigator",
+      "url": "theainavigator.com/list-of-ai-tools",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-15T23:14:28.092229+00:00",
+      "notes": "Playwright error: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL\nCall log:\n  - navigating to \"theainavigator.com/list-of-ai-tools\", waiting until \"networkidle\"\n"
+    },
+    {
+      "name": "Ai Productreviews",
+      "url": "ai-productreviews.com",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-15T23:14:31.658915+00:00",
+      "notes": "Playwright error: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL\nCall log:\n  - navigating to \"ai-productreviews.com\", waiting until \"networkidle\"\n"
+    },
+    {
+      "name": "Marsx",
+      "url": "marsx.dev/ai-startups",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-15T23:14:35.203444+00:00",
+      "notes": "Playwright error: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL\nCall log:\n  - navigating to \"marsx.dev/ai-startups\", waiting until \"networkidle\"\n"
+    },
+    {
+      "name": "Aitoolmall",
+      "url": "aitoolmall.com",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-15T23:14:38.761390+00:00",
+      "notes": "Playwright error: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL\nCall log:\n  - navigating to \"aitoolmall.com\", waiting until \"networkidle\"\n"
+    },
+    {
+      "name": "Toolhunter",
+      "url": "toolhunter.ai",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-15T23:14:42.313820+00:00",
+      "notes": "Playwright error: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL\nCall log:\n  - navigating to \"toolhunter.ai\", waiting until \"networkidle\"\n"
+    },
+    {
+      "name": "Humanornot",
+      "url": "humanornot.co",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-15T23:14:45.856724+00:00",
+      "notes": "Playwright error: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL\nCall log:\n  - navigating to \"humanornot.co\", waiting until \"networkidle\"\n"
+    },
+    {
+      "name": "Toptools",
+      "url": "toptools.ai",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-15T23:14:49.399866+00:00",
+      "notes": "Playwright error: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL\nCall log:\n  - navigating to \"toptools.ai\", waiting until \"networkidle\"\n"
+    },
+    {
+      "name": "Aitoolzi",
+      "url": "aitoolzi.com",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-15T23:14:52.944015+00:00",
+      "notes": "Playwright error: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL\nCall log:\n  - navigating to \"aitoolzi.com\", waiting until \"networkidle\"\n"
+    },
+    {
+      "name": "Toolspedia",
+      "url": "toolspedia.io",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-15T23:14:56.489270+00:00",
+      "notes": "Playwright error: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL\nCall log:\n  - navigating to \"toolspedia.io\", waiting until \"networkidle\"\n"
+    },
+    {
+      "name": "Allinai",
+      "url": "allinai.tools",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-15T23:15:00.026888+00:00",
+      "notes": "Playwright error: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL\nCall log:\n  - navigating to \"allinai.tools\", waiting until \"networkidle\"\n"
+    },
+    {
+      "name": "Aitechfy",
+      "url": "aitechfy.com",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-15T23:15:03.568786+00:00",
+      "notes": "Playwright error: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL\nCall log:\n  - navigating to \"aitechfy.com\", waiting until \"networkidle\"\n"
+    },
+    {
+      "name": "Dropyourai",
+      "url": "dropyourai.com",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-15T23:15:07.103781+00:00",
+      "notes": "Playwright error: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL\nCall log:\n  - navigating to \"dropyourai.com\", waiting until \"networkidle\"\n"
+    },
+    {
+      "name": "Aitoolhouse",
+      "url": "aitoolhouse.com",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-15T23:15:10.652766+00:00",
+      "notes": "Playwright error: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL\nCall log:\n  - navigating to \"aitoolhouse.com\", waiting until \"networkidle\"\n"
+    },
+    {
+      "name": "Guideofaitool",
+      "url": "guideofaitool.com",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-15T23:15:14.203582+00:00",
+      "notes": "Playwright error: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL\nCall log:\n  - navigating to \"guideofaitool.com\", waiting until \"networkidle\"\n"
+    },
+    {
+      "name": "Aitoolsguide",
+      "url": "aitoolsguide.com",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-15T23:15:17.740461+00:00",
+      "notes": "Playwright error: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL\nCall log:\n  - navigating to \"aitoolsguide.com\", waiting until \"networkidle\"\n"
+    },
+    {
+      "name": "Victrays",
+      "url": "victrays.com/ai-tools",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-15T23:15:21.294577+00:00",
+      "notes": "Playwright error: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL\nCall log:\n  - navigating to \"victrays.com/ai-tools\", waiting until \"networkidle\"\n"
+    },
+    {
+      "name": "Every Ai",
+      "url": "every-ai.com",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-15T23:15:24.851665+00:00",
+      "notes": "Playwright error: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL\nCall log:\n  - navigating to \"every-ai.com\", waiting until \"networkidle\"\n"
+    },
+    {
+      "name": "Bestaito",
+      "url": "bestaito.com",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-15T23:15:28.398373+00:00",
+      "notes": "Playwright error: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL\nCall log:\n  - navigating to \"bestaito.com\", waiting until \"networkidle\"\n"
+    },
+    {
+      "name": "Aicyclopedia",
+      "url": "aicyclopedia.com/ai-tools",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-15T23:15:31.939629+00:00",
+      "notes": "Playwright error: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL\nCall log:\n  - navigating to \"aicyclopedia.com/ai-tools\", waiting until \"networkidle\"\n"
+    },
+    {
+      "name": "Altern",
+      "url": "altern.ai",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-15T23:15:35.477135+00:00",
+      "notes": "Playwright error: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL\nCall log:\n  - navigating to \"altern.ai\", waiting until \"networkidle\"\n"
+    },
+    {
+      "name": "Openpedia",
+      "url": "openpedia.io",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-15T23:15:39.016421+00:00",
+      "notes": "Playwright error: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL\nCall log:\n  - navigating to \"openpedia.io\", waiting until \"networkidle\"\n"
+    },
+    {
+      "name": "Freeappsai",
+      "url": "freeappsai.com",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-15T23:15:42.552441+00:00",
+      "notes": "Playwright error: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL\nCall log:\n  - navigating to \"freeappsai.com\", waiting until \"networkidle\"\n"
+    },
+    {
+      "name": "Monkeyaitools",
+      "url": "monkeyaitools.com",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-15T23:15:46.106183+00:00",
+      "notes": "Playwright error: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL\nCall log:\n  - navigating to \"monkeyaitools.com\", waiting until \"networkidle\"\n"
+    },
+    {
+      "name": "Toolsforhumans",
+      "url": "toolsforhumans.ai/tools-database",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-15T23:15:49.653678+00:00",
+      "notes": "Playwright error: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL\nCall log:\n  - navigating to \"toolsforhumans.ai/tools-database\", waiting until \"networkidle\"\n"
+    },
+    {
+      "name": "Videaitools",
+      "url": "videaitools.com",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-15T23:15:53.197306+00:00",
+      "notes": "Playwright error: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL\nCall log:\n  - navigating to \"videaitools.com\", waiting until \"networkidle\"\n"
+    },
+    {
+      "name": "Aifindertools",
+      "url": "aifindertools.com",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-15T23:15:56.733809+00:00",
+      "notes": "Playwright error: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL\nCall log:\n  - navigating to \"aifindertools.com\", waiting until \"networkidle\"\n"
+    },
+    {
+      "name": "Neonrev",
+      "url": "neonrev.com",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-15T23:16:00.280467+00:00",
+      "notes": "Playwright error: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL\nCall log:\n  - navigating to \"neonrev.com\", waiting until \"networkidle\"\n"
+    },
+    {
+      "name": "Freeaitool",
+      "url": "freeaitool.ai",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-15T23:16:03.827383+00:00",
+      "notes": "Playwright error: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL\nCall log:\n  - navigating to \"freeaitool.ai\", waiting until \"networkidle\"\n"
+    },
+    {
+      "name": "Aihustle",
+      "url": "aihustle.tools",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-15T23:16:07.378310+00:00",
+      "notes": "Playwright error: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL\nCall log:\n  - navigating to \"aihustle.tools\", waiting until \"networkidle\"\n"
+    },
+    {
+      "name": "Intelligenttools",
+      "url": "intelligenttools.co",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-15T23:16:10.919756+00:00",
+      "notes": "Playwright error: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL\nCall log:\n  - navigating to \"intelligenttools.co\", waiting until \"networkidle\"\n"
+    },
+    {
+      "name": "Fastpedia",
+      "url": "fastpedia.io",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-15T23:16:14.461817+00:00",
+      "notes": "Playwright error: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL\nCall log:\n  - navigating to \"fastpedia.io\", waiting until \"networkidle\"\n"
+    },
+    {
+      "name": "Magicbox",
+      "url": "magicbox.tools",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-15T23:16:17.999370+00:00",
+      "notes": "Playwright error: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL\nCall log:\n  - navigating to \"magicbox.tools\", waiting until \"networkidle\"\n"
+    },
+    {
+      "name": "Wavel",
+      "url": "wavel.io",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-15T23:16:21.559803+00:00",
+      "notes": "Playwright error: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL\nCall log:\n  - navigating to \"wavel.io\", waiting until \"networkidle\"\n"
+    },
+    {
+      "name": "Gogetgpt",
+      "url": "gogetgpt.com/en/c/best-tools",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-15T23:16:25.098666+00:00",
+      "notes": "Playwright error: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL\nCall log:\n  - navigating to \"gogetgpt.com/en/c/best-tools\", waiting until \"networkidle\"\n"
+    },
+    {
+      "name": "Aitoolshunt",
+      "url": "aitoolshunt.com",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-15T23:16:28.639382+00:00",
+      "notes": "Playwright error: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL\nCall log:\n  - navigating to \"aitoolshunt.com\", waiting until \"networkidle\"\n"
+    },
+    {
+      "name": "Aitoolsone",
+      "url": "aitoolsone.com",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-15T23:16:32.182618+00:00",
+      "notes": "Playwright error: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL\nCall log:\n  - navigating to \"aitoolsone.com\", waiting until \"networkidle\"\n"
+    },
+    {
+      "name": "Theee",
+      "url": "theee.ai",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-15T23:16:35.720953+00:00",
+      "notes": "Playwright error: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL\nCall log:\n  - navigating to \"theee.ai\", waiting until \"networkidle\"\n"
+    },
+    {
+      "name": "Superaitools",
+      "url": "superaitools.io",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-15T23:16:39.262024+00:00",
+      "notes": "Playwright error: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL\nCall log:\n  - navigating to \"superaitools.io\", waiting until \"networkidle\"\n"
+    },
+    {
+      "name": "Aijumble",
+      "url": "aijumble.com",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-15T23:16:42.795908+00:00",
+      "notes": "Playwright error: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL\nCall log:\n  - navigating to \"aijumble.com\", waiting until \"networkidle\"\n"
+    },
+    {
+      "name": "Alternativeai",
+      "url": "alternativeai.io",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-15T23:16:46.347863+00:00",
+      "notes": "Playwright error: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL\nCall log:\n  - navigating to \"alternativeai.io\", waiting until \"networkidle\"\n"
+    },
+    {
       "name": "Atozaitools",
       "url": "atozaitools.com",
       "status": "failed",
       "http_status": null,
-      "attempt": 3,
-      "timestamp": "2026-08-15T15:55:29.026280+00:00",
-      "notes": "Exceeded retries"
+      "timestamp": "2026-08-15T23:16:49.899584+00:00",
+      "notes": "Playwright error: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL\nCall log:\n  - navigating to \"atozaitools.com\", waiting until \"networkidle\"\n"
     },
     {
       "name": "Aihunt",
       "url": "aihunt.app/tools",
       "status": "failed",
       "http_status": null,
-      "attempt": 3,
-      "timestamp": "2026-08-15T15:55:40.083020+00:00",
-      "notes": "Exceeded retries"
+      "timestamp": "2026-08-15T23:16:53.447949+00:00",
+      "notes": "Playwright error: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL\nCall log:\n  - navigating to \"aihunt.app/tools\", waiting until \"networkidle\"\n"
     },
     {
       "name": "Aitach",
       "url": "aitach.com",
       "status": "failed",
       "http_status": null,
-      "attempt": 3,
-      "timestamp": "2026-08-15T15:55:50.805465+00:00",
-      "notes": "Exceeded retries"
+      "timestamp": "2026-08-15T23:16:57.005060+00:00",
+      "notes": "Playwright error: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL\nCall log:\n  - navigating to \"aitach.com\", waiting until \"networkidle\"\n"
     },
     {
       "name": "Popularaitools",
       "url": "popularaitools.ai/ai-tool-categories",
       "status": "failed",
       "http_status": null,
-      "attempt": 3,
-      "timestamp": "2026-08-15T15:56:01.569638+00:00",
-      "notes": "Exceeded retries"
+      "timestamp": "2026-08-15T23:17:00.549406+00:00",
+      "notes": "Playwright error: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL\nCall log:\n  - navigating to \"popularaitools.ai/ai-tool-categories\", waiting until \"networkidle\"\n"
     },
     {
       "name": "Awesomeaitools",
       "url": "awesomeaitools.com",
       "status": "failed",
       "http_status": null,
-      "attempt": 3,
-      "timestamp": "2026-08-15T15:56:12.611938+00:00",
-      "notes": "Exceeded retries"
+      "timestamp": "2026-08-15T23:17:04.101156+00:00",
+      "notes": "Playwright error: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL\nCall log:\n  - navigating to \"awesomeaitools.com\", waiting until \"networkidle\"\n"
     },
     {
       "name": "Startupaitools",
       "url": "startupaitools.com",
       "status": "failed",
       "http_status": null,
-      "attempt": 3,
-      "timestamp": "2026-08-15T15:56:23.567221+00:00",
-      "notes": "Exceeded retries"
+      "timestamp": "2026-08-15T23:17:07.648461+00:00",
+      "notes": "Playwright error: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL\nCall log:\n  - navigating to \"startupaitools.com\", waiting until \"networkidle\"\n"
     },
     {
       "name": "Okeiai",
       "url": "okeiai.com",
       "status": "failed",
       "http_status": null,
-      "attempt": 3,
-      "timestamp": "2026-08-15T15:56:35.107803+00:00",
-      "notes": "Exceeded retries"
+      "timestamp": "2026-08-15T23:17:11.184281+00:00",
+      "notes": "Playwright error: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL\nCall log:\n  - navigating to \"okeiai.com\", waiting until \"networkidle\"\n"
     },
     {
       "name": "Aidirectory",
       "url": "aidirectory.org",
       "status": "failed",
       "http_status": null,
-      "attempt": 3,
-      "timestamp": "2026-08-15T15:56:47.389551+00:00",
-      "notes": "Exceeded retries"
+      "timestamp": "2026-08-15T23:17:14.736500+00:00",
+      "notes": "Playwright error: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL\nCall log:\n  - navigating to \"aidirectory.org\", waiting until \"networkidle\"\n"
     },
     {
       "name": "Airankings",
       "url": "airankings.co",
       "status": "failed",
       "http_status": null,
-      "attempt": 3,
-      "timestamp": "2026-08-15T15:56:59.721735+00:00",
-      "notes": "Exceeded retries"
+      "timestamp": "2026-08-15T23:17:18.281918+00:00",
+      "notes": "Playwright error: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL\nCall log:\n  - navigating to \"airankings.co\", waiting until \"networkidle\"\n"
     },
     {
       "name": "Aitoolscorner",
       "url": "aitoolscorner.com",
       "status": "failed",
       "http_status": null,
-      "attempt": 3,
-      "timestamp": "2026-08-15T15:57:11.215270+00:00",
-      "notes": "Exceeded retries"
+      "timestamp": "2026-08-15T23:17:21.833594+00:00",
+      "notes": "Playwright error: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL\nCall log:\n  - navigating to \"aitoolscorner.com\", waiting until \"networkidle\"\n"
     },
     {
       "name": "Aitoolsup",
       "url": "aitoolsup.com",
       "status": "failed",
       "http_status": null,
-      "attempt": 3,
-      "timestamp": "2026-08-15T15:57:24.754868+00:00",
-      "notes": "Exceeded retries"
+      "timestamp": "2026-08-15T23:17:25.387902+00:00",
+      "notes": "Playwright error: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL\nCall log:\n  - navigating to \"aitoolsup.com\", waiting until \"networkidle\"\n"
     },
     {
       "name": "Aitoolapp",
       "url": "aitoolapp.com",
       "status": "failed",
       "http_status": null,
-      "attempt": 3,
-      "timestamp": "2026-08-15T15:57:36.105239+00:00",
-      "notes": "Exceeded retries"
+      "timestamp": "2026-08-15T23:17:28.942532+00:00",
+      "notes": "Playwright error: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL\nCall log:\n  - navigating to \"aitoolapp.com\", waiting until \"networkidle\"\n"
     },
     {
       "name": "Aiwizard",
       "url": "aiwizard.ai/aitools",
       "status": "failed",
       "http_status": null,
-      "attempt": 3,
-      "timestamp": "2026-08-15T15:57:46.753173+00:00",
-      "notes": "Exceeded retries"
+      "timestamp": "2026-08-15T23:17:32.494150+00:00",
+      "notes": "Playwright error: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL\nCall log:\n  - navigating to \"aiwizard.ai/aitools\", waiting until \"networkidle\"\n"
     },
     {
       "name": "Toolbit",
       "url": "toolbit.ai",
       "status": "failed",
       "http_status": null,
-      "attempt": 3,
-      "timestamp": "2026-08-15T15:57:58.730279+00:00",
-      "notes": "Exceeded retries"
+      "timestamp": "2026-08-15T23:17:36.047304+00:00",
+      "notes": "Playwright error: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL\nCall log:\n  - navigating to \"toolbit.ai\", waiting until \"networkidle\"\n"
     },
     {
       "name": "Aigendaily",
       "url": "aigendaily.com",
       "status": "failed",
       "http_status": null,
-      "attempt": 3,
-      "timestamp": "2026-08-15T15:58:08.986491+00:00",
-      "notes": "Exceeded retries"
+      "timestamp": "2026-08-15T23:17:39.604405+00:00",
+      "notes": "Playwright error: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL\nCall log:\n  - navigating to \"aigendaily.com\", waiting until \"networkidle\"\n"
     },
     {
       "name": "Allaiwebsite",
       "url": "allaiwebsite.com",
       "status": "failed",
       "http_status": null,
-      "attempt": 3,
-      "timestamp": "2026-08-15T15:58:19.715231+00:00",
-      "notes": "Exceeded retries"
+      "timestamp": "2026-08-15T23:17:43.147933+00:00",
+      "notes": "Playwright error: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL\nCall log:\n  - navigating to \"allaiwebsite.com\", waiting until \"networkidle\"\n"
     },
     {
       "name": "Tooladvisor",
       "url": "tooladvisor.ai",
       "status": "failed",
       "http_status": null,
-      "attempt": 3,
-      "timestamp": "2026-08-15T15:58:35.028005+00:00",
-      "notes": "Exceeded retries"
+      "timestamp": "2026-08-15T23:17:46.696064+00:00",
+      "notes": "Playwright error: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL\nCall log:\n  - navigating to \"tooladvisor.ai\", waiting until \"networkidle\"\n"
     },
     {
       "name": "Insaneai",
       "url": "insaneai.tools",
       "status": "failed",
       "http_status": null,
-      "attempt": 3,
-      "timestamp": "2026-08-15T15:58:46.890884+00:00",
-      "notes": "Exceeded retries"
+      "timestamp": "2026-08-15T23:17:50.248707+00:00",
+      "notes": "Playwright error: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL\nCall log:\n  - navigating to \"insaneai.tools\", waiting until \"networkidle\"\n"
     },
     {
       "name": "Tyy",
       "url": "tyy.ai",
       "status": "failed",
       "http_status": null,
-      "attempt": 3,
-      "timestamp": "2026-08-15T15:58:57.866067+00:00",
-      "notes": "Exceeded retries"
+      "timestamp": "2026-08-15T23:17:53.809281+00:00",
+      "notes": "Playwright error: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL\nCall log:\n  - navigating to \"tyy.ai\", waiting until \"networkidle\"\n"
     },
     {
       "name": "Newaiforyou",
       "url": "newaiforyou.com",
       "status": "failed",
       "http_status": null,
-      "attempt": 3,
-      "timestamp": "2026-08-15T15:59:10.530710+00:00",
-      "notes": "Exceeded retries"
+      "timestamp": "2026-08-15T23:17:57.350909+00:00",
+      "notes": "Playwright error: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL\nCall log:\n  - navigating to \"newaiforyou.com\", waiting until \"networkidle\"\n"
     },
     {
       "name": "Toollist",
       "url": "toollist.ai",
       "status": "failed",
       "http_status": null,
-      "attempt": 3,
-      "timestamp": "2026-08-15T15:59:21.291887+00:00",
-      "notes": "Exceeded retries"
+      "timestamp": "2026-08-15T23:18:00.898656+00:00",
+      "notes": "Playwright error: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL\nCall log:\n  - navigating to \"toollist.ai\", waiting until \"networkidle\"\n"
     },
     {
       "name": "Reviewai",
       "url": "reviewai.net",
       "status": "failed",
       "http_status": null,
-      "attempt": 3,
-      "timestamp": "2026-08-15T15:59:33.152054+00:00",
-      "notes": "Exceeded retries"
+      "timestamp": "2026-08-15T23:18:04.460703+00:00",
+      "notes": "Playwright error: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL\nCall log:\n  - navigating to \"reviewai.net\", waiting until \"networkidle\"\n"
     },
     {
       "name": "Aitoolkits",
       "url": "aitoolkits.net",
       "status": "failed",
       "http_status": null,
-      "attempt": 3,
-      "timestamp": "2026-08-15T15:59:44.740109+00:00",
-      "notes": "Exceeded retries"
+      "timestamp": "2026-08-15T23:18:08.019769+00:00",
+      "notes": "Playwright error: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL\nCall log:\n  - navigating to \"aitoolkits.net\", waiting until \"networkidle\"\n"
     },
     {
       "name": "Toolsai",
       "url": "toolsai.net",
       "status": "failed",
       "http_status": null,
-      "attempt": 3,
-      "timestamp": "2026-08-15T15:59:56.471747+00:00",
-      "notes": "Exceeded retries"
+      "timestamp": "2026-08-15T23:18:11.569027+00:00",
+      "notes": "Playwright error: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL\nCall log:\n  - navigating to \"toolsai.net\", waiting until \"networkidle\"\n"
     },
     {
       "name": "Noteableai",
       "url": "noteableai.com",
       "status": "failed",
       "http_status": null,
-      "attempt": 3,
-      "timestamp": "2026-08-15T16:00:10.238804+00:00",
-      "notes": "Exceeded retries"
+      "timestamp": "2026-08-15T23:18:15.113118+00:00",
+      "notes": "Playwright error: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL\nCall log:\n  - navigating to \"noteableai.com\", waiting until \"networkidle\"\n"
     },
     {
       "name": "Aitoolmate",
       "url": "aitoolmate.com",
       "status": "failed",
       "http_status": null,
-      "attempt": 3,
-      "timestamp": "2026-08-15T16:00:21.650307+00:00",
-      "notes": "Exceeded retries"
+      "timestamp": "2026-08-15T23:18:18.655841+00:00",
+      "notes": "Playwright error: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL\nCall log:\n  - navigating to \"aitoolmate.com\", waiting until \"networkidle\"\n"
     },
     {
       "name": "Aigotools",
       "url": "aigotools.com/en",
       "status": "failed",
       "http_status": null,
-      "attempt": 3,
-      "timestamp": "2026-08-15T16:00:33.248729+00:00",
-      "notes": "Exceeded retries"
+      "timestamp": "2026-08-15T23:18:22.219765+00:00",
+      "notes": "Playwright error: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL\nCall log:\n  - navigating to \"aigotools.com/en\", waiting until \"networkidle\"\n"
     },
     {
       "name": "Infrabase",
       "url": "infrabase.ai",
       "status": "failed",
       "http_status": null,
-      "attempt": 3,
-      "timestamp": "2026-08-15T16:00:44.762971+00:00",
-      "notes": "Exceeded retries"
+      "timestamp": "2026-08-15T23:18:25.780651+00:00",
+      "notes": "Playwright error: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL\nCall log:\n  - navigating to \"infrabase.ai\", waiting until \"networkidle\"\n"
     },
     {
       "name": "Theaireports",
       "url": "theaireports.com",
       "status": "failed",
       "http_status": null,
-      "attempt": 3,
-      "timestamp": "2026-08-15T16:00:56.169731+00:00",
-      "notes": "Exceeded retries"
+      "timestamp": "2026-08-15T23:18:29.321569+00:00",
+      "notes": "Playwright error: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL\nCall log:\n  - navigating to \"theaireports.com\", waiting until \"networkidle\"\n"
     },
     {
       "name": "Aitoolzdir",
       "url": "aitoolzdir.com",
       "status": "failed",
       "http_status": null,
-      "attempt": 3,
-      "timestamp": "2026-08-15T16:01:08.078901+00:00",
-      "notes": "Exceeded retries"
+      "timestamp": "2026-08-15T23:18:32.872204+00:00",
+      "notes": "Playwright error: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL\nCall log:\n  - navigating to \"aitoolzdir.com\", waiting until \"networkidle\"\n"
     },
     {
       "name": "Easysaveai",
       "url": "easysaveai.com",
       "status": "failed",
       "http_status": null,
-      "attempt": 3,
-      "timestamp": "2026-08-15T16:01:21.438176+00:00",
-      "notes": "Exceeded retries"
+      "timestamp": "2026-08-15T23:18:36.414103+00:00",
+      "notes": "Playwright error: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL\nCall log:\n  - navigating to \"easysaveai.com\", waiting until \"networkidle\"\n"
     },
     {
       "name": "Aiartapps",
       "url": "aiartapps.com",
       "status": "failed",
       "http_status": null,
-      "attempt": 3,
-      "timestamp": "2026-08-15T16:01:33.739280+00:00",
-      "notes": "Exceeded retries"
+      "timestamp": "2026-08-15T23:18:39.953358+00:00",
+      "notes": "Playwright error: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL\nCall log:\n  - navigating to \"aiartapps.com\", waiting until \"networkidle\"\n"
     },
     {
       "name": "Trendaitools",
       "url": "trendaitools.com",
       "status": "failed",
       "http_status": null,
-      "attempt": 3,
-      "timestamp": "2026-08-15T16:01:45.957952+00:00",
-      "notes": "Exceeded retries"
+      "timestamp": "2026-08-15T23:18:43.510714+00:00",
+      "notes": "Playwright error: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL\nCall log:\n  - navigating to \"trendaitools.com\", waiting until \"networkidle\"\n"
     },
     {
       "name": "Gpt4demo",
       "url": "gpt4demo.com",
       "status": "failed",
       "http_status": null,
+      "timestamp": "2026-08-15T23:18:47.051744+00:00",
+      "notes": "Playwright error: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL\nCall log:\n  - navigating to \"gpt4demo.com\", waiting until \"networkidle\"\n"
+    },
+    {
+      "name": "Aispaces",
+      "url": "aispaces.in",
+      "status": "failed",
+      "http_status": null,
       "attempt": 3,
-      "timestamp": "2026-08-15T16:01:58.207337+00:00",
+      "timestamp": "2026-08-15T23:18:58.423302+00:00",
       "notes": "Exceeded retries"
+    },
+    {
+      "name": "Ailistify",
+      "url": "ailistify.com",
+      "status": "failed",
+      "http_status": null,
+      "attempt": 3,
+      "timestamp": "2026-08-15T23:19:10.819624+00:00",
+      "notes": "Exceeded retries"
+    },
+    {
+      "name": "Freemiumai",
+      "url": "freemiumai.net",
+      "status": "failed",
+      "http_status": null,
+      "attempt": 3,
+      "timestamp": "2026-08-15T23:19:23.263479+00:00",
+      "notes": "Exceeded retries"
+    },
+    {
+      "name": "Aisourcehub",
+      "url": "aisourcehub.com/ai-tools",
+      "status": "failed",
+      "http_status": null,
+      "attempt": 3,
+      "timestamp": "2026-08-15T23:19:35.898735+00:00",
+      "notes": "Exceeded retries"
+    },
+    {
+      "name": "Aitoolsnetwork",
+      "url": "aitoolsnetwork.com",
+      "status": "failed",
+      "http_status": null,
+      "attempt": 3,
+      "timestamp": "2026-08-15T23:19:47.304708+00:00",
+      "notes": "Exceeded retries"
+    },
+    {
+      "name": "Aiawesome",
+      "url": "aiawesome.com",
+      "status": "failed",
+      "http_status": null,
+      "attempt": 3,
+      "timestamp": "2026-08-15T23:19:59.351786+00:00",
+      "notes": "Exceeded retries"
+    },
+    {
+      "name": "Nextgentools",
+      "url": "nextgentools.me",
+      "status": "failed",
+      "http_status": null,
+      "attempt": 3,
+      "timestamp": "2026-08-15T23:20:11.087944+00:00",
+      "notes": "Exceeded retries"
+    },
+    {
+      "name": "Appsandwebsites",
+      "url": "appsandwebsites.com/directory/ai-tools-directory",
+      "status": "failed",
+      "http_status": null,
+      "attempt": 3,
+      "timestamp": "2026-08-15T23:20:23.050106+00:00",
+      "notes": "Exceeded retries"
+    },
+    {
+      "name": "Submitaitool",
+      "url": "submitaitool.com",
+      "status": "failed",
+      "http_status": null,
+      "attempt": 3,
+      "timestamp": "2026-08-15T23:20:33.601360+00:00",
+      "notes": "Exceeded retries"
+    },
+    {
+      "name": "Iuu",
+      "url": "iuu.ai",
+      "status": "failed",
+      "http_status": null,
+      "attempt": 3,
+      "timestamp": "2026-08-15T23:20:44.232785+00:00",
+      "notes": "Exceeded retries"
+    },
+    {
+      "name": "Ai Futuretools",
+      "url": "ai-futuretools.com",
+      "status": "failed",
+      "http_status": null,
+      "attempt": 3,
+      "timestamp": "2026-08-15T23:20:54.748439+00:00",
+      "notes": "Exceeded retries"
+    },
+    {
+      "name": "Thetoolbus",
+      "url": "thetoolbus.ai/ai-tools",
+      "status": "failed",
+      "http_status": null,
+      "attempt": 3,
+      "timestamp": "2026-08-15T23:21:07.380079+00:00",
+      "notes": "Exceeded retries"
+    },
+    {
+      "name": "Aiinfinity Meetpatel",
+      "url": "aiinfinity-meetpatel.notion.site",
+      "status": "failed",
+      "http_status": null,
+      "attempt": 3,
+      "timestamp": "2026-08-15T23:21:19.826901+00:00",
+      "notes": "Exceeded retries"
+    },
+    {
+      "name": "Theaigeneration",
+      "url": "theaigeneration.com",
+      "status": "failed",
+      "http_status": null,
+      "attempt": 3,
+      "timestamp": "2026-08-15T23:21:33.696007+00:00",
+      "notes": "Exceeded retries"
+    },
+    {
+      "name": "Bigailist",
+      "url": "bigailist.com",
+      "status": "failed",
+      "http_status": null,
+      "attempt": 3,
+      "timestamp": "2026-08-15T23:21:45.817189+00:00",
+      "notes": "Exceeded retries"
+    },
+    {
+      "name": "Gptforthat",
+      "url": "gptforthat.com/discover",
+      "status": "failed",
+      "http_status": null,
+      "attempt": 3,
+      "timestamp": "2026-08-15T23:21:57.572626+00:00",
+      "notes": "Exceeded retries"
+    },
+    {
+      "name": "T0ai",
+      "url": "t0ai.com",
+      "status": "failed",
+      "http_status": null,
+      "attempt": 3,
+      "timestamp": "2026-08-15T23:22:09.136823+00:00",
+      "notes": "Exceeded retries"
+    },
+    {
+      "name": "Seekais",
+      "url": "seekais.com",
+      "status": "failed",
+      "http_status": null,
+      "attempt": 3,
+      "timestamp": "2026-08-15T23:22:19.925868+00:00",
+      "notes": "Exceeded retries"
+    },
+    {
+      "name": "Aiagentsbase",
+      "url": "aiagentsbase.com",
+      "status": "failed",
+      "http_status": null,
+      "attempt": 3,
+      "timestamp": "2026-08-15T23:22:32.240417+00:00",
+      "notes": "Exceeded retries"
+    },
+    {
+      "name": "Saasbaba",
+      "url": "saasbaba.com",
+      "status": "failed",
+      "http_status": null,
+      "attempt": 3,
+      "timestamp": "2026-08-15T23:22:44.687182+00:00",
+      "notes": "Exceeded retries"
+    },
+    {
+      "name": "Aitoolscover",
+      "url": "aitoolscover.com",
+      "status": "failed",
+      "http_status": null,
+      "attempt": 3,
+      "timestamp": "2026-08-15T23:22:54.874901+00:00",
+      "notes": "Exceeded retries"
+    },
+    {
+      "name": "Toolist",
+      "url": "toolist.ai",
+      "status": "failed",
+      "http_status": null,
+      "attempt": 3,
+      "timestamp": "2026-08-15T23:23:06.339510+00:00",
+      "notes": "Exceeded retries"
+    },
+    {
+      "name": "Woy",
+      "url": "woy.ai",
+      "status": "failed",
+      "http_status": null,
+      "attempt": 3,
+      "timestamp": "2026-08-15T23:23:17.541153+00:00",
+      "notes": "Exceeded retries"
+    },
+    {
+      "name": "Sourceforge",
+      "url": "https://sourceforge.net",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-15T23:23:41.022524+00:00",
+      "notes": "Playwright timeout"
+    },
+    {
+      "name": "Producthunt",
+      "url": "https://producthunt.com",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-15T23:24:04.580186+00:00",
+      "notes": "Playwright timeout"
+    },
+    {
+      "name": "Crunchbase",
+      "url": "https://crunchbase.com",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-15T23:24:09.622557+00:00",
+      "notes": "No fillable fields found"
+    },
+    {
+      "name": "G2",
+      "url": "https://g2.com",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-15T23:24:14.340371+00:00",
+      "notes": "No fillable fields found"
+    },
+    {
+      "name": "Goodfirms",
+      "url": "https://goodfirms.co",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-15T23:24:19.828218+00:00",
+      "notes": "No fillable fields found"
+    },
+    {
+      "name": "Getapp",
+      "url": "https://getapp.com",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-15T23:24:43.371128+00:00",
+      "notes": "Playwright timeout"
+    },
+    {
+      "name": "Trustradius",
+      "url": "https://trustradius.com",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-15T23:24:48.757671+00:00",
+      "notes": "No fillable fields found"
+    },
+    {
+      "name": "Hotfrog",
+      "url": "https://hotfrog.com",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-15T23:24:55.299322+00:00",
+      "notes": "No fillable fields found"
+    },
+    {
+      "name": "Brownbook",
+      "url": "https://brownbook.net",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-15T23:25:30.892369+00:00",
+      "notes": "No fillable fields found"
+    },
+    {
+      "name": "Eu Startups",
+      "url": "https://eu-startups.com",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-15T23:26:08.434038+00:00",
+      "notes": "No submit button found"
+    },
+    {
+      "name": "Peerlist",
+      "url": "https://peerlist.io",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-15T23:26:44.784791+00:00",
+      "notes": "No submit button found"
+    },
+    {
+      "name": "Launchigniter",
+      "url": "https://launchigniter.com",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-15T23:26:51.327674+00:00",
+      "notes": "No fillable fields found"
+    },
+    {
+      "name": "Land Book",
+      "url": "https://land-book.com",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-15T23:26:56.743579+00:00",
+      "notes": "No fillable fields found"
+    },
+    {
+      "name": "Softwareworld",
+      "url": "https://softwareworld.co",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-15T23:27:20.293348+00:00",
+      "notes": "Playwright timeout"
+    },
+    {
+      "name": "Startupblink",
+      "url": "https://startupblink.com",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-15T23:27:31.205842+00:00",
+      "notes": "No submit button found"
+    },
+    {
+      "name": "Sideprojectors",
+      "url": "https://sideprojectors.com",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-15T23:27:38.734770+00:00",
+      "notes": "No fillable fields found"
+    },
+    {
+      "name": "Openhunts",
+      "url": "https://openhunts.com",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-15T23:27:45.799060+00:00",
+      "notes": "No fillable fields found"
+    },
+    {
+      "name": "Indiepa",
+      "url": "https://indiepa.ge",
+      "status": "success",
+      "http_status": 200,
+      "timestamp": "2026-08-15T23:27:59.700673+00:00",
+      "notes": "Submitted via Playwright"
+    },
+    {
+      "name": "Sitelike",
+      "url": "https://sitelike.org",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-15T23:28:36.530437+00:00",
+      "notes": "No submit button found"
+    },
+    {
+      "name": "Ufind",
+      "url": "https://ufind.best",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-15T23:28:42.971252+00:00",
+      "notes": "No fillable fields found"
+    },
+    {
+      "name": "Superlaun",
+      "url": "https://superlaun.ch",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-15T23:28:49.607754+00:00",
+      "notes": "No fillable fields found"
+    },
+    {
+      "name": "Startupranking",
+      "url": "https://startupranking.com",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-15T23:29:13.151619+00:00",
+      "notes": "Playwright timeout"
+    },
+    {
+      "name": "Aiwith",
+      "url": "https://aiwith.me",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-15T23:29:19.819097+00:00",
+      "notes": "No fillable fields found"
+    },
+    {
+      "name": "Microlaunch",
+      "url": "https://microlaunch.net",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-15T23:30:26.967119+00:00",
+      "notes": "No submit button found"
+    },
+    {
+      "name": "Startupinspire",
+      "url": "https://startupinspire.com",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-15T23:30:32.409713+00:00",
+      "notes": "No fillable fields found"
+    },
+    {
+      "name": "Huzzler",
+      "url": "https://huzzler.so",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-15T23:30:38.116930+00:00",
+      "notes": "No fillable fields found"
+    },
+    {
+      "name": "Saaspo",
+      "url": "https://saaspo.com",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-15T23:30:43.557611+00:00",
+      "notes": "No fillable fields found"
+    },
+    {
+      "name": "Startupslab",
+      "url": "https://startupslab.site",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-15T23:30:54.125066+00:00",
+      "notes": "Submitted via Playwright"
+    },
+    {
+      "name": "10015",
+      "url": "https://10015.io",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-15T23:31:17.680502+00:00",
+      "notes": "Playwright timeout"
+    },
+    {
+      "name": "Launchvault",
+      "url": "https://launchvault.dev",
+      "status": "success",
+      "http_status": 200,
+      "timestamp": "2026-08-15T23:31:26.802468+00:00",
+      "notes": "Submitted via Playwright"
+    },
+    {
+      "name": "Footer",
+      "url": "https://footer.design",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-15T23:31:31.949231+00:00",
+      "notes": "No fillable fields found"
+    },
+    {
+      "name": "Submito",
+      "url": "https://submito.net",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-15T23:31:36.729133+00:00",
+      "notes": "No fillable fields found"
+    },
+    {
+      "name": "Rarebigdeal",
+      "url": "https://rarebigdeal.com",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-15T23:31:42.633044+00:00",
+      "notes": "No fillable fields found"
+    },
+    {
+      "name": "Basedtools",
+      "url": "https://basedtools.ai",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-15T23:32:06.193737+00:00",
+      "notes": "Playwright timeout"
+    },
+    {
+      "name": "Aihubs",
+      "url": "https://aihubs.ai",
+      "status": "success",
+      "http_status": 200,
+      "timestamp": "2026-08-15T23:32:15.067172+00:00",
+      "notes": "Submitted via Playwright"
+    },
+    {
+      "name": "Make",
+      "url": "https://make.rs",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-15T23:32:20.139852+00:00",
+      "notes": "No submit button found"
+    },
+    {
+      "name": "Devresourc",
+      "url": "https://devresourc.es",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-15T23:32:29.578360+00:00",
+      "notes": "Submitted via Playwright"
+    },
+    {
+      "name": "Startupbuffer",
+      "url": "https://startupbuffer.com",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-15T23:32:53.118461+00:00",
+      "notes": "Playwright timeout"
+    },
+    {
+      "name": "Huntscreens",
+      "url": "https://huntscreens.com",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-15T23:32:58.979595+00:00",
+      "notes": "No fillable fields found"
+    },
+    {
+      "name": "Aitoolsmarketer",
+      "url": "https://aitoolsmarketer.com",
+      "status": "success",
+      "http_status": 200,
+      "timestamp": "2026-08-15T23:33:10.348690+00:00",
+      "notes": "Submitted via Playwright"
+    },
+    {
+      "name": "Saaspa",
+      "url": "https://saaspa.ge",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-15T23:33:29.197262+00:00",
+      "notes": "No fillable fields found"
+    },
+    {
+      "name": "10words",
+      "url": "https://10words.io",
+      "status": "success",
+      "http_status": 200,
+      "timestamp": "2026-08-15T23:33:47.365027+00:00",
+      "notes": "Submitted via Playwright"
+    },
+    {
+      "name": "Boilerplatehub",
+      "url": "https://boilerplatehub.com",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-15T23:34:10.939955+00:00",
+      "notes": "Playwright timeout"
+    },
+    {
+      "name": "Startups",
+      "url": "https://startups.gallery",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-15T23:34:16.304583+00:00",
+      "notes": "No fillable fields found"
+    },
+    {
+      "name": "Ogimage",
+      "url": "https://ogimage.gallery",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-15T23:34:21.827424+00:00",
+      "notes": "No fillable fields found"
+    },
+    {
+      "name": "Resource",
+      "url": "https://resource.fyi",
+      "status": "success",
+      "http_status": 200,
+      "timestamp": "2026-08-15T23:34:31.392015+00:00",
+      "notes": "Submitted via Playwright"
+    },
+    {
+      "name": "Awesomeindie",
+      "url": "https://awesomeindie.com",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-15T23:34:40.661740+00:00",
+      "notes": "Submitted via Playwright"
+    },
+    {
+      "name": "Indiehackerstacks",
+      "url": "https://indiehackerstacks.com",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-15T23:34:49.638622+00:00",
+      "notes": "No submit button found"
+    },
+    {
+      "name": "Tools",
+      "url": "https://tools.robingood.com",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-15T23:35:13.353053+00:00",
+      "notes": "Playwright timeout"
+    },
+    {
+      "name": "Toolhub",
+      "url": "https://toolhub.me",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-15T23:35:20.336511+00:00",
+      "notes": "No fillable fields found"
+    },
+    {
+      "name": "AItools.inc",
+      "url": "https://aitools.inc/submit",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-15T23:35:43.887639+00:00",
+      "notes": "Playwright timeout"
+    },
+    {
+      "name": "LaunchingNext",
+      "url": "https://www.launchingnext.com/submit/",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-15T23:36:48.723335+00:00",
+      "notes": "No submit button found"
+    },
+    {
+      "name": "Tools.so",
+      "url": "https://tools.so/submit",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-15T23:36:54.395490+00:00",
+      "notes": "No fillable fields found"
+    },
+    {
+      "name": "Stremit",
+      "url": "https://stremit.io/submit-tool-form",
+      "status": "success",
+      "http_status": 200,
+      "timestamp": "2026-08-15T23:37:02.455403+00:00",
+      "notes": "Submitted via Playwright"
+    },
+    {
+      "name": "TheAIway",
+      "url": "https://theaiway.net/product-submit/",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-15T23:37:37.728878+00:00",
+      "notes": "No submit button found"
+    },
+    {
+      "name": "SearchAITool",
+      "url": "https://searchaitool.com/submit",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-15T23:37:45.952501+00:00",
+      "notes": "Submitted via Playwright"
+    },
+    {
+      "name": "AI-Tool.ai",
+      "url": "https://ai-tool.ai/submit-tool",
+      "status": "success",
+      "http_status": 200,
+      "timestamp": "2026-08-15T23:37:55.393522+00:00",
+      "notes": "Submitted via Playwright"
+    },
+    {
+      "name": "AI41",
+      "url": "https://ai41.org/submit-ai",
+      "status": "success",
+      "http_status": 200,
+      "attempt": 1,
+      "timestamp": "2026-08-15T23:38:03.045060+00:00",
+      "notes": ""
+    },
+    {
+      "name": "AIToolsMagic",
+      "url": "https://aitoolsmagic.com/submit-tool",
+      "status": "success",
+      "http_status": 200,
+      "attempt": 1,
+      "timestamp": "2026-08-15T23:38:10.911160+00:00",
+      "notes": ""
+    },
+    {
+      "name": "AIKendra",
+      "url": "https://aikendra.com/submit/",
+      "status": "success",
+      "http_status": 200,
+      "timestamp": "2026-08-15T23:38:24.270752+00:00",
+      "notes": "Submitted via Playwright"
+    },
+    {
+      "name": "ListAI",
+      "url": "https://listai.cc/submit",
+      "status": "success",
+      "http_status": 200,
+      "attempt": 1,
+      "timestamp": "2026-08-15T23:38:35.284628+00:00",
+      "notes": ""
+    },
+    {
+      "name": "ToolPilot.tools",
+      "url": "https://toolpilot.tools/submit",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-15T23:38:48.803214+00:00",
+      "notes": "Submitted via Playwright"
+    },
+    {
+      "name": "NavTools",
+      "url": "https://navtools.ai/submit",
+      "status": "success",
+      "http_status": 200,
+      "attempt": 1,
+      "timestamp": "2026-08-15T23:38:58.102277+00:00",
+      "notes": ""
+    },
+    {
+      "name": "ToolWise",
+      "url": "https://toolwise.ai/submit-tool",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-15T23:39:09.034416+00:00",
+      "notes": "Submitted via Playwright"
+    },
+    {
+      "name": "SubmitAITools",
+      "url": "https://submitaitools.org/",
+      "status": "manual",
+      "http_status": null,
+      "timestamp": "2026-08-15T23:39:12.097555+00:00",
+      "notes": "Auto-downgraded (Playwright also failed)"
+    },
+    {
+      "name": "AIToolsHunt",
+      "url": "https://aitoolshunt.com/contact-us/",
+      "status": "manual",
+      "http_status": null,
+      "timestamp": "2026-08-15T23:39:12.097661+00:00",
+      "notes": "Auto-downgraded (HTTP 404)"
+    },
+    {
+      "name": "AIToolBoard",
+      "url": "https://aitoolboard.com/submit",
+      "status": "success",
+      "http_status": 200,
+      "timestamp": "2026-08-15T23:39:28.231129+00:00",
+      "notes": "Submitted via Playwright"
+    },
+    {
+      "name": "SaaSHub",
+      "url": "https://www.saashub.com/submit",
+      "status": "success",
+      "http_status": 200,
+      "attempt": 1,
+      "timestamp": "2026-08-15T23:39:35.514507+00:00",
+      "notes": ""
+    },
+    {
+      "name": "Entireweb",
+      "url": "https://www.entireweb.com/free_submission/",
+      "status": "success",
+      "http_status": 200,
+      "attempt": 1,
+      "timestamp": "2026-08-15T23:39:42.560120+00:00",
+      "notes": "General web crawler"
+    },
+    {
+      "name": "Tally Form (wvY09d)",
+      "url": "https://tally.so/r/wvY09d",
+      "status": "manual",
+      "http_status": null,
+      "timestamp": "2026-08-15T23:39:45.563647+00:00",
+      "notes": "Tally JS form — open in browser and fill manually"
+    },
+    {
+      "name": "Tally Form (3qVzOG)",
+      "url": "https://tally.so/r/3qVzOG",
+      "status": "manual",
+      "http_status": null,
+      "timestamp": "2026-08-15T23:39:45.563775+00:00",
+      "notes": "Tally JS form — open in browser and fill manually"
+    },
+    {
+      "name": "Tally Form (wvB7Xg)",
+      "url": "https://tally.so/r/wvB7Xg",
+      "status": "manual",
+      "http_status": null,
+      "timestamp": "2026-08-15T23:39:45.563877+00:00",
+      "notes": "Tally JS form — open in browser and fill manually"
+    },
+    {
+      "name": "Typeform (AItools.inc)",
+      "url": "https://loxr142exnq.typeform.com/to/RB6ZnEf2",
+      "status": "manual",
+      "http_status": null,
+      "timestamp": "2026-08-15T23:39:45.564017+00:00",
+      "notes": "Typeform — open in browser and fill manually"
+    },
+    {
+      "name": "Typeform (Startup88)",
+      "url": "https://startup88.typeform.com/to/CRjWqM",
+      "status": "manual",
+      "http_status": null,
+      "timestamp": "2026-08-15T23:39:45.564124+00:00",
+      "notes": "Typeform — open in browser and fill manually"
+    },
+    {
+      "name": "Google Form 1",
+      "url": "https://forms.gle/Ze6pdWzmweCfKWnLA",
+      "status": "manual",
+      "http_status": null,
+      "timestamp": "2026-08-15T23:39:45.564225+00:00",
+      "notes": "Google Form — open in browser and fill manually"
+    },
+    {
+      "name": "Google Form 2",
+      "url": "https://docs.google.com/forms/d/e/1FAIpQLSeuaZvj-s7KkI5Zp41q9LX0i9suH61c7JR2qe6sBdDtP9r9Sg/viewform",
+      "status": "manual",
+      "http_status": null,
+      "timestamp": "2026-08-15T23:39:45.564319+00:00",
+      "notes": "Google Form — open in browser and fill manually"
+    },
+    {
+      "name": "Quality Internet Directory",
+      "url": "https://www.qualityinternetdirectory.com/",
+      "status": "manual",
+      "http_status": null,
+      "timestamp": "2026-08-15T23:39:45.564396+00:00",
+      "notes": "Find submit link on homepage manually"
+    },
+    {
+      "name": "AI Finder Africa",
+      "url": "https://aifinder.africa/",
+      "status": "manual",
+      "http_status": null,
+      "timestamp": "2026-08-15T23:39:45.564477+00:00",
+      "notes": "Find submit link on homepage manually"
+    },
+    {
+      "name": "TheKnownApp",
+      "url": "https://www.theknownapp.io/#waitlist",
+      "status": "manual",
+      "http_status": null,
+      "timestamp": "2026-08-15T23:39:45.564554+00:00",
+      "notes": "Waitlist — sign up manually"
+    },
+    {
+      "name": "StartupBuffer",
+      "url": "https://startupbuffer.com",
+      "status": "manual",
+      "http_status": null,
+      "timestamp": "2026-08-15T23:39:45.564636+00:00",
+      "notes": "Requires account — submit at startupbuffer.com"
+    },
+    {
+      "name": "Bing Webmaster",
+      "url": "https://www.bing.com/webmasters/",
+      "status": "manual",
+      "http_status": null,
+      "timestamp": "2026-08-15T23:39:45.564715+00:00",
+      "notes": "Submit sitemap at Bing Webmaster Tools — requires Microsoft account"
     }
   ],
   "summary": {
-    "total": 340,
-    "success": 79,
-    "failed": 261,
+    "total": 387,
+    "success": 95,
+    "failed": 278,
     "skipped": 0,
-    "manual": 0,
+    "manual": 14,
     "manually_submitted": 0,
-    "last_run": "2026-08-15T16:01:58.207602+00:00"
+    "last_run": "2026-08-15T23:39:45.565146+00:00"
   }
 }
