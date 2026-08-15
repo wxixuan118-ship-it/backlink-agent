@@ -122,6 +122,73 @@ def detect_success(response: httpx.Response) -> bool:
     return response.status_code < 400
 
 
+# ── Form field auto-detection ──────────────────────────────────────────────────
+
+# Keyword groups that hint at a field's semantic meaning
+_URL_HINTS   = {"url", "site", "website", "link", "web", "homepage", "siteurl", "site_url"}
+_TITLE_HINTS = {"title", "name", "sitename", "site_name", "toolname", "tool_name",
+                "appname", "app_name", "productname", "product_name"}
+_DESC_HINTS  = {"desc", "description", "about", "summary", "detail",
+                "message", "content", "overview", "blurb", "info"}
+_EMAIL_HINTS = {"email", "mail", "contact", "e_mail"}
+_KW_HINTS    = {"keyword", "keywords", "tag", "tags", "category", "categories"}
+
+
+def _hint_match(text: str, hint_set: set) -> bool:
+    lower = text.lower().replace("-", "_")
+    return any(h in lower for h in hint_set)
+
+
+def smart_fill_fields(soup: BeautifulSoup, base_fields: dict,
+                      site: dict, generated: dict) -> dict:
+    """
+    Walk every visible <input>/<textarea> on the page and map our values
+    to whatever field names the form actually uses.
+    base_fields (from config) take priority; detected fields fill the rest.
+    """
+    val = {
+        "url":         site["url"],
+        "title":       generated.get("title",       site.get("title", "")),
+        "description": generated.get("description", site.get("description", "")),
+        "email":       site.get("email", ""),
+        "keywords":    generated.get("keywords",    site.get("keywords", "")),
+        "owner_name":  site.get("owner_name", ""),
+    }
+
+    result = dict(base_fields)
+
+    form = soup.find("form")
+    inputs = (form or soup).find_all(["input", "textarea", "select"])
+
+    for inp in inputs:
+        field_name = (inp.get("name") or "").strip()
+        if not field_name:
+            continue
+        ftype = (inp.get("type") or "text").lower()
+        if ftype in ("hidden", "submit", "button", "image", "reset"):
+            # Keep hidden values from the page (CSRF etc.) but don't overwrite config
+            if ftype == "hidden" and field_name not in result:
+                result[field_name] = inp.get("value", "")
+            continue
+        if field_name in result:
+            continue  # config already specified this field
+
+        # Build hint string from name + id + placeholder + label text
+        hint = " ".join(filter(None, [
+            field_name,
+            inp.get("id", ""),
+            inp.get("placeholder", ""),
+        ]))
+
+        if   _hint_match(hint, _URL_HINTS):   result[field_name] = val["url"]
+        elif _hint_match(hint, _EMAIL_HINTS):  result[field_name] = val["email"]
+        elif _hint_match(hint, _TITLE_HINTS):  result[field_name] = val["title"]
+        elif _hint_match(hint, _DESC_HINTS):   result[field_name] = val["description"]
+        elif _hint_match(hint, _KW_HINTS):     result[field_name] = val["keywords"]
+
+    return result
+
+
 # ── Core submission logic ──────────────────────────────────────────────────────
 
 def submit_form(client: httpx.Client, directory: dict, site: dict, settings: dict) -> dict:
@@ -130,35 +197,35 @@ def submit_form(client: httpx.Client, directory: dict, site: dict, settings: dic
     method = directory.get("method", "POST").upper()
     raw_fields = directory.get("fields", {})
 
-    # Generate AI content, then resolve field placeholders
     generated = generate_submission_content(site, directory)
-    fields = resolve_fields(raw_fields, site, generated)
+    base_fields = resolve_fields(raw_fields, site, generated)
 
     retries = settings.get("max_retries", 2)
     timeout = settings.get("request_timeout_seconds", 20)
 
     for attempt in range(1, retries + 2):
         try:
-            # First GET the page to grab any hidden CSRF tokens
             page_resp = client.get(url, timeout=timeout)
             soup = BeautifulSoup(page_resp.text, "html.parser")
 
-            # Merge hidden inputs from the form
-            form = soup.find("form")
-            if form:
-                for hidden in form.find_all("input", type="hidden"):
-                    n = hidden.get("name")
-                    v = hidden.get("value", "")
-                    if n and n not in fields:
-                        fields[n] = v
+            # Detect actual form fields + merge CSRF hidden inputs
+            fields = smart_fill_fields(soup, base_fields, site, generated)
 
-            # Submit
+            # Find the form's action URL (may differ from the page URL)
+            form_tag = soup.find("form")
+            action = url
+            if form_tag and form_tag.get("action"):
+                from urllib.parse import urljoin
+                action = urljoin(url, form_tag["action"])
+                method = (form_tag.get("method") or method).upper()
+
             if method == "POST":
-                resp = client.post(url, data=fields, timeout=timeout)
+                resp = client.post(action, data=fields, timeout=timeout)
             else:
-                resp = client.get(url, params=fields, timeout=timeout)
+                resp = client.get(action, params=fields, timeout=timeout)
 
             status = "success" if detect_success(resp) else "failed"
+            log.debug("%s fields sent: %s", name, list(fields.keys()))
             return {
                 "name": name,
                 "url": url,
@@ -290,11 +357,16 @@ def main() -> None:
 
     log.info("Results saved to: %s", RESULTS_PATH)
 
-    # Exit with error code if any submissions failed (useful for CI)
+    # Only fail CI when the script itself had an unrecoverable error.
+    # Individual submission failures are normal (sites change forms, add CAPTCHAs, etc.)
+    # and are recorded in the JSON for review — they should not block email/commit steps.
     failed = s.get("failed", 0)
+    success = s.get("success", 0)
     if failed > 0:
-        log.warning("%d submission(s) failed — check results/submission_log.json", failed)
-        sys.exit(1)
+        log.warning("%d submission(s) failed — see results/submission_log.json", failed)
+    if success == 0 and failed > 0:
+        log.warning("No submissions succeeded this run.")
+    # Always exit 0 so downstream steps (email, commit) still run
 
 
 if __name__ == "__main__":

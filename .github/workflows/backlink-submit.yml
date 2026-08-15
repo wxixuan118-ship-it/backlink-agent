@@ -63,6 +63,7 @@ jobs:
 
       # ── 运行提交脚本 ────────────────────────────────────────────
       - name: Run submission script
+        continue-on-error: true   # 部分失败不阻断后续 email/commit 步骤
         env:
           ZHIPUAI_API_KEY: ${{ secrets.ZHIPUAI_API_KEY }}
         run: |
