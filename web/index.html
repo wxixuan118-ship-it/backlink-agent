@@ -1077,9 +1077,13 @@ function extractName(url) {
 
 function parseDirectories(yaml) {
   const dirs = [];
-  const dirsMatch = yaml.match(/^directories:\n([\s\S]*?)(?=^settings:|^#={10}|$)/m);
-  if (!dirsMatch) return dirs;
-  const entries = dirsMatch[1].split(/\n  - name:/g);
+  const dirsStart = yaml.indexOf('directories:');
+  if (dirsStart === -1) return dirs;
+  const tail = yaml.slice(dirsStart + 'directories:'.length);
+  // Find next top-level key (line starting at column 0 with a letter)
+  const nextSection = tail.search(/\n[a-zA-Z]/);
+  const section = nextSection !== -1 ? tail.slice(0, nextSection) : tail;
+  const entries = section.split(/\n  - name:/);
   for (let i = 1; i < entries.length; i++) {
     const block = entries[i];
     const name  = block.match(/^"([^"]*)"/)?.[1] || '';
@@ -1202,8 +1206,13 @@ async function removeDir(name) {
 async function saveDirectories() {
   if (!configRaw) return;
   const newDirsSection = rebuildDirectoriesSection(allDirs);
-  const updated = configRaw.replace(/^directories:\n[\s\S]*?(?=^settings:|^#={10}|$)/m,
-    newDirsSection + '\n');
+  const dirsStart = configRaw.indexOf('directories:');
+  if (dirsStart === -1) { toast('Save failed: directories: key not found', false); return; }
+  const tail = configRaw.slice(dirsStart + 'directories:'.length);
+  const nextIdx = tail.search(/\n[a-zA-Z]/);
+  const updated = nextIdx !== -1
+    ? configRaw.slice(0, dirsStart) + newDirsSection + '\n' + tail.slice(nextIdx + 1)
+    : configRaw.slice(0, dirsStart) + newDirsSection + '\n';
   try {
     const res = await ghPutFile('config/submission_config.yaml', updated,
       configSha, 'config: update directories via web UI');
