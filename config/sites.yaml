@@ -3,12 +3,12 @@
 # 通过 Web UI "Sites" 页面添加站点并触发自动提交
 # ============================================================
 sites:
-  - slug: mystfallhunterguides
-    url: "https://mystfallhunterguides.com"
-    title: "MistfallDB — Mistfall Hunter Database, Builds & Tools"
-    description: "Community-maintained database for Mistfall Hunter. Find weapon stats, character builds, boss strategies, skill planners, and DPS calculators for the dark fantasy extraction RPG."
-    keywords: "Mistfall Hunter, extraction RPG, character builds, weapon stats, boss guides, build calculator, DPS, skill planner, dark fantasy RPG"
+  - slug: attractbirds
+    url: "https://www.attractbirds.app"
+    title: "AttractBirds — Bird Watching & Bird Attraction Tools"
+    description: "AttractBirds helps bird lovers attract and identify backyard birds with practical guides, birding tools, feeder tips, bird-friendly plant recommendations, seasonal advice, and solutions for common backyard bird problems."
+    keywords: "bird watching, birding tools, attract birds, backyard birds, bird feeder, bird identification, bird bath, bird friendly plants, bird watching tools, bird guide, attract birds to yard, wild birds"
     email: "wxixuan118@gmail.com"
-    owner_name: "Viki WU"
-    category: "Entertainment"
+    owner_name: ""
+    category: "Lifestyle"
     added_at: "2026-08-15"
