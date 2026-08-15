@@ -2,13 +2,13 @@
 # 你的网站信息 — 修改这里
 # ============================================================
 site:
-  url: "https://your-site.com"
-  title: "Your Site Title"
-  description: "A brief description of your website (under 250 chars)"
-  keywords: "keyword1, keyword2, keyword3"
-  email: "your@email.com"
-  owner_name: "Your Name"
-  category: "Technology"  # Business / Health / Shopping / Technology / Travel / etc.
+  url: "https://mystfallhunterguides.com"
+  title: "MistfallDB — Mistfall Hunter Database, Builds & Tools"
+  description: "Community-maintained database for Mistfall Hunter. Find weapon stats, character builds, boss strategies, skill planners, and DPS calculators for the dark fantasy extraction RPG."
+  keywords: "Mistfall Hunter, extraction RPG, character builds, weapon stats, boss guides, build calculator, DPS, skill planner, dark fantasy RPG"
+  email: "wxixuan118@gmail.com"
+  owner_name: "Viki WU"
+  category: "Entertainment"  # Business / Health / Shopping / Technology / Travel / etc.
 
 # ============================================================
 # 目标 Directory 列表
