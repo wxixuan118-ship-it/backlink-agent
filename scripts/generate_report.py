@@ -24,6 +24,12 @@ def main() -> None:
     submissions = data.get("submissions", [])
     summary = data.get("summary", {})
 
+    manually_done  = sum(1 for r in submissions if r.get("manually_submitted"))
+    auto_success   = summary.get("success", 0)
+    confirmed      = auto_success + manually_done
+    pending_manual = sum(1 for r in submissions if r["status"] == "manual" and not r.get("manually_submitted"))
+    auto_failed    = sum(1 for r in submissions if r["status"] == "failed" and not r.get("manually_submitted"))
+
     lines = [
         "## Backlink Submission Report",
         "",
@@ -31,40 +37,42 @@ def main() -> None:
         "",
         f"| Status | Count |",
         f"|--------|-------|",
-        f"| ✅ Success | {summary.get('success', 0)} |",
-        f"| ❌ Failed  | {summary.get('failed', 0)} |",
+        f"| ✅ Confirmed (auto + manual) | {confirmed} |",
+        f"| 📝 Manually confirmed | {manually_done} |",
+        f"| ⚡ Auto-submitted | {auto_success} |",
+        f"| 🖐 Pending manual | {pending_manual} |",
+        f"| ❌ Auto-failed | {auto_failed} |",
         f"| ⏭ Skipped | {summary.get('skipped', 0)} |",
-        f"| 🖐 Manual  | {summary.get('manual', 0)} |",
         "",
-        "### Details",
+        "### All Submissions",
         "",
-        "| Directory | Status | HTTP | Timestamp |",
-        "|-----------|--------|------|-----------|",
+        "| Directory | Status | HTTP | Date |",
+        "|-----------|--------|------|------|",
     ]
 
-    status_icon = {
-        "success": "✅",
-        "failed": "❌",
-        "skipped": "⏭",
-        "manual": "🖐",
-    }
+    def _icon(rec):
+        if rec.get("manually_submitted"):
+            return "📝"
+        return {"success": "✅", "failed": "❌", "skipped": "⏭", "manual": "🖐"}.get(rec["status"], "?")
 
     for rec in sorted(submissions, key=lambda r: r["name"]):
-        icon = status_icon.get(rec["status"], "?")
+        icon = _icon(rec)
         http = str(rec.get("http_status") or "—")
-        ts = (rec.get("timestamp") or "")[:19].replace("T", " ")
-        lines.append(f"| {rec['name']} | {icon} {rec['status']} | {http} | {ts} |")
+        ts = (rec.get("manually_submitted_at") or rec.get("timestamp") or "")[:10]
+        label = rec["status"] + (" ✓" if rec.get("manually_submitted") else "")
+        lines.append(f"| {rec['name']} | {icon} {label} | {http} | {ts} |")
 
-    manual = [r for r in submissions if r["status"] == "manual"]
-    if manual:
+    # Pending manual actions
+    pending = [r for r in submissions if r["status"] == "manual" and not r.get("manually_submitted")]
+    if pending:
         lines += [
             "",
-            "### Manual Submission Required",
+            "### Pending Manual Submissions",
             "",
-            "The following directories require human action:",
+            "Open these URLs in a browser and submit your site manually:",
             "",
         ]
-        for r in manual:
+        for r in pending:
             note = r.get("notes", "")
             lines.append(f"- **[{r['name']}]({r['url']})** — {note}")
 

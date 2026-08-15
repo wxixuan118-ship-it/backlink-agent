@@ -211,6 +211,19 @@ tr:hover td{background:var(--bg-input)}
   color:var(--text-2);margin-bottom:10px}
 .divider{height:1px;background:var(--border);margin:20px 0}
 
+/* ── Manual checklist ────────────────────────────────────────── */
+.check-item{display:flex;align-items:flex-start;gap:10px;padding:10px 14px;
+  border-bottom:1px solid var(--border)}
+.check-item:last-child{border-bottom:none}
+.check-item.done .check-name{text-decoration:line-through;opacity:.6}
+.check-cb{width:15px;height:15px;cursor:pointer;flex-shrink:0;margin-top:2px;accent-color:var(--accent)}
+.check-info{flex:1;min-width:0}
+.check-name{font-weight:500;font-size:13px}
+.check-meta{font-size:11px;color:var(--text-2);font-family:var(--mono);margin-top:2px}
+.check-done-at{font-size:11px;color:var(--success);margin-top:2px}
+.section-note{font-size:12px;color:var(--text-2);padding:10px 14px;
+  border-bottom:1px solid var(--border);background:var(--bg-input)}
+
 @media(max-width:600px){
   .stats{grid-template-columns:repeat(2,1fr)}
   .form-row{grid-template-columns:1fr}
@@ -279,26 +292,45 @@ tr:hover td{background:var(--bg-input)}
   <!-- ── Dashboard ── -->
   <div id="tab-dashboard" class="page active">
     <div class="stats" id="stats-row">
+      <div class="stat success"><div class="stat-val" id="s-confirmed">—</div><div class="stat-label">Confirmed ✅</div></div>
+      <div class="stat warn"><div class="stat-val" id="s-pending">—</div><div class="stat-label">Needs Action</div></div>
+      <div class="stat fail"><div class="stat-val" id="s-auto-fail">—</div><div class="stat-label">Auto-failed</div></div>
       <div class="stat"><div class="stat-val" id="s-total">—</div><div class="stat-label">Total</div></div>
-      <div class="stat success"><div class="stat-val" id="s-success">—</div><div class="stat-label">Success</div></div>
-      <div class="stat fail"><div class="stat-val" id="s-fail">—</div><div class="stat-label">Failed</div></div>
-      <div class="stat info"><div class="stat-val" id="s-manual">—</div><div class="stat-label">Manual</div></div>
     </div>
 
+    <!-- ✅ Obtained backlinks -->
     <div class="card">
       <div class="card-head">
-        Submission Results
+        ✅ Backlinks Obtained
         <div style="display:flex;gap:8px">
           <span class="muted mono" id="last-run" style="font-size:11px"></span>
           <button class="btn btn-secondary btn-sm" onclick="loadDashboard()">↻ Refresh</button>
         </div>
       </div>
-      <div id="results-table">
+      <div id="results-success">
         <div class="loading">
           <svg class="spin" width="16" height="16" viewBox="0 0 16 16"><circle cx="8" cy="8" r="6" stroke="var(--border)" stroke-width="2" fill="none"/><path d="M8 2a6 6 0 0 1 6 6" stroke="var(--accent)" stroke-width="2" fill="none" stroke-linecap="round"/></svg>
-          Loading results…
+          Loading…
         </div>
       </div>
+    </div>
+
+    <!-- 🖐 Needs manual submission -->
+    <div class="card">
+      <div class="card-head">
+        🖐 Manual Submission Required
+        <span class="muted" id="pending-count" style="font-size:12px;font-weight:400"></span>
+      </div>
+      <div id="results-pending"></div>
+    </div>
+
+    <!-- ❌ Auto-submit failed -->
+    <div class="card">
+      <div class="card-head">
+        ❌ Auto-submit Failed
+        <span class="muted" id="failed-count" style="font-size:12px;font-weight:400"></span>
+      </div>
+      <div id="results-failed"></div>
     </div>
   </div>
 
@@ -592,59 +624,129 @@ function showTab(name) {
 
 // ── Dashboard ──────────────────────────────────────────────────────────────
 async function loadDashboard() {
-  document.getElementById('results-table').innerHTML =
-    '<div class="loading"><svg class="spin" width="16" height="16" viewBox="0 0 16 16"><circle cx="8" cy="8" r="6" stroke="var(--border)" stroke-width="2" fill="none"/><path d="M8 2a6 6 0 0 1 6 6" stroke="var(--accent)" stroke-width="2" fill="none" stroke-linecap="round"/></svg>Loading results…</div>';
+  const spinner = '<div class="loading"><svg class="spin" width="16" height="16" viewBox="0 0 16 16"><circle cx="8" cy="8" r="6" stroke="var(--border)" stroke-width="2" fill="none"/><path d="M8 2a6 6 0 0 1 6 6" stroke="var(--accent)" stroke-width="2" fill="none" stroke-linecap="round"/></svg>Loading…</div>';
+  document.getElementById('results-success').innerHTML = spinner;
+  document.getElementById('results-pending').innerHTML = '';
+  document.getElementById('results-failed').innerHTML  = '';
   try {
     const file = await ghGetFile('results/submission_log.json', { optional: true });
     if (!file) {
-      document.getElementById('results-table').innerHTML =
+      document.getElementById('results-success').innerHTML =
         '<div class="empty"><div class="empty-icon">📭</div><div>No results yet — trigger a run first.</div></div>';
       return;
     }
     const data = JSON.parse(file.content);
+    const subs = data.submissions || [];
     const s = data.summary || {};
-    document.getElementById('s-total').textContent   = s.total   ?? '—';
-    document.getElementById('s-success').textContent = s.success ?? '—';
-    document.getElementById('s-fail').textContent    = s.failed  ?? '—';
-    document.getElementById('s-manual').textContent  = s.manual  ?? '—';
-    if (s.last_run) {
-      document.getElementById('last-run').textContent =
-        'Last run: ' + new Date(s.last_run).toLocaleString();
-    }
-    renderResultsTable(data.submissions || []);
+
+    // Counts
+    const confirmed = subs.filter(r => r.status === 'success' || r.manually_submitted).length;
+    const pending   = subs.filter(r => r.status === 'manual'  && !r.manually_submitted).length;
+    const autoFail  = subs.filter(r => r.status === 'failed'  && !r.manually_submitted).length;
+    document.getElementById('s-confirmed').textContent = confirmed;
+    document.getElementById('s-pending').textContent   = pending;
+    document.getElementById('s-auto-fail').textContent = autoFail;
+    document.getElementById('s-total').textContent     = s.total ?? subs.length;
+    if (s.last_run)
+      document.getElementById('last-run').textContent = 'Last run: ' + new Date(s.last_run).toLocaleString();
+
+    renderSuccess(subs);
+    renderChecklist('results-pending', 'pending-count',
+      subs.filter(r => r.status === 'manual'), 'No manual-only directories configured.');
+    renderChecklist('results-failed', 'failed-count',
+      subs.filter(r => r.status === 'failed'), 'No auto-submit failures recorded.');
   } catch (e) {
-    document.getElementById('results-table').innerHTML =
-      `<div class="empty"><div class="empty-icon">📭</div><div>No results yet — run a submission first.</div><div style="font-size:12px;margin-top:4px">${e.message}</div></div>`;
+    document.getElementById('results-success').innerHTML =
+      `<div class="empty"><div class="empty-icon">⚠️</div><div>${esc(e.message)}</div></div>`;
   }
 }
 
-const STATUS_BADGE = {
-  success:  '<span class="badge badge-success">✓ Success</span>',
-  failed:   '<span class="badge badge-fail">✗ Failed</span>',
-  manual:   '<span class="badge badge-manual">✋ Manual</span>',
-  skipped:  '<span class="badge badge-warn">⏭ Skipped</span>',
-};
-
-function renderResultsTable(submissions) {
-  if (!submissions.length) {
-    document.getElementById('results-table').innerHTML =
-      '<div class="empty"><div class="empty-icon">📋</div><div>No submissions recorded.</div></div>';
+// ✅ Success table (auto-success + manually confirmed)
+function renderSuccess(subs) {
+  const list = subs
+    .filter(r => r.status === 'success' || r.manually_submitted)
+    .sort((a,b) => a.name.localeCompare(b.name));
+  if (!list.length) {
+    document.getElementById('results-success').innerHTML =
+      '<div class="empty"><div class="empty-icon">📭</div><div>No confirmed backlinks yet.</div></div>';
     return;
   }
-  const sorted = [...submissions].sort((a,b) => a.name.localeCompare(b.name));
-  const rows = sorted.map(r => `
-    <tr>
+  const rows = list.map(r => {
+    const method = r.manually_submitted
+      ? '<span class="badge badge-warn">📝 Manual</span>'
+      : '<span class="badge badge-success">⚡ Auto</span>';
+    const ts = (r.manually_submitted_at || r.timestamp || '').slice(0,16).replace('T',' ');
+    return `<tr>
       <td><a href="${r.url}" target="_blank">${esc(r.name)}</a></td>
-      <td>${STATUS_BADGE[r.status] || r.status}</td>
-      <td class="mono">${r.http_status ?? '—'}</td>
-      <td class="mono muted">${(r.timestamp||'').slice(0,16).replace('T',' ')}</td>
-      <td class="muted" style="max-width:200px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">${esc(r.notes||'')}</td>
-    </tr>`).join('');
-  document.getElementById('results-table').innerHTML = `
+      <td>${method}</td>
+      <td class="mono muted">${esc(ts)}</td>
+    </tr>`;
+  }).join('');
+  document.getElementById('results-success').innerHTML = `
     <div class="tbl-wrap"><table>
-      <thead><tr><th>Directory</th><th>Status</th><th>HTTP</th><th>Time</th><th>Notes</th></tr></thead>
+      <thead><tr><th>Directory</th><th>Method</th><th>Date</th></tr></thead>
       <tbody>${rows}</tbody>
     </table></div>`;
+}
+
+// 🖐 / ❌ Checklist (manual + failed) with "mark as submitted" checkbox
+function renderChecklist(elId, countId, subs, emptyMsg) {
+  const el = document.getElementById(elId);
+  const countEl = document.getElementById(countId);
+  const done    = subs.filter(r => r.manually_submitted);
+  const pending = subs.filter(r => !r.manually_submitted);
+  if (countEl) countEl.textContent = `${done.length} done · ${pending.length} pending`;
+
+  if (!subs.length) {
+    el.innerHTML = `<div class="empty"><div class="empty-icon">✓</div><div>${esc(emptyMsg)}</div></div>`;
+    return;
+  }
+
+  const note = `<div class="section-note">Check the box once you've manually submitted. This saves to GitHub immediately.</div>`;
+  const items = [...pending, ...done].map(r => {
+    const doneMark = r.manually_submitted
+      ? `<div class="check-done-at">✓ Submitted ${r.manually_submitted_at ? new Date(r.manually_submitted_at).toLocaleDateString() : ''}</div>`
+      : '';
+    const http = r.http_status ? ` · HTTP ${r.http_status}` : '';
+    const noteText = r.notes ? ` · ${r.notes}` : '';
+    return `
+    <div class="check-item${r.manually_submitted ? ' done' : ''}">
+      <input type="checkbox" class="check-cb"
+        ${r.manually_submitted ? 'checked' : ''}
+        onchange="markManually(this.dataset.name, this.checked)"
+        data-name="${esc(r.name)}" title="Mark as manually submitted">
+      <div class="check-info">
+        <div class="check-name"><a href="${r.url}" target="_blank">${esc(r.name)}</a></div>
+        <div class="check-meta">${esc(r.url)}${http}${esc(noteText)}</div>
+        ${doneMark}
+      </div>
+    </div>`;
+  }).join('');
+  el.innerHTML = note + items;
+}
+
+// Save manual mark to GitHub
+async function markManually(name, checked) {
+  try {
+    const file = await ghGetFile('results/submission_log.json');
+    const data = JSON.parse(file.content);
+    const rec = data.submissions.find(r => r.name === name);
+    if (rec) {
+      rec.manually_submitted = checked;
+      rec.manually_submitted_at = checked ? new Date().toISOString() : null;
+    }
+    // Update confirmed count in summary
+    data.summary.manually_submitted = data.submissions.filter(r => r.manually_submitted).length;
+    await ghPutFile('results/submission_log.json',
+      JSON.stringify(data, null, 2), file.sha,
+      `chore: ${checked ? 'mark' : 'unmark'} "${name}" as manually submitted`);
+    toast(checked ? `✓ Marked "${name}" as submitted` : `Unmarked "${name}"`);
+    loadDashboard();
+  } catch(e) {
+    toast('Update failed: ' + e.message, false);
+    // revert checkbox
+    loadDashboard();
+  }
 }
 
 // ── Site Config ────────────────────────────────────────────────────────────
