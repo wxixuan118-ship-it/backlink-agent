@@ -418,16 +418,6 @@ directories:
       description: "{gen.description}"
       email: "{site.email}"
 
-  - name: "Aitools"
-    url: "aitools.fyi"
-    type: form
-    method: POST
-    fields:
-      name: "{gen.title}"
-      url: "{site.url}"
-      description: "{gen.description}"
-      email: "{site.email}"
-
   - name: "Tools Ai"
     url: "tools-ai.online"
     type: form
@@ -1028,16 +1018,6 @@ directories:
       description: "{gen.description}"
       email: "{site.email}"
 
-  - name: "Findmyaitool"
-    url: "findmyaitool.io"
-    type: form
-    method: POST
-    fields:
-      name: "{gen.title}"
-      url: "{site.url}"
-      description: "{gen.description}"
-      email: "{site.email}"
-
   - name: "Waildworld"
     url: "waildworld.com"
     type: form
@@ -1418,16 +1398,6 @@ directories:
       description: "{gen.description}"
       email: "{site.email}"
 
-  - name: "Aitools"
-    url: "aitools.sh"
-    type: form
-    method: POST
-    fields:
-      name: "{gen.title}"
-      url: "{site.url}"
-      description: "{gen.description}"
-      email: "{site.email}"
-
   - name: "Intelligenttools"
     url: "intelligenttools.co"
     type: form
@@ -1480,16 +1450,6 @@ directories:
 
   - name: "Aitoolshunt"
     url: "aitoolshunt.com"
-    type: form
-    method: POST
-    fields:
-      name: "{gen.title}"
-      url: "{site.url}"
-      description: "{gen.description}"
-      email: "{site.email}"
-
-  - name: "Aitools"
-    url: "aitools.neilpatel.com"
     type: form
     method: POST
     fields:
@@ -1748,16 +1708,6 @@ directories:
       description: "{gen.description}"
       email: "{site.email}"
 
-  - name: "Aitools"
-    url: "aitools.lol"
-    type: form
-    method: POST
-    fields:
-      name: "{gen.title}"
-      url: "{site.url}"
-      description: "{gen.description}"
-      email: "{site.email}"
-
   - name: "Tooladvisor"
     url: "tooladvisor.ai"
     type: form
@@ -1920,16 +1870,6 @@ directories:
 
   - name: "Trendaitools"
     url: "trendaitools.com"
-    type: form
-    method: POST
-    fields:
-      name: "{gen.title}"
-      url: "{site.url}"
-      description: "{gen.description}"
-      email: "{site.email}"
-
-  - name: "Topai"
-    url: "topai.fyi"
     type: form
     method: POST
     fields:
@@ -2231,16 +2171,6 @@ directories:
       description: "{gen.description}"
       email: "{site.email}"
 
-  - name: "Aitools"
-    url: "https://aitools.neilpatel.com"
-    type: form
-    method: POST
-    fields:
-      name: "{gen.title}"
-      url: "{site.url}"
-      description: "{gen.description}"
-      email: "{site.email}"
-
   - name: "G2"
     url: "https://g2.com"
     type: form
@@ -2351,16 +2281,6 @@ directories:
       description: "{gen.description}"
       email: "{site.email}"
 
-  - name: "Dang"
-    url: "https://dang.ai"
-    type: form
-    method: POST
-    fields:
-      name: "{gen.title}"
-      url: "{site.url}"
-      description: "{gen.description}"
-      email: "{site.email}"
-
   - name: "Hotfrog"
     url: "https://hotfrog.com"
     type: form
@@ -2441,26 +2361,6 @@ directories:
       description: "{gen.description}"
       email: "{site.email}"
 
-  - name: "Toolpilot"
-    url: "https://toolpilot.ai"
-    type: form
-    method: POST
-    fields:
-      name: "{gen.title}"
-      url: "{site.url}"
-      description: "{gen.description}"
-      email: "{site.email}"
-
-  - name: "Theresanaiforthat"
-    url: "https://theresanaiforthat.com"
-    type: form
-    method: POST
-    fields:
-      name: "{gen.title}"
-      url: "{site.url}"
-      description: "{gen.description}"
-      email: "{site.email}"
-
   - name: "Peerlist"
     url: "https://peerlist.io"
     type: form
@@ -2501,26 +2401,6 @@ directories:
       description: "{gen.description}"
       email: "{site.email}"
 
-  - name: "Showmebest"
-    url: "https://showmebest.ai"
-    type: form
-    method: POST
-    fields:
-      name: "{gen.title}"
-      url: "{site.url}"
-      description: "{gen.description}"
-      email: "{site.email}"
-
-  - name: "Submitaitools"
-    url: "https://submitaitools.org"
-    type: form
-    method: POST
-    fields:
-      name: "{gen.title}"
-      url: "{site.url}"
-      description: "{gen.description}"
-      email: "{site.email}"
-
   - name: "Alternative"
     url: "https://alternative.me"
     type: form
@@ -2551,28 +2431,8 @@ directories:
       description: "{gen.description}"
       email: "{site.email}"
 
-  - name: "Whatsthebigdata"
-    url: "https://whatsthebigdata.com"
-    type: form
-    method: POST
-    fields:
-      name: "{gen.title}"
-      url: "{site.url}"
-      description: "{gen.description}"
-      email: "{site.email}"
-
   - name: "Crozdesk"
     url: "https://crozdesk.com"
-    type: form
-    method: POST
-    fields:
-      name: "{gen.title}"
-      url: "{site.url}"
-      description: "{gen.description}"
-      email: "{site.email}"
-
-  - name: "Toolify"
-    url: "https://toolify.ai"
     type: form
     method: POST
     fields:
@@ -2601,38 +2461,8 @@ directories:
       description: "{gen.description}"
       email: "{site.email}"
 
-  - name: "Aistage"
-    url: "https://aistage.net"
-    type: form
-    method: POST
-    fields:
-      name: "{gen.title}"
-      url: "{site.url}"
-      description: "{gen.description}"
-      email: "{site.email}"
-
-  - name: "Startupfa"
-    url: "https://startupfa.st"
-    type: form
-    method: POST
-    fields:
-      name: "{gen.title}"
-      url: "{site.url}"
-      description: "{gen.description}"
-      email: "{site.email}"
-
   - name: "Startupblink"
     url: "https://startupblink.com"
-    type: form
-    method: POST
-    fields:
-      name: "{gen.title}"
-      url: "{site.url}"
-      description: "{gen.description}"
-      email: "{site.email}"
-
-  - name: "Futurepedia"
-    url: "https://futurepedia.io"
     type: form
     method: POST
     fields:
@@ -2701,26 +2531,6 @@ directories:
       description: "{gen.description}"
       email: "{site.email}"
 
-  - name: "Futuretools"
-    url: "https://futuretools.io"
-    type: form
-    method: POST
-    fields:
-      name: "{gen.title}"
-      url: "{site.url}"
-      description: "{gen.description}"
-      email: "{site.email}"
-
-  - name: "Aitools"
-    url: "https://aitools.inc"
-    type: form
-    method: POST
-    fields:
-      name: "{gen.title}"
-      url: "{site.url}"
-      description: "{gen.description}"
-      email: "{site.email}"
-
   - name: "Newtool"
     url: "https://newtool.site"
     type: form
@@ -2743,16 +2553,6 @@ directories:
 
   - name: "Openhunts"
     url: "https://openhunts.com"
-    type: form
-    method: POST
-    fields:
-      name: "{gen.title}"
-      url: "{site.url}"
-      description: "{gen.description}"
-      email: "{site.email}"
-
-  - name: "Opentools"
-    url: "https://opentools.ai"
     type: form
     method: POST
     fields:
@@ -2871,16 +2671,6 @@ directories:
       description: "{gen.description}"
       email: "{site.email}"
 
-  - name: "Aidirs"
-    url: "https://aidirs.best"
-    type: form
-    method: POST
-    fields:
-      name: "{gen.title}"
-      url: "{site.url}"
-      description: "{gen.description}"
-      email: "{site.email}"
-
   - name: "Devhunt"
     url: "https://devhunt.org"
     type: form
@@ -2903,16 +2693,6 @@ directories:
 
   - name: "Superlaun"
     url: "https://superlaun.ch"
-    type: form
-    method: POST
-    fields:
-      name: "{gen.title}"
-      url: "{site.url}"
-      description: "{gen.description}"
-      email: "{site.email}"
-
-  - name: "Topai"
-    url: "https://topai.tools"
     type: form
     method: POST
     fields:
@@ -3021,16 +2801,6 @@ directories:
       description: "{gen.description}"
       email: "{site.email}"
 
-  - name: "Aitooltrek"
-    url: "https://aitooltrek.com"
-    type: form
-    method: POST
-    fields:
-      name: "{gen.title}"
-      url: "{site.url}"
-      description: "{gen.description}"
-      email: "{site.email}"
-
   - name: "Saasgenius"
     url: "https://saasgenius.com"
     type: form
@@ -3071,36 +2841,6 @@ directories:
       description: "{gen.description}"
       email: "{site.email}"
 
-  - name: "Aipure"
-    url: "https://aipure.ai"
-    type: form
-    method: POST
-    fields:
-      name: "{gen.title}"
-      url: "{site.url}"
-      description: "{gen.description}"
-      email: "{site.email}"
-
-  - name: "Dokeyai"
-    url: "https://dokeyai.com"
-    type: form
-    method: POST
-    fields:
-      name: "{gen.title}"
-      url: "{site.url}"
-      description: "{gen.description}"
-      email: "{site.email}"
-
-  - name: "Aitoolnet"
-    url: "https://aitoolnet.com"
-    type: form
-    method: POST
-    fields:
-      name: "{gen.title}"
-      url: "{site.url}"
-      description: "{gen.description}"
-      email: "{site.email}"
-
   - name: "Firsto"
     url: "https://firsto.co"
     type: form
@@ -3123,16 +2863,6 @@ directories:
 
   - name: "Topfreeaitools"
     url: "https://topfreeaitools.com"
-    type: form
-    method: POST
-    fields:
-      name: "{gen.title}"
-      url: "{site.url}"
-      description: "{gen.description}"
-      email: "{site.email}"
-
-  - name: "Aixploria"
-    url: "https://aixploria.com"
     type: form
     method: POST
     fields:
@@ -3183,36 +2913,6 @@ directories:
 
   - name: "10015"
     url: "https://10015.io"
-    type: form
-    method: POST
-    fields:
-      name: "{gen.title}"
-      url: "{site.url}"
-      description: "{gen.description}"
-      email: "{site.email}"
-
-  - name: "Saasaitools"
-    url: "https://saasaitools.com"
-    type: form
-    method: POST
-    fields:
-      name: "{gen.title}"
-      url: "{site.url}"
-      description: "{gen.description}"
-      email: "{site.email}"
-
-  - name: "Openfuture"
-    url: "https://openfuture.ai"
-    type: form
-    method: POST
-    fields:
-      name: "{gen.title}"
-      url: "{site.url}"
-      description: "{gen.description}"
-      email: "{site.email}"
-
-  - name: "Creati"
-    url: "https://creati.ai"
     type: form
     method: POST
     fields:
@@ -3341,16 +3041,6 @@ directories:
       description: "{gen.description}"
       email: "{site.email}"
 
-  - name: "Aitools"
-    url: "https://aitools.fyi"
-    type: form
-    method: POST
-    fields:
-      name: "{gen.title}"
-      url: "{site.url}"
-      description: "{gen.description}"
-      email: "{site.email}"
-
   - name: "Fwfw"
     url: "https://fwfw.app"
     type: form
@@ -3381,48 +3071,8 @@ directories:
       description: "{gen.description}"
       email: "{site.email}"
 
-  - name: "Aimojo"
-    url: "https://aimojo.io"
-    type: form
-    method: POST
-    fields:
-      name: "{gen.title}"
-      url: "{site.url}"
-      description: "{gen.description}"
-      email: "{site.email}"
-
-  - name: "Tipseason"
-    url: "https://tipseason.com"
-    type: form
-    method: POST
-    fields:
-      name: "{gen.title}"
-      url: "{site.url}"
-      description: "{gen.description}"
-      email: "{site.email}"
-
-  - name: "Bestofai"
-    url: "https://bestofai.com"
-    type: form
-    method: POST
-    fields:
-      name: "{gen.title}"
-      url: "{site.url}"
-      description: "{gen.description}"
-      email: "{site.email}"
-
   - name: "Basedtools"
     url: "https://basedtools.ai"
-    type: form
-    method: POST
-    fields:
-      name: "{gen.title}"
-      url: "{site.url}"
-      description: "{gen.description}"
-      email: "{site.email}"
-
-  - name: "Appscribed"
-    url: "https://appscribed.com"
     type: form
     method: POST
     fields:
@@ -3451,28 +3101,8 @@ directories:
       description: "{gen.description}"
       email: "{site.email}"
 
-  - name: "Eliteai"
-    url: "https://eliteai.tools"
-    type: form
-    method: POST
-    fields:
-      name: "{gen.title}"
-      url: "{site.url}"
-      description: "{gen.description}"
-      email: "{site.email}"
-
   - name: "Startuplist"
     url: "https://startuplist.ing"
-    type: form
-    method: POST
-    fields:
-      name: "{gen.title}"
-      url: "{site.url}"
-      description: "{gen.description}"
-      email: "{site.email}"
-
-  - name: "Thataicollection"
-    url: "https://thataicollection.com"
     type: form
     method: POST
     fields:
@@ -3601,16 +3231,6 @@ directories:
       description: "{gen.description}"
       email: "{site.email}"
 
-  - name: "Foundr"
-    url: "https://foundr.ai"
-    type: form
-    method: POST
-    fields:
-      name: "{gen.title}"
-      url: "{site.url}"
-      description: "{gen.description}"
-      email: "{site.email}"
-
   - name: "Productfame"
     url: "https://productfame.com"
     type: form
@@ -3651,48 +3271,8 @@ directories:
       description: "{gen.description}"
       email: "{site.email}"
 
-  - name: "Theaisurf"
-    url: "https://theaisurf.com"
-    type: form
-    method: POST
-    fields:
-      name: "{gen.title}"
-      url: "{site.url}"
-      description: "{gen.description}"
-      email: "{site.email}"
-
-  - name: "Aicenter"
-    url: "https://aicenter.ai"
-    type: form
-    method: POST
-    fields:
-      name: "{gen.title}"
-      url: "{site.url}"
-      description: "{gen.description}"
-      email: "{site.email}"
-
-  - name: "Findmyaitool"
-    url: "https://findmyaitool.com"
-    type: form
-    method: POST
-    fields:
-      name: "{gen.title}"
-      url: "{site.url}"
-      description: "{gen.description}"
-      email: "{site.email}"
-
   - name: "Mydirs"
     url: "https://mydirs.com"
-    type: form
-    method: POST
-    fields:
-      name: "{gen.title}"
-      url: "{site.url}"
-      description: "{gen.description}"
-      email: "{site.email}"
-
-  - name: "Ai Search"
-    url: "https://ai-search.io"
     type: form
     method: POST
     fields:
@@ -3721,16 +3301,6 @@ directories:
       description: "{gen.description}"
       email: "{site.email}"
 
-  - name: "Whattheai"
-    url: "https://whattheai.tech"
-    type: form
-    method: POST
-    fields:
-      name: "{gen.title}"
-      url: "{site.url}"
-      description: "{gen.description}"
-      email: "{site.email}"
-
   - name: "10words"
     url: "https://10words.io"
     type: form
@@ -3741,28 +3311,8 @@ directories:
       description: "{gen.description}"
       email: "{site.email}"
 
-  - name: "Powerusers"
-    url: "https://powerusers.ai"
-    type: form
-    method: POST
-    fields:
-      name: "{gen.title}"
-      url: "{site.url}"
-      description: "{gen.description}"
-      email: "{site.email}"
-
   - name: "Boilerplatehub"
     url: "https://boilerplatehub.com"
-    type: form
-    method: POST
-    fields:
-      name: "{gen.title}"
-      url: "{site.url}"
-      description: "{gen.description}"
-      email: "{site.email}"
-
-  - name: "Toolio"
-    url: "https://toolio.ai"
     type: form
     method: POST
     fields:
@@ -3791,38 +3341,8 @@ directories:
       description: "{gen.description}"
       email: "{site.email}"
 
-  - name: "Aiparabellum"
-    url: "https://aiparabellum.com"
-    type: form
-    method: POST
-    fields:
-      name: "{gen.title}"
-      url: "{site.url}"
-      description: "{gen.description}"
-      email: "{site.email}"
-
   - name: "Ogimage"
     url: "https://ogimage.gallery"
-    type: form
-    method: POST
-    fields:
-      name: "{gen.title}"
-      url: "{site.url}"
-      description: "{gen.description}"
-      email: "{site.email}"
-
-  - name: "Aivalley"
-    url: "https://aivalley.ai"
-    type: form
-    method: POST
-    fields:
-      name: "{gen.title}"
-      url: "{site.url}"
-      description: "{gen.description}"
-      email: "{site.email}"
-
-  - name: "Startups"
-    url: "https://startups.fyi"
     type: form
     method: POST
     fields:
@@ -3881,26 +3401,6 @@ directories:
       description: "{gen.description}"
       email: "{site.email}"
 
-  - name: "Aitoolguru"
-    url: "https://aitoolguru.com"
-    type: form
-    method: POST
-    fields:
-      name: "{gen.title}"
-      url: "{site.url}"
-      description: "{gen.description}"
-      email: "{site.email}"
-
-  - name: "Saasboilerplates"
-    url: "https://saasboilerplates.com"
-    type: form
-    method: POST
-    fields:
-      name: "{gen.title}"
-      url: "{site.url}"
-      description: "{gen.description}"
-      email: "{site.email}"
-
   - name: "Directoryfame"
     url: "https://directoryfame.com"
     type: form
@@ -3941,28 +3441,8 @@ directories:
       description: "{gen.description}"
       email: "{site.email}"
 
-  - name: "Toolnest"
-    url: "https://toolnest.ai"
-    type: form
-    method: POST
-    fields:
-      name: "{gen.title}"
-      url: "{site.url}"
-      description: "{gen.description}"
-      email: "{site.email}"
-
   - name: "Tools"
     url: "https://tools.robingood.com"
-    type: form
-    method: POST
-    fields:
-      name: "{gen.title}"
-      url: "{site.url}"
-      description: "{gen.description}"
-      email: "{site.email}"
-
-  - name: "Aidepot"
-    url: "https://aidepot.co"
     type: form
     method: POST
     fields:
@@ -3991,28 +3471,8 @@ directories:
       description: "{gen.description}"
       email: "{site.email}"
 
-  - name: "Gptdemo"
-    url: "https://gptdemo.net"
-    type: form
-    method: POST
-    fields:
-      name: "{gen.title}"
-      url: "{site.url}"
-      description: "{gen.description}"
-      email: "{site.email}"
-
   - name: "Toolhub"
     url: "https://toolhub.me"
-    type: form
-    method: POST
-    fields:
-      name: "{gen.title}"
-      url: "{site.url}"
-      description: "{gen.description}"
-      email: "{site.email}"
-
-  - name: "Toptool"
-    url: "https://toptool.app"
     type: form
     method: POST
     fields:
@@ -4085,16 +3545,6 @@ directories:
       tool_name: "{gen.title}"
       tool_url: "{site.url}"
       tool_description: "{gen.description}"
-      email: "{site.email}"
-
-  - name: "Insidr"
-    url: "https://www.insidr.ai/submit-tools/"
-    type: form
-    method: POST
-    fields:
-      name: "{gen.title}"
-      url: "{site.url}"
-      description: "{gen.description}"
       email: "{site.email}"
 
   - name: "Tools.so"
@@ -4331,11 +3781,6 @@ directories:
   # JS 渲染表单 / 需要账号 / 第三方表单服务
   # ════════════════════════════════════════
 
-  - name: "Pitchwall"
-    url: "https://pitchwall.co/product/submit"
-    type: manual
-    notes: "Requires account login to submit"
-
   - name: "Tally Form (wvY09d)"
     url: "https://tally.so/r/wvY09d"
     type: manual
@@ -4390,11 +3835,6 @@ directories:
     url: "https://startupbuffer.com"
     type: manual
     notes: "Requires account — submit at startupbuffer.com"
-
-  - name: "Uneed"
-    url: "https://www.uneed.best"
-    type: manual
-    notes: "Requires account login to submit tool"
 
   - name: "Bing Webmaster"
     url: "https://www.bing.com/webmasters/"
