@@ -20,7 +20,7 @@ directories:
   # ═══ Auto-submit ══════════════════════════════
 - name: "Theresanaiforthat"
   url: "theresanaiforthat.com"
-  type: playwright
+  type: manual
   method: POST
   fields:
     name: "{gen.title}"
@@ -28,9 +28,10 @@ directories:
     description: "{gen.description}"
     email: "{site.email}"
 
+  notes: Auto-downgraded (Playwright also failed)
 - name: "Toolify"
   url: "toolify.ai"
-  type: playwright
+  type: manual
   method: POST
   fields:
     name: "{gen.title}"
@@ -38,6 +39,7 @@ directories:
     description: "{gen.description}"
     email: "{site.email}"
 
+  notes: Auto-downgraded (Playwright also failed)
 - name: "Aixploria"
   url: "aixploria.com/en"
   type: manual
@@ -51,7 +53,7 @@ directories:
   notes: Auto-downgraded (HTTP 404)
 - name: "Whatsthebigdata"
   url: "whatsthebigdata.com"
-  type: playwright
+  type: manual
   method: POST
   fields:
     name: "{gen.title}"
@@ -59,9 +61,10 @@ directories:
     description: "{gen.description}"
     email: "{site.email}"
 
+  notes: Auto-downgraded (Playwright also failed)
 - name: "Topai"
   url: "topai.tools"
-  type: playwright
+  type: manual
   method: POST
   fields:
     name: "{gen.title}"
@@ -69,9 +72,10 @@ directories:
     description: "{gen.description}"
     email: "{site.email}"
 
+  notes: Auto-downgraded (Playwright also failed)
 - name: "Futurepedia"
   url: "futurepedia.io"
-  type: playwright
+  type: manual
   method: POST
   fields:
     name: "{gen.title}"
@@ -79,9 +83,10 @@ directories:
     description: "{gen.description}"
     email: "{site.email}"
 
+  notes: Auto-downgraded (Playwright also failed)
 - name: "Creati"
   url: "creati.ai"
-  type: playwright
+  type: manual
   method: POST
   fields:
     name: "{gen.title}"
@@ -89,6 +94,7 @@ directories:
     description: "{gen.description}"
     email: "{site.email}"
 
+  notes: Auto-downgraded (Playwright also failed)
 - name: "Futuretools"
   url: "futuretools.io"
   type: form
@@ -101,7 +107,7 @@ directories:
 
 - name: "Rundown"
   url: "rundown.ai/tools"
-  type: form
+  type: playwright
   method: POST
   fields:
     name: "{gen.title}"
@@ -111,7 +117,7 @@ directories:
 
 - name: "Aiagentstore"
   url: "aiagentstore.ai"
-  type: form
+  type: playwright
   method: POST
   fields:
     name: "{gen.title}"
@@ -132,7 +138,7 @@ directories:
   notes: Auto-downgraded (HTTP 404)
 - name: "Easywithai"
   url: "easywithai.com"
-  type: form
+  type: playwright
   method: POST
   fields:
     name: "{gen.title}"
@@ -142,7 +148,7 @@ directories:
 
 - name: "Bestofai"
   url: "bestofai.com"
-  type: playwright
+  type: manual
   method: POST
   fields:
     name: "{gen.title}"
@@ -150,9 +156,10 @@ directories:
     description: "{gen.description}"
     email: "{site.email}"
 
+  notes: Auto-downgraded (Playwright also failed)
 - name: "Waytoagi"
   url: "waytoagi.com"
-  type: form
+  type: playwright
   method: POST
   fields:
     name: "{gen.title}"
@@ -162,7 +169,7 @@ directories:
 
 - name: "Genai"
   url: "genai.works/applications"
-  type: form
+  type: playwright
   method: POST
   fields:
     name: "{gen.title}"
@@ -183,7 +190,7 @@ directories:
   notes: Auto-downgraded (HTTP 404)
 - name: "Aitoolsdirectory"
   url: "aitoolsdirectory.com"
-  type: form
+  type: playwright
   method: POST
   fields:
     name: "{gen.title}"
@@ -193,7 +200,7 @@ directories:
 
 - name: "Ai Hunter"
   url: "ai-hunter.io"
-  type: form
+  type: playwright
   method: POST
   fields:
     name: "{gen.title}"
@@ -203,7 +210,7 @@ directories:
 
 - name: "Wisepickai"
   url: "wisepickai.com"
-  type: form
+  type: playwright
   method: POST
   fields:
     name: "{gen.title}"
@@ -213,7 +220,7 @@ directories:
 
 - name: "Aichief"
   url: "aichief.com"
-  type: form
+  type: playwright
   method: POST
   fields:
     name: "{gen.title}"
@@ -223,7 +230,7 @@ directories:
 
 - name: "Aitoptools"
   url: "aitoptools.com"
-  type: form
+  type: playwright
   method: POST
   fields:
     name: "{gen.title}"
@@ -274,7 +281,7 @@ directories:
   notes: Auto-downgraded (HTTP 404)
 - name: "Eliteai"
   url: "eliteai.tools"
-  type: playwright
+  type: manual
   method: POST
   fields:
     name: "{gen.title}"
@@ -282,6 +289,7 @@ directories:
     description: "{gen.description}"
     email: "{site.email}"
 
+  notes: Auto-downgraded (Playwright also failed)
 - name: "Opentools"
   url: "opentools.ai"
   type: form
@@ -294,7 +302,7 @@ directories:
 
 - name: "Aiapps"
   url: "aiapps.com"
-  type: form
+  type: playwright
   method: POST
   fields:
     name: "{gen.title}"
@@ -304,7 +312,7 @@ directories:
 
 - name: "Bestfreeaiwebsites"
   url: "bestfreeaiwebsites.com/all-tools"
-  type: form
+  type: playwright
   method: POST
   fields:
     name: "{gen.title}"
@@ -324,7 +332,7 @@ directories:
 
 - name: "Artificin"
   url: "artificin.com/tools"
-  type: form
+  type: playwright
   method: POST
   fields:
     name: "{gen.title}"
@@ -344,7 +352,7 @@ directories:
 
 - name: "Toolhunt"
   url: "toolhunt.io"
-  type: form
+  type: playwright
   method: POST
   fields:
     name: "{gen.title}"
@@ -354,7 +362,7 @@ directories:
 
 - name: "Soverin"
   url: "soverin.ai"
-  type: form
+  type: playwright
   method: POST
   fields:
     name: "{gen.title}"
@@ -364,7 +372,7 @@ directories:
 
 - name: "Aiagentslist"
   url: "aiagentslist.com"
-  type: form
+  type: playwright
   method: POST
   fields:
     name: "{gen.title}"
@@ -374,7 +382,7 @@ directories:
 
 - name: "Lachief"
   url: "lachief.io"
-  type: form
+  type: playwright
   method: POST
   fields:
     name: "{gen.title}"
@@ -384,7 +392,7 @@ directories:
 
 - name: "Dessign"
   url: "dessign.net"
-  type: form
+  type: playwright
   method: POST
   fields:
     name: "{gen.title}"
@@ -394,7 +402,7 @@ directories:
 
 - name: "Toptool"
   url: "toptool.app/en"
-  type: playwright
+  type: manual
   method: POST
   fields:
     name: "{gen.title}"
@@ -402,9 +410,10 @@ directories:
     description: "{gen.description}"
     email: "{site.email}"
 
+  notes: Auto-downgraded (Playwright also failed)
 - name: "Mangoai"
   url: "mangoai.co"
-  type: form
+  type: playwright
   method: POST
   fields:
     name: "{gen.title}"
@@ -425,7 +434,7 @@ directories:
   notes: Auto-downgraded (HTTP 404)
 - name: "Tools Ai"
   url: "tools-ai.online"
-  type: form
+  type: playwright
   method: POST
   fields:
     name: "{gen.title}"
@@ -435,7 +444,7 @@ directories:
 
 - name: "Bai"
   url: "bai.tools"
-  type: form
+  type: playwright
   method: POST
   fields:
     name: "{gen.title}"
@@ -445,7 +454,7 @@ directories:
 
 - name: "Aiagentsdirectory"
   url: "aiagentsdirectory.com"
-  type: form
+  type: playwright
   method: POST
   fields:
     name: "{gen.title}"
@@ -455,7 +464,7 @@ directories:
 
 - name: "Techpilot"
   url: "techpilot.ai/tools"
-  type: form
+  type: playwright
   method: POST
   fields:
     name: "{gen.title}"
@@ -465,7 +474,7 @@ directories:
 
 - name: "Aitoolgo"
   url: "aitoolgo.com"
-  type: form
+  type: playwright
   method: POST
   fields:
     name: "{gen.title}"
@@ -475,7 +484,7 @@ directories:
 
 - name: "Stratup"
   url: "stratup.ai/en/ais"
-  type: form
+  type: playwright
   method: POST
   fields:
     name: "{gen.title}"
@@ -485,7 +494,7 @@ directories:
 
 - name: "Itirupati"
   url: "itirupati.com/ai-tools-apps"
-  type: form
+  type: playwright
   method: POST
   fields:
     name: "{gen.title}"
@@ -495,7 +504,7 @@ directories:
 
 - name: "Topaitools"
   url: "topaitools.com/tools"
-  type: form
+  type: playwright
   method: POST
   fields:
     name: "{gen.title}"
@@ -505,7 +514,7 @@ directories:
 
 - name: "Ai Search"
   url: "ai-search.io"
-  type: playwright
+  type: manual
   method: POST
   fields:
     name: "{gen.title}"
@@ -513,9 +522,10 @@ directories:
     description: "{gen.description}"
     email: "{site.email}"
 
+  notes: Auto-downgraded (Playwright also failed)
 - name: "Scriptbyai"
   url: "scriptbyai.com"
-  type: form
+  type: playwright
   method: POST
   fields:
     name: "{gen.title}"
@@ -525,7 +535,7 @@ directories:
 
 - name: "Aitoolnet"
   url: "aitoolnet.com"
-  type: playwright
+  type: manual
   method: POST
   fields:
     name: "{gen.title}"
@@ -533,9 +543,10 @@ directories:
     description: "{gen.description}"
     email: "{site.email}"
 
+  notes: Auto-downgraded (Playwright also failed)
 - name: "Theaisurf"
   url: "theaisurf.com"
-  type: playwright
+  type: manual
   method: POST
   fields:
     name: "{gen.title}"
@@ -543,9 +554,10 @@ directories:
     description: "{gen.description}"
     email: "{site.email}"
 
+  notes: Auto-downgraded (Playwright also failed)
 - name: "Aizones"
   url: "aizones.io"
-  type: form
+  type: playwright
   method: POST
   fields:
     name: "{gen.title}"
@@ -555,7 +567,7 @@ directories:
 
 - name: "Gpt3demo"
   url: "gpt3demo.com"
-  type: form
+  type: playwright
   method: POST
   fields:
     name: "{gen.title}"
@@ -565,7 +577,7 @@ directories:
 
 - name: "Aiforeveryone"
   url: "aiforeveryone.org"
-  type: form
+  type: playwright
   method: POST
   fields:
     name: "{gen.title}"
@@ -575,7 +587,7 @@ directories:
 
 - name: "Powerfulai"
   url: "powerfulai.tools"
-  type: form
+  type: playwright
   method: POST
   fields:
     name: "{gen.title}"
@@ -585,7 +597,7 @@ directories:
 
 - name: "Foundr"
   url: "foundr.ai"
-  type: playwright
+  type: manual
   method: POST
   fields:
     name: "{gen.title}"
@@ -593,9 +605,10 @@ directories:
     description: "{gen.description}"
     email: "{site.email}"
 
+  notes: Auto-downgraded (Playwright also failed)
 - name: "Findmyaitool"
   url: "findmyaitool.com"
-  type: playwright
+  type: manual
   method: POST
   fields:
     name: "{gen.title}"
@@ -603,9 +616,10 @@ directories:
     description: "{gen.description}"
     email: "{site.email}"
 
+  notes: Auto-downgraded (Playwright also failed)
 - name: "Allgpts"
   url: "allgpts.co"
-  type: form
+  type: playwright
   method: POST
   fields:
     name: "{gen.title}"
@@ -615,7 +629,7 @@ directories:
 
 - name: "Aijourney"
   url: "aijourney.so"
-  type: form
+  type: playwright
   method: POST
   fields:
     name: "{gen.title}"
@@ -625,7 +639,7 @@ directories:
 
 - name: "Aitechsuite"
   url: "aitechsuite.com"
-  type: form
+  type: playwright
   method: POST
   fields:
     name: "{gen.title}"
@@ -635,7 +649,7 @@ directories:
 
 - name: "Toolio"
   url: "toolio.ai"
-  type: playwright
+  type: manual
   method: POST
   fields:
     name: "{gen.title}"
@@ -643,9 +657,10 @@ directories:
     description: "{gen.description}"
     email: "{site.email}"
 
+  notes: Auto-downgraded (Playwright also failed)
 - name: "Openfuture"
   url: "openfuture.ai"
-  type: playwright
+  type: manual
   method: POST
   fields:
     name: "{gen.title}"
@@ -653,9 +668,10 @@ directories:
     description: "{gen.description}"
     email: "{site.email}"
 
+  notes: Auto-downgraded (Playwright also failed)
 - name: "Groupify"
   url: "groupify.ai"
-  type: form
+  type: playwright
   method: POST
   fields:
     name: "{gen.title}"
@@ -665,7 +681,7 @@ directories:
 
 - name: "App"
   url: "app.aibase.com"
-  type: form
+  type: playwright
   method: POST
   fields:
     name: "{gen.title}"
@@ -675,7 +691,7 @@ directories:
 
 - name: "Simplifyaitools"
   url: "simplifyaitools.com"
-  type: form
+  type: playwright
   method: POST
   fields:
     name: "{gen.title}"
@@ -696,7 +712,7 @@ directories:
   notes: Auto-downgraded (HTTP 404)
 - name: "Aitoolguru"
   url: "aitoolguru.com"
-  type: playwright
+  type: manual
   method: POST
   fields:
     name: "{gen.title}"
@@ -704,9 +720,10 @@ directories:
     description: "{gen.description}"
     email: "{site.email}"
 
+  notes: Auto-downgraded (Playwright also failed)
 - name: "Domore"
   url: "domore.ai"
-  type: form
+  type: playwright
   method: POST
   fields:
     name: "{gen.title}"
@@ -716,7 +733,7 @@ directories:
 
 - name: "Aibucket"
   url: "aibucket.io/ai-tools"
-  type: form
+  type: playwright
   method: POST
   fields:
     name: "{gen.title}"
@@ -726,7 +743,7 @@ directories:
 
 - name: "Stork"
   url: "stork.ai"
-  type: form
+  type: playwright
   method: POST
   fields:
     name: "{gen.title}"
@@ -736,7 +753,7 @@ directories:
 
 - name: "Tipseason"
   url: "tipseason.com/ai-tools"
-  type: playwright
+  type: manual
   method: POST
   fields:
     name: "{gen.title}"
@@ -744,9 +761,10 @@ directories:
     description: "{gen.description}"
     email: "{site.email}"
 
+  notes: Auto-downgraded (Playwright also failed)
 - name: "Aitoolly"
   url: "aitoolly.com"
-  type: form
+  type: playwright
   method: POST
   fields:
     name: "{gen.title}"
@@ -756,7 +774,7 @@ directories:
 
 - name: "Hdrobots"
   url: "hdrobots.com"
-  type: form
+  type: playwright
   method: POST
   fields:
     name: "{gen.title}"
@@ -766,7 +784,7 @@ directories:
 
 - name: "Serp"
   url: "serp.ai"
-  type: form
+  type: playwright
   method: POST
   fields:
     name: "{gen.title}"
@@ -786,7 +804,7 @@ directories:
 
 - name: "Seofai"
   url: "seofai.com"
-  type: form
+  type: playwright
   method: POST
   fields:
     name: "{gen.title}"
@@ -796,7 +814,7 @@ directories:
 
 - name: "Brouseai"
   url: "brouseai.com"
-  type: form
+  type: playwright
   method: POST
   fields:
     name: "{gen.title}"
@@ -806,7 +824,7 @@ directories:
 
 - name: "Thataicollection"
   url: "thataicollection.com"
-  type: playwright
+  type: manual
   method: POST
   fields:
     name: "{gen.title}"
@@ -814,9 +832,10 @@ directories:
     description: "{gen.description}"
     email: "{site.email}"
 
+  notes: Auto-downgraded (Playwright also failed)
 - name: "Agentlocker"
   url: "agentlocker.ai"
-  type: form
+  type: playwright
   method: POST
   fields:
     name: "{gen.title}"
@@ -826,7 +845,7 @@ directories:
 
 - name: "Aitoolboard"
   url: "aitoolboard.com"
-  type: form
+  type: playwright
   method: POST
   fields:
     name: "{gen.title}"
@@ -847,7 +866,7 @@ directories:
   notes: Auto-downgraded (HTTP 404)
 - name: "Aitoolsarena"
   url: "aitoolsarena.com"
-  type: form
+  type: playwright
   method: POST
   fields:
     name: "{gen.title}"
@@ -857,7 +876,7 @@ directories:
 
 - name: "Navtools"
   url: "navtools.ai"
-  type: form
+  type: playwright
   method: POST
   fields:
     name: "{gen.title}"
@@ -867,7 +886,7 @@ directories:
 
 - name: "Poweredbyai"
   url: "poweredbyai.app"
-  type: form
+  type: playwright
   method: POST
   fields:
     name: "{gen.title}"
@@ -877,7 +896,7 @@ directories:
 
 - name: "Listmyai"
   url: "listmyai.net/tools"
-  type: form
+  type: playwright
   method: POST
   fields:
     name: "{gen.title}"
@@ -887,7 +906,7 @@ directories:
 
 - name: "Aitoolhub"
   url: "aitoolhub.net"
-  type: form
+  type: playwright
   method: POST
   fields:
     name: "{gen.title}"
@@ -897,7 +916,7 @@ directories:
 
 - name: "Bestaiagents"
   url: "bestaiagents.ai"
-  type: form
+  type: playwright
   method: POST
   fields:
     name: "{gen.title}"
@@ -907,7 +926,7 @@ directories:
 
 - name: "Future Pedia"
   url: "future-pedia.com"
-  type: form
+  type: playwright
   method: POST
   fields:
     name: "{gen.title}"
@@ -927,7 +946,7 @@ directories:
 
 - name: "Listedai"
   url: "listedai.co"
-  type: form
+  type: playwright
   method: POST
   fields:
     name: "{gen.title}"
@@ -947,7 +966,7 @@ directories:
 
 - name: "Iseoai"
   url: "iseoai.com"
-  type: form
+  type: playwright
   method: POST
   fields:
     name: "{gen.title}"
@@ -957,7 +976,7 @@ directories:
 
 - name: "Theailibrary"
   url: "theailibrary.co"
-  type: form
+  type: playwright
   method: POST
   fields:
     name: "{gen.title}"
@@ -967,7 +986,7 @@ directories:
 
 - name: "Aitoolselection"
   url: "aitoolselection.com"
-  type: form
+  type: playwright
   method: POST
   fields:
     name: "{gen.title}"
@@ -977,7 +996,7 @@ directories:
 
 - name: "Mavtools"
   url: "mavtools.com"
-  type: form
+  type: playwright
   method: POST
   fields:
     name: "{gen.title}"
@@ -987,7 +1006,7 @@ directories:
 
 - name: "Aitrendz"
   url: "aitrendz.xyz"
-  type: form
+  type: playwright
   method: POST
   fields:
     name: "{gen.title}"
@@ -997,7 +1016,7 @@ directories:
 
 - name: "Itsbetterwithai"
   url: "itsbetterwithai.com"
-  type: form
+  type: playwright
   method: POST
   fields:
     name: "{gen.title}"
@@ -1007,7 +1026,7 @@ directories:
 
 - name: "Aplicaciones"
   url: "aplicaciones.ai/en"
-  type: form
+  type: playwright
   method: POST
   fields:
     name: "{gen.title}"
@@ -1017,7 +1036,7 @@ directories:
 
 - name: "Library"
   url: "library.phygital.plus"
-  type: form
+  type: playwright
   method: POST
   fields:
     name: "{gen.title}"
@@ -1027,7 +1046,7 @@ directories:
 
 - name: "Waildworld"
   url: "waildworld.com"
-  type: form
+  type: playwright
   method: POST
   fields:
     name: "{gen.title}"
@@ -1048,7 +1067,7 @@ directories:
   notes: Auto-downgraded (HTTP 404)
 - name: "Aitooltips"
   url: "aitooltips.com"
-  type: form
+  type: playwright
   method: POST
   fields:
     name: "{gen.title}"
@@ -1058,7 +1077,7 @@ directories:
 
 - name: "Aitoolsexplorer"
   url: "aitoolsexplorer.com"
-  type: form
+  type: playwright
   method: POST
   fields:
     name: "{gen.title}"
@@ -1068,7 +1087,7 @@ directories:
 
 - name: "Fullstackai"
   url: "fullstackai.co/tools"
-  type: form
+  type: playwright
   method: POST
   fields:
     name: "{gen.title}"
@@ -1078,7 +1097,7 @@ directories:
 
 - name: "Somi"
   url: "somi.ai"
-  type: form
+  type: playwright
   method: POST
   fields:
     name: "{gen.title}"
@@ -1088,7 +1107,7 @@ directories:
 
 - name: "Toolscout"
   url: "toolscout.ai"
-  type: form
+  type: playwright
   method: POST
   fields:
     name: "{gen.title}"
@@ -1098,7 +1117,7 @@ directories:
 
 - name: "Tooldirectory"
   url: "tooldirectory.ai"
-  type: form
+  type: playwright
   method: POST
   fields:
     name: "{gen.title}"
@@ -1108,7 +1127,7 @@ directories:
 
 - name: "Theainavigator"
   url: "theainavigator.com/list-of-ai-tools"
-  type: form
+  type: playwright
   method: POST
   fields:
     name: "{gen.title}"
@@ -1118,7 +1137,7 @@ directories:
 
 - name: "Ai Productreviews"
   url: "ai-productreviews.com"
-  type: form
+  type: playwright
   method: POST
   fields:
     name: "{gen.title}"
@@ -1128,7 +1147,7 @@ directories:
 
 - name: "Marsx"
   url: "marsx.dev/ai-startups"
-  type: form
+  type: playwright
   method: POST
   fields:
     name: "{gen.title}"
@@ -1138,7 +1157,7 @@ directories:
 
 - name: "Aitoolmall"
   url: "aitoolmall.com"
-  type: form
+  type: playwright
   method: POST
   fields:
     name: "{gen.title}"
@@ -1148,7 +1167,7 @@ directories:
 
 - name: "Toolhunter"
   url: "toolhunter.ai"
-  type: form
+  type: playwright
   method: POST
   fields:
     name: "{gen.title}"
@@ -1158,7 +1177,7 @@ directories:
 
 - name: "Humanornot"
   url: "humanornot.co"
-  type: form
+  type: playwright
   method: POST
   fields:
     name: "{gen.title}"
@@ -1168,7 +1187,7 @@ directories:
 
 - name: "Toptools"
   url: "toptools.ai"
-  type: form
+  type: playwright
   method: POST
   fields:
     name: "{gen.title}"
@@ -1178,7 +1197,7 @@ directories:
 
 - name: "Aitoolzi"
   url: "aitoolzi.com"
-  type: form
+  type: playwright
   method: POST
   fields:
     name: "{gen.title}"
@@ -1188,7 +1207,7 @@ directories:
 
 - name: "Toolspedia"
   url: "toolspedia.io"
-  type: form
+  type: playwright
   method: POST
   fields:
     name: "{gen.title}"
@@ -1198,7 +1217,7 @@ directories:
 
 - name: "Allinai"
   url: "allinai.tools"
-  type: form
+  type: playwright
   method: POST
   fields:
     name: "{gen.title}"
@@ -1208,7 +1227,7 @@ directories:
 
 - name: "Aitechfy"
   url: "aitechfy.com"
-  type: form
+  type: playwright
   method: POST
   fields:
     name: "{gen.title}"
@@ -1218,7 +1237,7 @@ directories:
 
 - name: "Dropyourai"
   url: "dropyourai.com"
-  type: form
+  type: playwright
   method: POST
   fields:
     name: "{gen.title}"
@@ -1228,7 +1247,7 @@ directories:
 
 - name: "Aitoolhouse"
   url: "aitoolhouse.com"
-  type: form
+  type: playwright
   method: POST
   fields:
     name: "{gen.title}"
@@ -1238,7 +1257,7 @@ directories:
 
 - name: "Guideofaitool"
   url: "guideofaitool.com"
-  type: form
+  type: playwright
   method: POST
   fields:
     name: "{gen.title}"
@@ -1248,7 +1267,7 @@ directories:
 
 - name: "Aitoolsguide"
   url: "aitoolsguide.com"
-  type: form
+  type: playwright
   method: POST
   fields:
     name: "{gen.title}"
@@ -1258,7 +1277,7 @@ directories:
 
 - name: "Victrays"
   url: "victrays.com/ai-tools"
-  type: form
+  type: playwright
   method: POST
   fields:
     name: "{gen.title}"
@@ -1268,7 +1287,7 @@ directories:
 
 - name: "Every Ai"
   url: "every-ai.com"
-  type: form
+  type: playwright
   method: POST
   fields:
     name: "{gen.title}"
@@ -1278,7 +1297,7 @@ directories:
 
 - name: "Bestaito"
   url: "bestaito.com"
-  type: form
+  type: playwright
   method: POST
   fields:
     name: "{gen.title}"
@@ -1288,7 +1307,7 @@ directories:
 
 - name: "Aicyclopedia"
   url: "aicyclopedia.com/ai-tools"
-  type: form
+  type: playwright
   method: POST
   fields:
     name: "{gen.title}"
@@ -1298,7 +1317,7 @@ directories:
 
 - name: "Altern"
   url: "altern.ai"
-  type: form
+  type: playwright
   method: POST
   fields:
     name: "{gen.title}"
@@ -1308,7 +1327,7 @@ directories:
 
 - name: "Openpedia"
   url: "openpedia.io"
-  type: form
+  type: playwright
   method: POST
   fields:
     name: "{gen.title}"
@@ -1318,7 +1337,7 @@ directories:
 
 - name: "Freeappsai"
   url: "freeappsai.com"
-  type: form
+  type: playwright
   method: POST
   fields:
     name: "{gen.title}"
@@ -1328,7 +1347,7 @@ directories:
 
 - name: "Monkeyaitools"
   url: "monkeyaitools.com"
-  type: form
+  type: playwright
   method: POST
   fields:
     name: "{gen.title}"
@@ -1338,7 +1357,7 @@ directories:
 
 - name: "Toolnest"
   url: "toolnest.ai"
-  type: playwright
+  type: manual
   method: POST
   fields:
     name: "{gen.title}"
@@ -1346,9 +1365,10 @@ directories:
     description: "{gen.description}"
     email: "{site.email}"
 
+  notes: Auto-downgraded (Playwright also failed)
 - name: "Toolsforhumans"
   url: "toolsforhumans.ai/tools-database"
-  type: form
+  type: playwright
   method: POST
   fields:
     name: "{gen.title}"
@@ -1358,7 +1378,7 @@ directories:
 
 - name: "Videaitools"
   url: "videaitools.com"
-  type: form
+  type: playwright
   method: POST
   fields:
     name: "{gen.title}"
@@ -1368,7 +1388,7 @@ directories:
 
 - name: "Aifindertools"
   url: "aifindertools.com"
-  type: form
+  type: playwright
   method: POST
   fields:
     name: "{gen.title}"
@@ -1378,7 +1398,7 @@ directories:
 
 - name: "Neonrev"
   url: "neonrev.com"
-  type: form
+  type: playwright
   method: POST
   fields:
     name: "{gen.title}"
@@ -1388,7 +1408,7 @@ directories:
 
 - name: "Freeaitool"
   url: "freeaitool.ai"
-  type: form
+  type: playwright
   method: POST
   fields:
     name: "{gen.title}"
@@ -1398,7 +1418,7 @@ directories:
 
 - name: "Aihustle"
   url: "aihustle.tools"
-  type: form
+  type: playwright
   method: POST
   fields:
     name: "{gen.title}"
@@ -1408,7 +1428,7 @@ directories:
 
 - name: "Intelligenttools"
   url: "intelligenttools.co"
-  type: form
+  type: playwright
   method: POST
   fields:
     name: "{gen.title}"
@@ -1418,7 +1438,7 @@ directories:
 
 - name: "Fastpedia"
   url: "fastpedia.io"
-  type: form
+  type: playwright
   method: POST
   fields:
     name: "{gen.title}"
@@ -1428,7 +1448,7 @@ directories:
 
 - name: "Magicbox"
   url: "magicbox.tools"
-  type: form
+  type: playwright
   method: POST
   fields:
     name: "{gen.title}"
@@ -1438,7 +1458,7 @@ directories:
 
 - name: "Wavel"
   url: "wavel.io"
-  type: form
+  type: playwright
   method: POST
   fields:
     name: "{gen.title}"
@@ -1448,7 +1468,7 @@ directories:
 
 - name: "Gogetgpt"
   url: "gogetgpt.com/en/c/best-tools"
-  type: form
+  type: playwright
   method: POST
   fields:
     name: "{gen.title}"
@@ -1458,7 +1478,7 @@ directories:
 
 - name: "Aitoolshunt"
   url: "aitoolshunt.com"
-  type: form
+  type: playwright
   method: POST
   fields:
     name: "{gen.title}"
@@ -1468,7 +1488,7 @@ directories:
 
 - name: "Aitoolsone"
   url: "aitoolsone.com"
-  type: form
+  type: playwright
   method: POST
   fields:
     name: "{gen.title}"
@@ -1478,7 +1498,7 @@ directories:
 
 - name: "Theee"
   url: "theee.ai"
-  type: form
+  type: playwright
   method: POST
   fields:
     name: "{gen.title}"
@@ -1488,7 +1508,7 @@ directories:
 
 - name: "Superaitools"
   url: "superaitools.io"
-  type: form
+  type: playwright
   method: POST
   fields:
     name: "{gen.title}"
@@ -1498,7 +1518,7 @@ directories:
 
 - name: "Aijumble"
   url: "aijumble.com"
-  type: form
+  type: playwright
   method: POST
   fields:
     name: "{gen.title}"
@@ -1508,7 +1528,7 @@ directories:
 
 - name: "Alternativeai"
   url: "alternativeai.io"
-  type: form
+  type: playwright
   method: POST
   fields:
     name: "{gen.title}"
@@ -1518,7 +1538,7 @@ directories:
 
 - name: "Showmebest"
   url: "showmebest.ai"
-  type: playwright
+  type: manual
   method: POST
   fields:
     name: "{gen.title}"
@@ -1526,9 +1546,10 @@ directories:
     description: "{gen.description}"
     email: "{site.email}"
 
+  notes: Auto-downgraded (Playwright also failed)
 - name: "Atozaitools"
   url: "atozaitools.com"
-  type: form
+  type: playwright
   method: POST
   fields:
     name: "{gen.title}"
@@ -1538,7 +1559,7 @@ directories:
 
 - name: "Aihunt"
   url: "aihunt.app/tools"
-  type: form
+  type: playwright
   method: POST
   fields:
     name: "{gen.title}"
@@ -1548,7 +1569,7 @@ directories:
 
 - name: "Aitach"
   url: "aitach.com"
-  type: form
+  type: playwright
   method: POST
   fields:
     name: "{gen.title}"
@@ -1558,7 +1579,7 @@ directories:
 
 - name: "Popularaitools"
   url: "popularaitools.ai/ai-tool-categories"
-  type: form
+  type: playwright
   method: POST
   fields:
     name: "{gen.title}"
@@ -1578,7 +1599,7 @@ directories:
 
 - name: "Awesomeaitools"
   url: "awesomeaitools.com"
-  type: form
+  type: playwright
   method: POST
   fields:
     name: "{gen.title}"
@@ -1588,7 +1609,7 @@ directories:
 
 - name: "Startupaitools"
   url: "startupaitools.com"
-  type: form
+  type: playwright
   method: POST
   fields:
     name: "{gen.title}"
@@ -1598,7 +1619,7 @@ directories:
 
 - name: "Okeiai"
   url: "okeiai.com"
-  type: form
+  type: playwright
   method: POST
   fields:
     name: "{gen.title}"
@@ -1608,7 +1629,7 @@ directories:
 
 - name: "Aidirectory"
   url: "aidirectory.org"
-  type: form
+  type: playwright
   method: POST
   fields:
     name: "{gen.title}"
@@ -1618,7 +1639,7 @@ directories:
 
 - name: "Airankings"
   url: "airankings.co"
-  type: form
+  type: playwright
   method: POST
   fields:
     name: "{gen.title}"
@@ -1628,7 +1649,7 @@ directories:
 
 - name: "Aitoolscorner"
   url: "aitoolscorner.com"
-  type: form
+  type: playwright
   method: POST
   fields:
     name: "{gen.title}"
@@ -1638,7 +1659,7 @@ directories:
 
 - name: "Aitoolsup"
   url: "aitoolsup.com"
-  type: form
+  type: playwright
   method: POST
   fields:
     name: "{gen.title}"
@@ -1658,7 +1679,7 @@ directories:
 
 - name: "Aitoolapp"
   url: "aitoolapp.com"
-  type: form
+  type: playwright
   method: POST
   fields:
     name: "{gen.title}"
@@ -1668,7 +1689,7 @@ directories:
 
 - name: "Aiwizard"
   url: "aiwizard.ai/aitools"
-  type: form
+  type: playwright
   method: POST
   fields:
     name: "{gen.title}"
@@ -1678,7 +1699,7 @@ directories:
 
 - name: "Toolbit"
   url: "toolbit.ai"
-  type: form
+  type: playwright
   method: POST
   fields:
     name: "{gen.title}"
@@ -1688,7 +1709,7 @@ directories:
 
 - name: "Aigendaily"
   url: "aigendaily.com"
-  type: form
+  type: playwright
   method: POST
   fields:
     name: "{gen.title}"
@@ -1708,7 +1729,7 @@ directories:
 
 - name: "Allaiwebsite"
   url: "allaiwebsite.com"
-  type: form
+  type: playwright
   method: POST
   fields:
     name: "{gen.title}"
@@ -1718,7 +1739,7 @@ directories:
 
 - name: "Tooladvisor"
   url: "tooladvisor.ai"
-  type: form
+  type: playwright
   method: POST
   fields:
     name: "{gen.title}"
@@ -1728,7 +1749,7 @@ directories:
 
 - name: "Insaneai"
   url: "insaneai.tools"
-  type: form
+  type: playwright
   method: POST
   fields:
     name: "{gen.title}"
@@ -1738,7 +1759,7 @@ directories:
 
 - name: "Tyy"
   url: "tyy.ai"
-  type: form
+  type: playwright
   method: POST
   fields:
     name: "{gen.title}"
@@ -1748,7 +1769,7 @@ directories:
 
 - name: "Newaiforyou"
   url: "newaiforyou.com"
-  type: form
+  type: playwright
   method: POST
   fields:
     name: "{gen.title}"
@@ -1758,7 +1779,7 @@ directories:
 
 - name: "Toollist"
   url: "toollist.ai"
-  type: form
+  type: playwright
   method: POST
   fields:
     name: "{gen.title}"
@@ -1768,7 +1789,7 @@ directories:
 
 - name: "Reviewai"
   url: "reviewai.net"
-  type: form
+  type: playwright
   method: POST
   fields:
     name: "{gen.title}"
@@ -1778,7 +1799,7 @@ directories:
 
 - name: "Aitoolkits"
   url: "aitoolkits.net"
-  type: form
+  type: playwright
   method: POST
   fields:
     name: "{gen.title}"
@@ -1788,7 +1809,7 @@ directories:
 
 - name: "Toolsai"
   url: "toolsai.net"
-  type: form
+  type: playwright
   method: POST
   fields:
     name: "{gen.title}"
@@ -1798,7 +1819,7 @@ directories:
 
 - name: "Noteableai"
   url: "noteableai.com"
-  type: form
+  type: playwright
   method: POST
   fields:
     name: "{gen.title}"
@@ -1808,7 +1829,7 @@ directories:
 
 - name: "Aitoolmate"
   url: "aitoolmate.com"
-  type: form
+  type: playwright
   method: POST
   fields:
     name: "{gen.title}"
@@ -1818,7 +1839,7 @@ directories:
 
 - name: "Aigotools"
   url: "aigotools.com/en"
-  type: form
+  type: playwright
   method: POST
   fields:
     name: "{gen.title}"
@@ -1828,7 +1849,7 @@ directories:
 
 - name: "Infrabase"
   url: "infrabase.ai"
-  type: form
+  type: playwright
   method: POST
   fields:
     name: "{gen.title}"
@@ -1838,7 +1859,7 @@ directories:
 
 - name: "Theaireports"
   url: "theaireports.com"
-  type: form
+  type: playwright
   method: POST
   fields:
     name: "{gen.title}"
@@ -1848,7 +1869,7 @@ directories:
 
 - name: "Aitoolzdir"
   url: "aitoolzdir.com"
-  type: form
+  type: playwright
   method: POST
   fields:
     name: "{gen.title}"
@@ -1858,7 +1879,7 @@ directories:
 
 - name: "Easysaveai"
   url: "easysaveai.com"
-  type: form
+  type: playwright
   method: POST
   fields:
     name: "{gen.title}"
@@ -1868,7 +1889,7 @@ directories:
 
 - name: "Aiartapps"
   url: "aiartapps.com"
-  type: form
+  type: playwright
   method: POST
   fields:
     name: "{gen.title}"
@@ -1878,7 +1899,7 @@ directories:
 
 - name: "Trendaitools"
   url: "trendaitools.com"
-  type: form
+  type: playwright
   method: POST
   fields:
     name: "{gen.title}"
@@ -1888,7 +1909,7 @@ directories:
 
 - name: "Gpt4demo"
   url: "gpt4demo.com"
-  type: form
+  type: playwright
   method: POST
   fields:
     name: "{gen.title}"
@@ -2128,7 +2149,7 @@ directories:
 
 - name: "Submitaitools"
   url: "submitaitools.org"
-  type: playwright
+  type: manual
   method: POST
   fields:
     name: "{gen.title}"
@@ -2139,6 +2160,7 @@ directories:
 
 
   # ═══ Auto-submit ══════════════════════════════
+  notes: Auto-downgraded (Playwright also failed)
 - name: "Sourceforge"
   url: "https://sourceforge.net"
   type: playwright
@@ -2242,7 +2264,7 @@ directories:
 
 - name: "F6s"
   url: "https://f6s.com"
-  type: playwright
+  type: manual
   method: POST
   fields:
     name: "{gen.title}"
@@ -2250,6 +2272,7 @@ directories:
     description: "{gen.description}"
     email: "{site.email}"
 
+  notes: Auto-downgraded (Playwright also failed)
 - name: "Appsumo"
   url: "https://appsumo.com"
   type: form
@@ -2272,7 +2295,7 @@ directories:
 
 - name: "Indiehackers"
   url: "https://indiehackers.com"
-  type: playwright
+  type: manual
   method: POST
   fields:
     name: "{gen.title}"
@@ -2280,6 +2303,7 @@ directories:
     description: "{gen.description}"
     email: "{site.email}"
 
+  notes: Auto-downgraded (Playwright also failed)
 - name: "Twelve"
   url: "https://twelve.tools"
   type: form
@@ -2312,7 +2336,7 @@ directories:
 
 - name: "Findly"
   url: "https://findly.tools"
-  type: playwright
+  type: manual
   method: POST
   fields:
     name: "{gen.title}"
@@ -2320,6 +2344,7 @@ directories:
     description: "{gen.description}"
     email: "{site.email}"
 
+  notes: Auto-downgraded (Playwright also failed)
 - name: "Saashub"
   url: "https://saashub.com"
   type: form
@@ -2352,7 +2377,7 @@ directories:
 
 - name: "Stackshare"
   url: "https://stackshare.io"
-  type: playwright
+  type: manual
   method: POST
   fields:
     name: "{gen.title}"
@@ -2360,6 +2385,7 @@ directories:
     description: "{gen.description}"
     email: "{site.email}"
 
+  notes: Auto-downgraded (Playwright also failed)
 - name: "Eu Startups"
   url: "https://eu-startups.com"
   type: playwright
@@ -2443,7 +2469,7 @@ directories:
 
 - name: "Crozdesk"
   url: "https://crozdesk.com"
-  type: playwright
+  type: manual
   method: POST
   fields:
     name: "{gen.title}"
@@ -2451,6 +2477,7 @@ directories:
     description: "{gen.description}"
     email: "{site.email}"
 
+  notes: Auto-downgraded (Playwright also failed)
 - name: "Land Book"
   url: "https://land-book.com"
   type: playwright
@@ -2685,7 +2712,7 @@ directories:
 
 - name: "Devhunt"
   url: "https://devhunt.org"
-  type: playwright
+  type: manual
   method: POST
   fields:
     name: "{gen.title}"
@@ -2693,6 +2720,7 @@ directories:
     description: "{gen.description}"
     email: "{site.email}"
 
+  notes: Auto-downgraded (Playwright also failed)
 - name: "Tap4"
   url: "https://tap4.ai"
   type: form
@@ -2846,7 +2874,7 @@ directories:
 
 - name: "Builtatlightspeed"
   url: "https://builtatlightspeed.com"
-  type: playwright
+  type: manual
   method: POST
   fields:
     name: "{gen.title}"
@@ -2854,6 +2882,7 @@ directories:
     description: "{gen.description}"
     email: "{site.email}"
 
+  notes: Auto-downgraded (Playwright also failed)
 - name: "Firsto"
   url: "https://firsto.co"
   type: form
@@ -2887,7 +2916,7 @@ directories:
   notes: Auto-downgraded (HTTP 404)
 - name: "Alternatives"
   url: "https://alternatives.co"
-  type: playwright
+  type: manual
   method: POST
   fields:
     name: "{gen.title}"
@@ -2895,6 +2924,7 @@ directories:
     description: "{gen.description}"
     email: "{site.email}"
 
+  notes: Auto-downgraded (Playwright also failed)
 - name: "Huntifyai"
   url: "https://huntifyai.com"
   type: form
@@ -3029,7 +3059,7 @@ directories:
   notes: Auto-downgraded (HTTP 404)
 - name: "Toools"
   url: "https://toools.design"
-  type: playwright
+  type: manual
   method: POST
   fields:
     name: "{gen.title}"
@@ -3037,6 +3067,7 @@ directories:
     description: "{gen.description}"
     email: "{site.email}"
 
+  notes: Auto-downgraded (Playwright also failed)
 - name: "Shipstry"
   url: "https://shipstry.com"
   type: form
@@ -3119,7 +3150,7 @@ directories:
 
 - name: "Startuplist"
   url: "https://startuplist.ing"
-  type: playwright
+  type: manual
   method: POST
   fields:
     name: "{gen.title}"
@@ -3127,6 +3158,7 @@ directories:
     description: "{gen.description}"
     email: "{site.email}"
 
+  notes: Auto-downgraded (Playwright also failed)
 - name: "Direct2app"
   url: "https://direct2app.com"
   type: form
@@ -3241,7 +3273,7 @@ directories:
 
 - name: "Toolfolio"
   url: "https://toolfolio.io"
-  type: playwright
+  type: manual
   method: POST
   fields:
     name: "{gen.title}"
@@ -3249,6 +3281,7 @@ directories:
     description: "{gen.description}"
     email: "{site.email}"
 
+  notes: Auto-downgraded (Playwright also failed)
 - name: "Productfame"
   url: "https://productfame.com"
   type: form
@@ -3371,7 +3404,7 @@ directories:
 
 - name: "Webcurate"
   url: "https://webcurate.co"
-  type: playwright
+  type: manual
   method: POST
   fields:
     name: "{gen.title}"
@@ -3379,6 +3412,7 @@ directories:
     description: "{gen.description}"
     email: "{site.email}"
 
+  notes: Auto-downgraded (Playwright also failed)
 - name: "Resource"
   url: "https://resource.fyi"
   type: playwright
@@ -3520,7 +3554,7 @@ directories:
 
 - name: "FutureTools"
   url: "https://www.futuretools.io/submit-a-tool"
-  type: playwright
+  type: manual
   method: POST
   fields:
     name: "{gen.title}"
@@ -3528,6 +3562,7 @@ directories:
     description: "{gen.description}"
     email: "{site.email}"
 
+  notes: Auto-downgraded (Playwright also failed)
 - name: "AItools.inc"
   url: "https://aitools.inc/submit"
   type: playwright
@@ -3601,7 +3636,7 @@ directories:
   notes: Auto-downgraded (HTTP 401)
 - name: "Sites Web Directory"
   url: "https://www.siteswebdirectory.com/submit.php"
-  type: playwright
+  type: manual
   method: POST
   fields:
     title: "{gen.title}"
@@ -3609,9 +3644,10 @@ directories:
     description: "{gen.description}"
     email: "{site.email}"
 
+  notes: Auto-downgraded (Playwright also failed)
 - name: "AI Tool Guru"
   url: "https://aitoolguru.com/submit-ai-tool"
-  type: playwright
+  type: manual
   method: POST
   fields:
     name: "{gen.title}"
@@ -3619,6 +3655,7 @@ directories:
     description: "{gen.description}"
     email: "{site.email}"
 
+  notes: Auto-downgraded (Playwright also failed)
 - name: "DevPages"
   url: "https://www.devpages.io/submit-a-tool"
   type: form
@@ -3751,7 +3788,7 @@ directories:
 
 - name: "SubmitAITools"
   url: "https://submitaitools.org/"
-  type: playwright
+  type: manual
   method: POST
   fields:
     name: "{gen.title}"
@@ -3759,6 +3796,7 @@ directories:
     description: "{gen.description}"
     email: "{site.email}"
 
+  notes: Auto-downgraded (Playwright also failed)
 - name: "AIToolsHunt"
   url: "https://aitoolshunt.com/contact-us/"
   type: manual
