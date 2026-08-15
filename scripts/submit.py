@@ -2,11 +2,11 @@
 """
 Backlink Directory Auto-Submitter
 Reads config/submission_config.yaml and submits your site to each directory.
+Uses ZhipuAI to generate tailored submission content when ZHIPUAI_API_KEY is set.
 """
 
 import json
 import os
-import re
 import sys
 import time
 import argparse
@@ -17,6 +17,8 @@ from pathlib import Path
 import httpx
 import yaml
 from bs4 import BeautifulSoup
+
+from content_generator import generate_submission_content
 
 # ── Logging ────────────────────────────────────────────────────────────────────
 logging.basicConfig(
@@ -71,13 +73,20 @@ def save_results(results: dict) -> None:
         json.dump(results, f, indent=2, ensure_ascii=False)
 
 
-def resolve_fields(fields: dict, site: dict) -> dict:
-    """Replace {site.xxx} placeholders with actual values."""
+def resolve_fields(fields: dict, site: dict, generated: dict) -> dict:
+    """Replace {site.xxx} and {gen.xxx} placeholders with actual values.
+
+    {gen.title}, {gen.description}, {gen.keywords} use AI-generated content
+    when available, otherwise fall back to config values.
+    """
+    merged = {**site, **{f"gen_{k}": v for k, v in generated.items()}}
     resolved = {}
     for key, tpl in fields.items():
         val = tpl
         for attr, v in site.items():
             val = val.replace(f"{{site.{attr}}}", str(v))
+        for attr, v in generated.items():
+            val = val.replace(f"{{gen.{attr}}}", str(v))
         resolved[key] = val
     return resolved
 
@@ -120,7 +129,11 @@ def submit_form(client: httpx.Client, directory: dict, site: dict, settings: dic
     url = directory["url"]
     method = directory.get("method", "POST").upper()
     raw_fields = directory.get("fields", {})
-    fields = resolve_fields(raw_fields, site)
+
+    # Generate AI content, then resolve field placeholders
+    generated = generate_submission_content(site, directory)
+    fields = resolve_fields(raw_fields, site, generated)
+
     retries = settings.get("max_retries", 2)
     timeout = settings.get("request_timeout_seconds", 20)
 
@@ -201,9 +214,11 @@ def main() -> None:
         wanted = {n.strip().lower() for n in args.only.split(",")}
         directories = [d for d in directories if d["name"].lower() in wanted]
 
+    ai_enabled = bool(os.environ.get("ZHIPUAI_API_KEY"))
     log.info("=" * 60)
     log.info("Target site : %s", site["url"])
     log.info("Directories : %d", len(directories))
+    log.info("AI content  : %s", "enabled (ZhipuAI)" if ai_enabled else "disabled (using config values)")
     log.info("Dry run     : %s", args.dry_run)
     log.info("=" * 60)
 

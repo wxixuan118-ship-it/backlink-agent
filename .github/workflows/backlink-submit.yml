@@ -63,13 +63,15 @@ jobs:
 
       # ── 运行提交脚本 ────────────────────────────────────────────
       - name: Run submission script
+        env:
+          ZHIPUAI_API_KEY: ${{ secrets.ZHIPUAI_API_KEY }}
         run: |
-          python scripts/submit.py ${{ steps.flags.outputs.flags }}
+          cd scripts && python submit.py ${{ steps.flags.outputs.flags }}
 
       # ── 生成报告 ────────────────────────────────────────────────
       - name: Generate report
         if: always()
-        run: python scripts/generate_report.py
+        run: cd scripts && python generate_report.py
 
       # ── 把结果文件 commit 回仓库 ────────────────────────────────
       - name: Commit results

@@ -33,7 +33,7 @@ directories:
     type: form
     method: POST
     fields:
-      sitename: "{site.title}"
+      sitename: "{gen.title}"
       url: "{site.url}"
       email: "{site.email}"
     notes: "Submit by form"
@@ -43,9 +43,9 @@ directories:
     type: form
     method: POST
     fields:
-      site_name: "{site.title}"
+      site_name: "{gen.title}"
       site_url: "{site.url}"
-      site_desc: "{site.description}"
+      site_desc: "{gen.description}"
       contact_email: "{site.email}"
     notes: "General directory"
 
@@ -54,9 +54,9 @@ directories:
     type: form
     method: POST
     fields:
-      site_title: "{site.title}"
+      site_title: "{gen.title}"
       site_url: "{site.url}"
-      site_desc: "{site.description}"
+      site_desc: "{gen.description}"
       owner_email: "{site.email}"
       category: "{site.category}"
 
@@ -65,9 +65,9 @@ directories:
     type: form
     method: POST
     fields:
-      title: "{site.title}"
+      title: "{gen.title}"
       url: "{site.url}"
-      description: "{site.description}"
+      description: "{gen.description}"
       email: "{site.email}"
 
   - name: "Cipinet"
@@ -76,8 +76,8 @@ directories:
     method: POST
     fields:
       url: "{site.url}"
-      title: "{site.title}"
-      description: "{site.description}"
+      title: "{gen.title}"
+      description: "{gen.description}"
       email: "{site.email}"
 
   - name: "Skaffe"
@@ -86,8 +86,8 @@ directories:
     method: POST
     fields:
       url: "{site.url}"
-      title: "{site.title}"
-      description: "{site.description}"
+      title: "{gen.title}"
+      description: "{gen.description}"
       email: "{site.email}"
 
   - name: "Directory World"
@@ -96,8 +96,8 @@ directories:
     method: POST
     fields:
       url: "{site.url}"
-      title: "{site.title}"
-      description: "{site.description}"
+      title: "{gen.title}"
+      description: "{gen.description}"
       email: "{site.email}"
 
   - name: "Alive Directory"
@@ -106,8 +106,8 @@ directories:
     method: POST
     fields:
       url: "{site.url}"
-      title: "{site.title}"
-      description: "{site.description}"
+      title: "{gen.title}"
+      description: "{gen.description}"
       email: "{site.email}"
 
   - name: "Go Beacon"
@@ -116,8 +116,8 @@ directories:
     method: POST
     fields:
       url: "{site.url}"
-      title: "{site.title}"
-      description: "{site.description}"
+      title: "{gen.title}"
+      description: "{gen.description}"
       email: "{site.email}"
 
   # ---------- 需要人工处理的（会生成任务清单）----------
