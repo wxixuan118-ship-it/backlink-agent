@@ -235,8 +235,8 @@ tr:hover td{background:var(--bg-input)}
       <label>GitHub Personal Access Token</label>
       <input type="password" id="setup-token" placeholder="ghp_xxxxxxxxxxxx">
       <div class="form-hint">
-        Needs <strong>repo</strong> + <strong>actions</strong> scopes.
-        <a href="https://github.com/settings/tokens/new?scopes=repo,actions" target="_blank">Generate →</a>
+        Needs <strong>repo</strong> + <strong>workflow</strong> scopes (classic token).
+        <a href="https://github.com/settings/tokens/new?scopes=repo,workflow" target="_blank">Generate one →</a>
       </div>
     </div>
     <div class="form-row">
@@ -481,14 +481,19 @@ const headers = () => ({
   'Content-Type': 'application/json',
 });
 
-async function ghGet(path) {
+async function ghGet(path, { allow404 = false } = {}) {
   const r = await fetch(`${GH}/repos/${OWNER}/${REPO}${path}`, { headers: headers() });
+  if (r.status === 404 && allow404) return null;
+  if (r.status === 401) throw new Error('GitHub 401: Token invalid or expired — re-enter credentials.');
+  if (r.status === 403) throw new Error('GitHub 403: Token lacks required scope — enable "repo" + "actions" when generating.');
+  if (r.status === 404) throw new Error(`GitHub 404: Repo "${OWNER}/${REPO}" not found — check owner/repo names and token scope.`);
   if (!r.ok) throw new Error(`GitHub ${r.status}: ${r.statusText}`);
   return r.json();
 }
 
-async function ghGetFile(path) {
-  const d = await ghGet(`/contents/${path}`);
+async function ghGetFile(path, { optional = false } = {}) {
+  const d = await ghGet(`/contents/${path}`, { allow404: optional });
+  if (!d) return null;                       // file doesn't exist yet (optional)
   return { content: b64decode(d.content), sha: d.sha };
 }
 
@@ -533,13 +538,28 @@ function toast(msg, ok = true) {
 }
 
 // ── Setup ──────────────────────────────────────────────────────────────────
-function saveSetup() {
+async function saveSetup() {
   TOKEN = document.getElementById('setup-token').value.trim();
   OWNER = document.getElementById('setup-owner').value.trim();
   REPO  = document.getElementById('setup-repo').value.trim();
   if (!TOKEN || !OWNER || !REPO) { toast('Fill all fields', false); return; }
-  LS.set('token', TOKEN); LS.set('owner', OWNER); LS.set('repo', REPO);
-  initApp();
+
+  // Verify credentials before saving
+  const btn = document.querySelector('#setup-screen .btn-primary');
+  btn.textContent = 'Verifying…'; btn.disabled = true;
+  try {
+    const r = await fetch(`${GH}/repos/${OWNER}/${REPO}`, {
+      headers: { 'Authorization': `token ${TOKEN}`, 'Accept': 'application/vnd.github.v3+json' }
+    });
+    if (r.status === 401) throw new Error('Token is invalid or expired.');
+    if (r.status === 404) throw new Error(`Repo "${OWNER}/${REPO}" not found.\nCheck: owner/repo names are correct and the token has "repo" scope.`);
+    if (!r.ok) throw new Error(`GitHub returned ${r.status}. Check your token has "repo" + "actions" scopes.`);
+    LS.set('token', TOKEN); LS.set('owner', OWNER); LS.set('repo', REPO);
+    initApp();
+  } catch (e) {
+    toast(e.message, false);
+    btn.textContent = 'Connect →'; btn.disabled = false;
+  }
 }
 
 function logout() {
@@ -575,8 +595,13 @@ async function loadDashboard() {
   document.getElementById('results-table').innerHTML =
     '<div class="loading"><svg class="spin" width="16" height="16" viewBox="0 0 16 16"><circle cx="8" cy="8" r="6" stroke="var(--border)" stroke-width="2" fill="none"/><path d="M8 2a6 6 0 0 1 6 6" stroke="var(--accent)" stroke-width="2" fill="none" stroke-linecap="round"/></svg>Loading results…</div>';
   try {
-    const { content } = await ghGetFile('results/submission_log.json');
-    const data = JSON.parse(content);
+    const file = await ghGetFile('results/submission_log.json', { optional: true });
+    if (!file) {
+      document.getElementById('results-table').innerHTML =
+        '<div class="empty"><div class="empty-icon">📭</div><div>No results yet — trigger a run first.</div></div>';
+      return;
+    }
+    const data = JSON.parse(file.content);
     const s = data.summary || {};
     document.getElementById('s-total').textContent   = s.total   ?? '—';
     document.getElementById('s-success').textContent = s.success ?? '—';
