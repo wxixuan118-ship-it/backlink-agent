@@ -12,13 +12,295 @@ site:
 
 # ============================================================
 # 目标 Directory 列表
-# 每个 directory 的 type:
-#   form    — 简单 HTTP 表单提交
-#   manual  — 需要人工处理（有验证码等）
+# type: form   — 自动 HTTP 表单提交
+# type: manual — 需要人工处理（验证码 / JS 表单 / 需要账号）
 # ============================================================
 directories:
 
-  # ---------- 可自动提交的 ----------
+  # ════════════════════════════════════════
+  # 可自动提交（28 个）
+  # ════════════════════════════════════════
+
+  - name: "FutureTools"
+    url: "https://www.futuretools.io/submit-a-tool"
+    type: form
+    method: POST
+    fields:
+      name: "{gen.title}"
+      url: "{site.url}"
+      description: "{gen.description}"
+      email: "{site.email}"
+
+  - name: "AItools.inc"
+    url: "https://aitools.inc/submit"
+    type: form
+    method: POST
+    fields:
+      title: "{gen.title}"
+      url: "{site.url}"
+      description: "{gen.description}"
+      email: "{site.email}"
+
+  - name: "FiveTaco"
+    url: "https://fivetaco.com/submit"
+    type: form
+    method: POST
+    fields:
+      name: "{gen.title}"
+      url: "{site.url}"
+      description: "{gen.description}"
+      email: "{site.email}"
+
+  - name: "LaunchingNext"
+    url: "https://www.launchingnext.com/submit/"
+    type: form
+    method: POST
+    fields:
+      title: "{gen.title}"
+      url: "{site.url}"
+      description: "{gen.description}"
+      email: "{site.email}"
+
+  - name: "ToolPilot"
+    url: "https://www.toolpilot.ai/pages/submit-your-ai-tool"
+    type: form
+    method: POST
+    fields:
+      tool_name: "{gen.title}"
+      tool_url: "{site.url}"
+      tool_description: "{gen.description}"
+      email: "{site.email}"
+
+  - name: "Insidr"
+    url: "https://www.insidr.ai/submit-tools/"
+    type: form
+    method: POST
+    fields:
+      name: "{gen.title}"
+      url: "{site.url}"
+      description: "{gen.description}"
+      email: "{site.email}"
+
+  - name: "Tools.so"
+    url: "https://tools.so/submit"
+    type: form
+    method: POST
+    fields:
+      name: "{gen.title}"
+      url: "{site.url}"
+      description: "{gen.description}"
+      email: "{site.email}"
+
+  - name: "Marketing Internet Directory"
+    url: "https://www.marketinginternetdirectory.com/submit.php"
+    type: form
+    method: POST
+    fields:
+      title: "{gen.title}"
+      url: "{site.url}"
+      description: "{gen.description}"
+      email: "{site.email}"
+
+  - name: "ToolScout"
+    url: "https://toolscout.ai/submit"
+    type: form
+    method: POST
+    fields:
+      name: "{gen.title}"
+      url: "{site.url}"
+      description: "{gen.description}"
+      email: "{site.email}"
+
+  - name: "Sites Web Directory"
+    url: "https://www.siteswebdirectory.com/submit.php"
+    type: form
+    method: POST
+    fields:
+      title: "{gen.title}"
+      url: "{site.url}"
+      description: "{gen.description}"
+      email: "{site.email}"
+
+  - name: "AI Tool Guru"
+    url: "https://aitoolguru.com/submit-ai-tool"
+    type: form
+    method: POST
+    fields:
+      name: "{gen.title}"
+      url: "{site.url}"
+      description: "{gen.description}"
+      email: "{site.email}"
+
+  - name: "DevPages"
+    url: "https://www.devpages.io/submit-a-tool"
+    type: form
+    method: POST
+    fields:
+      name: "{gen.title}"
+      url: "{site.url}"
+      description: "{gen.description}"
+      email: "{site.email}"
+
+  - name: "Stremit"
+    url: "https://stremit.io/submit-tool-form"
+    type: form
+    method: POST
+    fields:
+      name: "{gen.title}"
+      url: "{site.url}"
+      description: "{gen.description}"
+      email: "{site.email}"
+
+  - name: "TheAIway"
+    url: "https://theaiway.net/product-submit/"
+    type: form
+    method: POST
+    fields:
+      name: "{gen.title}"
+      url: "{site.url}"
+      description: "{gen.description}"
+      email: "{site.email}"
+
+  - name: "ShareTool"
+    url: "https://sharetool.com/submit"
+    type: form
+    method: POST
+    fields:
+      name: "{gen.title}"
+      url: "{site.url}"
+      description: "{gen.description}"
+      email: "{site.email}"
+
+  - name: "SearchAITool"
+    url: "https://searchaitool.com/submit"
+    type: form
+    method: POST
+    fields:
+      name: "{gen.title}"
+      url: "{site.url}"
+      description: "{gen.description}"
+      email: "{site.email}"
+
+  - name: "AI-Tool.ai"
+    url: "https://ai-tool.ai/submit-tool"
+    type: form
+    method: POST
+    fields:
+      name: "{gen.title}"
+      url: "{site.url}"
+      description: "{gen.description}"
+      email: "{site.email}"
+
+  - name: "AI41"
+    url: "https://ai41.org/submit-ai"
+    type: form
+    method: POST
+    fields:
+      name: "{gen.title}"
+      url: "{site.url}"
+      description: "{gen.description}"
+      email: "{site.email}"
+
+  - name: "AIToolsMagic"
+    url: "https://aitoolsmagic.com/submit-tool"
+    type: form
+    method: POST
+    fields:
+      name: "{gen.title}"
+      url: "{site.url}"
+      description: "{gen.description}"
+      email: "{site.email}"
+
+  - name: "AIKendra"
+    url: "https://aikendra.com/submit/"
+    type: form
+    method: POST
+    fields:
+      name: "{gen.title}"
+      url: "{site.url}"
+      description: "{gen.description}"
+      email: "{site.email}"
+
+  - name: "ListAI"
+    url: "https://listai.cc/submit"
+    type: form
+    method: POST
+    fields:
+      name: "{gen.title}"
+      url: "{site.url}"
+      description: "{gen.description}"
+      email: "{site.email}"
+
+  - name: "ToolPilot.tools"
+    url: "https://toolpilot.tools/submit"
+    type: form
+    method: POST
+    fields:
+      name: "{gen.title}"
+      url: "{site.url}"
+      description: "{gen.description}"
+      email: "{site.email}"
+
+  - name: "NavTools"
+    url: "https://navtools.ai/submit"
+    type: form
+    method: POST
+    fields:
+      name: "{gen.title}"
+      url: "{site.url}"
+      description: "{gen.description}"
+      email: "{site.email}"
+
+  - name: "ToolWise"
+    url: "https://toolwise.ai/submit-tool"
+    type: form
+    method: POST
+    fields:
+      name: "{gen.title}"
+      url: "{site.url}"
+      description: "{gen.description}"
+      email: "{site.email}"
+
+  - name: "SubmitAITools"
+    url: "https://submitaitools.org/"
+    type: form
+    method: POST
+    fields:
+      name: "{gen.title}"
+      url: "{site.url}"
+      description: "{gen.description}"
+      email: "{site.email}"
+
+  - name: "AIToolsHunt"
+    url: "https://aitoolshunt.com/contact-us/"
+    type: form
+    method: POST
+    fields:
+      name: "{gen.title}"
+      url: "{site.url}"
+      message: "{gen.description}"
+      email: "{site.email}"
+
+  - name: "AIToolBoard"
+    url: "https://aitoolboard.com/submit"
+    type: form
+    method: POST
+    fields:
+      name: "{gen.title}"
+      url: "{site.url}"
+      description: "{gen.description}"
+      email: "{site.email}"
+
+  - name: "SaaSHub"
+    url: "https://www.saashub.com/submit"
+    type: form
+    method: POST
+    fields:
+      name: "{gen.title}"
+      url: "{site.url}"
+      description: "{gen.description}"
+      email: "{site.email}"
+
   - name: "Entireweb"
     url: "https://www.entireweb.com/free_submission/"
     type: form
@@ -26,120 +308,82 @@ directories:
     fields:
       url: "{site.url}"
       email: "{site.email}"
-    notes: "Free crawler submission"
+    notes: "General web crawler"
 
-  - name: "ExactSeek"
-    url: "https://www.exactseek.com/add.html"
-    type: form
-    method: POST
-    fields:
-      sitename: "{gen.title}"
-      url: "{site.url}"
-      email: "{site.email}"
-    notes: "Submit by form"
+  # ════════════════════════════════════════
+  # 需人工处理（14 个）
+  # JS 渲染表单 / 需要账号 / 第三方表单服务
+  # ════════════════════════════════════════
 
-  - name: "SoMuch"
-    url: "https://www.somuch.com/submit-links/"
-    type: form
-    method: POST
-    fields:
-      site_name: "{gen.title}"
-      site_url: "{site.url}"
-      site_desc: "{gen.description}"
-      contact_email: "{site.email}"
-    notes: "General directory"
-
-  - name: "Jasmine Directory"
-    url: "https://www.jasminedirectory.com/submit.php"
-    type: form
-    method: POST
-    fields:
-      site_title: "{gen.title}"
-      site_url: "{site.url}"
-      site_desc: "{gen.description}"
-      owner_email: "{site.email}"
-      category: "{site.category}"
-
-  - name: "Abilogic"
-    url: "https://www.abilogic.com/add-site.php"
-    type: form
-    method: POST
-    fields:
-      title: "{gen.title}"
-      url: "{site.url}"
-      description: "{gen.description}"
-      email: "{site.email}"
-
-  - name: "Cipinet"
-    url: "https://www.cipinet.com/add-url.php"
-    type: form
-    method: POST
-    fields:
-      url: "{site.url}"
-      title: "{gen.title}"
-      description: "{gen.description}"
-      email: "{site.email}"
-
-  - name: "Skaffe"
-    url: "https://www.skaffe.com/addsite.php"
-    type: form
-    method: POST
-    fields:
-      url: "{site.url}"
-      title: "{gen.title}"
-      description: "{gen.description}"
-      email: "{site.email}"
-
-  - name: "Directory World"
-    url: "https://www.directory-world.com/submit.php"
-    type: form
-    method: POST
-    fields:
-      url: "{site.url}"
-      title: "{gen.title}"
-      description: "{gen.description}"
-      email: "{site.email}"
-
-  - name: "Alive Directory"
-    url: "https://www.alive-directory.com/submit.php"
-    type: form
-    method: POST
-    fields:
-      url: "{site.url}"
-      title: "{gen.title}"
-      description: "{gen.description}"
-      email: "{site.email}"
-
-  - name: "Go Beacon"
-    url: "https://www.gobeacon.net/add.aspx"
-    type: form
-    method: POST
-    fields:
-      url: "{site.url}"
-      title: "{gen.title}"
-      description: "{gen.description}"
-      email: "{site.email}"
-
-  # ---------- 需要人工处理的（会生成任务清单）----------
-  - name: "DMOZ / Curlie"
-    url: "https://curlie.org/docs/en/add.html"
+  - name: "Pitchwall"
+    url: "https://pitchwall.co/product/submit"
     type: manual
-    notes: "Requires editor review, submit manually"
+    notes: "Requires account login to submit"
 
-  - name: "Best of the Web"
-    url: "https://botw.org/add-a-listing/"
+  - name: "Tally Form (wvY09d)"
+    url: "https://tally.so/r/wvY09d"
     type: manual
-    notes: "Paid premium listing; free basic needs manual review"
+    notes: "Tally JS form — open in browser and fill manually"
 
-  - name: "Aviva Directory"
-    url: "https://www.avivadirectory.com/submit/"
+  - name: "Tally Form (3qVzOG)"
+    url: "https://tally.so/r/3qVzOG"
     type: manual
-    notes: "Requires manual category selection"
+    notes: "Tally JS form — open in browser and fill manually"
 
-  - name: "eDirectory"
-    url: "https://www.edirectory.com"
+  - name: "Tally Form (wvB7Xg)"
+    url: "https://tally.so/r/wvB7Xg"
     type: manual
-    notes: "Manual submission"
+    notes: "Tally JS form — open in browser and fill manually"
+
+  - name: "Typeform (AItools.inc)"
+    url: "https://loxr142exnq.typeform.com/to/RB6ZnEf2"
+    type: manual
+    notes: "Typeform — open in browser and fill manually"
+
+  - name: "Typeform (Startup88)"
+    url: "https://startup88.typeform.com/to/CRjWqM"
+    type: manual
+    notes: "Typeform — open in browser and fill manually"
+
+  - name: "Google Form 1"
+    url: "https://forms.gle/Ze6pdWzmweCfKWnLA"
+    type: manual
+    notes: "Google Form — open in browser and fill manually"
+
+  - name: "Google Form 2"
+    url: "https://docs.google.com/forms/d/e/1FAIpQLSeuaZvj-s7KkI5Zp41q9LX0i9suH61c7JR2qe6sBdDtP9r9Sg/viewform"
+    type: manual
+    notes: "Google Form — open in browser and fill manually"
+
+  - name: "Quality Internet Directory"
+    url: "https://www.qualityinternetdirectory.com/"
+    type: manual
+    notes: "Find submit link on homepage manually"
+
+  - name: "AI Finder Africa"
+    url: "https://aifinder.africa/"
+    type: manual
+    notes: "Find submit link on homepage manually"
+
+  - name: "TheKnownApp"
+    url: "https://www.theknownapp.io/#waitlist"
+    type: manual
+    notes: "Waitlist — sign up manually"
+
+  - name: "StartupBuffer"
+    url: "https://startupbuffer.com"
+    type: manual
+    notes: "Requires account — submit at startupbuffer.com"
+
+  - name: "Uneed"
+    url: "https://www.uneed.best"
+    type: manual
+    notes: "Requires account login to submit tool"
+
+  - name: "Bing Webmaster"
+    url: "https://www.bing.com/webmasters/"
+    type: manual
+    notes: "Submit sitemap at Bing Webmaster Tools — requires Microsoft account"
 
 # ============================================================
 # 运行设置
