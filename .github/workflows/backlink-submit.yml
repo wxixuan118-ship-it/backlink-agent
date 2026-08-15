@@ -101,3 +101,28 @@ jobs:
           name: submission-results-${{ github.run_number }}
           path: results/
           retention-days: 30
+
+      # ── 发邮件通知 ────────────────────────────────────────────────
+      - name: Send email report
+        if: always()
+        uses: dawidd6/action-send-mail@v3
+        with:
+          server_address: smtp.gmail.com
+          server_port: 465
+          secure: true
+          username: ${{ secrets.MAIL_USERNAME }}
+          password: ${{ secrets.MAIL_PASSWORD }}
+          subject: "Backlink 提交报告 [${{ job.status }}] — ${{ github.run_number }}次"
+          to: wxixuan118@gmail.com
+          from: "Backlink Agent <${{ secrets.MAIL_USERNAME }}>"
+          body: |
+            本次 Backlink 提交任务已完成。
+
+            运行结果：${{ job.status }}
+            触发方式：${{ github.event_name }}
+            运行时间：${{ github.run_id }}
+
+            详细报告请查看：
+            https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}
+          html_body: file://results/report.md
+          convert_markdown: true
