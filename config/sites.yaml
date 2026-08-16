@@ -22,3 +22,13 @@ sites:
     owner_name: ""
     category: "Lifestyle"
     added_at: "2026-08-15"
+
+  - slug: cursivetextgenerator
+    url: "https://www.cursive-text-generator.net"
+    title: "Cursive Text Generator — Copy & Paste Cursive Fonts"
+    description: "Free online cursive text generator to create stylish cursive fonts, fancy script text, and handwriting-style text. Type your text, instantly convert it into multiple cursive styles, and copy and paste the result anywhere for social media, bios, usernames, messages, and more."
+    keywords: "cursive text generator, cursive font generator, cursive fonts, cursive writing generator, cursive letters, cursive alphabet, fancy cursive fonts, cursive copy and paste, script font generator, handwriting generator, fancy text generator, cursive name generator"
+    email: "wxixuan118@gmail.com"
+    owner_name: ""
+    category: "Technology"
+    added_at: "2026-08-16"
