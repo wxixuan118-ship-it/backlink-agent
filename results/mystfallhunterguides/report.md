@@ -1,19 +1,20 @@
 ## Backlink Report — mystfallhunterguides
 
-**Last run:** 2026-08-15T23:39:48.739071+00:00
+**Last run:** 2026-08-16T10:55:19.057610+00:00
 
 | Status | Count |
 |--------|-------|
-| ✅ Confirmed (auto + manual) | 12 |
-| ⚡ Auto-submitted            | 12 |
+| ✅ Confirmed (auto + manual) | 61 |
+| ⚡ Auto-submitted            | 61 |
 | 📝 Manually confirmed        | 0 |
-| 🖐 Pending manual            | 43 |
-| ❌ Auto-failed               | 203 |
+| 🖐 Pending manual            | 67 |
+| ❌ Auto-failed               | 234 |
 
 ### All Submissions
 
 | Directory | Status | HTTP | Date |
 |-----------|--------|------|------|
+| 10015 | ❌ failed | — | 2026-08-16 |
 | AI Finder Africa | 🖐 manual | — | 2026-08-15 |
 | AI Tool Guru | ❌ failed | 200 | 2026-08-15 |
 | AI-Tool.ai | ❌ failed | 403 | 2026-08-15 |
@@ -24,254 +25,357 @@
 | AIToolsMagic | ✅ success | 200 | 2026-08-15 |
 | AItools.inc | ❌ failed | 403 | 2026-08-15 |
 | Agentlocker | ❌ failed | — | 2026-08-15 |
-| Ai Futuretools | ❌ failed | — | 2026-08-15 |
-| Ai Hunter | ❌ failed | — | 2026-08-15 |
-| Ai Productreviews | ❌ failed | — | 2026-08-15 |
+| Agentwork | ✅ success | 200 | 2026-08-16 |
+| Ai Bot | 🖐 manual | — | 2026-08-16 |
+| Ai Futuretools | ❌ failed | — | 2026-08-16 |
+| Ai Hunter | ❌ failed | — | 2026-08-16 |
+| Ai Productreviews | ❌ failed | — | 2026-08-16 |
 | Ai Search | 🖐 manual | — | 2026-08-15 |
-| Aiagentsbase | ❌ failed | — | 2026-08-15 |
-| Aiagentsdirectory | ❌ failed | — | 2026-08-15 |
-| Aiagentslist | ❌ failed | — | 2026-08-15 |
-| Aiagentstore | ❌ failed | — | 2026-08-15 |
-| Aiapps | ❌ failed | — | 2026-08-15 |
-| Aiartapps | ❌ failed | — | 2026-08-15 |
-| Aiawesome | ❌ failed | — | 2026-08-15 |
-| Aibucket | ❌ failed | — | 2026-08-15 |
-| Aicenter | ❌ failed | — | 2026-08-15 |
-| Aichief | ❌ failed | — | 2026-08-15 |
-| Aicyclopedia | ❌ failed | — | 2026-08-15 |
-| Aidepot | ❌ failed | — | 2026-08-15 |
-| Aidirectory | ❌ failed | — | 2026-08-15 |
-| Aifindertools | ❌ failed | — | 2026-08-15 |
-| Aiforeveryone | ❌ failed | — | 2026-08-15 |
-| Aigendaily | ❌ failed | — | 2026-08-15 |
-| Aigotools | ❌ failed | — | 2026-08-15 |
-| Aihunt | ❌ failed | — | 2026-08-15 |
-| Aihustle | ❌ failed | — | 2026-08-15 |
-| Aiinfinity Meetpatel | ❌ failed | — | 2026-08-15 |
-| Aijourney | ❌ failed | — | 2026-08-15 |
-| Aijumble | ❌ failed | — | 2026-08-15 |
-| Ailistify | ❌ failed | — | 2026-08-15 |
+| Aiagentsbase | ❌ failed | — | 2026-08-16 |
+| Aiagentsdirectory | ❌ failed | — | 2026-08-16 |
+| Aiagentslist | ❌ failed | — | 2026-08-16 |
+| Aiagentstore | ❌ failed | — | 2026-08-16 |
+| Aiapps | ❌ failed | — | 2026-08-16 |
+| Aiartapps | ❌ failed | — | 2026-08-16 |
+| Aiawesome | ❌ failed | — | 2026-08-16 |
+| Aibucket | ❌ failed | — | 2026-08-16 |
+| Aicenter | ❌ failed | — | 2026-08-16 |
+| Aichief | ❌ failed | — | 2026-08-16 |
+| Aicyclopedia | ❌ failed | — | 2026-08-16 |
+| Aidepot | ❌ failed | — | 2026-08-16 |
+| Aidirectory | ❌ failed | — | 2026-08-16 |
+| Aidirs | ❌ failed | 403 | 2026-08-16 |
+| Aifinder | ✅ success | 200 | 2026-08-16 |
+| Aifindertools | ❌ failed | — | 2026-08-16 |
+| Aiforeveryone | ❌ failed | — | 2026-08-16 |
+| Aigendaily | ❌ failed | — | 2026-08-16 |
+| Aigotools | ❌ failed | — | 2026-08-16 |
+| Aihubs | ✅ success | 200 | 2026-08-16 |
+| Aihunt | ❌ failed | — | 2026-08-16 |
+| Aihustle | ❌ failed | — | 2026-08-16 |
+| Aiinfinity Meetpatel | ❌ failed | — | 2026-08-16 |
+| Aijourney | ❌ failed | — | 2026-08-16 |
+| Aijumble | ❌ failed | — | 2026-08-16 |
+| Ailistify | ❌ failed | — | 2026-08-16 |
 | Aimojo | 🖐 manual | — | 2026-08-15 |
 | Aiparabellum | 🖐 manual | — | 2026-08-15 |
-| Aipure | ❌ failed | — | 2026-08-15 |
-| Airankings | ❌ failed | — | 2026-08-15 |
-| Aisourcehub | ❌ failed | — | 2026-08-15 |
-| Aispaces | ❌ failed | — | 2026-08-15 |
-| Aistage | ❌ failed | — | 2026-08-15 |
-| Aitach | ❌ failed | — | 2026-08-15 |
-| Aitechfy | ❌ failed | — | 2026-08-15 |
-| Aitechsuite | ❌ failed | — | 2026-08-15 |
-| Aitoolapp | ❌ failed | — | 2026-08-15 |
-| Aitoolboard | ❌ failed | — | 2026-08-15 |
-| Aitoolgo | ❌ failed | — | 2026-08-15 |
+| Aipure | ❌ failed | — | 2026-08-16 |
+| Airankings | ❌ failed | — | 2026-08-16 |
+| Aisourcehub | ❌ failed | — | 2026-08-16 |
+| Aispaces | ❌ failed | — | 2026-08-16 |
+| Aistage | ❌ failed | — | 2026-08-16 |
+| Aitach | ❌ failed | — | 2026-08-16 |
+| Aitechfy | ❌ failed | — | 2026-08-16 |
+| Aitechsuite | ❌ failed | — | 2026-08-16 |
+| Aitoolapp | ❌ failed | — | 2026-08-16 |
+| Aitoolboard | ❌ failed | — | 2026-08-16 |
+| Aitoolfame | ✅ success | 200 | 2026-08-16 |
+| Aitoolgo | ❌ failed | — | 2026-08-16 |
 | Aitoolguru | 🖐 manual | — | 2026-08-15 |
-| Aitoolhouse | ❌ failed | — | 2026-08-15 |
-| Aitoolhub | ❌ failed | — | 2026-08-15 |
-| Aitoolkits | ❌ failed | — | 2026-08-15 |
+| Aitoolhouse | ❌ failed | — | 2026-08-16 |
+| Aitoolhub | ❌ failed | — | 2026-08-16 |
+| Aitoolkits | ❌ failed | — | 2026-08-16 |
 | Aitoolly | ❌ failed | — | 2026-08-15 |
-| Aitoolmall | ❌ failed | — | 2026-08-15 |
-| Aitoolmate | ❌ failed | — | 2026-08-15 |
+| Aitoolmall | ❌ failed | — | 2026-08-16 |
+| Aitoolmate | ❌ failed | — | 2026-08-16 |
 | Aitoolnet | 🖐 manual | — | 2026-08-15 |
-| Aitools | ❌ failed | — | 2026-08-15 |
+| Aitools | ❌ failed | — | 2026-08-16 |
 | Aitoolsarena | ❌ failed | — | 2026-08-15 |
-| Aitoolscorner | ❌ failed | — | 2026-08-15 |
-| Aitoolscover | ❌ failed | — | 2026-08-15 |
+| Aitoolscorner | ❌ failed | — | 2026-08-16 |
+| Aitoolscover | ❌ failed | — | 2026-08-16 |
 | Aitoolsdirectory | ❌ failed | — | 2026-08-15 |
-| Aitoolselection | ❌ failed | — | 2026-08-15 |
-| Aitoolsexplorer | ❌ failed | — | 2026-08-15 |
-| Aitoolsguide | ❌ failed | — | 2026-08-15 |
-| Aitoolshunt | ❌ failed | — | 2026-08-15 |
-| Aitoolsnetwork | ❌ failed | — | 2026-08-15 |
-| Aitoolsone | ❌ failed | — | 2026-08-15 |
-| Aitoolsup | ❌ failed | — | 2026-08-15 |
+| Aitoolselection | ❌ failed | — | 2026-08-16 |
+| Aitoolsexplorer | ❌ failed | — | 2026-08-16 |
+| Aitoolsguide | ❌ failed | — | 2026-08-16 |
+| Aitoolshunt | ❌ failed | — | 2026-08-16 |
+| Aitoolsmarketer | ✅ success | 200 | 2026-08-16 |
+| Aitoolsnetwork | ❌ failed | — | 2026-08-16 |
+| Aitoolsone | ❌ failed | — | 2026-08-16 |
+| Aitoolsup | ❌ failed | — | 2026-08-16 |
 | Aitooltips | ❌ failed | — | 2026-08-15 |
-| Aitooltrek | ❌ failed | — | 2026-08-15 |
-| Aitoolzdir | ❌ failed | — | 2026-08-15 |
-| Aitoolzi | ❌ failed | — | 2026-08-15 |
-| Aitoptools | ❌ failed | — | 2026-08-15 |
-| Aitrendz | ❌ failed | — | 2026-08-15 |
+| Aitooltrek | ❌ failed | — | 2026-08-16 |
+| Aitoolzdir | ❌ failed | — | 2026-08-16 |
+| Aitoolzi | ❌ failed | — | 2026-08-16 |
+| Aitoptools | ❌ failed | — | 2026-08-16 |
+| Aitrendz | ❌ failed | — | 2026-08-16 |
 | Aivalley | 🖐 manual | — | 2026-08-15 |
-| Aiwizard | ❌ failed | — | 2026-08-15 |
+| Aiwith | ❌ failed | — | 2026-08-16 |
+| Aiwizard | ❌ failed | — | 2026-08-16 |
 | Aixploria | 🖐 manual | — | 2026-08-15 |
 | Aizones | ❌ failed | — | 2026-08-15 |
-| Allaiwebsite | ❌ failed | — | 2026-08-15 |
+| Allaiwebsite | ❌ failed | — | 2026-08-16 |
 | Allgpts | ❌ failed | — | 2026-08-15 |
-| Allinai | ❌ failed | — | 2026-08-15 |
-| Altern | ❌ failed | — | 2026-08-15 |
-| Alternativeai | ❌ failed | — | 2026-08-15 |
-| Aplicaciones | ❌ failed | — | 2026-08-15 |
-| App | ❌ failed | — | 2026-08-15 |
-| Appsandwebsites | ❌ failed | — | 2026-08-15 |
+| Allinai | ❌ failed | — | 2026-08-16 |
+| Altern | ❌ failed | — | 2026-08-16 |
+| Alternative | 🖐 manual | — | 2026-08-16 |
+| Alternativeai | ❌ failed | — | 2026-08-16 |
+| Alternatives | 🖐 manual | — | 2026-08-16 |
+| Alternativeto | ✅ success | 200 | 2026-08-16 |
+| Aplicaciones | ❌ failed | — | 2026-08-16 |
+| App | ❌ failed | — | 2026-08-16 |
+| Appsandwebsites | ❌ failed | — | 2026-08-16 |
 | Appscribed | 🖐 manual | — | 2026-08-15 |
-| Artificin | ❌ failed | — | 2026-08-15 |
+| Appsumo | ✅ success | 200 | 2026-08-16 |
+| Artificin | ❌ failed | — | 2026-08-16 |
 | Atozaitools | ❌ failed | — | 2026-08-15 |
-| Awesomeaitools | ❌ failed | — | 2026-08-15 |
-| Bai | ❌ failed | — | 2026-08-15 |
-| Bestaiagents | ❌ failed | — | 2026-08-15 |
-| Bestaito | ❌ failed | — | 2026-08-15 |
-| Bestfreeaiwebsites | ❌ failed | — | 2026-08-15 |
+| Awesomeaitools | ❌ failed | — | 2026-08-16 |
+| Bai | ❌ failed | — | 2026-08-16 |
+| Basedtools | ❌ failed | — | 2026-08-16 |
+| Bestaiagents | ❌ failed | — | 2026-08-16 |
+| Bestaito | ❌ failed | — | 2026-08-16 |
+| Bestdirectories | ✅ success | 200 | 2026-08-16 |
+| Bestfreeaiwebsites | ❌ failed | — | 2026-08-16 |
 | Bestofai | 🖐 manual | — | 2026-08-15 |
-| Bigailist | ❌ failed | — | 2026-08-15 |
+| Bestsky | ✅ success | 200 | 2026-08-16 |
+| Betalist | ✅ success | 200 | 2026-08-16 |
+| Bigailist | ❌ failed | — | 2026-08-16 |
 | Bing Webmaster | 🖐 manual | — | 2026-08-15 |
-| Brouseai | ❌ failed | — | 2026-08-15 |
+| Brouseai | ❌ failed | — | 2026-08-16 |
+| Brownbook | ❌ failed | — | 2026-08-16 |
+| Builtatlightspeed | 🖐 manual | — | 2026-08-16 |
 | Creati | 🖐 manual | — | 2026-08-15 |
-| Crunchbase | ❌ failed | — | 2026-08-15 |
-| Dang | ❌ failed | — | 2026-08-15 |
-| Dessign | ❌ failed | — | 2026-08-15 |
+| Crozdesk | 🖐 manual | — | 2026-08-16 |
+| Crunchbase | ❌ failed | — | 2026-08-16 |
+| Ctrlalt | 🖐 manual | — | 2026-08-16 |
+| Dang | ❌ failed | — | 2026-08-16 |
+| Dessign | ❌ failed | — | 2026-08-16 |
 | DevPages | ✅ success | 200 | 2026-08-15 |
-| Dokeyai | ❌ failed | — | 2026-08-15 |
+| Devhunt | 🖐 manual | — | 2026-08-16 |
+| Devresourc | ❌ failed | — | 2026-08-16 |
+| Direct2app | ✅ success | 200 | 2026-08-16 |
+| Directoryhunt | ✅ success | 200 | 2026-08-16 |
+| Dokeyai | ❌ failed | — | 2026-08-16 |
+| Domainrank | ✅ success | 200 | 2026-08-16 |
 | Domore | ❌ failed | — | 2026-08-15 |
-| Dropyourai | ❌ failed | — | 2026-08-15 |
-| Easysaveai | ❌ failed | — | 2026-08-15 |
+| Dropyourai | ❌ failed | — | 2026-08-16 |
+| Easysaveai | ❌ failed | — | 2026-08-16 |
 | Easywithai | ❌ failed | — | 2026-08-15 |
 | Eliteai | 🖐 manual | — | 2026-08-15 |
 | Entireweb | ✅ success | 200 | 2026-08-15 |
-| Every Ai | ❌ failed | — | 2026-08-15 |
-| Fastpedia | ❌ failed | — | 2026-08-15 |
+| Eu Startups | 🖐 manual | — | 2026-08-16 |
+| Every Ai | ❌ failed | — | 2026-08-16 |
+| F6s | 🖐 manual | — | 2026-08-16 |
+| Fastlaunch | ❌ failed | 200 | 2026-08-16 |
+| Fastpedia | ❌ failed | — | 2026-08-16 |
+| Fazier | ✅ success | 200 | 2026-08-16 |
+| Findly | 🖐 manual | — | 2026-08-16 |
 | Findmyaitool | 🖐 manual | — | 2026-08-15 |
+| Firsto | ✅ success | 200 | 2026-08-16 |
 | FiveTaco | ✅ success | 200 | 2026-08-15 |
+| Footer | ❌ failed | — | 2026-08-16 |
 | Foundr | 🖐 manual | — | 2026-08-15 |
-| Freeaitool | ❌ failed | — | 2026-08-15 |
-| Freeappsai | ❌ failed | — | 2026-08-15 |
-| Freemiumai | ❌ failed | — | 2026-08-15 |
-| Fullstackai | ❌ failed | — | 2026-08-15 |
-| Future Pedia | ❌ failed | — | 2026-08-15 |
+| Freeaitool | ❌ failed | — | 2026-08-16 |
+| Freeappsai | ❌ failed | — | 2026-08-16 |
+| Freemiumai | ❌ failed | — | 2026-08-16 |
+| Fullstackai | ❌ failed | — | 2026-08-16 |
+| Future Pedia | ❌ failed | — | 2026-08-16 |
 | FutureTools | ❌ failed | 200 | 2026-08-15 |
 | Futurepedia | 🖐 manual | — | 2026-08-15 |
-| Futuretools | ❌ failed | — | 2026-08-15 |
-| G2 | ❌ failed | — | 2026-08-15 |
-| Genai | ❌ failed | — | 2026-08-15 |
-| Gogetgpt | ❌ failed | — | 2026-08-15 |
+| Futuretools | ❌ failed | — | 2026-08-16 |
+| Fwfw | ✅ success | 200 | 2026-08-16 |
+| G2 | ❌ failed | — | 2026-08-16 |
+| Geekwire | 🖐 manual | — | 2026-08-16 |
+| Genai | ❌ failed | — | 2026-08-16 |
+| Getapp | ❌ failed | — | 2026-08-16 |
+| Getlatka | ✅ success | 200 | 2026-08-16 |
+| Gogetgpt | ❌ failed | — | 2026-08-16 |
+| Goodfirms | ❌ failed | — | 2026-08-16 |
 | Google Form 1 | 🖐 manual | — | 2026-08-15 |
 | Google Form 2 | 🖐 manual | — | 2026-08-15 |
-| Gpt3demo | ❌ failed | — | 2026-08-15 |
-| Gpt4demo | ❌ failed | — | 2026-08-15 |
-| Gptdemo | ❌ failed | — | 2026-08-15 |
-| Gptforthat | ❌ failed | — | 2026-08-15 |
+| Gpt3demo | ❌ failed | — | 2026-08-16 |
+| Gpt4demo | ❌ failed | — | 2026-08-16 |
+| Gptdemo | ❌ failed | — | 2026-08-16 |
+| Gptforthat | ❌ failed | — | 2026-08-16 |
 | Groupify | ❌ failed | — | 2026-08-15 |
-| Guideofaitool | ❌ failed | — | 2026-08-15 |
-| Hdrobots | ❌ failed | — | 2026-08-15 |
-| Humanornot | ❌ failed | — | 2026-08-15 |
-| Infrabase | ❌ failed | — | 2026-08-15 |
-| Insaneai | ❌ failed | — | 2026-08-15 |
+| Guideofaitool | ❌ failed | — | 2026-08-16 |
+| Hdrobots | ❌ failed | — | 2026-08-16 |
+| Hotfrog | ❌ failed | — | 2026-08-16 |
+| Humanornot | ❌ failed | — | 2026-08-16 |
+| Huntifyai | ✅ success | 200 | 2026-08-16 |
+| Huntscreens | 🖐 manual | — | 2026-08-16 |
+| Huzzler | ❌ failed | — | 2026-08-16 |
+| Indie | ✅ success | 200 | 2026-08-16 |
+| Indiehackers | 🖐 manual | — | 2026-08-16 |
+| Indiepa | ✅ success | 200 | 2026-08-16 |
+| Infrabase | ❌ failed | — | 2026-08-16 |
+| Insaneai | ❌ failed | — | 2026-08-16 |
 | Insidr | ❌ failed | 404 | 2026-08-15 |
-| Intelligenttools | ❌ failed | — | 2026-08-15 |
-| Iseoai | ❌ failed | — | 2026-08-15 |
-| Itirupati | ❌ failed | — | 2026-08-15 |
-| Itsbetterwithai | ❌ failed | — | 2026-08-15 |
-| Iuu | ❌ failed | — | 2026-08-15 |
-| Lachief | ❌ failed | — | 2026-08-15 |
+| Intelligenttools | ❌ failed | — | 2026-08-16 |
+| Iseoai | ❌ failed | — | 2026-08-16 |
+| Itirupati | ❌ failed | — | 2026-08-16 |
+| Itsbetterwithai | ❌ failed | — | 2026-08-16 |
+| Iuu | ❌ failed | — | 2026-08-16 |
+| Justsimple | ✅ success | 200 | 2026-08-16 |
+| Lachief | ❌ failed | — | 2026-08-16 |
+| Land Book | 🖐 manual | — | 2026-08-16 |
+| Landingfolio | ✅ success | 200 | 2026-08-16 |
+| Launchigniter | ❌ failed | — | 2026-08-16 |
 | LaunchingNext | ❌ failed | 403 | 2026-08-15 |
-| Library | ❌ failed | — | 2026-08-15 |
+| Launchitx | ✅ success | 200 | 2026-08-16 |
+| Launchvault | ❌ failed | — | 2026-08-16 |
+| Libhunt | ✅ success | 200 | 2026-08-16 |
+| Library | ❌ failed | — | 2026-08-16 |
 | ListAI | ✅ success | 200 | 2026-08-15 |
-| Listedai | ❌ failed | — | 2026-08-15 |
-| Listmyai | ❌ failed | — | 2026-08-15 |
-| Magicbox | ❌ failed | — | 2026-08-15 |
+| Listedai | ❌ failed | — | 2026-08-16 |
+| Listmyai | ❌ failed | — | 2026-08-16 |
+| Magicbox | ❌ failed | — | 2026-08-16 |
+| Make | ❌ failed | — | 2026-08-16 |
 | Mangoai | ❌ failed | — | 2026-08-15 |
 | Marketing Internet Directory | ✅ success | 200 | 2026-08-15 |
-| Marsx | ❌ failed | — | 2026-08-15 |
-| Mavtools | ❌ failed | — | 2026-08-15 |
-| Monkeyaitools | ❌ failed | — | 2026-08-15 |
+| Marsx | ❌ failed | — | 2026-08-16 |
+| Mavtools | ❌ failed | — | 2026-08-16 |
+| Microlaunch | ❌ failed | — | 2026-08-16 |
+| Microsaasexamples | 🖐 manual | — | 2026-08-16 |
+| Monkeyaitools | ❌ failed | — | 2026-08-16 |
+| Nachonacho | ✅ success | 200 | 2026-08-16 |
 | NavTools | ✅ success | 200 | 2026-08-15 |
-| Navtools | ❌ failed | — | 2026-08-15 |
-| Neonrev | ❌ failed | — | 2026-08-15 |
-| Newaiforyou | ❌ failed | — | 2026-08-15 |
+| Navfolders | ✅ success | 200 | 2026-08-16 |
+| Navtools | ❌ failed | — | 2026-08-16 |
+| Neonrev | ❌ failed | — | 2026-08-16 |
+| Newaiforyou | ❌ failed | — | 2026-08-16 |
 | News | ✅ success | 200 | 2026-08-15 |
-| Nextgentools | ❌ failed | — | 2026-08-15 |
-| Noteableai | ❌ failed | — | 2026-08-15 |
-| Okeiai | ❌ failed | — | 2026-08-15 |
+| Newtool | ✅ success | 200 | 2026-08-16 |
+| Nextgentools | ❌ failed | — | 2026-08-16 |
+| Noteableai | ❌ failed | — | 2026-08-16 |
+| Okeiai | ❌ failed | — | 2026-08-16 |
+| Open Launch | ✅ success | 200 | 2026-08-16 |
+| Openalternative | ✅ success | 200 | 2026-08-16 |
 | Openfuture | 🖐 manual | — | 2026-08-15 |
-| Openpedia | ❌ failed | — | 2026-08-15 |
-| Opentools | ❌ failed | — | 2026-08-15 |
-| Pitchwall | 🖐 manual | — | 2026-08-15 |
-| Popularaitools | ❌ failed | — | 2026-08-15 |
-| Poweredbyai | ❌ failed | — | 2026-08-15 |
-| Powerfulai | ❌ failed | — | 2026-08-15 |
+| Openhunts | ❌ failed | — | 2026-08-16 |
+| Openpedia | ❌ failed | — | 2026-08-16 |
+| Opentools | ❌ failed | — | 2026-08-16 |
+| Peerlist | ❌ failed | — | 2026-08-16 |
+| Peerpush | ✅ success | 200 | 2026-08-16 |
+| Pitchwall | ✅ success | 200 | 2026-08-16 |
+| Popularaitools | ❌ failed | — | 2026-08-16 |
+| Postmake | ✅ success | 200 | 2026-08-16 |
+| Poweredbyai | ❌ failed | — | 2026-08-16 |
+| Powerfulai | ❌ failed | — | 2026-08-16 |
 | Powerusers | 🖐 manual | — | 2026-08-15 |
-| Producthunt | ❌ failed | — | 2026-08-15 |
+| Productburst | 🖐 manual | — | 2026-08-16 |
+| Productfame | ✅ success | 200 | 2026-08-16 |
+| Producthunt | ❌ failed | — | 2026-08-16 |
+| Productivity | 🖐 manual | — | 2026-08-16 |
+| Projecthunt | ✅ success | 200 | 2026-08-16 |
 | Quality Internet Directory | 🖐 manual | — | 2026-08-15 |
-| Reviewai | ❌ failed | — | 2026-08-15 |
-| Rundown | ❌ failed | — | 2026-08-15 |
+| Rarebigdeal | ❌ failed | — | 2026-08-16 |
+| Reviewai | ❌ failed | — | 2026-08-16 |
+| Rundown | ❌ failed | — | 2026-08-16 |
 | SaaSHub | ✅ success | 200 | 2026-08-15 |
 | Saasaitools | 🖐 manual | — | 2026-08-15 |
-| Saasbaba | ❌ failed | — | 2026-08-15 |
+| Saasbaba | ❌ failed | — | 2026-08-16 |
+| Saasfame | ✅ success | 200 | 2026-08-16 |
+| Saasgenius | 🖐 manual | — | 2026-08-16 |
+| Saashub | ✅ success | 200 | 2026-08-16 |
+| Saaspo | ❌ failed | — | 2026-08-16 |
 | Scriptbyai | ❌ failed | — | 2026-08-15 |
 | SearchAITool | ❌ failed | 403 | 2026-08-15 |
-| Seekais | ❌ failed | — | 2026-08-15 |
-| Seofai | ❌ failed | — | 2026-08-15 |
-| Serp | ❌ failed | — | 2026-08-15 |
+| Seekais | ❌ failed | — | 2026-08-16 |
+| Seofai | ❌ failed | — | 2026-08-16 |
+| Serp | ❌ failed | — | 2026-08-16 |
 | ShareTool | ✅ success | 200 | 2026-08-15 |
+| Shipstry | ✅ success | 200 | 2026-08-16 |
 | Showmebest | 🖐 manual | — | 2026-08-15 |
-| Simplifyaitools | ❌ failed | — | 2026-08-15 |
+| Sideprojectors | ❌ failed | — | 2026-08-16 |
+| Simplifyaitools | ❌ failed | — | 2026-08-16 |
+| Sitelike | 🖐 manual | — | 2026-08-16 |
 | Sites Web Directory | ❌ failed | 200 | 2026-08-15 |
-| Somi | ❌ failed | — | 2026-08-15 |
+| Softwareworld | ❌ failed | — | 2026-08-16 |
+| Somi | ❌ failed | — | 2026-08-16 |
 | Sourceforge | ❌ failed | — | 2026-08-15 |
-| Soverin | ❌ failed | — | 2026-08-15 |
+| Soverin | ❌ failed | — | 2026-08-16 |
+| Stackshare | 🖐 manual | — | 2026-08-16 |
 | StartupBuffer | 🖐 manual | — | 2026-08-15 |
-| Startupaitools | ❌ failed | — | 2026-08-15 |
-| Stork | ❌ failed | — | 2026-08-15 |
-| Stratup | ❌ failed | — | 2026-08-15 |
+| Startupaitools | ❌ failed | — | 2026-08-16 |
+| Startupbase | ✅ success | 200 | 2026-08-16 |
+| Startupblink | ❌ failed | — | 2026-08-16 |
+| Startupbuffer | ❌ failed | — | 2026-08-16 |
+| Startupfa | ❌ failed | 405 | 2026-08-16 |
+| Startupinspire | ❌ failed | — | 2026-08-16 |
+| Startuplist | 🖐 manual | — | 2026-08-16 |
+| Startupranking | ❌ failed | — | 2026-08-16 |
+| Startupslab | ❌ failed | — | 2026-08-16 |
+| Startupstash | 🖐 manual | — | 2026-08-16 |
+| Stork | ❌ failed | — | 2026-08-16 |
+| Stratup | ❌ failed | — | 2026-08-16 |
 | Stremit | ❌ failed | 405 | 2026-08-15 |
 | SubmitAITools | ❌ failed | 200 | 2026-08-15 |
-| Submitaitool | ❌ failed | — | 2026-08-15 |
+| Submitaitool | ❌ failed | — | 2026-08-16 |
 | Submitaitools | 🖐 manual | — | 2026-08-15 |
-| Superaitools | ❌ failed | — | 2026-08-15 |
-| T0ai | ❌ failed | — | 2026-08-15 |
+| Submito | ❌ failed | — | 2026-08-16 |
+| Superaitools | ❌ failed | — | 2026-08-16 |
+| Superlaun | ❌ failed | — | 2026-08-16 |
+| T0ai | ❌ failed | — | 2026-08-16 |
 | Tally Form (3qVzOG) | 🖐 manual | — | 2026-08-15 |
 | Tally Form (wvB7Xg) | 🖐 manual | — | 2026-08-15 |
 | Tally Form (wvY09d) | 🖐 manual | — | 2026-08-15 |
-| Techpilot | ❌ failed | — | 2026-08-15 |
+| Tap4 | ✅ success | 200 | 2026-08-16 |
+| Techpilot | ❌ failed | — | 2026-08-16 |
 | Thataicollection | 🖐 manual | — | 2026-08-15 |
 | TheAIway | ❌ failed | 403 | 2026-08-15 |
 | TheKnownApp | 🖐 manual | — | 2026-08-15 |
-| Theaigeneration | ❌ failed | — | 2026-08-15 |
-| Theailibrary | ❌ failed | — | 2026-08-15 |
-| Theainavigator | ❌ failed | — | 2026-08-15 |
-| Theaireports | ❌ failed | — | 2026-08-15 |
+| Theaigeneration | ❌ failed | — | 2026-08-16 |
+| Theailibrary | ❌ failed | — | 2026-08-16 |
+| Theainavigator | ❌ failed | — | 2026-08-16 |
+| Theaireports | ❌ failed | — | 2026-08-16 |
 | Theaisurf | 🖐 manual | — | 2026-08-15 |
-| Theee | ❌ failed | — | 2026-08-15 |
+| Theee | ❌ failed | — | 2026-08-16 |
 | Theresanaiforthat | 🖐 manual | — | 2026-08-15 |
-| Thetoolbus | ❌ failed | — | 2026-08-15 |
+| Thetoolbus | ❌ failed | — | 2026-08-16 |
+| Tinylaun | ✅ success | 200 | 2026-08-16 |
+| Tinystartups | ✅ success | 200 | 2026-08-16 |
 | Tipseason | 🖐 manual | — | 2026-08-15 |
 | ToolPilot | ✅ success | 200 | 2026-08-15 |
 | ToolPilot.tools | ❌ failed | 405 | 2026-08-15 |
 | ToolScout | ❌ failed | 401 | 2026-08-15 |
 | ToolWise | ❌ failed | 405 | 2026-08-15 |
-| Tooladvisor | ❌ failed | — | 2026-08-15 |
-| Toolbit | ❌ failed | — | 2026-08-15 |
-| Tooldirectory | ❌ failed | — | 2026-08-15 |
-| Toolhunt | ❌ failed | — | 2026-08-15 |
-| Toolhunter | ❌ failed | — | 2026-08-15 |
+| Tooladvisor | ❌ failed | — | 2026-08-16 |
+| Toolbit | ❌ failed | — | 2026-08-16 |
+| Tooldirectory | ❌ failed | — | 2026-08-16 |
+| Toolfame | ✅ success | 200 | 2026-08-16 |
+| Toolfinder | ✅ success | 200 | 2026-08-16 |
+| Toolfolio | 🖐 manual | — | 2026-08-16 |
+| Toolhunt | ❌ failed | — | 2026-08-16 |
+| Toolhunter | ❌ failed | — | 2026-08-16 |
 | Toolify | 🖐 manual | — | 2026-08-15 |
 | Toolio | 🖐 manual | — | 2026-08-15 |
-| Toolist | ❌ failed | — | 2026-08-15 |
-| Toollist | ❌ failed | — | 2026-08-15 |
+| Toolist | ❌ failed | — | 2026-08-16 |
+| Toollist | ❌ failed | — | 2026-08-16 |
 | Toolnest | 🖐 manual | — | 2026-08-15 |
-| Toolpilot | ❌ failed | — | 2026-08-15 |
+| Toolpilot | ❌ failed | — | 2026-08-16 |
+| Toolrain | ✅ success | 200 | 2026-08-16 |
 | Tools Ai | ❌ failed | — | 2026-08-15 |
 | Tools.so | ❌ failed | 405 | 2026-08-15 |
-| Toolsai | ❌ failed | — | 2026-08-15 |
-| Toolscout | ❌ failed | — | 2026-08-15 |
+| Toolsai | ❌ failed | — | 2026-08-16 |
+| Toolscout | ❌ failed | — | 2026-08-16 |
+| Toolsfine | ✅ success | 200 | 2026-08-16 |
 | Toolsforhumans | ❌ failed | — | 2026-08-15 |
-| Toolspedia | ❌ failed | — | 2026-08-15 |
+| Toolspedia | ❌ failed | — | 2026-08-16 |
+| Toools | 🖐 manual | — | 2026-08-16 |
 | Topai | 🖐 manual | — | 2026-08-15 |
-| Topaitools | ❌ failed | — | 2026-08-15 |
+| Topaitools | ❌ failed | — | 2026-08-16 |
+| Topfreeaitools | 🖐 manual | — | 2026-08-16 |
 | Toptool | 🖐 manual | — | 2026-08-15 |
-| Toptools | ❌ failed | — | 2026-08-15 |
-| Trendaitools | ❌ failed | — | 2026-08-15 |
+| Toptools | ❌ failed | — | 2026-08-16 |
+| Trendaitools | ❌ failed | — | 2026-08-16 |
+| Trustradius | 🖐 manual | — | 2026-08-16 |
+| Turbo0 | ✅ success | 200 | 2026-08-16 |
+| Twelve | ✅ success | 200 | 2026-08-16 |
 | Typeform (AItools.inc) | 🖐 manual | — | 2026-08-15 |
 | Typeform (Startup88) | 🖐 manual | — | 2026-08-15 |
-| Tyy | ❌ failed | — | 2026-08-15 |
-| Uneed | 🖐 manual | — | 2026-08-15 |
-| Victrays | ❌ failed | — | 2026-08-15 |
-| Videaitools | ❌ failed | — | 2026-08-15 |
-| Waildworld | ❌ failed | — | 2026-08-15 |
-| Wavel | ❌ failed | — | 2026-08-15 |
+| Tyy | ❌ failed | — | 2026-08-16 |
+| Ufind | ❌ failed | — | 2026-08-16 |
+| Uneed | ✅ success | 200 | 2026-08-16 |
+| Victrays | ❌ failed | — | 2026-08-16 |
+| Videaitools | ❌ failed | — | 2026-08-16 |
+| Waildworld | ❌ failed | — | 2026-08-16 |
+| Wavel | ❌ failed | — | 2026-08-16 |
 | Waytoagi | ❌ failed | — | 2026-08-15 |
 | Whatsthebigdata | 🖐 manual | — | 2026-08-15 |
-| Whattheai | ❌ failed | — | 2026-08-15 |
-| Wisepickai | ❌ failed | — | 2026-08-15 |
-| Woy | ❌ failed | — | 2026-08-15 |
+| Whattheai | ❌ failed | — | 2026-08-16 |
+| Wisepickai | ❌ failed | — | 2026-08-16 |
+| Woy | ❌ failed | — | 2026-08-16 |
+| Yo | ✅ success | 200 | 2026-08-16 |
 
 ### Pending Manual Submissions
 
@@ -281,7 +385,6 @@ Open these URLs and submit manually:
 - **[Bing Webmaster](https://www.bing.com/webmasters/)** — Submit sitemap at Bing Webmaster Tools — requires Microsoft account
 - **[Google Form 1](https://forms.gle/Ze6pdWzmweCfKWnLA)** — Google Form — open in browser and fill manually
 - **[Google Form 2](https://docs.google.com/forms/d/e/1FAIpQLSeuaZvj-s7KkI5Zp41q9LX0i9suH61c7JR2qe6sBdDtP9r9Sg/viewform)** — Google Form — open in browser and fill manually
-- **[Pitchwall](https://pitchwall.co/product/submit)** — Requires account login to submit
 - **[Quality Internet Directory](https://www.qualityinternetdirectory.com/)** — Find submit link on homepage manually
 - **[StartupBuffer](https://startupbuffer.com)** — Requires account — submit at startupbuffer.com
 - **[Tally Form (3qVzOG)](https://tally.so/r/3qVzOG)** — Tally JS form — open in browser and fill manually
@@ -290,7 +393,6 @@ Open these URLs and submit manually:
 - **[TheKnownApp](https://www.theknownapp.io/#waitlist)** — Waitlist — sign up manually
 - **[Typeform (AItools.inc)](https://loxr142exnq.typeform.com/to/RB6ZnEf2)** — Typeform — open in browser and fill manually
 - **[Typeform (Startup88)](https://startup88.typeform.com/to/CRjWqM)** — Typeform — open in browser and fill manually
-- **[Uneed](https://www.uneed.best)** — Requires account login to submit tool
 - **[Theresanaiforthat](theresanaiforthat.com)** — Auto-downgraded (Playwright also failed)
 - **[Toolify](toolify.ai)** — Auto-downgraded (Playwright also failed)
 - **[Aixploria](aixploria.com/en)** — Auto-downgraded (HTTP 404)
@@ -320,3 +422,29 @@ Open these URLs and submit manually:
 - **[Toolnest](toolnest.ai)** — Auto-downgraded (Playwright also failed)
 - **[Showmebest](showmebest.ai)** — Auto-downgraded (Playwright also failed)
 - **[Submitaitools](submitaitools.org)** — Auto-downgraded (Playwright also failed)
+- **[Geekwire](https://geekwire.com)** — Auto-downgraded (HTTP 404)
+- **[Trustradius](https://trustradius.com)** — 
+- **[F6s](https://f6s.com)** — Auto-downgraded (Playwright also failed)
+- **[Indiehackers](https://indiehackers.com)** — Auto-downgraded (Playwright also failed)
+- **[Findly](https://findly.tools)** — Auto-downgraded (Playwright also failed)
+- **[Stackshare](https://stackshare.io)** — Auto-downgraded (Playwright also failed)
+- **[Eu Startups](https://eu-startups.com)** — 
+- **[Alternative](https://alternative.me)** — Auto-downgraded (HTTP 404)
+- **[Crozdesk](https://crozdesk.com)** — Auto-downgraded (Playwright also failed)
+- **[Land Book](https://land-book.com)** — 
+- **[Ai Bot](https://ai-bot.cn)** — Auto-downgraded (HTTP 404)
+- **[Startupstash](https://startupstash.com)** — Auto-downgraded (HTTP 404)
+- **[Sitelike](https://sitelike.org)** — 
+- **[Devhunt](https://devhunt.org)** — Auto-downgraded (Playwright also failed)
+- **[Saasgenius](https://saasgenius.com)** — Auto-downgraded (HTTP 404)
+- **[Builtatlightspeed](https://builtatlightspeed.com)** — Auto-downgraded (Playwright also failed)
+- **[Topfreeaitools](https://topfreeaitools.com)** — Auto-downgraded (HTTP 404)
+- **[Alternatives](https://alternatives.co)** — Auto-downgraded (Playwright also failed)
+- **[Ctrlalt](https://ctrlalt.cc)** — Auto-downgraded (HTTP 404)
+- **[Microsaasexamples](https://microsaasexamples.com)** — Auto-downgraded (HTTP 404)
+- **[Toools](https://toools.design)** — Auto-downgraded (Playwright also failed)
+- **[Startuplist](https://startuplist.ing)** — Auto-downgraded (Playwright also failed)
+- **[Productivity](https://productivity.directory)** — Auto-downgraded (HTTP 404)
+- **[Productburst](https://productburst.com)** — Auto-downgraded (HTTP 404)
+- **[Huntscreens](https://huntscreens.com)** — 
+- **[Toolfolio](https://toolfolio.io)** — Auto-downgraded (Playwright also failed)
