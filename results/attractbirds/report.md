@@ -1,14 +1,14 @@
 ## Backlink Report — attractbirds
 
-**Last run:** 2026-08-16T13:27:28.125712+00:00
+**Last run:** 2026-08-16T15:00:39.092127+00:00
 
 | Status | Count |
 |--------|-------|
-| ✅ Confirmed (auto + manual) | 170 |
-| ⚡ Auto-submitted            | 170 |
+| ✅ Confirmed (auto + manual) | 172 |
+| ⚡ Auto-submitted            | 172 |
 | 📝 Manually confirmed        | 0 |
 | 🖐 Pending manual            | 14 |
-| ❌ Auto-failed               | 296 |
+| ❌ Auto-failed               | 294 |
 
 ### All Submissions
 
@@ -97,7 +97,7 @@
 | Aitoolsguide | ❌ failed | — | 2026-08-16 |
 | Aitoolshunt | ❌ failed | — | 2026-08-16 |
 | Aitoolsmarketer | ✅ success | 200 | 2026-08-15 |
-| Aitoolsnetwork | ❌ failed | 404 | 2026-08-16 |
+| Aitoolsnetwork | ❌ failed | — | 2026-08-16 |
 | Aitoolsone | ❌ failed | — | 2026-08-16 |
 | Aitoolsup | ❌ failed | — | 2026-08-16 |
 | Aitooltips | ❌ failed | — | 2026-08-15 |
@@ -123,7 +123,7 @@
 | Antdirectory | ❌ failed | 403 | 2026-08-16 |
 | Aplicaciones | ❌ failed | — | 2026-08-16 |
 | App | ❌ failed | — | 2026-08-16 |
-| Appsandwebsites | ❌ failed | 404 | 2026-08-16 |
+| Appsandwebsites | ❌ failed | — | 2026-08-16 |
 | Appscreens | ✅ success | 200 | 2026-08-16 |
 | Appscribed | ❌ failed | 404 | 2026-08-15 |
 | Appsumo | ✅ success | 200 | 2026-08-15 |
@@ -133,12 +133,12 @@
 | Awesomeaitools | ❌ failed | — | 2026-08-16 |
 | Awesomeindie | ❌ failed | — | 2026-08-16 |
 | Backlinks List | ❌ failed | — | 2026-08-16 |
-| Bai | ❌ failed | — | 2026-08-16 |
+| Bai | ✅ success | 200 | 2026-08-16 |
 | Basedtools | ❌ failed | — | 2026-08-16 |
 | Bestaiagents | ✅ success | 200 | 2026-08-16 |
 | Bestaito | ✅ success | 200 | 2026-08-16 |
 | Bestdirectories | ✅ success | 200 | 2026-08-15 |
-| Bestfreeaiwebsites | ❌ failed | — | 2026-08-16 |
+| Bestfreeaiwebsites | ✅ success | 200 | 2026-08-16 |
 | Bestfreetools | ❌ failed | 405 | 2026-08-16 |
 | Bestofai | ❌ failed | — | 2026-08-15 |
 | Bestsky | ✅ success | 200 | 2026-08-15 |
@@ -473,7 +473,7 @@
 | Typeform (AItools.inc) | 🖐 manual | — | 2026-08-15 |
 | Typeform (Startup88) | 🖐 manual | — | 2026-08-15 |
 | Tyy | ❌ failed | — | 2026-08-16 |
-| Ufind | ❌ failed | — | 2026-08-16 |
+| Ufind | ❌ failed | 405 | 2026-08-16 |
 | Ugcpicks | ❌ failed | 405 | 2026-08-16 |
 | Uneed | ✅ success | 200 | 2026-08-15 |
 | Uno | ✅ success | 200 | 2026-08-16 |
