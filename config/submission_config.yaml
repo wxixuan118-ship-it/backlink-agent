@@ -2221,7 +2221,8 @@ directories:
   # ═══ Playwright (JS forms) ═══════════════════
   - name: "Rundown"
     url: "rundown.ai/tools"
-    type: playwright
+    type: manual
+    notes: "Auto-downgraded (Playwright also failed)"
 
   - name: "Aiagentstore"
     url: "aiagentstore.ai"
