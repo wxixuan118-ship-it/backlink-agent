@@ -7,6 +7,7 @@ Falls back gracefully if playwright is not installed.
 import asyncio
 import logging
 from datetime import datetime, timezone
+from urllib.parse import urlparse
 
 log = logging.getLogger(__name__)
 
@@ -30,10 +31,37 @@ _FAILURE_PHRASES = [
     "access denied", "forbidden",
 ]
 
+# Link text / href fragments that suggest a "submit your tool" page
+_SUBMIT_LINK_TEXT = {
+    "submit", "add tool", "add your tool", "list tool", "get listed",
+    "add product", "suggest tool", "add site", "submit site",
+    "submit url", "add url", "submit a tool", "add a tool",
+    "list your", "submit your", "add your",
+}
+_SUBMIT_HREF_FRAGS = {
+    "/submit", "/add-tool", "/add_tool", "/list-tool",
+    "/get-listed", "/suggest", "/add-product", "/add-site",
+}
+
 
 def _hint_match(text: str, hints: set) -> bool:
     lower = text.lower().replace("-", "_")
     return any(h in lower for h in hints)
+
+
+def _same_domain(orig_url: str, final_url: str) -> bool:
+    """True when orig and final share the same brand name in the hostname.
+
+    Allows same-brand TLD changes (euroalternative.co → .eu) but catches
+    redirects to completely different domains (aiteach.tools → expireddomains.com).
+    """
+    orig_host  = urlparse(orig_url).netloc.lower().lstrip("www.")
+    final_host = urlparse(final_url).netloc.lower().lstrip("www.")
+    if orig_host == final_host:
+        return True
+    # Strip TLD to get brand name; allow it to appear anywhere in final host
+    orig_name = orig_host.rsplit(".", 1)[0]
+    return bool(orig_name) and orig_name in final_host
 
 
 def _check_success(html: str) -> bool | None:
@@ -79,6 +107,33 @@ async def _fill_form(page, values: dict) -> int:
                 continue
 
     return filled
+
+
+async def _find_submit_link(page) -> bool:
+    """Look for a 'Submit your tool' style link and navigate to it.
+
+    Returns True if we landed on a page that has visible form fields.
+    """
+    try:
+        for a in await page.locator("a").all():
+            try:
+                text = (await a.text_content() or "").lower().strip()
+                href = (await a.get_attribute("href") or "").lower()
+                if (any(k in text for k in _SUBMIT_LINK_TEXT) or
+                        any(k in href for k in _SUBMIT_HREF_FRAGS)):
+                    await a.click()
+                    try:
+                        await page.wait_for_selector(
+                            "input:visible, textarea:visible", timeout=5_000
+                        )
+                        return True
+                    except Exception:
+                        pass  # link navigated but no fields — keep searching
+            except Exception:
+                continue
+    except Exception:
+        pass
+    return False
 
 
 async def _click_submit(page) -> bool:
@@ -143,6 +198,10 @@ async def _submit_async(directory: dict, site: dict, generated: dict,
         try:
             await page.goto(url, wait_until="domcontentloaded", timeout=timeout_ms)
 
+            # Detect redirect to a completely different domain (expired domains etc.)
+            if not _same_domain(url, page.url):
+                return _result("failed", f"Redirected away: {page.url}")
+
             # Wait for form fields to render (handles React/Vue SPAs)
             try:
                 await page.wait_for_selector("input:visible, textarea:visible", timeout=8_000)
@@ -150,6 +209,13 @@ async def _submit_async(directory: dict, site: dict, generated: dict,
                 pass
 
             filled = await _fill_form(page, values)
+
+            # No fields on landing page — try to find a "Submit your tool" link
+            if filled == 0:
+                navigated = await _find_submit_link(page)
+                if navigated:
+                    filled = await _fill_form(page, values)
+
             if filled == 0:
                 log.warning("%s — Playwright: no fields found", name)
                 return _result("failed", "No fillable fields found")
