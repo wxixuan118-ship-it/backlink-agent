@@ -143,6 +143,12 @@ async def _submit_async(directory: dict, site: dict, generated: dict,
         try:
             await page.goto(url, wait_until="domcontentloaded", timeout=timeout_ms)
 
+            # Wait for form fields to render (handles React/Vue SPAs)
+            try:
+                await page.wait_for_selector("input:visible, textarea:visible", timeout=8_000)
+            except Exception:
+                pass
+
             filled = await _fill_form(page, values)
             if filled == 0:
                 log.warning("%s — Playwright: no fields found", name)
