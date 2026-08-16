@@ -55,15 +55,6 @@
       "notes": ""
     },
     {
-      "name": "Indiehackers",
-      "url": "https://indiehackers.com",
-      "status": "failed",
-      "http_status": 200,
-      "attempt": 1,
-      "timestamp": "2026-08-15T14:12:23.811060+00:00",
-      "notes": ""
-    },
-    {
       "name": "Twelve",
       "url": "https://twelve.tools",
       "status": "success",
@@ -883,24 +874,6 @@
       "notes": ""
     },
     {
-      "name": "Testdev",
-      "url": "https://testdev.tools",
-      "status": "failed",
-      "http_status": 404,
-      "attempt": 1,
-      "timestamp": "2026-08-15T14:35:13.744216+00:00",
-      "notes": ""
-    },
-    {
-      "name": "Saasboilerplates",
-      "url": "https://saasboilerplates.com",
-      "status": "failed",
-      "http_status": 404,
-      "attempt": 1,
-      "timestamp": "2026-08-15T14:35:34.227374+00:00",
-      "notes": ""
-    },
-    {
       "name": "Directoryfame",
       "url": "https://directoryfame.com",
       "status": "success",
@@ -1660,70 +1633,6 @@
       "notes": "No submit button found"
     },
     {
-      "name": "Aiagentstore",
-      "url": "https://aiagentstore.ai",
-      "status": "failed",
-      "http_status": null,
-      "timestamp": "2026-08-16T11:16:49.825890+00:00",
-      "notes": "No submit button found"
-    },
-    {
-      "name": "Genai",
-      "url": "https://genai.works/applications",
-      "status": "failed",
-      "http_status": null,
-      "timestamp": "2026-08-16T11:17:01.012284+00:00",
-      "notes": "Submitted via Playwright"
-    },
-    {
-      "name": "Ai Hunter",
-      "url": "https://ai-hunter.io",
-      "status": "failed",
-      "http_status": null,
-      "timestamp": "2026-08-16T11:17:12.684865+00:00",
-      "notes": "No fillable fields found"
-    },
-    {
-      "name": "Wisepickai",
-      "url": "https://wisepickai.com",
-      "status": "failed",
-      "http_status": null,
-      "timestamp": "2026-08-16T11:17:20.552764+00:00",
-      "notes": "No fillable fields found"
-    },
-    {
-      "name": "Aichief",
-      "url": "https://aichief.com",
-      "status": "failed",
-      "http_status": null,
-      "timestamp": "2026-08-16T11:17:29.120573+00:00",
-      "notes": "No fillable fields found"
-    },
-    {
-      "name": "Aitoptools",
-      "url": "https://aitoptools.com",
-      "status": "failed",
-      "http_status": null,
-      "timestamp": "2026-08-16T11:17:41.048918+00:00",
-      "notes": "No fillable fields found"
-    },
-    {
-      "name": "Aiapps",
-      "url": "https://aiapps.com",
-      "status": "failed",
-      "http_status": null,
-      "timestamp": "2026-08-16T11:17:49.298681+00:00",
-      "notes": "No fillable fields found"
-    },
-    {
-      "name": "Bestfreeaiwebsites",
-      "url": "https://bestfreeaiwebsites.com/all-tools",
-      "status": "failed",
-      "http_status": null,
-      "timestamp": "2026-08-16T11:18:05.361103+00:00",
-      "notes": "No fillable fields found"
-    },
-    {
       "name": "Artificin",
       "url": "https://artificin.com/tools",
       "status": "success",
@@ -1740,44 +1649,12 @@
       "notes": "Submitted via Playwright"
     },
     {
-      "name": "Soverin",
-      "url": "https://soverin.ai",
-      "status": "failed",
-      "http_status": null,
-      "timestamp": "2026-08-16T11:18:58.200987+00:00",
-      "notes": "No fillable fields found"
-    },
-    {
       "name": "Aiagentslist",
       "url": "https://aiagentslist.com",
       "status": "success",
       "http_status": 200,
       "timestamp": "2026-08-16T11:19:08.658368+00:00",
       "notes": "Submitted via Playwright"
-    },
-    {
-      "name": "Lachief",
-      "url": "https://lachief.io",
-      "status": "failed",
-      "http_status": null,
-      "timestamp": "2026-08-16T11:19:17.564754+00:00",
-      "notes": "No fillable fields found"
-    },
-    {
-      "name": "Dessign",
-      "url": "https://dessign.net",
-      "status": "failed",
-      "http_status": null,
-      "timestamp": "2026-08-16T11:19:25.062139+00:00",
-      "notes": "No fillable fields found"
-    },
-    {
-      "name": "Bai",
-      "url": "https://bai.tools",
-      "status": "failed",
-      "http_status": null,
-      "timestamp": "2026-08-16T11:19:32.709767+00:00",
-      "notes": "No fillable fields found"
     },
     {
       "name": "Aiagentsdirectory",
@@ -1804,100 +1681,12 @@
       "notes": "Submitted via Playwright"
     },
     {
-      "name": "Stratup",
-      "url": "https://stratup.ai/en/ais",
-      "status": "failed",
-      "http_status": null,
-      "timestamp": "2026-08-16T11:20:19.171349+00:00",
-      "notes": "No fillable fields found"
-    },
-    {
-      "name": "Itirupati",
-      "url": "https://itirupati.com/ai-tools-apps",
-      "status": "failed",
-      "http_status": null,
-      "timestamp": "2026-08-16T11:20:28.472117+00:00",
-      "notes": "No fillable fields found"
-    },
-    {
-      "name": "Topaitools",
-      "url": "https://topaitools.com/tools",
-      "status": "failed",
-      "http_status": null,
-      "timestamp": "2026-08-16T11:20:38.651424+00:00",
-      "notes": "No submit button found"
-    },
-    {
-      "name": "Gpt3demo",
-      "url": "https://gpt3demo.com",
-      "status": "failed",
-      "http_status": null,
-      "timestamp": "2026-08-16T11:20:51.176210+00:00",
-      "notes": "No fillable fields found"
-    },
-    {
-      "name": "Aiforeveryone",
-      "url": "https://aiforeveryone.org",
-      "status": "failed",
-      "http_status": null,
-      "timestamp": "2026-08-16T11:21:00.163091+00:00",
-      "notes": "No fillable fields found"
-    },
-    {
-      "name": "Powerfulai",
-      "url": "https://powerfulai.tools",
-      "status": "failed",
-      "http_status": null,
-      "timestamp": "2026-08-16T11:21:07.080728+00:00",
-      "notes": "No fillable fields found"
-    },
-    {
-      "name": "Aijourney",
-      "url": "https://aijourney.so",
-      "status": "failed",
-      "http_status": null,
-      "timestamp": "2026-08-16T11:21:17.327164+00:00",
-      "notes": "No fillable fields found"
-    },
-    {
-      "name": "Aitechsuite",
-      "url": "https://aitechsuite.com",
-      "status": "failed",
-      "http_status": null,
-      "timestamp": "2026-08-16T11:21:26.302056+00:00",
-      "notes": "No fillable fields found"
-    },
-    {
-      "name": "App",
-      "url": "https://app.aibase.com",
-      "status": "failed",
-      "http_status": null,
-      "timestamp": "2026-08-16T11:21:37.710656+00:00",
-      "notes": "No fillable fields found"
-    },
-    {
-      "name": "Simplifyaitools",
-      "url": "https://simplifyaitools.com",
-      "status": "failed",
-      "http_status": null,
-      "timestamp": "2026-08-16T11:21:48.582415+00:00",
-      "notes": "No fillable fields found"
-    },
-    {
       "name": "Aibucket",
       "url": "https://aibucket.io/ai-tools",
       "status": "success",
       "http_status": 200,
       "timestamp": "2026-08-16T11:21:59.198516+00:00",
       "notes": "Submitted via Playwright"
-    },
-    {
-      "name": "Stork",
-      "url": "https://stork.ai",
-      "status": "failed",
-      "http_status": null,
-      "timestamp": "2026-08-16T11:22:37.101050+00:00",
-      "notes": "No submit button found"
     },
     {
       "name": "Hdrobots",
@@ -1916,62 +1705,6 @@
       "notes": "Submitted via Playwright"
     },
     {
-      "name": "Seofai",
-      "url": "https://seofai.com",
-      "status": "failed",
-      "http_status": null,
-      "timestamp": "2026-08-16T11:23:11.442411+00:00",
-      "notes": "No fillable fields found"
-    },
-    {
-      "name": "Brouseai",
-      "url": "https://brouseai.com",
-      "status": "failed",
-      "http_status": null,
-      "timestamp": "2026-08-16T11:23:20.172949+00:00",
-      "notes": "No fillable fields found"
-    },
-    {
-      "name": "Aitoolboard",
-      "url": "https://aitoolboard.com",
-      "status": "failed",
-      "http_status": null,
-      "timestamp": "2026-08-16T11:23:28.908669+00:00",
-      "notes": "No fillable fields found"
-    },
-    {
-      "name": "Navtools",
-      "url": "https://navtools.ai",
-      "status": "failed",
-      "http_status": null,
-      "timestamp": "2026-08-16T11:23:38.832972+00:00",
-      "notes": "No fillable fields found"
-    },
-    {
-      "name": "Poweredbyai",
-      "url": "https://poweredbyai.app",
-      "status": "failed",
-      "http_status": null,
-      "timestamp": "2026-08-16T11:23:47.656027+00:00",
-      "notes": "No fillable fields found"
-    },
-    {
-      "name": "Listmyai",
-      "url": "https://listmyai.net/tools",
-      "status": "failed",
-      "http_status": null,
-      "timestamp": "2026-08-16T11:23:56.606832+00:00",
-      "notes": "No fillable fields found"
-    },
-    {
-      "name": "Aitoolhub",
-      "url": "https://aitoolhub.net",
-      "status": "failed",
-      "http_status": null,
-      "timestamp": "2026-08-16T11:24:08.026704+00:00",
-      "notes": "No submit button found"
-    },
-    {
       "name": "Bestaiagents",
       "url": "https://bestaiagents.ai",
       "status": "success",
@@ -1980,36 +1713,12 @@
       "notes": "Submitted via Playwright"
     },
     {
-      "name": "Future Pedia",
-      "url": "https://future-pedia.com",
-      "status": "failed",
-      "http_status": null,
-      "timestamp": "2026-08-16T11:24:33.630094+00:00",
-      "notes": "No fillable fields found"
-    },
-    {
       "name": "Listedai",
       "url": "https://listedai.co",
       "status": "success",
       "http_status": 200,
       "timestamp": "2026-08-16T11:24:44.171110+00:00",
       "notes": "Submitted via Playwright"
-    },
-    {
-      "name": "Iseoai",
-      "url": "https://iseoai.com",
-      "status": "failed",
-      "http_status": null,
-      "timestamp": "2026-08-16T11:24:55.804855+00:00",
-      "notes": "No fillable fields found"
-    },
-    {
-      "name": "Theailibrary",
-      "url": "https://theailibrary.co",
-      "status": "failed",
-      "http_status": null,
-      "timestamp": "2026-08-16T11:25:06.208838+00:00",
-      "notes": "No fillable fields found"
     },
     {
       "name": "Aitoolselection",
@@ -2028,100 +1737,12 @@
       "notes": "Submitted via Playwright"
     },
     {
-      "name": "Aitrendz",
-      "url": "https://aitrendz.xyz",
-      "status": "failed",
-      "http_status": null,
-      "timestamp": "2026-08-16T11:26:11.515961+00:00",
-      "notes": "No fillable fields found"
-    },
-    {
-      "name": "Itsbetterwithai",
-      "url": "https://itsbetterwithai.com",
-      "status": "failed",
-      "http_status": null,
-      "timestamp": "2026-08-16T11:26:20.274375+00:00",
-      "notes": "No fillable fields found"
-    },
-    {
-      "name": "Aplicaciones",
-      "url": "https://aplicaciones.ai/en",
-      "status": "failed",
-      "http_status": null,
-      "timestamp": "2026-08-16T11:26:29.067393+00:00",
-      "notes": "No fillable fields found"
-    },
-    {
-      "name": "Library",
-      "url": "https://library.phygital.plus",
-      "status": "failed",
-      "http_status": null,
-      "timestamp": "2026-08-16T11:26:40.526809+00:00",
-      "notes": "No fillable fields found"
-    },
-    {
-      "name": "Waildworld",
-      "url": "https://waildworld.com",
-      "status": "failed",
-      "http_status": null,
-      "timestamp": "2026-08-16T11:26:51.173554+00:00",
-      "notes": "No fillable fields found"
-    },
-    {
-      "name": "Aitoolsexplorer",
-      "url": "https://aitoolsexplorer.com",
-      "status": "failed",
-      "http_status": null,
-      "timestamp": "2026-08-16T11:27:01.203262+00:00",
-      "notes": "No fillable fields found"
-    },
-    {
-      "name": "Fullstackai",
-      "url": "https://fullstackai.co/tools",
-      "status": "failed",
-      "http_status": null,
-      "timestamp": "2026-08-16T11:27:10.361751+00:00",
-      "notes": "No fillable fields found"
-    },
-    {
-      "name": "Somi",
-      "url": "https://somi.ai",
-      "status": "failed",
-      "http_status": null,
-      "timestamp": "2026-08-16T11:27:20.884009+00:00",
-      "notes": "No fillable fields found"
-    },
-    {
-      "name": "Toolscout",
-      "url": "https://toolscout.ai",
-      "status": "failed",
-      "http_status": null,
-      "timestamp": "2026-08-16T11:27:28.393959+00:00",
-      "notes": "No fillable fields found"
-    },
-    {
       "name": "Tooldirectory",
       "url": "https://tooldirectory.ai",
       "status": "success",
       "http_status": 200,
       "timestamp": "2026-08-16T11:27:40.844340+00:00",
       "notes": "Submitted via Playwright"
-    },
-    {
-      "name": "Theainavigator",
-      "url": "https://theainavigator.com/list-of-ai-tools",
-      "status": "failed",
-      "http_status": null,
-      "timestamp": "2026-08-16T11:27:50.536747+00:00",
-      "notes": "No fillable fields found"
-    },
-    {
-      "name": "Ai Productreviews",
-      "url": "https://ai-productreviews.com",
-      "status": "failed",
-      "http_status": null,
-      "timestamp": "2026-08-16T11:27:59.129178+00:00",
-      "notes": "No submit button found"
     },
     {
       "name": "Marsx",
@@ -2132,52 +1753,12 @@
       "notes": "Submitted via Playwright"
     },
     {
-      "name": "Aitoolmall",
-      "url": "https://aitoolmall.com",
-      "status": "failed",
-      "http_status": null,
-      "timestamp": "2026-08-16T11:28:20.871674+00:00",
-      "notes": "No fillable fields found"
-    },
-    {
       "name": "Toolhunter",
       "url": "https://toolhunter.ai",
       "status": "success",
       "http_status": 200,
       "timestamp": "2026-08-16T11:28:32.746960+00:00",
       "notes": "Submitted via Playwright"
-    },
-    {
-      "name": "Humanornot",
-      "url": "https://humanornot.co",
-      "status": "failed",
-      "http_status": null,
-      "timestamp": "2026-08-16T11:29:11.571891+00:00",
-      "notes": "No submit button found"
-    },
-    {
-      "name": "Toptools",
-      "url": "https://toptools.ai",
-      "status": "failed",
-      "http_status": null,
-      "timestamp": "2026-08-16T11:29:19.156755+00:00",
-      "notes": "No submit button found"
-    },
-    {
-      "name": "Aitoolzi",
-      "url": "https://aitoolzi.com",
-      "status": "failed",
-      "http_status": null,
-      "timestamp": "2026-08-16T11:29:26.828085+00:00",
-      "notes": "No fillable fields found"
-    },
-    {
-      "name": "Toolspedia",
-      "url": "https://toolspedia.io",
-      "status": "failed",
-      "http_status": null,
-      "timestamp": "2026-08-16T11:29:37.897255+00:00",
-      "notes": "No fillable fields found"
     },
     {
       "name": "Allinai",
@@ -2188,62 +1769,6 @@
       "notes": "Submitted via Playwright"
     },
     {
-      "name": "Aitechfy",
-      "url": "https://aitechfy.com",
-      "status": "failed",
-      "http_status": null,
-      "timestamp": "2026-08-16T11:30:01.072740+00:00",
-      "notes": "No fillable fields found"
-    },
-    {
-      "name": "Dropyourai",
-      "url": "https://dropyourai.com",
-      "status": "failed",
-      "http_status": null,
-      "timestamp": "2026-08-16T11:30:09.082140+00:00",
-      "notes": "No submit button found"
-    },
-    {
-      "name": "Aitoolhouse",
-      "url": "https://aitoolhouse.com",
-      "status": "failed",
-      "http_status": null,
-      "timestamp": "2026-08-16T11:30:18.764200+00:00",
-      "notes": "No fillable fields found"
-    },
-    {
-      "name": "Guideofaitool",
-      "url": "https://guideofaitool.com",
-      "status": "failed",
-      "http_status": null,
-      "timestamp": "2026-08-16T11:30:26.375344+00:00",
-      "notes": "No fillable fields found"
-    },
-    {
-      "name": "Aitoolsguide",
-      "url": "https://aitoolsguide.com",
-      "status": "failed",
-      "http_status": null,
-      "timestamp": "2026-08-16T11:30:39.010710+00:00",
-      "notes": "Submitted via Playwright"
-    },
-    {
-      "name": "Victrays",
-      "url": "https://victrays.com/ai-tools",
-      "status": "failed",
-      "http_status": null,
-      "timestamp": "2026-08-16T11:30:48.805105+00:00",
-      "notes": "No fillable fields found"
-    },
-    {
-      "name": "Every Ai",
-      "url": "https://every-ai.com",
-      "status": "failed",
-      "http_status": null,
-      "timestamp": "2026-08-16T11:30:56.967729+00:00",
-      "notes": "No fillable fields found"
-    },
-    {
       "name": "Bestaito",
       "url": "https://bestaito.com",
       "status": "success",
@@ -2252,92 +1777,12 @@
       "notes": "Submitted via Playwright"
     },
     {
-      "name": "Aicyclopedia",
-      "url": "https://aicyclopedia.com/ai-tools",
-      "status": "failed",
-      "http_status": null,
-      "timestamp": "2026-08-16T11:31:22.507012+00:00",
-      "notes": "No fillable fields found"
-    },
-    {
-      "name": "Altern",
-      "url": "https://altern.ai",
-      "status": "failed",
-      "http_status": null,
-      "timestamp": "2026-08-16T11:31:35.450497+00:00",
-      "notes": "No fillable fields found"
-    },
-    {
-      "name": "Openpedia",
-      "url": "https://openpedia.io",
-      "status": "failed",
-      "http_status": null,
-      "timestamp": "2026-08-16T11:31:43.867898+00:00",
-      "notes": "No fillable fields found"
-    },
-    {
-      "name": "Freeappsai",
-      "url": "https://freeappsai.com",
-      "status": "failed",
-      "http_status": null,
-      "timestamp": "2026-08-16T11:31:54.862036+00:00",
-      "notes": "No fillable fields found"
-    },
-    {
-      "name": "Monkeyaitools",
-      "url": "https://monkeyaitools.com",
-      "status": "failed",
-      "http_status": null,
-      "timestamp": "2026-08-16T11:32:05.141924+00:00",
-      "notes": "No fillable fields found"
-    },
-    {
-      "name": "Videaitools",
-      "url": "https://videaitools.com",
-      "status": "failed",
-      "http_status": null,
-      "timestamp": "2026-08-16T11:32:13.136763+00:00",
-      "notes": "No fillable fields found"
-    },
-    {
-      "name": "Aifindertools",
-      "url": "https://aifindertools.com",
-      "status": "failed",
-      "http_status": null,
-      "timestamp": "2026-08-16T11:32:20.066797+00:00",
-      "notes": "No fillable fields found"
-    },
-    {
-      "name": "Neonrev",
-      "url": "https://neonrev.com",
-      "status": "failed",
-      "http_status": null,
-      "timestamp": "2026-08-16T11:32:31.044887+00:00",
-      "notes": "No fillable fields found"
-    },
-    {
-      "name": "Freeaitool",
-      "url": "https://freeaitool.ai",
-      "status": "failed",
-      "http_status": null,
-      "timestamp": "2026-08-16T11:32:42.331035+00:00",
-      "notes": "No fillable fields found"
-    },
-    {
       "name": "Aihustle",
       "url": "https://aihustle.tools",
       "status": "success",
       "http_status": 200,
       "timestamp": "2026-08-16T11:32:52.033276+00:00",
       "notes": "Submitted via Playwright"
-    },
-    {
-      "name": "Intelligenttools",
-      "url": "https://intelligenttools.co",
-      "status": "failed",
-      "http_status": null,
-      "timestamp": "2026-08-16T11:32:59.532284+00:00",
-      "notes": "No fillable fields found"
     },
     {
       "name": "Fastpedia",
@@ -2356,132 +1801,12 @@
       "notes": "Submitted via Playwright"
     },
     {
-      "name": "Wavel",
-      "url": "https://wavel.io",
-      "status": "failed",
-      "http_status": null,
-      "timestamp": "2026-08-16T11:33:30.274824+00:00",
-      "notes": "No fillable fields found"
-    },
-    {
       "name": "Gogetgpt",
       "url": "https://gogetgpt.com/en/c/best-tools",
       "status": "success",
       "http_status": 200,
       "timestamp": "2026-08-16T11:33:43.624122+00:00",
       "notes": "Submitted via Playwright"
-    },
-    {
-      "name": "Aitoolshunt",
-      "url": "https://aitoolshunt.com",
-      "status": "failed",
-      "http_status": null,
-      "timestamp": "2026-08-16T11:33:52.652829+00:00",
-      "notes": "No fillable fields found"
-    },
-    {
-      "name": "Aitoolsone",
-      "url": "https://aitoolsone.com",
-      "status": "failed",
-      "http_status": null,
-      "timestamp": "2026-08-16T11:34:02.229725+00:00",
-      "notes": "No fillable fields found"
-    },
-    {
-      "name": "Theee",
-      "url": "https://theee.ai",
-      "status": "failed",
-      "http_status": null,
-      "timestamp": "2026-08-16T11:34:10.940497+00:00",
-      "notes": "No fillable fields found"
-    },
-    {
-      "name": "Superaitools",
-      "url": "https://superaitools.io",
-      "status": "failed",
-      "http_status": null,
-      "timestamp": "2026-08-16T11:34:23.651135+00:00",
-      "notes": "No fillable fields found"
-    },
-    {
-      "name": "Aijumble",
-      "url": "https://aijumble.com",
-      "status": "failed",
-      "http_status": null,
-      "timestamp": "2026-08-16T11:34:37.793626+00:00",
-      "notes": "Submitted via Playwright"
-    },
-    {
-      "name": "Alternativeai",
-      "url": "https://alternativeai.io",
-      "status": "failed",
-      "http_status": null,
-      "timestamp": "2026-08-16T11:35:06.176875+00:00",
-      "notes": "Playwright timeout"
-    },
-    {
-      "name": "Aihunt",
-      "url": "https://aihunt.app/tools",
-      "status": "failed",
-      "http_status": null,
-      "timestamp": "2026-08-16T11:35:15.893295+00:00",
-      "notes": "No fillable fields found"
-    },
-    {
-      "name": "Aitach",
-      "url": "https://aitach.com",
-      "status": "failed",
-      "http_status": null,
-      "timestamp": "2026-08-16T11:35:26.026141+00:00",
-      "notes": "No fillable fields found"
-    },
-    {
-      "name": "Popularaitools",
-      "url": "https://popularaitools.ai/ai-tool-categories",
-      "status": "failed",
-      "http_status": null,
-      "timestamp": "2026-08-16T11:35:34.240862+00:00",
-      "notes": "No fillable fields found"
-    },
-    {
-      "name": "Awesomeaitools",
-      "url": "https://awesomeaitools.com",
-      "status": "failed",
-      "http_status": null,
-      "timestamp": "2026-08-16T11:35:43.390775+00:00",
-      "notes": "No fillable fields found"
-    },
-    {
-      "name": "Startupaitools",
-      "url": "https://startupaitools.com",
-      "status": "failed",
-      "http_status": null,
-      "timestamp": "2026-08-16T11:35:52.865081+00:00",
-      "notes": "No fillable fields found"
-    },
-    {
-      "name": "Okeiai",
-      "url": "https://okeiai.com",
-      "status": "failed",
-      "http_status": null,
-      "timestamp": "2026-08-16T11:36:05.572595+00:00",
-      "notes": "No fillable fields found"
-    },
-    {
-      "name": "Aidirectory",
-      "url": "https://aidirectory.org",
-      "status": "failed",
-      "http_status": null,
-      "timestamp": "2026-08-16T11:36:15.118248+00:00",
-      "notes": "No fillable fields found"
-    },
-    {
-      "name": "Airankings",
-      "url": "https://airankings.co",
-      "status": "failed",
-      "http_status": null,
-      "timestamp": "2026-08-16T11:36:23.579842+00:00",
-      "notes": "No fillable fields found"
     },
     {
       "name": "Aitoolscorner",
@@ -2492,84 +1817,12 @@
       "notes": "Submitted via Playwright"
     },
     {
-      "name": "Aitoolsup",
-      "url": "https://aitoolsup.com",
-      "status": "failed",
-      "http_status": null,
-      "timestamp": "2026-08-16T11:37:16.500425+00:00",
-      "notes": "No fillable fields found"
-    },
-    {
-      "name": "Aitoolapp",
-      "url": "https://aitoolapp.com",
-      "status": "failed",
-      "http_status": null,
-      "timestamp": "2026-08-16T11:37:25.425324+00:00",
-      "notes": "No fillable fields found"
-    },
-    {
       "name": "Aiwizard",
       "url": "https://aiwizard.ai/aitools",
       "status": "success",
       "http_status": 200,
       "timestamp": "2026-08-16T11:37:41.362248+00:00",
       "notes": "Submitted via Playwright"
-    },
-    {
-      "name": "Toolbit",
-      "url": "https://toolbit.ai",
-      "status": "failed",
-      "http_status": null,
-      "timestamp": "2026-08-16T11:37:50.502228+00:00",
-      "notes": "No fillable fields found"
-    },
-    {
-      "name": "Aigendaily",
-      "url": "https://aigendaily.com",
-      "status": "failed",
-      "http_status": null,
-      "timestamp": "2026-08-16T11:38:17.840796+00:00",
-      "notes": "Playwright timeout"
-    },
-    {
-      "name": "Allaiwebsite",
-      "url": "https://allaiwebsite.com",
-      "status": "failed",
-      "http_status": null,
-      "timestamp": "2026-08-16T11:39:00.905916+00:00",
-      "notes": "No submit button found"
-    },
-    {
-      "name": "Tooladvisor",
-      "url": "https://tooladvisor.ai",
-      "status": "failed",
-      "http_status": null,
-      "timestamp": "2026-08-16T11:39:09.198220+00:00",
-      "notes": "No fillable fields found"
-    },
-    {
-      "name": "Insaneai",
-      "url": "https://insaneai.tools",
-      "status": "failed",
-      "http_status": null,
-      "timestamp": "2026-08-16T11:39:15.770016+00:00",
-      "notes": "Playwright error: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://insaneai.tools/\nCall log:\n  - navigating to \"https://insaneai.tools/\", waiting until \"domcontentloaded\"\n"
-    },
-    {
-      "name": "Tyy",
-      "url": "https://tyy.ai",
-      "status": "failed",
-      "http_status": null,
-      "timestamp": "2026-08-16T11:39:23.016842+00:00",
-      "notes": "No fillable fields found"
-    },
-    {
-      "name": "Newaiforyou",
-      "url": "https://newaiforyou.com",
-      "status": "failed",
-      "http_status": null,
-      "timestamp": "2026-08-16T11:39:32.865443+00:00",
-      "notes": "No fillable fields found"
     },
     {
       "name": "Toollist",
@@ -2588,78 +1841,6 @@
       "notes": "Submitted via Playwright"
     },
     {
-      "name": "Aitoolkits",
-      "url": "https://aitoolkits.net",
-      "status": "failed",
-      "http_status": null,
-      "timestamp": "2026-08-16T11:40:03.726377+00:00",
-      "notes": "No fillable fields found"
-    },
-    {
-      "name": "Toolsai",
-      "url": "https://toolsai.net",
-      "status": "failed",
-      "http_status": null,
-      "timestamp": "2026-08-16T11:40:11.777176+00:00",
-      "notes": "Playwright error: Page.goto: net::ERR_CERT_DATE_INVALID at https://toolsai.net/\nCall log:\n  - navigating to \"https://toolsai.net/\", waiting until \"domcontentloaded\"\n"
-    },
-    {
-      "name": "Noteableai",
-      "url": "https://noteableai.com",
-      "status": "failed",
-      "http_status": null,
-      "timestamp": "2026-08-16T11:40:40.399938+00:00",
-      "notes": "No fillable fields found"
-    },
-    {
-      "name": "Aitoolmate",
-      "url": "https://aitoolmate.com",
-      "status": "failed",
-      "http_status": null,
-      "timestamp": "2026-08-16T11:40:48.646982+00:00",
-      "notes": "No fillable fields found"
-    },
-    {
-      "name": "Aigotools",
-      "url": "https://aigotools.com/en",
-      "status": "failed",
-      "http_status": null,
-      "timestamp": "2026-08-16T11:40:55.112188+00:00",
-      "notes": "No fillable fields found"
-    },
-    {
-      "name": "Infrabase",
-      "url": "https://infrabase.ai",
-      "status": "failed",
-      "http_status": null,
-      "timestamp": "2026-08-16T11:41:01.493477+00:00",
-      "notes": "No fillable fields found"
-    },
-    {
-      "name": "Theaireports",
-      "url": "https://theaireports.com",
-      "status": "failed",
-      "http_status": null,
-      "timestamp": "2026-08-16T11:41:12.981679+00:00",
-      "notes": "No fillable fields found"
-    },
-    {
-      "name": "Aitoolzdir",
-      "url": "https://aitoolzdir.com",
-      "status": "failed",
-      "http_status": null,
-      "timestamp": "2026-08-16T11:41:22.003121+00:00",
-      "notes": "No fillable fields found"
-    },
-    {
-      "name": "Easysaveai",
-      "url": "https://easysaveai.com",
-      "status": "failed",
-      "http_status": null,
-      "timestamp": "2026-08-16T11:41:32.478844+00:00",
-      "notes": "No fillable fields found"
-    },
-    {
       "name": "Aiartapps",
       "url": "https://aiartapps.com",
       "status": "success",
@@ -2668,100 +1849,12 @@
       "notes": "Submitted via Playwright"
     },
     {
-      "name": "Trendaitools",
-      "url": "https://trendaitools.com",
-      "status": "failed",
-      "http_status": null,
-      "timestamp": "2026-08-16T11:41:56.639123+00:00",
-      "notes": "No fillable fields found"
-    },
-    {
-      "name": "Gpt4demo",
-      "url": "https://gpt4demo.com",
-      "status": "failed",
-      "http_status": null,
-      "timestamp": "2026-08-16T11:42:06.789742+00:00",
-      "notes": "No fillable fields found"
-    },
-    {
-      "name": "Aispaces",
-      "url": "https://aispaces.in",
-      "status": "failed",
-      "http_status": null,
-      "attempt": 3,
-      "timestamp": "2026-08-16T11:43:14.002507+00:00",
-      "notes": "Exceeded retries"
-    },
-    {
       "name": "Ailistify",
       "url": "https://ailistify.com",
       "status": "success",
       "http_status": 200,
       "attempt": 1,
       "timestamp": "2026-08-16T11:43:18.175811+00:00",
-      "notes": ""
-    },
-    {
-      "name": "Freemiumai",
-      "url": "https://freemiumai.net",
-      "status": "failed",
-      "http_status": 404,
-      "attempt": 1,
-      "timestamp": "2026-08-16T11:43:22.034533+00:00",
-      "notes": ""
-    },
-    {
-      "name": "Aisourcehub",
-      "url": "https://aisourcehub.com/ai-tools",
-      "status": "failed",
-      "http_status": 403,
-      "attempt": 1,
-      "timestamp": "2026-08-16T11:43:25.135501+00:00",
-      "notes": ""
-    },
-    {
-      "name": "Aitoolsnetwork",
-      "url": "https://aitoolsnetwork.com",
-      "status": "failed",
-      "http_status": 404,
-      "attempt": 1,
-      "timestamp": "2026-08-16T11:43:29.650792+00:00",
-      "notes": ""
-    },
-    {
-      "name": "Aiawesome",
-      "url": "https://aiawesome.com",
-      "status": "failed",
-      "http_status": 402,
-      "attempt": 1,
-      "timestamp": "2026-08-16T11:43:32.823043+00:00",
-      "notes": ""
-    },
-    {
-      "name": "Nextgentools",
-      "url": "https://nextgentools.me",
-      "status": "failed",
-      "http_status": 404,
-      "attempt": 1,
-      "timestamp": "2026-08-16T11:43:44.098515+00:00",
-      "notes": ""
-    },
-    {
-      "name": "Appsandwebsites",
-      "url": "https://appsandwebsites.com/directory/ai-tools-directory",
-      "status": "failed",
-      "http_status": 404,
-      "attempt": 1,
-      "timestamp": "2026-08-16T11:43:49.654444+00:00",
-      "notes": ""
-    },
-    {
-      "name": "Submitaitool",
-      "url": "https://submitaitool.com",
-      "status": "failed",
-      "http_status": 404,
-      "attempt": 1,
-      "timestamp": "2026-08-16T11:43:55.698422+00:00",
       "notes": ""
     },
     {
@@ -2783,51 +1876,6 @@
       "notes": ""
     },
     {
-      "name": "Thetoolbus",
-      "url": "https://thetoolbus.ai/ai-tools",
-      "status": "failed",
-      "http_status": 403,
-      "attempt": 1,
-      "timestamp": "2026-08-16T11:44:16.782401+00:00",
-      "notes": ""
-    },
-    {
-      "name": "Aiinfinity Meetpatel",
-      "url": "https://aiinfinity-meetpatel.notion.site",
-      "status": "failed",
-      "http_status": 404,
-      "attempt": 1,
-      "timestamp": "2026-08-16T11:44:19.989090+00:00",
-      "notes": ""
-    },
-    {
-      "name": "Theaigeneration",
-      "url": "https://theaigeneration.com",
-      "status": "failed",
-      "http_status": 404,
-      "attempt": 1,
-      "timestamp": "2026-08-16T11:44:24.931644+00:00",
-      "notes": ""
-    },
-    {
-      "name": "Bigailist",
-      "url": "https://bigailist.com",
-      "status": "failed",
-      "http_status": 405,
-      "attempt": 1,
-      "timestamp": "2026-08-16T11:44:28.194467+00:00",
-      "notes": ""
-    },
-    {
-      "name": "Gptforthat",
-      "url": "https://gptforthat.com/discover",
-      "status": "failed",
-      "http_status": 404,
-      "attempt": 1,
-      "timestamp": "2026-08-16T11:44:35.184825+00:00",
-      "notes": ""
-    },
-    {
       "name": "T0ai",
       "url": "https://t0ai.com",
       "status": "success",
@@ -2846,30 +1894,12 @@
       "notes": ""
     },
     {
-      "name": "Aiagentsbase",
-      "url": "https://aiagentsbase.com",
-      "status": "failed",
-      "http_status": 404,
-      "attempt": 1,
-      "timestamp": "2026-08-16T11:44:47.632748+00:00",
-      "notes": ""
-    },
-    {
       "name": "Saasbaba",
       "url": "https://saasbaba.com",
       "status": "success",
       "http_status": 200,
       "attempt": 1,
       "timestamp": "2026-08-16T11:44:52.259116+00:00",
-      "notes": ""
-    },
-    {
-      "name": "Aitoolscover",
-      "url": "https://aitoolscover.com",
-      "status": "failed",
-      "http_status": 405,
-      "attempt": 1,
-      "timestamp": "2026-08-16T11:44:55.505437+00:00",
       "notes": ""
     },
     {
@@ -2882,20 +1912,1828 @@
       "notes": ""
     },
     {
+      "name": "Aispaces",
+      "url": "https://aispaces.in",
+      "status": "failed",
+      "http_status": null,
+      "attempt": 3,
+      "timestamp": "2026-08-16T12:29:38.716322+00:00",
+      "notes": "Exceeded retries"
+    },
+    {
+      "name": "Freemiumai",
+      "url": "https://freemiumai.net",
+      "status": "failed",
+      "http_status": 404,
+      "attempt": 1,
+      "timestamp": "2026-08-16T12:29:42.793309+00:00",
+      "notes": ""
+    },
+    {
+      "name": "Aisourcehub",
+      "url": "https://aisourcehub.com/ai-tools",
+      "status": "failed",
+      "http_status": null,
+      "attempt": 3,
+      "timestamp": "2026-08-16T12:30:50.471328+00:00",
+      "notes": "Exceeded retries"
+    },
+    {
+      "name": "Aitoolsnetwork",
+      "url": "https://aitoolsnetwork.com",
+      "status": "failed",
+      "http_status": 404,
+      "attempt": 1,
+      "timestamp": "2026-08-16T12:30:54.767766+00:00",
+      "notes": ""
+    },
+    {
+      "name": "Aiawesome",
+      "url": "https://aiawesome.com",
+      "status": "failed",
+      "http_status": 402,
+      "attempt": 1,
+      "timestamp": "2026-08-16T12:30:57.850510+00:00",
+      "notes": ""
+    },
+    {
+      "name": "Nextgentools",
+      "url": "https://nextgentools.me",
+      "status": "failed",
+      "http_status": 404,
+      "attempt": 1,
+      "timestamp": "2026-08-16T12:31:08.996947+00:00",
+      "notes": ""
+    },
+    {
+      "name": "Appsandwebsites",
+      "url": "https://appsandwebsites.com/directory/ai-tools-directory",
+      "status": "failed",
+      "http_status": 404,
+      "attempt": 1,
+      "timestamp": "2026-08-16T12:31:14.508065+00:00",
+      "notes": ""
+    },
+    {
+      "name": "Submitaitool",
+      "url": "https://submitaitool.com",
+      "status": "failed",
+      "http_status": 404,
+      "attempt": 1,
+      "timestamp": "2026-08-16T12:31:20.986787+00:00",
+      "notes": ""
+    },
+    {
+      "name": "Thetoolbus",
+      "url": "https://thetoolbus.ai/ai-tools",
+      "status": "failed",
+      "http_status": 403,
+      "attempt": 1,
+      "timestamp": "2026-08-16T12:31:24.136255+00:00",
+      "notes": ""
+    },
+    {
+      "name": "Aiinfinity Meetpatel",
+      "url": "https://aiinfinity-meetpatel.notion.site",
+      "status": "failed",
+      "http_status": 404,
+      "attempt": 1,
+      "timestamp": "2026-08-16T12:31:27.318556+00:00",
+      "notes": ""
+    },
+    {
+      "name": "Theaigeneration",
+      "url": "https://theaigeneration.com",
+      "status": "failed",
+      "http_status": 404,
+      "attempt": 1,
+      "timestamp": "2026-08-16T12:31:33.670174+00:00",
+      "notes": ""
+    },
+    {
+      "name": "Bigailist",
+      "url": "https://bigailist.com",
+      "status": "failed",
+      "http_status": 405,
+      "attempt": 1,
+      "timestamp": "2026-08-16T12:31:36.796322+00:00",
+      "notes": ""
+    },
+    {
+      "name": "Gptforthat",
+      "url": "https://gptforthat.com/discover",
+      "status": "failed",
+      "http_status": 404,
+      "attempt": 1,
+      "timestamp": "2026-08-16T12:31:42.135663+00:00",
+      "notes": ""
+    },
+    {
+      "name": "Aiagentsbase",
+      "url": "https://aiagentsbase.com",
+      "status": "failed",
+      "http_status": 404,
+      "attempt": 1,
+      "timestamp": "2026-08-16T12:31:45.198692+00:00",
+      "notes": ""
+    },
+    {
+      "name": "Aitoolscover",
+      "url": "https://aitoolscover.com",
+      "status": "failed",
+      "http_status": 405,
+      "attempt": 1,
+      "timestamp": "2026-08-16T12:31:48.365671+00:00",
+      "notes": ""
+    },
+    {
       "name": "Woy",
       "url": "https://woy.ai",
       "status": "failed",
       "http_status": 405,
       "attempt": 1,
-      "timestamp": "2026-08-16T11:45:02.944630+00:00",
+      "timestamp": "2026-08-16T12:31:51.750653+00:00",
       "notes": ""
+    },
+    {
+      "name": "Devtoolset",
+      "url": "https://devtoolset.net/",
+      "status": "success",
+      "http_status": 200,
+      "attempt": 1,
+      "timestamp": "2026-08-16T12:32:00.504164+00:00",
+      "notes": ""
+    },
+    {
+      "name": "Auraplusplus",
+      "url": "https://auraplusplus.com/",
+      "status": "success",
+      "http_status": 200,
+      "attempt": 1,
+      "timestamp": "2026-08-16T12:32:10.116873+00:00",
+      "notes": ""
+    },
+    {
+      "name": "Wtcraft",
+      "url": "https://wtcraft.com/",
+      "status": "failed",
+      "http_status": 404,
+      "attempt": 1,
+      "timestamp": "2026-08-16T12:32:23.886204+00:00",
+      "notes": ""
+    },
+    {
+      "name": "Theralist",
+      "url": "https://theralist.ca/",
+      "status": "failed",
+      "http_status": 200,
+      "attempt": 1,
+      "timestamp": "2026-08-16T12:32:33.657593+00:00",
+      "notes": ""
+    },
+    {
+      "name": "Topindie",
+      "url": "https://topindie.dev/",
+      "status": "failed",
+      "http_status": null,
+      "attempt": 3,
+      "timestamp": "2026-08-16T12:33:45.319400+00:00",
+      "notes": "Exceeded retries"
+    },
+    {
+      "name": "Dr",
+      "url": "https://dr.cchostvps.xyz/",
+      "status": "failed",
+      "http_status": null,
+      "attempt": 3,
+      "timestamp": "2026-08-16T12:33:57.553113+00:00",
+      "notes": "Exceeded retries"
+    },
+    {
+      "name": "Bookselects",
+      "url": "https://www.bookselects.com/",
+      "status": "success",
+      "http_status": 200,
+      "attempt": 1,
+      "timestamp": "2026-08-16T12:34:06.795594+00:00",
+      "notes": ""
+    },
+    {
+      "name": "Gocafehunt",
+      "url": "https://www.gocafehunt.com/",
+      "status": "failed",
+      "http_status": 403,
+      "attempt": 3,
+      "timestamp": "2026-08-16T12:35:17.276372+00:00",
+      "notes": ""
+    },
+    {
+      "name": "Boyinthai",
+      "url": "https://boyinthai.com/",
+      "status": "failed",
+      "http_status": 403,
+      "attempt": 1,
+      "timestamp": "2026-08-16T12:35:26.996549+00:00",
+      "notes": ""
+    },
+    {
+      "name": "Theteafinder",
+      "url": "https://theteafinder.com/",
+      "status": "failed",
+      "http_status": null,
+      "attempt": 3,
+      "timestamp": "2026-08-16T12:35:38.196333+00:00",
+      "notes": "Exceeded retries"
+    },
+    {
+      "name": "Testdev",
+      "url": "https://testdev.tools/",
+      "status": "failed",
+      "http_status": 404,
+      "attempt": 1,
+      "timestamp": "2026-08-16T12:35:47.367411+00:00",
+      "notes": ""
+    },
+    {
+      "name": "Favz",
+      "url": "https://favz.link/",
+      "status": "success",
+      "http_status": 200,
+      "attempt": 1,
+      "timestamp": "2026-08-16T12:35:53.712039+00:00",
+      "notes": ""
+    },
+    {
+      "name": "Linkvertex",
+      "url": "https://www.linkvertex.com/",
+      "status": "failed",
+      "http_status": 403,
+      "attempt": 1,
+      "timestamp": "2026-08-16T12:36:01.163432+00:00",
+      "notes": ""
+    },
+    {
+      "name": "Aihuntlist",
+      "url": "https://aihuntlist.com/",
+      "status": "failed",
+      "http_status": 403,
+      "attempt": 1,
+      "timestamp": "2026-08-16T12:36:10.668317+00:00",
+      "notes": ""
+    },
+    {
+      "name": "Aitrustlist",
+      "url": "https://aitrustlist.com/",
+      "status": "success",
+      "http_status": 200,
+      "attempt": 1,
+      "timestamp": "2026-08-16T12:36:17.674009+00:00",
+      "notes": ""
+    },
+    {
+      "name": "Wizdir",
+      "url": "https://www.wizdir.com/",
+      "status": "failed",
+      "http_status": 403,
+      "attempt": 1,
+      "timestamp": "2026-08-16T12:36:25.136297+00:00",
+      "notes": ""
+    },
+    {
+      "name": "Agentarius",
+      "url": "https://agentarius.ai/",
+      "status": "failed",
+      "http_status": 405,
+      "attempt": 1,
+      "timestamp": "2026-08-16T12:36:33.161538+00:00",
+      "notes": ""
+    },
+    {
+      "name": "Hookest",
+      "url": "https://hookest.com/",
+      "status": "success",
+      "http_status": 200,
+      "attempt": 1,
+      "timestamp": "2026-08-16T12:36:42.008529+00:00",
+      "notes": ""
+    },
+    {
+      "name": "Winneradspy",
+      "url": "https://winneradspy.com/",
+      "status": "success",
+      "http_status": 200,
+      "attempt": 1,
+      "timestamp": "2026-08-16T12:36:53.429595+00:00",
+      "notes": ""
+    },
+    {
+      "name": "Lilidi",
+      "url": "https://lilidi.ai/",
+      "status": "success",
+      "http_status": 200,
+      "attempt": 1,
+      "timestamp": "2026-08-16T12:37:01.842649+00:00",
+      "notes": ""
+    },
+    {
+      "name": "Ugcpicks",
+      "url": "https://ugcpicks.com/",
+      "status": "failed",
+      "http_status": 405,
+      "attempt": 1,
+      "timestamp": "2026-08-16T12:37:09.162197+00:00",
+      "notes": ""
+    },
+    {
+      "name": "A2zdir",
+      "url": "https://www.a2zdir.com/",
+      "status": "failed",
+      "http_status": 403,
+      "attempt": 1,
+      "timestamp": "2026-08-16T12:37:16.371431+00:00",
+      "notes": ""
+    },
+    {
+      "name": "Meritdirectory",
+      "url": "https://www.meritdirectory.com/",
+      "status": "success",
+      "http_status": 200,
+      "attempt": 1,
+      "timestamp": "2026-08-16T12:37:24.663350+00:00",
+      "notes": ""
+    },
+    {
+      "name": "Toolbloom",
+      "url": "https://toolbloom.ai/",
+      "status": "success",
+      "http_status": 200,
+      "attempt": 1,
+      "timestamp": "2026-08-16T12:37:32.804071+00:00",
+      "notes": ""
+    },
+    {
+      "name": "Dir",
+      "url": "https://www.dir.cx/",
+      "status": "failed",
+      "http_status": 403,
+      "attempt": 1,
+      "timestamp": "2026-08-16T12:37:40.506371+00:00",
+      "notes": ""
+    },
+    {
+      "name": "Brightlinksdirectory",
+      "url": "https://www.brightlinksdirectory.com/",
+      "status": "failed",
+      "http_status": 404,
+      "attempt": 1,
+      "timestamp": "2026-08-16T12:37:50.666138+00:00",
+      "notes": ""
+    },
+    {
+      "name": "Muse Video",
+      "url": "https://muse-video.co/",
+      "status": "success",
+      "http_status": 200,
+      "attempt": 1,
+      "timestamp": "2026-08-16T12:37:58.010232+00:00",
+      "notes": ""
+    },
+    {
+      "name": "Elitedir",
+      "url": "https://www.elitedir.com/",
+      "status": "failed",
+      "http_status": 403,
+      "attempt": 1,
+      "timestamp": "2026-08-16T12:38:05.687969+00:00",
+      "notes": ""
+    },
+    {
+      "name": "Bizindexer",
+      "url": "https://www.bizindexer.com/",
+      "status": "success",
+      "http_status": 200,
+      "attempt": 1,
+      "timestamp": "2026-08-16T12:38:14.232169+00:00",
+      "notes": ""
+    },
+    {
+      "name": "Softwareontheweb",
+      "url": "https://softwareontheweb.com/",
+      "status": "failed",
+      "http_status": 405,
+      "attempt": 1,
+      "timestamp": "2026-08-16T12:38:25.842561+00:00",
+      "notes": ""
+    },
+    {
+      "name": "Katie",
+      "url": "https://katie.chat/",
+      "status": "failed",
+      "http_status": 405,
+      "attempt": 1,
+      "timestamp": "2026-08-16T12:38:36.535141+00:00",
+      "notes": ""
+    },
+    {
+      "name": "Mediaai",
+      "url": "https://www.mediaai.art/",
+      "status": "failed",
+      "http_status": 403,
+      "attempt": 1,
+      "timestamp": "2026-08-16T12:38:48.045988+00:00",
+      "notes": ""
+    },
+    {
+      "name": "Saascity",
+      "url": "https://saascity.io/",
+      "status": "success",
+      "http_status": 200,
+      "attempt": 1,
+      "timestamp": "2026-08-16T12:38:55.402970+00:00",
+      "notes": ""
+    },
+    {
+      "name": "Clawcloud",
+      "url": "https://clawcloud.im/",
+      "status": "failed",
+      "http_status": 404,
+      "attempt": 1,
+      "timestamp": "2026-08-16T12:39:03.821624+00:00",
+      "notes": ""
+    },
+    {
+      "name": "Genppt",
+      "url": "https://genppt.ai/",
+      "status": "success",
+      "http_status": 200,
+      "attempt": 1,
+      "timestamp": "2026-08-16T12:39:13.467649+00:00",
+      "notes": ""
+    },
+    {
+      "name": "Pressrelease",
+      "url": "https://pressrelease.top/",
+      "status": "success",
+      "http_status": 200,
+      "attempt": 1,
+      "timestamp": "2026-08-16T12:39:22.272098+00:00",
+      "notes": ""
+    },
+    {
+      "name": "Directory",
+      "url": "https://directory.top/",
+      "status": "success",
+      "http_status": 200,
+      "attempt": 1,
+      "timestamp": "2026-08-16T12:39:38.962716+00:00",
+      "notes": ""
+    },
+    {
+      "name": "Hunt0",
+      "url": "https://hunt0.com/",
+      "status": "success",
+      "http_status": 200,
+      "attempt": 1,
+      "timestamp": "2026-08-16T12:39:49.993095+00:00",
+      "notes": ""
+    },
+    {
+      "name": "Nuxtbase",
+      "url": "https://nuxtbase.com/",
+      "status": "failed",
+      "http_status": 405,
+      "attempt": 1,
+      "timestamp": "2026-08-16T12:40:00.321460+00:00",
+      "notes": ""
+    },
+    {
+      "name": "Shadcnuikit",
+      "url": "https://shadcnuikit.com/",
+      "status": "success",
+      "http_status": 200,
+      "attempt": 1,
+      "timestamp": "2026-08-16T12:40:09.860986+00:00",
+      "notes": ""
+    },
+    {
+      "name": "Shadcntemplates",
+      "url": "https://shadcntemplates.com/",
+      "status": "failed",
+      "http_status": 405,
+      "attempt": 1,
+      "timestamp": "2026-08-16T12:40:16.810184+00:00",
+      "notes": ""
+    },
+    {
+      "name": "Devtool",
+      "url": "https://devtool.io/",
+      "status": "success",
+      "http_status": 200,
+      "attempt": 1,
+      "timestamp": "2026-08-16T12:40:25.381123+00:00",
+      "notes": ""
+    },
+    {
+      "name": "Boilerplatehunt",
+      "url": "https://boilerplatehunt.com/",
+      "status": "success",
+      "http_status": 200,
+      "attempt": 1,
+      "timestamp": "2026-08-16T12:40:33.576179+00:00",
+      "notes": ""
+    },
+    {
+      "name": "Findsaastools",
+      "url": "https://findsaastools.com/",
+      "status": "success",
+      "http_status": 200,
+      "attempt": 1,
+      "timestamp": "2026-08-16T12:40:42.442457+00:00",
+      "notes": ""
+    },
+    {
+      "name": "Swhouses",
+      "url": "https://swhouses.com.br/",
+      "status": "failed",
+      "http_status": null,
+      "attempt": 3,
+      "timestamp": "2026-08-16T12:40:54.112941+00:00",
+      "notes": "Exceeded retries"
+    },
+    {
+      "name": "Mcpserverhub",
+      "url": "https://mcpserverhub.com/",
+      "status": "success",
+      "http_status": 200,
+      "attempt": 1,
+      "timestamp": "2026-08-16T12:41:02.020889+00:00",
+      "notes": ""
+    },
+    {
+      "name": "Saashunt",
+      "url": "https://saashunt.net/",
+      "status": "success",
+      "http_status": 200,
+      "attempt": 1,
+      "timestamp": "2026-08-16T12:41:10.483636+00:00",
+      "notes": ""
+    },
+    {
+      "name": "Directories",
+      "url": "https://directories.best/",
+      "status": "failed",
+      "http_status": 404,
+      "attempt": 1,
+      "timestamp": "2026-08-16T12:41:19.547120+00:00",
+      "notes": ""
+    },
+    {
+      "name": "Rhyzz",
+      "url": "https://www.rhyzz.com/web-directory-network.html",
+      "status": "failed",
+      "http_status": 403,
+      "attempt": 1,
+      "timestamp": "2026-08-16T12:41:25.626302+00:00",
+      "notes": ""
+    },
+    {
+      "name": "Ailaunch",
+      "url": "https://www.ailaunch.space/",
+      "status": "success",
+      "http_status": 200,
+      "attempt": 1,
+      "timestamp": "2026-08-16T12:41:34.670118+00:00",
+      "notes": ""
+    },
+    {
+      "name": "Desifounder",
+      "url": "https://desifounder.com/spotlight",
+      "status": "success",
+      "http_status": 200,
+      "attempt": 1,
+      "timestamp": "2026-08-16T12:41:43.126484+00:00",
+      "notes": ""
+    },
+    {
+      "name": "Uno",
+      "url": "https://uno.directory/",
+      "status": "success",
+      "http_status": 200,
+      "attempt": 1,
+      "timestamp": "2026-08-16T12:41:50.321676+00:00",
+      "notes": ""
+    },
+    {
+      "name": "Blackfridaydirectory",
+      "url": "https://blackfridaydirectory.com/",
+      "status": "success",
+      "http_status": 200,
+      "attempt": 1,
+      "timestamp": "2026-08-16T12:41:58.910124+00:00",
+      "notes": ""
+    },
+    {
+      "name": "Coupon",
+      "url": "https://coupon.mkdirs.com/",
+      "status": "failed",
+      "http_status": null,
+      "attempt": 3,
+      "timestamp": "2026-08-16T12:42:10.523296+00:00",
+      "notes": "Exceeded retries"
+    },
+    {
+      "name": "Ttrpglist",
+      "url": "https://ttrpglist.com/",
+      "status": "success",
+      "http_status": 200,
+      "attempt": 1,
+      "timestamp": "2026-08-16T12:42:19.478741+00:00",
+      "notes": ""
+    },
+    {
+      "name": "Prolinkbuilders",
+      "url": "https://prolinkbuilders.co.uk/",
+      "status": "failed",
+      "http_status": 405,
+      "attempt": 1,
+      "timestamp": "2026-08-16T12:42:28.327897+00:00",
+      "notes": ""
+    },
+    {
+      "name": "Contenttoolkit",
+      "url": "https://www.contenttoolkit.co/",
+      "status": "success",
+      "http_status": 200,
+      "attempt": 1,
+      "timestamp": "2026-08-16T12:42:37.877636+00:00",
+      "notes": ""
+    },
+    {
+      "name": "Biodir",
+      "url": "https://biodir.net/",
+      "status": "failed",
+      "http_status": 403,
+      "attempt": 1,
+      "timestamp": "2026-08-16T12:42:57.315292+00:00",
+      "notes": ""
+    },
+    {
+      "name": "Bestfreetools",
+      "url": "https://www.bestfreetools.io/",
+      "status": "failed",
+      "http_status": 405,
+      "attempt": 1,
+      "timestamp": "2026-08-16T12:43:07.020568+00:00",
+      "notes": ""
+    },
+    {
+      "name": "Prosaashub",
+      "url": "https://prosaashub.com/",
+      "status": "failed",
+      "http_status": 404,
+      "attempt": 1,
+      "timestamp": "2026-08-16T12:43:14.472516+00:00",
+      "notes": ""
+    },
+    {
+      "name": "Novavoice",
+      "url": "https://novavoice.app/",
+      "status": "failed",
+      "http_status": 404,
+      "attempt": 3,
+      "timestamp": "2026-08-16T12:44:10.583601+00:00",
+      "notes": ""
+    },
+    {
+      "name": "Altern",
+      "url": "https://altern.ai/",
+      "status": "success",
+      "http_status": 200,
+      "attempt": 1,
+      "timestamp": "2026-08-16T12:44:22.298515+00:00",
+      "notes": ""
+    },
+    {
+      "name": "Tryhoudini",
+      "url": "https://www.tryhoudini.app/",
+      "status": "failed",
+      "http_status": null,
+      "attempt": 3,
+      "timestamp": "2026-08-16T12:44:34.469237+00:00",
+      "notes": "Exceeded retries"
+    },
+    {
+      "name": "Praneetbrar",
+      "url": "https://praneetbrar.com/backlink-marketplace",
+      "status": "failed",
+      "http_status": 405,
+      "attempt": 1,
+      "timestamp": "2026-08-16T12:44:41.715064+00:00",
+      "notes": ""
+    },
+    {
+      "name": "Antdirectory",
+      "url": "https://antdirectory.com/",
+      "status": "failed",
+      "http_status": 403,
+      "attempt": 1,
+      "timestamp": "2026-08-16T12:44:48.154555+00:00",
+      "notes": ""
+    },
+    {
+      "name": "Eorhq",
+      "url": "https://eorhq.com/",
+      "status": "success",
+      "http_status": 200,
+      "attempt": 1,
+      "timestamp": "2026-08-16T12:44:55.894608+00:00",
+      "notes": ""
+    },
+    {
+      "name": "Onefreepage",
+      "url": "https://onefreepage.com/",
+      "status": "failed",
+      "http_status": 404,
+      "attempt": 1,
+      "timestamp": "2026-08-16T12:45:02.521483+00:00",
+      "notes": ""
+    },
+    {
+      "name": "Giftscraftschina",
+      "url": "https://giftscraftschina.com/",
+      "status": "failed",
+      "http_status": 404,
+      "attempt": 1,
+      "timestamp": "2026-08-16T12:45:12.162630+00:00",
+      "notes": ""
+    },
+    {
+      "name": "Appscreens",
+      "url": "https://appscreens.com/",
+      "status": "success",
+      "http_status": 200,
+      "attempt": 1,
+      "timestamp": "2026-08-16T12:45:23.303556+00:00",
+      "notes": ""
+    },
+    {
+      "name": "Scooparticles",
+      "url": "https://www.scooparticles.com/",
+      "status": "failed",
+      "http_status": 404,
+      "attempt": 1,
+      "timestamp": "2026-08-16T12:45:32.647766+00:00",
+      "notes": ""
+    },
+    {
+      "name": "Webuylandfast",
+      "url": "https://webuylandfast.com/",
+      "status": "failed",
+      "http_status": 404,
+      "attempt": 1,
+      "timestamp": "2026-08-16T12:45:41.774097+00:00",
+      "notes": ""
+    },
+    {
+      "name": "Topservicesdirectory",
+      "url": "https://www.topservicesdirectory.com/",
+      "status": "success",
+      "http_status": 200,
+      "attempt": 1,
+      "timestamp": "2026-08-16T12:45:49.372631+00:00",
+      "notes": ""
+    },
+    {
+      "name": "Acftcalculator2025",
+      "url": "https://acftcalculator2025.com/",
+      "status": "failed",
+      "http_status": null,
+      "attempt": 3,
+      "timestamp": "2026-08-16T12:46:01.407088+00:00",
+      "notes": "Exceeded retries"
+    },
+    {
+      "name": "Perso",
+      "url": "https://perso.ai/",
+      "status": "failed",
+      "http_status": 405,
+      "attempt": 1,
+      "timestamp": "2026-08-16T12:46:11.776985+00:00",
+      "notes": ""
+    },
+    {
+      "name": "Backlinks List",
+      "url": "https://backlinks-list.com/",
+      "status": "failed",
+      "http_status": null,
+      "attempt": 3,
+      "timestamp": "2026-08-16T12:47:24.848333+00:00",
+      "notes": "Exceeded retries"
+    },
+    {
+      "name": "Saasboilerplate",
+      "url": "https://saasboilerplate.fr/",
+      "status": "failed",
+      "http_status": 403,
+      "attempt": 1,
+      "timestamp": "2026-08-16T12:47:32.947658+00:00",
+      "notes": ""
+    },
+    {
+      "name": "Template0",
+      "url": "https://template0.com/",
+      "status": "failed",
+      "http_status": 200,
+      "attempt": 1,
+      "timestamp": "2026-08-16T12:47:42.544053+00:00",
+      "notes": ""
+    },
+    {
+      "name": "Opensourceboilerplates",
+      "url": "https://opensourceboilerplates.com/",
+      "status": "failed",
+      "http_status": 405,
+      "attempt": 1,
+      "timestamp": "2026-08-16T12:47:52.265051+00:00",
+      "notes": ""
+    },
+    {
+      "name": "Saascore",
+      "url": "https://saascore.com/",
+      "status": "failed",
+      "http_status": 405,
+      "attempt": 1,
+      "timestamp": "2026-08-16T12:48:01.385656+00:00",
+      "notes": ""
+    },
+    {
+      "name": "Topboilerplate",
+      "url": "https://topboilerplate.com/",
+      "status": "failed",
+      "http_status": 405,
+      "attempt": 1,
+      "timestamp": "2026-08-16T12:48:09.981756+00:00",
+      "notes": ""
+    },
+    {
+      "name": "Saasboilerplates",
+      "url": "https://saasboilerplates.dev/",
+      "status": "failed",
+      "http_status": 404,
+      "attempt": 1,
+      "timestamp": "2026-08-16T12:48:17.733673+00:00",
+      "notes": ""
+    },
+    {
+      "name": "Nanophoto",
+      "url": "https://nanophoto.ai/",
+      "status": "success",
+      "http_status": 200,
+      "attempt": 1,
+      "timestamp": "2026-08-16T12:48:26.161240+00:00",
+      "notes": ""
+    },
+    {
+      "name": "Stakenova",
+      "url": "https://stakenova.fun/",
+      "status": "failed",
+      "http_status": 405,
+      "attempt": 1,
+      "timestamp": "2026-08-16T12:48:33.409533+00:00",
+      "notes": ""
+    },
+    {
+      "name": "Euroalternative",
+      "url": "https://euroalternative.co/",
+      "status": "success",
+      "http_status": 200,
+      "attempt": 1,
+      "timestamp": "2026-08-16T12:48:40.715800+00:00",
+      "notes": ""
+    },
+    {
+      "name": "Finance",
+      "url": "https://finance.wiki/",
+      "status": "failed",
+      "http_status": null,
+      "attempt": 3,
+      "timestamp": "2026-08-16T12:48:53.911346+00:00",
+      "notes": "Exceeded retries"
+    },
+    {
+      "name": "Digitool",
+      "url": "https://digitool.co/",
+      "status": "success",
+      "http_status": 200,
+      "attempt": 1,
+      "timestamp": "2026-08-16T12:49:03.076612+00:00",
+      "notes": ""
+    },
+    {
+      "name": "Indievoice",
+      "url": "https://indievoice.app/",
+      "status": "failed",
+      "http_status": 404,
+      "attempt": 1,
+      "timestamp": "2026-08-16T12:49:11.736128+00:00",
+      "notes": ""
+    },
+    {
+      "name": "Indiehackers",
+      "url": "https://www.indiehackers.com/products",
+      "status": "success",
+      "http_status": 200,
+      "attempt": 1,
+      "timestamp": "2026-08-16T12:49:19.896421+00:00",
+      "notes": ""
+    },
+    {
+      "name": "Blueycharacters",
+      "url": "https://www.blueycharacters.org/",
+      "status": "success",
+      "http_status": 200,
+      "attempt": 1,
+      "timestamp": "2026-08-16T12:49:50.646629+00:00",
+      "notes": ""
+    },
+    {
+      "name": "Roxnation",
+      "url": "https://roxnation.fr/",
+      "status": "failed",
+      "http_status": 405,
+      "attempt": 1,
+      "timestamp": "2026-08-16T12:49:57.928579+00:00",
+      "notes": ""
+    },
+    {
+      "name": "Pronunciationexercises",
+      "url": "https://pronunciationexercises.com/",
+      "status": "failed",
+      "http_status": null,
+      "attempt": 3,
+      "timestamp": "2026-08-16T12:50:08.861292+00:00",
+      "notes": "Exceeded retries"
+    },
+    {
+      "name": "Languagetools",
+      "url": "https://languagetools.directory/",
+      "status": "failed",
+      "http_status": 404,
+      "attempt": 1,
+      "timestamp": "2026-08-16T12:50:17.535050+00:00",
+      "notes": ""
+    },
+    {
+      "name": "Aiteach",
+      "url": "https://www.aiteach.tools/",
+      "status": "success",
+      "http_status": 200,
+      "attempt": 1,
+      "timestamp": "2026-08-16T12:50:25.702638+00:00",
+      "notes": ""
+    },
+    {
+      "name": "Xiaobaotong",
+      "url": "https://www.xiaobaotong.me/",
+      "status": "failed",
+      "http_status": null,
+      "attempt": 3,
+      "timestamp": "2026-08-16T12:50:36.927632+00:00",
+      "notes": "Exceeded retries"
+    },
+    {
+      "name": "Nomadwise",
+      "url": "https://www.nomadwise.io/",
+      "status": "failed",
+      "http_status": 405,
+      "attempt": 1,
+      "timestamp": "2026-08-16T12:50:45.345181+00:00",
+      "notes": ""
+    },
+    {
+      "name": "Donyotravel",
+      "url": "https://donyotravel.com/en",
+      "status": "success",
+      "http_status": 200,
+      "attempt": 1,
+      "timestamp": "2026-08-16T12:50:56.325704+00:00",
+      "notes": ""
+    },
+    {
+      "name": "Hoshiyomiai",
+      "url": "https://hoshiyomiai.com/",
+      "status": "success",
+      "http_status": 200,
+      "attempt": 1,
+      "timestamp": "2026-08-16T12:51:04.134953+00:00",
+      "notes": ""
+    },
+    {
+      "name": "Aiagentstore",
+      "url": "https://aiagentstore.ai",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-16T12:51:46.686497+00:00",
+      "notes": "No submit button found"
+    },
+    {
+      "name": "Genai",
+      "url": "https://genai.works/applications",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-16T12:51:59.731339+00:00",
+      "notes": "Submitted via Playwright"
+    },
+    {
+      "name": "Ai Hunter",
+      "url": "https://ai-hunter.io",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-16T12:52:08.197373+00:00",
+      "notes": "No fillable fields found"
+    },
+    {
+      "name": "Wisepickai",
+      "url": "https://wisepickai.com",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-16T12:52:25.548658+00:00",
+      "notes": "No fillable fields found"
+    },
+    {
+      "name": "Aichief",
+      "url": "https://aichief.com",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-16T12:52:41.606559+00:00",
+      "notes": "No fillable fields found"
+    },
+    {
+      "name": "Aitoptools",
+      "url": "https://aitoptools.com",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-16T12:52:55.424896+00:00",
+      "notes": "No fillable fields found"
+    },
+    {
+      "name": "Aiapps",
+      "url": "https://aiapps.com",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-16T12:53:06.477667+00:00",
+      "notes": "No fillable fields found"
+    },
+    {
+      "name": "Bestfreeaiwebsites",
+      "url": "https://bestfreeaiwebsites.com/all-tools",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-16T12:53:31.028136+00:00",
+      "notes": "No fillable fields found"
+    },
+    {
+      "name": "Soverin",
+      "url": "https://soverin.ai",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-16T12:53:41.892600+00:00",
+      "notes": "No fillable fields found"
+    },
+    {
+      "name": "Lachief",
+      "url": "https://lachief.io",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-16T12:53:51.648207+00:00",
+      "notes": "No fillable fields found"
+    },
+    {
+      "name": "Dessign",
+      "url": "https://dessign.net",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-16T12:54:07.090824+00:00",
+      "notes": "No fillable fields found"
+    },
+    {
+      "name": "Bai",
+      "url": "https://bai.tools",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-16T12:54:17.198169+00:00",
+      "notes": "No fillable fields found"
+    },
+    {
+      "name": "Stratup",
+      "url": "https://stratup.ai/en/ais",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-16T12:54:32.063866+00:00",
+      "notes": "No fillable fields found"
+    },
+    {
+      "name": "Itirupati",
+      "url": "https://itirupati.com/ai-tools-apps",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-16T12:54:42.615744+00:00",
+      "notes": "No fillable fields found"
+    },
+    {
+      "name": "Topaitools",
+      "url": "https://topaitools.com/tools",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-16T12:54:52.743898+00:00",
+      "notes": "No submit button found"
+    },
+    {
+      "name": "Gpt3demo",
+      "url": "https://gpt3demo.com",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-16T12:55:05.622561+00:00",
+      "notes": "No fillable fields found"
+    },
+    {
+      "name": "Aiforeveryone",
+      "url": "https://aiforeveryone.org",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-16T12:55:22.711725+00:00",
+      "notes": "No fillable fields found"
+    },
+    {
+      "name": "Powerfulai",
+      "url": "https://powerfulai.tools",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-16T12:55:40.965831+00:00",
+      "notes": "No fillable fields found"
+    },
+    {
+      "name": "Aijourney",
+      "url": "https://aijourney.so",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-16T12:55:59.105680+00:00",
+      "notes": "No fillable fields found"
+    },
+    {
+      "name": "Aitechsuite",
+      "url": "https://aitechsuite.com",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-16T12:56:17.021936+00:00",
+      "notes": "No fillable fields found"
+    },
+    {
+      "name": "App",
+      "url": "https://app.aibase.com",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-16T12:56:27.508162+00:00",
+      "notes": "No fillable fields found"
+    },
+    {
+      "name": "Simplifyaitools",
+      "url": "https://simplifyaitools.com",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-16T12:56:39.226802+00:00",
+      "notes": "No fillable fields found"
+    },
+    {
+      "name": "Stork",
+      "url": "https://stork.ai",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-16T12:57:18.409872+00:00",
+      "notes": "No submit button found"
+    },
+    {
+      "name": "Seofai",
+      "url": "https://seofai.com",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-16T12:57:28.314405+00:00",
+      "notes": "No fillable fields found"
+    },
+    {
+      "name": "Brouseai",
+      "url": "https://brouseai.com",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-16T12:57:43.874345+00:00",
+      "notes": "No fillable fields found"
+    },
+    {
+      "name": "Aitoolboard",
+      "url": "https://aitoolboard.com",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-16T12:57:59.891690+00:00",
+      "notes": "No fillable fields found"
+    },
+    {
+      "name": "Navtools",
+      "url": "https://navtools.ai",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-16T12:58:11.187426+00:00",
+      "notes": "No fillable fields found"
+    },
+    {
+      "name": "Poweredbyai",
+      "url": "https://poweredbyai.app",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-16T12:58:26.926349+00:00",
+      "notes": "No fillable fields found"
+    },
+    {
+      "name": "Listmyai",
+      "url": "https://listmyai.net/tools",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-16T12:58:38.728966+00:00",
+      "notes": "No fillable fields found"
+    },
+    {
+      "name": "Aitoolhub",
+      "url": "https://aitoolhub.net",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-16T12:58:50.361421+00:00",
+      "notes": "No submit button found"
+    },
+    {
+      "name": "Future Pedia",
+      "url": "https://future-pedia.com",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-16T12:59:01.887072+00:00",
+      "notes": "No fillable fields found"
+    },
+    {
+      "name": "Iseoai",
+      "url": "https://iseoai.com",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-16T12:59:13.577262+00:00",
+      "notes": "No fillable fields found"
+    },
+    {
+      "name": "Theailibrary",
+      "url": "https://theailibrary.co",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-16T12:59:29.830964+00:00",
+      "notes": "No fillable fields found"
+    },
+    {
+      "name": "Aitrendz",
+      "url": "https://aitrendz.xyz",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-16T12:59:39.986287+00:00",
+      "notes": "No fillable fields found"
+    },
+    {
+      "name": "Itsbetterwithai",
+      "url": "https://itsbetterwithai.com",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-16T12:59:50.183437+00:00",
+      "notes": "No fillable fields found"
+    },
+    {
+      "name": "Aplicaciones",
+      "url": "https://aplicaciones.ai/en",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-16T12:59:58.520256+00:00",
+      "notes": "No fillable fields found"
+    },
+    {
+      "name": "Library",
+      "url": "https://library.phygital.plus",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-16T13:00:11.796776+00:00",
+      "notes": "No fillable fields found"
+    },
+    {
+      "name": "Waildworld",
+      "url": "https://waildworld.com",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-16T13:00:22.941127+00:00",
+      "notes": "No fillable fields found"
+    },
+    {
+      "name": "Aitoolsexplorer",
+      "url": "https://aitoolsexplorer.com",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-16T13:00:38.922482+00:00",
+      "notes": "No fillable fields found"
+    },
+    {
+      "name": "Fullstackai",
+      "url": "https://fullstackai.co/tools",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-16T13:00:55.172502+00:00",
+      "notes": "No fillable fields found"
+    },
+    {
+      "name": "Somi",
+      "url": "https://somi.ai",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-16T13:01:07.083065+00:00",
+      "notes": "No fillable fields found"
+    },
+    {
+      "name": "Toolscout",
+      "url": "https://toolscout.ai",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-16T13:01:23.261159+00:00",
+      "notes": "No fillable fields found"
+    },
+    {
+      "name": "Theainavigator",
+      "url": "https://theainavigator.com/list-of-ai-tools",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-16T13:01:41.986617+00:00",
+      "notes": "No fillable fields found"
+    },
+    {
+      "name": "Ai Productreviews",
+      "url": "https://ai-productreviews.com",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-16T13:01:49.352226+00:00",
+      "notes": "No submit button found"
+    },
+    {
+      "name": "Aitoolmall",
+      "url": "https://aitoolmall.com",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-16T13:02:00.704115+00:00",
+      "notes": "No fillable fields found"
+    },
+    {
+      "name": "Humanornot",
+      "url": "https://humanornot.co",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-16T13:02:39.917750+00:00",
+      "notes": "No submit button found"
+    },
+    {
+      "name": "Toptools",
+      "url": "https://toptools.ai",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-16T13:02:50.044366+00:00",
+      "notes": "No submit button found"
+    },
+    {
+      "name": "Aitoolzi",
+      "url": "https://aitoolzi.com",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-16T13:03:08.189979+00:00",
+      "notes": "No fillable fields found"
+    },
+    {
+      "name": "Toolspedia",
+      "url": "https://toolspedia.io",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-16T13:03:18.246667+00:00",
+      "notes": "No fillable fields found"
+    },
+    {
+      "name": "Aitechfy",
+      "url": "https://aitechfy.com",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-16T13:03:28.063360+00:00",
+      "notes": "No fillable fields found"
+    },
+    {
+      "name": "Dropyourai",
+      "url": "https://dropyourai.com",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-16T13:03:36.500659+00:00",
+      "notes": "No submit button found"
+    },
+    {
+      "name": "Aitoolhouse",
+      "url": "https://aitoolhouse.com",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-16T13:03:43.700204+00:00",
+      "notes": "No fillable fields found"
+    },
+    {
+      "name": "Guideofaitool",
+      "url": "https://guideofaitool.com",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-16T13:03:52.181458+00:00",
+      "notes": "No fillable fields found"
+    },
+    {
+      "name": "Aitoolsguide",
+      "url": "https://aitoolsguide.com",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-16T13:04:02.882665+00:00",
+      "notes": "Submitted via Playwright"
+    },
+    {
+      "name": "Victrays",
+      "url": "https://victrays.com/ai-tools",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-16T13:04:12.180399+00:00",
+      "notes": "No fillable fields found"
+    },
+    {
+      "name": "Every Ai",
+      "url": "https://every-ai.com",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-16T13:04:28.427126+00:00",
+      "notes": "No fillable fields found"
+    },
+    {
+      "name": "Aicyclopedia",
+      "url": "https://aicyclopedia.com/ai-tools",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-16T13:04:44.365214+00:00",
+      "notes": "No fillable fields found"
+    },
+    {
+      "name": "Openpedia",
+      "url": "https://openpedia.io",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-16T13:04:54.002645+00:00",
+      "notes": "No fillable fields found"
+    },
+    {
+      "name": "Freeappsai",
+      "url": "https://freeappsai.com",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-16T13:05:04.237997+00:00",
+      "notes": "No fillable fields found"
+    },
+    {
+      "name": "Monkeyaitools",
+      "url": "https://monkeyaitools.com",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-16T13:05:12.970220+00:00",
+      "notes": "No fillable fields found"
+    },
+    {
+      "name": "Videaitools",
+      "url": "https://videaitools.com",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-16T13:05:20.895320+00:00",
+      "notes": "No fillable fields found"
+    },
+    {
+      "name": "Aifindertools",
+      "url": "https://aifindertools.com",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-16T13:05:31.544937+00:00",
+      "notes": "No fillable fields found"
+    },
+    {
+      "name": "Neonrev",
+      "url": "https://neonrev.com",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-16T13:05:41.715308+00:00",
+      "notes": "No submit button found"
+    },
+    {
+      "name": "Freeaitool",
+      "url": "https://freeaitool.ai",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-16T13:05:51.212227+00:00",
+      "notes": "No fillable fields found"
+    },
+    {
+      "name": "Intelligenttools",
+      "url": "https://intelligenttools.co",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-16T13:06:00.789336+00:00",
+      "notes": "No fillable fields found"
+    },
+    {
+      "name": "Wavel",
+      "url": "https://wavel.io",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-16T13:06:11.307977+00:00",
+      "notes": "No fillable fields found"
+    },
+    {
+      "name": "Aitoolshunt",
+      "url": "https://aitoolshunt.com",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-16T13:06:27.941103+00:00",
+      "notes": "No fillable fields found"
+    },
+    {
+      "name": "Aitoolsone",
+      "url": "https://aitoolsone.com",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-16T13:06:37.932863+00:00",
+      "notes": "No fillable fields found"
+    },
+    {
+      "name": "Theee",
+      "url": "https://theee.ai",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-16T13:06:54.467625+00:00",
+      "notes": "No fillable fields found"
+    },
+    {
+      "name": "Superaitools",
+      "url": "https://superaitools.io",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-16T13:07:09.505386+00:00",
+      "notes": "No fillable fields found"
+    },
+    {
+      "name": "Aijumble",
+      "url": "https://aijumble.com",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-16T13:07:22.299732+00:00",
+      "notes": "Submitted via Playwright"
+    },
+    {
+      "name": "Alternativeai",
+      "url": "https://alternativeai.io",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-16T13:07:50.601417+00:00",
+      "notes": "Playwright timeout"
+    },
+    {
+      "name": "Aihunt",
+      "url": "https://aihunt.app/tools",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-16T13:07:59.731154+00:00",
+      "notes": "No fillable fields found"
+    },
+    {
+      "name": "Aitach",
+      "url": "https://aitach.com",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-16T13:08:07.987725+00:00",
+      "notes": "No fillable fields found"
+    },
+    {
+      "name": "Popularaitools",
+      "url": "https://popularaitools.ai/ai-tool-categories",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-16T13:08:18.210445+00:00",
+      "notes": "No fillable fields found"
+    },
+    {
+      "name": "Awesomeaitools",
+      "url": "https://awesomeaitools.com",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-16T13:08:29.097152+00:00",
+      "notes": "No fillable fields found"
+    },
+    {
+      "name": "Startupaitools",
+      "url": "https://startupaitools.com",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-16T13:08:39.054377+00:00",
+      "notes": "No fillable fields found"
+    },
+    {
+      "name": "Okeiai",
+      "url": "https://okeiai.com",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-16T13:08:56.856829+00:00",
+      "notes": "No fillable fields found"
+    },
+    {
+      "name": "Aidirectory",
+      "url": "https://aidirectory.org",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-16T13:09:08.902506+00:00",
+      "notes": "No fillable fields found"
+    },
+    {
+      "name": "Airankings",
+      "url": "https://airankings.co",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-16T13:09:16.366463+00:00",
+      "notes": "No fillable fields found"
+    },
+    {
+      "name": "Aitoolsup",
+      "url": "https://aitoolsup.com",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-16T13:09:26.916772+00:00",
+      "notes": "No fillable fields found"
+    },
+    {
+      "name": "Aitoolapp",
+      "url": "https://aitoolapp.com",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-16T13:09:43.644093+00:00",
+      "notes": "No fillable fields found"
+    },
+    {
+      "name": "Toolbit",
+      "url": "https://toolbit.ai",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-16T13:09:53.160237+00:00",
+      "notes": "No fillable fields found"
+    },
+    {
+      "name": "Aigendaily",
+      "url": "https://aigendaily.com",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-16T13:10:21.438777+00:00",
+      "notes": "Playwright timeout"
+    },
+    {
+      "name": "Allaiwebsite",
+      "url": "https://allaiwebsite.com",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-16T13:11:03.802154+00:00",
+      "notes": "No submit button found"
+    },
+    {
+      "name": "Tooladvisor",
+      "url": "https://tooladvisor.ai",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-16T13:11:11.642115+00:00",
+      "notes": "No fillable fields found"
+    },
+    {
+      "name": "Insaneai",
+      "url": "https://insaneai.tools",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-16T13:11:18.997200+00:00",
+      "notes": "Playwright error: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://insaneai.tools/\nCall log:\n  - navigating to \"https://insaneai.tools/\", waiting until \"domcontentloaded\"\n"
+    },
+    {
+      "name": "Tyy",
+      "url": "https://tyy.ai",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-16T13:11:37.110669+00:00",
+      "notes": "No fillable fields found"
+    },
+    {
+      "name": "Newaiforyou",
+      "url": "https://newaiforyou.com",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-16T13:11:45.581506+00:00",
+      "notes": "No fillable fields found"
+    },
+    {
+      "name": "Aitoolkits",
+      "url": "https://aitoolkits.net",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-16T13:12:02.005580+00:00",
+      "notes": "No fillable fields found"
+    },
+    {
+      "name": "Toolsai",
+      "url": "https://toolsai.net",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-16T13:12:09.623101+00:00",
+      "notes": "Playwright error: Page.goto: net::ERR_CERT_DATE_INVALID at https://toolsai.net/\nCall log:\n  - navigating to \"https://toolsai.net/\", waiting until \"domcontentloaded\"\n"
+    },
+    {
+      "name": "Noteableai",
+      "url": "https://noteableai.com",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-16T13:12:47.524753+00:00",
+      "notes": "No fillable fields found"
+    },
+    {
+      "name": "Aitoolmate",
+      "url": "https://aitoolmate.com",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-16T13:12:57.211457+00:00",
+      "notes": "No fillable fields found"
+    },
+    {
+      "name": "Aigotools",
+      "url": "https://aigotools.com/en",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-16T13:13:14.377489+00:00",
+      "notes": "No fillable fields found"
+    },
+    {
+      "name": "Infrabase",
+      "url": "https://infrabase.ai",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-16T13:13:30.491106+00:00",
+      "notes": "No fillable fields found"
+    },
+    {
+      "name": "Theaireports",
+      "url": "https://theaireports.com",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-16T13:13:42.368744+00:00",
+      "notes": "No fillable fields found"
+    },
+    {
+      "name": "Aitoolzdir",
+      "url": "https://aitoolzdir.com",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-16T13:13:52.900658+00:00",
+      "notes": "No fillable fields found"
+    },
+    {
+      "name": "Easysaveai",
+      "url": "https://easysaveai.com",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-16T13:14:02.914872+00:00",
+      "notes": "No fillable fields found"
+    },
+    {
+      "name": "Trendaitools",
+      "url": "https://trendaitools.com",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-16T13:14:12.321354+00:00",
+      "notes": "No fillable fields found"
+    },
+    {
+      "name": "Gpt4demo",
+      "url": "https://gpt4demo.com",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-08-16T13:14:24.333494+00:00",
+      "notes": "No fillable fields found"
     },
     {
       "name": "Producthunt",
       "url": "https://producthunt.com",
       "status": "failed",
       "http_status": null,
-      "timestamp": "2026-08-16T11:45:09.640807+00:00",
+      "timestamp": "2026-08-16T13:14:43.206800+00:00",
       "notes": "No fillable fields found"
     },
     {
@@ -2903,7 +3741,7 @@
       "url": "https://crunchbase.com",
       "status": "failed",
       "http_status": null,
-      "timestamp": "2026-08-16T11:45:18.153284+00:00",
+      "timestamp": "2026-08-16T13:14:51.129051+00:00",
       "notes": "No fillable fields found"
     },
     {
@@ -2911,7 +3749,7 @@
       "url": "https://g2.com",
       "status": "failed",
       "http_status": null,
-      "timestamp": "2026-08-16T11:45:25.598133+00:00",
+      "timestamp": "2026-08-16T13:15:07.838124+00:00",
       "notes": "No fillable fields found"
     },
     {
@@ -2919,7 +3757,7 @@
       "url": "https://goodfirms.co",
       "status": "failed",
       "http_status": null,
-      "timestamp": "2026-08-16T11:45:34.645843+00:00",
+      "timestamp": "2026-08-16T13:15:19.907968+00:00",
       "notes": "No fillable fields found"
     },
     {
@@ -2927,7 +3765,7 @@
       "url": "https://getapp.com",
       "status": "failed",
       "http_status": null,
-      "timestamp": "2026-08-16T11:45:45.031871+00:00",
+      "timestamp": "2026-08-16T13:15:37.915779+00:00",
       "notes": "No fillable fields found"
     },
     {
@@ -2935,7 +3773,7 @@
       "url": "https://hotfrog.com",
       "status": "failed",
       "http_status": null,
-      "timestamp": "2026-08-16T11:45:55.305119+00:00",
+      "timestamp": "2026-08-16T13:15:47.075898+00:00",
       "notes": "No fillable fields found"
     },
     {
@@ -2943,7 +3781,7 @@
       "url": "https://brownbook.net",
       "status": "failed",
       "http_status": null,
-      "timestamp": "2026-08-16T11:47:06.115015+00:00",
+      "timestamp": "2026-08-16T13:16:24.388460+00:00",
       "notes": "No fillable fields found"
     },
     {
@@ -2951,7 +3789,7 @@
       "url": "https://peerlist.io",
       "status": "failed",
       "http_status": null,
-      "timestamp": "2026-08-16T11:47:44.889618+00:00",
+      "timestamp": "2026-08-16T13:17:05.073183+00:00",
       "notes": "No submit button found"
     },
     {
@@ -2959,7 +3797,7 @@
       "url": "https://launchigniter.com",
       "status": "failed",
       "http_status": null,
-      "timestamp": "2026-08-16T11:47:55.407778+00:00",
+      "timestamp": "2026-08-16T13:17:22.406201+00:00",
       "notes": "No fillable fields found"
     },
     {
@@ -2967,7 +3805,7 @@
       "url": "https://softwareworld.co",
       "status": "failed",
       "http_status": null,
-      "timestamp": "2026-08-16T11:48:03.086516+00:00",
+      "timestamp": "2026-08-16T13:17:38.276898+00:00",
       "notes": "No fillable fields found"
     },
     {
@@ -2975,7 +3813,7 @@
       "url": "https://startupblink.com",
       "status": "failed",
       "http_status": null,
-      "timestamp": "2026-08-16T11:48:17.187603+00:00",
+      "timestamp": "2026-08-16T13:17:53.468204+00:00",
       "notes": "No submit button found"
     },
     {
@@ -2983,7 +3821,7 @@
       "url": "https://sideprojectors.com",
       "status": "failed",
       "http_status": null,
-      "timestamp": "2026-08-16T11:48:25.227497+00:00",
+      "timestamp": "2026-08-16T13:18:02.465019+00:00",
       "notes": "No fillable fields found"
     },
     {
@@ -2991,7 +3829,7 @@
       "url": "https://openhunts.com",
       "status": "failed",
       "http_status": null,
-      "timestamp": "2026-08-16T11:48:35.476667+00:00",
+      "timestamp": "2026-08-16T13:18:19.467451+00:00",
       "notes": "No fillable fields found"
     },
     {
@@ -2999,7 +3837,7 @@
       "url": "https://ufind.best",
       "status": "failed",
       "http_status": null,
-      "timestamp": "2026-08-16T11:48:45.732592+00:00",
+      "timestamp": "2026-08-16T13:18:31.702596+00:00",
       "notes": "No fillable fields found"
     },
     {
@@ -3007,7 +3845,7 @@
       "url": "https://superlaun.ch",
       "status": "failed",
       "http_status": null,
-      "timestamp": "2026-08-16T11:48:53.495011+00:00",
+      "timestamp": "2026-08-16T13:18:47.061224+00:00",
       "notes": "No fillable fields found"
     },
     {
@@ -3015,7 +3853,7 @@
       "url": "https://startupranking.com",
       "status": "failed",
       "http_status": null,
-      "timestamp": "2026-08-16T11:49:02.893942+00:00",
+      "timestamp": "2026-08-16T13:19:02.592934+00:00",
       "notes": "No fillable fields found"
     },
     {
@@ -3023,7 +3861,7 @@
       "url": "https://aiwith.me",
       "status": "failed",
       "http_status": null,
-      "timestamp": "2026-08-16T11:49:11.790746+00:00",
+      "timestamp": "2026-08-16T13:19:13.095719+00:00",
       "notes": "No fillable fields found"
     },
     {
@@ -3031,7 +3869,7 @@
       "url": "https://microlaunch.net",
       "status": "failed",
       "http_status": null,
-      "timestamp": "2026-08-16T11:50:26.128702+00:00",
+      "timestamp": "2026-08-16T13:20:22.700504+00:00",
       "notes": "No submit button found"
     },
     {
@@ -3039,7 +3877,7 @@
       "url": "https://startupinspire.com",
       "status": "failed",
       "http_status": null,
-      "timestamp": "2026-08-16T11:50:34.734295+00:00",
+      "timestamp": "2026-08-16T13:20:31.280139+00:00",
       "notes": "No fillable fields found"
     },
     {
@@ -3047,7 +3885,7 @@
       "url": "https://huzzler.so",
       "status": "failed",
       "http_status": null,
-      "timestamp": "2026-08-16T11:50:43.852262+00:00",
+      "timestamp": "2026-08-16T13:20:47.354265+00:00",
       "notes": "No fillable fields found"
     },
     {
@@ -3055,7 +3893,7 @@
       "url": "https://saaspo.com",
       "status": "failed",
       "http_status": null,
-      "timestamp": "2026-08-16T11:50:52.607105+00:00",
+      "timestamp": "2026-08-16T13:21:04.352292+00:00",
       "notes": "No fillable fields found"
     },
     {
@@ -3063,7 +3901,7 @@
       "url": "https://startupslab.site",
       "status": "failed",
       "http_status": null,
-      "timestamp": "2026-08-16T11:51:01.557867+00:00",
+      "timestamp": "2026-08-16T13:21:15.630878+00:00",
       "notes": "Submitted via Playwright"
     },
     {
@@ -3071,7 +3909,7 @@
       "url": "https://10015.io",
       "status": "failed",
       "http_status": null,
-      "timestamp": "2026-08-16T11:51:10.494815+00:00",
+      "timestamp": "2026-08-16T13:21:26.508193+00:00",
       "notes": "No fillable fields found"
     },
     {
@@ -3079,7 +3917,7 @@
       "url": "https://footer.design",
       "status": "failed",
       "http_status": null,
-      "timestamp": "2026-08-16T11:51:19.150342+00:00",
+      "timestamp": "2026-08-16T13:21:42.212488+00:00",
       "notes": "No fillable fields found"
     },
     {
@@ -3087,7 +3925,7 @@
       "url": "https://submito.net",
       "status": "failed",
       "http_status": null,
-      "timestamp": "2026-08-16T11:51:29.132730+00:00",
+      "timestamp": "2026-08-16T13:21:50.644176+00:00",
       "notes": "No fillable fields found"
     },
     {
@@ -3095,7 +3933,7 @@
       "url": "https://rarebigdeal.com",
       "status": "failed",
       "http_status": null,
-      "timestamp": "2026-08-16T11:51:37.635006+00:00",
+      "timestamp": "2026-08-16T13:22:07.972248+00:00",
       "notes": "No fillable fields found"
     },
     {
@@ -3103,7 +3941,7 @@
       "url": "https://basedtools.ai",
       "status": "failed",
       "http_status": null,
-      "timestamp": "2026-08-16T11:51:52.276573+00:00",
+      "timestamp": "2026-08-16T13:22:29.114567+00:00",
       "notes": "No fillable fields found"
     },
     {
@@ -3111,7 +3949,7 @@
       "url": "https://make.rs",
       "status": "failed",
       "http_status": null,
-      "timestamp": "2026-08-16T11:52:00.603653+00:00",
+      "timestamp": "2026-08-16T13:22:38.514057+00:00",
       "notes": "No submit button found"
     },
     {
@@ -3119,7 +3957,7 @@
       "url": "https://devresourc.es",
       "status": "failed",
       "http_status": null,
-      "timestamp": "2026-08-16T11:52:11.247838+00:00",
+      "timestamp": "2026-08-16T13:22:49.090769+00:00",
       "notes": "Submitted via Playwright"
     },
     {
@@ -3127,7 +3965,7 @@
       "url": "https://startupbuffer.com",
       "status": "failed",
       "http_status": null,
-      "timestamp": "2026-08-16T11:52:19.526187+00:00",
+      "timestamp": "2026-08-16T13:23:06.053769+00:00",
       "notes": "No fillable fields found"
     },
     {
@@ -3135,7 +3973,7 @@
       "url": "https://saaspa.ge",
       "status": "failed",
       "http_status": null,
-      "timestamp": "2026-08-16T11:52:41.863473+00:00",
+      "timestamp": "2026-08-16T13:23:15.754777+00:00",
       "notes": "No fillable fields found"
     },
     {
@@ -3143,7 +3981,7 @@
       "url": "https://boilerplatehub.com",
       "status": "failed",
       "http_status": null,
-      "timestamp": "2026-08-16T11:52:51.861598+00:00",
+      "timestamp": "2026-08-16T13:23:25.112166+00:00",
       "notes": "No fillable fields found"
     },
     {
@@ -3151,7 +3989,7 @@
       "url": "https://startups.gallery",
       "status": "failed",
       "http_status": null,
-      "timestamp": "2026-08-16T11:52:59.454873+00:00",
+      "timestamp": "2026-08-16T13:23:40.883318+00:00",
       "notes": "No fillable fields found"
     },
     {
@@ -3159,7 +3997,7 @@
       "url": "https://ogimage.gallery",
       "status": "failed",
       "http_status": null,
-      "timestamp": "2026-08-16T11:53:07.606154+00:00",
+      "timestamp": "2026-08-16T13:23:51.548358+00:00",
       "notes": "No fillable fields found"
     },
     {
@@ -3167,7 +4005,7 @@
       "url": "https://awesomeindie.com",
       "status": "failed",
       "http_status": null,
-      "timestamp": "2026-08-16T11:53:18.242279+00:00",
+      "timestamp": "2026-08-16T13:24:02.250723+00:00",
       "notes": "Submitted via Playwright"
     },
     {
@@ -3175,7 +4013,7 @@
       "url": "https://indiehackerstacks.com",
       "status": "failed",
       "http_status": null,
-      "timestamp": "2026-08-16T11:53:30.024915+00:00",
+      "timestamp": "2026-08-16T13:24:15.668496+00:00",
       "notes": "No submit button found"
     },
     {
@@ -3183,7 +4021,7 @@
       "url": "https://tools.robingood.com",
       "status": "failed",
       "http_status": null,
-      "timestamp": "2026-08-16T11:53:39.458737+00:00",
+      "timestamp": "2026-08-16T13:24:33.121212+00:00",
       "notes": "No fillable fields found"
     },
     {
@@ -3191,7 +4029,7 @@
       "url": "https://toolhub.me",
       "status": "failed",
       "http_status": null,
-      "timestamp": "2026-08-16T11:53:48.792886+00:00",
+      "timestamp": "2026-08-16T13:24:41.931311+00:00",
       "notes": "No fillable fields found"
     },
     {
@@ -3199,7 +4037,7 @@
       "url": "https://www.launchingnext.com/submit/",
       "status": "failed",
       "http_status": null,
-      "timestamp": "2026-08-16T11:54:56.675340+00:00",
+      "timestamp": "2026-08-16T13:25:50.409482+00:00",
       "notes": "No submit button found"
     },
     {
@@ -3207,7 +4045,7 @@
       "url": "https://tools.so/submit",
       "status": "failed",
       "http_status": null,
-      "timestamp": "2026-08-16T11:55:06.068664+00:00",
+      "timestamp": "2026-08-16T13:26:06.766038+00:00",
       "notes": "No fillable fields found"
     },
     {
@@ -3215,7 +4053,7 @@
       "url": "https://theaiway.net/product-submit/",
       "status": "failed",
       "http_status": null,
-      "timestamp": "2026-08-16T11:55:45.655917+00:00",
+      "timestamp": "2026-08-16T13:26:45.854094+00:00",
       "notes": "No submit button found"
     },
     {
@@ -3223,7 +4061,7 @@
       "url": "https://searchaitool.com/submit",
       "status": "failed",
       "http_status": null,
-      "timestamp": "2026-08-16T11:56:11.967011+00:00",
+      "timestamp": "2026-08-16T13:27:13.411459+00:00",
       "notes": "Playwright timeout"
     },
     {
@@ -3231,7 +4069,7 @@
       "url": "https://toolpilot.tools/submit",
       "status": "failed",
       "http_status": null,
-      "timestamp": "2026-08-16T11:56:17.729687+00:00",
+      "timestamp": "2026-08-16T13:27:19.192206+00:00",
       "notes": "Submitted via Playwright"
     },
     {
@@ -3239,17 +4077,17 @@
       "url": "https://toolwise.ai/submit-tool",
       "status": "failed",
       "http_status": null,
-      "timestamp": "2026-08-16T11:56:23.493199+00:00",
+      "timestamp": "2026-08-16T13:27:25.062989+00:00",
       "notes": "Submitted via Playwright"
     }
   ],
   "summary": {
-    "total": 387,
-    "success": 129,
-    "failed": 244,
+    "total": 480,
+    "success": 170,
+    "failed": 296,
     "skipped": 0,
     "manual": 14,
     "manually_submitted": 0,
-    "last_run": "2026-08-16T11:56:26.540644+00:00"
+    "last_run": "2026-08-16T13:27:28.125712+00:00"
   }
 }
