@@ -1,14 +1,14 @@
 ## Backlink Report — mystfallhunterguides
 
-**Last run:** 2026-08-16T13:19:23.966388+00:00
+**Last run:** 2026-08-16T14:57:04.078542+00:00
 
 | Status | Count |
 |--------|-------|
-| ✅ Confirmed (auto + manual) | 165 |
-| ⚡ Auto-submitted            | 165 |
+| ✅ Confirmed (auto + manual) | 168 |
+| ⚡ Auto-submitted            | 168 |
 | 📝 Manually confirmed        | 0 |
 | 🖐 Pending manual            | 68 |
-| ❌ Auto-failed               | 247 |
+| ❌ Auto-failed               | 244 |
 
 ### All Submissions
 
@@ -97,7 +97,7 @@
 | Aitoolsguide | ❌ failed | — | 2026-08-16 |
 | Aitoolshunt | ❌ failed | — | 2026-08-16 |
 | Aitoolsmarketer | ✅ success | 200 | 2026-08-16 |
-| Aitoolsnetwork | ❌ failed | 404 | 2026-08-16 |
+| Aitoolsnetwork | ❌ failed | 202 | 2026-08-16 |
 | Aitoolsone | ❌ failed | — | 2026-08-16 |
 | Aitoolsup | ❌ failed | — | 2026-08-16 |
 | Aitooltips | ❌ failed | — | 2026-08-15 |
@@ -123,7 +123,7 @@
 | Antdirectory | ❌ failed | 403 | 2026-08-16 |
 | Aplicaciones | ❌ failed | — | 2026-08-16 |
 | App | ❌ failed | — | 2026-08-16 |
-| Appsandwebsites | ❌ failed | 404 | 2026-08-16 |
+| Appsandwebsites | ❌ failed | 202 | 2026-08-16 |
 | Appscreens | ✅ success | 200 | 2026-08-16 |
 | Appscribed | 🖐 manual | — | 2026-08-15 |
 | Appsumo | ✅ success | 200 | 2026-08-16 |
@@ -133,20 +133,20 @@
 | Awesomeaitools | ❌ failed | — | 2026-08-16 |
 | Awesomeindie | ❌ failed | — | 2026-08-16 |
 | Backlinks List | ❌ failed | — | 2026-08-16 |
-| Bai | ❌ failed | — | 2026-08-16 |
+| Bai | ✅ success | 200 | 2026-08-16 |
 | Basedtools | ❌ failed | — | 2026-08-16 |
 | Bestaiagents | ✅ success | 200 | 2026-08-16 |
 | Bestaito | ✅ success | 200 | 2026-08-16 |
 | Bestdirectories | ✅ success | 200 | 2026-08-16 |
-| Bestfreeaiwebsites | ❌ failed | — | 2026-08-16 |
+| Bestfreeaiwebsites | ✅ success | 200 | 2026-08-16 |
 | Bestfreetools | ❌ failed | 405 | 2026-08-16 |
 | Bestofai | 🖐 manual | — | 2026-08-15 |
 | Bestsky | ✅ success | 200 | 2026-08-16 |
 | Betalist | ✅ success | 200 | 2026-08-16 |
 | Bigailist | ❌ failed | 405 | 2026-08-16 |
 | Bing Webmaster | 🖐 manual | — | 2026-08-15 |
-| Biodir | ❌ failed | — | 2026-08-16 |
-| Bizindexer | ❌ failed | 500 | 2026-08-16 |
+| Biodir | ❌ failed | 403 | 2026-08-16 |
+| Bizindexer | ✅ success | 200 | 2026-08-16 |
 | Blackfridaydirectory | ✅ success | 200 | 2026-08-16 |
 | Blueycharacters | ✅ success | 200 | 2026-08-16 |
 | Boilerplatehub | ❌ failed | — | 2026-08-16 |
@@ -473,7 +473,7 @@
 | Typeform (AItools.inc) | 🖐 manual | — | 2026-08-15 |
 | Typeform (Startup88) | 🖐 manual | — | 2026-08-15 |
 | Tyy | ❌ failed | — | 2026-08-16 |
-| Ufind | ❌ failed | — | 2026-08-16 |
+| Ufind | ❌ failed | 405 | 2026-08-16 |
 | Ugcpicks | ❌ failed | 405 | 2026-08-16 |
 | Uneed | ✅ success | 200 | 2026-08-16 |
 | Uno | ✅ success | 200 | 2026-08-16 |
