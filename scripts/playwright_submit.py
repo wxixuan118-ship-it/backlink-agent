@@ -98,7 +98,7 @@ async def _click_submit(page) -> bool:
             btn = page.locator(sel).first
             if await btn.count() > 0:
                 await btn.click()
-                await page.wait_for_timeout(3000)
+                await page.wait_for_timeout(1500)
                 return True
         except Exception:
             continue
@@ -141,7 +141,7 @@ async def _submit_async(directory: dict, site: dict, generated: dict,
             }
 
         try:
-            await page.goto(url, wait_until="networkidle", timeout=timeout_ms)
+            await page.goto(url, wait_until="domcontentloaded", timeout=timeout_ms)
 
             filled = await _fill_form(page, values)
             if filled == 0:
@@ -156,7 +156,7 @@ async def _submit_async(directory: dict, site: dict, generated: dict,
 
             # Wait for navigation or response
             try:
-                await page.wait_for_load_state("networkidle", timeout=10_000)
+                await page.wait_for_load_state("load", timeout=5_000)
             except Exception:
                 pass
 

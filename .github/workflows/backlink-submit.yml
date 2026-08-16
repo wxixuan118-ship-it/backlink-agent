@@ -82,7 +82,7 @@ jobs:
     name: Submit — ${{ matrix.slug }}
     needs: setup
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 90
     permissions:
       contents: write
     strategy:
