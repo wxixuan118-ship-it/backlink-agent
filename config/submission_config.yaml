@@ -138,7 +138,7 @@ directories:
     notes: Auto-downgraded (HTTP 404)
   - name: "Easywithai"
     url: "easywithai.com"
-    type: playwright
+    type: manual
     method: POST
     fields:
       name: "{gen.title}"
@@ -159,7 +159,7 @@ directories:
     notes: Auto-downgraded (Playwright also failed)
   - name: "Waytoagi"
     url: "waytoagi.com"
-    type: playwright
+    type: manual
     method: POST
     fields:
       name: "{gen.title}"
@@ -190,7 +190,7 @@ directories:
     notes: Auto-downgraded (HTTP 404)
   - name: "Aitoolsdirectory"
     url: "aitoolsdirectory.com"
-    type: playwright
+    type: manual
     method: POST
     fields:
       name: "{gen.title}"
@@ -413,7 +413,7 @@ directories:
     notes: Auto-downgraded (Playwright also failed)
   - name: "Mangoai"
     url: "mangoai.co"
-    type: playwright
+    type: manual
     method: POST
     fields:
       name: "{gen.title}"
@@ -434,7 +434,7 @@ directories:
     notes: Auto-downgraded (HTTP 404)
   - name: "Tools Ai"
     url: "tools-ai.online"
-    type: playwright
+    type: manual
     method: POST
     fields:
       name: "{gen.title}"
@@ -525,7 +525,7 @@ directories:
     notes: Auto-downgraded (Playwright also failed)
   - name: "Scriptbyai"
     url: "scriptbyai.com"
-    type: playwright
+    type: manual
     method: POST
     fields:
       name: "{gen.title}"
@@ -557,7 +557,7 @@ directories:
     notes: Auto-downgraded (Playwright also failed)
   - name: "Aizones"
     url: "aizones.io"
-    type: playwright
+    type: manual
     method: POST
     fields:
       name: "{gen.title}"
@@ -619,7 +619,7 @@ directories:
     notes: Auto-downgraded (Playwright also failed)
   - name: "Allgpts"
     url: "allgpts.co"
-    type: playwright
+    type: manual
     method: POST
     fields:
       name: "{gen.title}"
@@ -671,7 +671,7 @@ directories:
     notes: Auto-downgraded (Playwright also failed)
   - name: "Groupify"
     url: "groupify.ai"
-    type: playwright
+    type: manual
     method: POST
     fields:
       name: "{gen.title}"
@@ -723,7 +723,7 @@ directories:
     notes: Auto-downgraded (Playwright also failed)
   - name: "Domore"
     url: "domore.ai"
-    type: playwright
+    type: manual
     method: POST
     fields:
       name: "{gen.title}"
@@ -764,7 +764,7 @@ directories:
     notes: Auto-downgraded (Playwright also failed)
   - name: "Aitoolly"
     url: "aitoolly.com"
-    type: playwright
+    type: manual
     method: POST
     fields:
       name: "{gen.title}"
@@ -835,7 +835,7 @@ directories:
     notes: Auto-downgraded (Playwright also failed)
   - name: "Agentlocker"
     url: "agentlocker.ai"
-    type: playwright
+    type: manual
     method: POST
     fields:
       name: "{gen.title}"
@@ -866,7 +866,7 @@ directories:
     notes: Auto-downgraded (HTTP 404)
   - name: "Aitoolsarena"
     url: "aitoolsarena.com"
-    type: playwright
+    type: manual
     method: POST
     fields:
       name: "{gen.title}"
@@ -1067,7 +1067,7 @@ directories:
     notes: Auto-downgraded (HTTP 404)
   - name: "Aitooltips"
     url: "aitooltips.com"
-    type: playwright
+    type: manual
     method: POST
     fields:
       name: "{gen.title}"
@@ -1368,7 +1368,7 @@ directories:
     notes: Auto-downgraded (Playwright also failed)
   - name: "Toolsforhumans"
     url: "toolsforhumans.ai/tools-database"
-    type: playwright
+    type: manual
     method: POST
     fields:
       name: "{gen.title}"
@@ -1549,7 +1549,7 @@ directories:
     notes: Auto-downgraded (Playwright also failed)
   - name: "Atozaitools"
     url: "atozaitools.com"
-    type: playwright
+    type: manual
     method: POST
     fields:
       name: "{gen.title}"
@@ -2163,7 +2163,7 @@ directories:
     notes: Auto-downgraded (Playwright also failed)
   - name: "Sourceforge"
     url: "https://sourceforge.net"
-    type: playwright
+    type: manual
     method: POST
     fields:
       name: "{gen.title}"
@@ -2244,7 +2244,7 @@ directories:
     notes: Auto-downgraded (HTTP 404)
   - name: "Trustradius"
     url: "https://trustradius.com"
-    type: playwright
+    type: manual
     method: POST
     fields:
       name: "{gen.title}"
@@ -2388,7 +2388,7 @@ directories:
     notes: Auto-downgraded (Playwright also failed)
   - name: "Eu Startups"
     url: "https://eu-startups.com"
-    type: playwright
+    type: manual
     method: POST
     fields:
       name: "{gen.title}"
@@ -2480,7 +2480,7 @@ directories:
     notes: Auto-downgraded (Playwright also failed)
   - name: "Land Book"
     url: "https://land-book.com"
-    type: playwright
+    type: manual
     method: POST
     fields:
       name: "{gen.title}"
@@ -2662,7 +2662,7 @@ directories:
     notes: Auto-downgraded (HTTP 404)
   - name: "Sitelike"
     url: "https://sitelike.org"
-    type: playwright
+    type: manual
     method: POST
     fields:
       name: "{gen.title}"
@@ -3233,7 +3233,7 @@ directories:
     notes: Auto-downgraded (HTTP 404)
   - name: "Huntscreens"
     url: "https://huntscreens.com"
-    type: playwright
+    type: manual
     method: POST
     fields:
       name: "{gen.title}"
@@ -3565,7 +3565,7 @@ directories:
     notes: Auto-downgraded (Playwright also failed)
   - name: "AItools.inc"
     url: "https://aitools.inc/submit"
-    type: playwright
+    type: manual
     method: POST
     fields:
       title: "{gen.title}"
