@@ -48,6 +48,12 @@ HEADERS = {
 
 # ── Helpers ────────────────────────────────────────────────────────────────────
 
+def normalize_url(url: str) -> str:
+    if url and not url.startswith(("http://", "https://")):
+        return "https://" + url
+    return url
+
+
 def load_config() -> dict:
     with open(CONFIG_PATH, encoding="utf-8") as f:
         return yaml.safe_load(f)
@@ -377,6 +383,8 @@ def main() -> None:
 
     cfg        = load_config()
     directories = cfg["directories"]
+    for d in directories:
+        d["url"] = normalize_url(d["url"])
     settings   = cfg.get("settings", {})
 
     all_sites = load_sites()
