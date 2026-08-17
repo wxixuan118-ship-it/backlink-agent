@@ -1,14 +1,14 @@
 ## Backlink Report — cursivetextgenerator
 
-**Last run:** 2026-08-16T15:18:41.801049+00:00
+**Last run:** 2026-08-17T00:30:59.533221+00:00
 
 | Status | Count |
 |--------|-------|
-| ✅ Confirmed (auto + manual) | 135 |
-| ⚡ Auto-submitted            | 135 |
+| ✅ Confirmed (auto + manual) | 140 |
+| ⚡ Auto-submitted            | 140 |
 | 📝 Manually confirmed        | 0 |
 | 🖐 Pending manual            | 1 |
-| ❌ Auto-failed               | 86 |
+| ❌ Auto-failed               | 90 |
 
 ### All Submissions
 
@@ -23,6 +23,7 @@
 | Ai Futuretools | ✅ success | 200 | 2026-08-16 |
 | Ai Hunter | ❌ failed | — | 2026-08-16 |
 | Aiagentsbase | ❌ failed | 404 | 2026-08-16 |
+| Aiagentsdirectory | ✅ success | 200 | 2026-08-17 |
 | Aiagentslist | ✅ success | 200 | 2026-08-16 |
 | Aiagentstore | ❌ failed | — | 2026-08-16 |
 | Aiapps | ❌ failed | — | 2026-08-16 |
@@ -44,21 +45,23 @@
 | Aistage | ✅ success | 200 | 2026-08-16 |
 | Aiteach | ✅ success | 200 | 2026-08-16 |
 | Aitoolfame | ✅ success | 200 | 2026-08-16 |
+| Aitoolgo | ✅ success | 200 | 2026-08-17 |
 | Aitools | ❌ failed | 403 | 2026-08-16 |
 | Aitoolscover | ❌ failed | 405 | 2026-08-16 |
-| Aitoolsnetwork | ❌ failed | 404 | 2026-08-16 |
+| Aitoolsnetwork | ❌ failed | — | 2026-08-16 |
 | Aitooltrek | ✅ success | 200 | 2026-08-16 |
 | Aitoptools | ❌ failed | — | 2026-08-16 |
 | Aitrustlist | ✅ success | 200 | 2026-08-16 |
 | Altern | ✅ success | 200 | 2026-08-16 |
 | Alternativeto | ✅ success | 200 | 2026-08-16 |
 | Antdirectory | ❌ failed | 403 | 2026-08-16 |
-| Appsandwebsites | ❌ failed | 404 | 2026-08-16 |
+| Appsandwebsites | ❌ failed | — | 2026-08-16 |
 | Appscreens | ✅ success | 200 | 2026-08-16 |
 | Appsumo | ✅ success | 200 | 2026-08-16 |
 | Artificin | ✅ success | 200 | 2026-08-16 |
 | Auraplusplus | ✅ success | 200 | 2026-08-16 |
 | Backlinks List | ❌ failed | — | 2026-08-16 |
+| Bai | ✅ success | 200 | 2026-08-17 |
 | Bestdirectories | ✅ success | 200 | 2026-08-16 |
 | Bestfreeaiwebsites | ✅ success | 200 | 2026-08-16 |
 | Bestfreetools | ❌ failed | 405 | 2026-08-16 |
@@ -79,6 +82,7 @@
 | Coupon | ❌ failed | — | 2026-08-16 |
 | Dang | ✅ success | 200 | 2026-08-16 |
 | Desifounder | ✅ success | 200 | 2026-08-16 |
+| Dessign | ❌ failed | — | 2026-08-17 |
 | DevPages | ✅ success | 200 | 2026-08-16 |
 | Devtool | ✅ success | 200 | 2026-08-16 |
 | Devtoolset | ✅ success | 200 | 2026-08-16 |
@@ -99,7 +103,7 @@
 | Entireweb | ✅ success | 200 | 2026-08-16 |
 | Eorhq | ✅ success | 200 | 2026-08-16 |
 | Euroalternative | ✅ success | 200 | 2026-08-16 |
-| Fastlaunch | ❌ failed | 200 | 2026-08-16 |
+| Fastlaunch | ✅ success | 200 | 2026-08-16 |
 | Favz | ✅ success | 200 | 2026-08-16 |
 | Fazier | ✅ success | 200 | 2026-08-16 |
 | Finance | ❌ failed | — | 2026-08-16 |
@@ -114,6 +118,7 @@
 | Getlatka | ✅ success | 200 | 2026-08-16 |
 | Giftscraftschina | ❌ failed | 404 | 2026-08-16 |
 | Gocafehunt | ❌ failed | 403 | 2026-08-16 |
+| Gpt3demo | ❌ failed | — | 2026-08-17 |
 | Gptdemo | ✅ success | 200 | 2026-08-16 |
 | Gptforthat | ❌ failed | 404 | 2026-08-16 |
 | Hookest | ✅ success | 200 | 2026-08-16 |
@@ -123,6 +128,7 @@
 | Indie | ✅ success | 200 | 2026-08-16 |
 | Indiehackers | ✅ success | 200 | 2026-08-16 |
 | Indievoice | ❌ failed | 404 | 2026-08-16 |
+| Itirupati | ❌ failed | — | 2026-08-17 |
 | Iuu | ✅ success | 200 | 2026-08-16 |
 | Justsimple | ✅ success | 200 | 2026-08-16 |
 | Katie | ❌ failed | 405 | 2026-08-16 |
@@ -192,10 +198,12 @@
 | Startupbase | ✅ success | 200 | 2026-08-16 |
 | Startupfa | ✅ success | 200 | 2026-08-16 |
 | Startupspotlight | ✅ success | 200 | 2026-08-16 |
+| Stratup | ❌ failed | — | 2026-08-17 |
 | Submitaitool | ❌ failed | 404 | 2026-08-16 |
 | Swhouses | ❌ failed | — | 2026-08-16 |
 | T0ai | ✅ success | 200 | 2026-08-16 |
 | Tap4 | ✅ success | 200 | 2026-08-16 |
+| Techpilot | ✅ success | 200 | 2026-08-17 |
 | Template0 | ❌ failed | 200 | 2026-08-16 |
 | Templatefame | ✅ success | 200 | 2026-08-16 |
 | Testdev | ❌ failed | 404 | 2026-08-16 |
@@ -215,6 +223,7 @@
 | Toolpilot | ✅ success | 200 | 2026-08-16 |
 | Toolrain | ✅ success | 200 | 2026-08-16 |
 | Toolsfine | ✅ success | 200 | 2026-08-16 |
+| Topaitools | ❌ failed | — | 2026-08-17 |
 | Topboilerplate | ❌ failed | 405 | 2026-08-16 |
 | Topindie | ❌ failed | — | 2026-08-16 |
 | Topservicesdirectory | ✅ success | 200 | 2026-08-16 |
