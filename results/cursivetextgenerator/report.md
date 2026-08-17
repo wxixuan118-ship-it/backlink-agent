@@ -1,6 +1,6 @@
 ## Backlink Report — cursivetextgenerator
 
-**Last run:** 2026-08-17T02:15:56.100654+00:00
+**Last run:** 2026-08-17T10:25:50.626394+00:00
 
 | Status | Count |
 |--------|-------|
@@ -48,14 +48,14 @@
 | Aitoolgo | ✅ success | 200 | 2026-08-17 |
 | Aitools | ❌ failed | 403 | 2026-08-17 |
 | Aitoolscover | ❌ failed | 405 | 2026-08-17 |
-| Aitoolsnetwork | ❌ failed | — | 2026-08-17 |
+| Aitoolsnetwork | ❌ failed | 404 | 2026-08-17 |
 | Aitooltrek | ✅ success | 200 | 2026-08-16 |
 | Aitoptools | ❌ failed | — | 2026-08-17 |
 | Aitrustlist | ✅ success | 200 | 2026-08-16 |
 | Altern | ✅ success | 200 | 2026-08-16 |
 | Alternativeto | ✅ success | 200 | 2026-08-16 |
 | Antdirectory | ❌ failed | 403 | 2026-08-17 |
-| Appsandwebsites | ❌ failed | — | 2026-08-17 |
+| Appsandwebsites | ❌ failed | 404 | 2026-08-17 |
 | Appscreens | ✅ success | 200 | 2026-08-16 |
 | Appsumo | ✅ success | 200 | 2026-08-16 |
 | Artificin | ✅ success | 200 | 2026-08-16 |
@@ -110,7 +110,7 @@
 | Findsaastools | ✅ success | 200 | 2026-08-16 |
 | Firsto | ✅ success | 200 | 2026-08-16 |
 | FiveTaco | ✅ success | 200 | 2026-08-16 |
-| Freemiumai | ❌ failed | — | 2026-08-17 |
+| Freemiumai | ❌ failed | 404 | 2026-08-17 |
 | Futuretools | ✅ success | 200 | 2026-08-16 |
 | Fwfw | ✅ success | 200 | 2026-08-16 |
 | Genai | ❌ failed | — | 2026-08-17 |
@@ -242,7 +242,7 @@
 | Wisepickai | ❌ failed | — | 2026-08-17 |
 | Wizdir | ❌ failed | 403 | 2026-08-17 |
 | Woy | ❌ failed | 405 | 2026-08-17 |
-| Wtcraft | ❌ failed | — | 2026-08-17 |
+| Wtcraft | ❌ failed | 404 | 2026-08-17 |
 | Xiaobaotong | ❌ failed | — | 2026-08-17 |
 | Yo | ✅ success | 200 | 2026-08-16 |
 
