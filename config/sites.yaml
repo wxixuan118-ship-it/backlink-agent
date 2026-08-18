@@ -32,3 +32,13 @@ sites:
     owner_name: ""
     category: "Technology"
     added_at: "2026-08-16"
+
+  - slug: fishcareai
+    url: "https://www.fishcareai.com"
+    title: "FishCare AI — Aquarium Care Tools & Fish Guides"
+    description: "FishCare AI is a free aquarium care platform offering fish care guides, species information, fish health resources, compatibility advice, and interactive tools for tank size, water parameters, feeding, and aquarium planning."
+    keywords: "fish care, aquarium care, aquarium tools, fish care guide, fish tank calculator, aquarium calculator, fish compatibility checker, aquarium planner, fish health, fish encyclopedia, freshwater fish, fish tank setup"
+    email: "wxixuan118@gmail.com"
+    owner_name: ""
+    category: "Lifestyle"
+    added_at: "2026-08-18"
