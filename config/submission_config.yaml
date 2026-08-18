@@ -3918,12 +3918,1367 @@ directories:
       description: "{gen.description}"
       email: "{site.email}"
 
-  # ═══ Playwright (JS forms) ═══════════════════
-  - name: "Aiagentstore"
-    url: "aiagentstore.ai"
-    type: manual
-    notes: "Auto-downgraded (Playwright also failed)"
+  - name: "Techcrunch"
+    url: "https://techcrunch.com/"
+    type: form
+    method: POST
+    fields:
+      name: "{gen.title}"
+      url: "{site.url}"
+      description: "{gen.description}"
+      email: "{site.email}"
 
+  - name: "Producthunt"
+    url: "https://producthunt.com/"
+    type: form
+    method: POST
+    fields:
+      name: "{gen.title}"
+      url: "{site.url}"
+      description: "{gen.description}"
+      email: "{site.email}"
+
+  - name: "Opentoolsai"
+    url: "https://opentoolsai.gumroad.com/"
+    type: form
+    method: POST
+    fields:
+      name: "{gen.title}"
+      url: "{site.url}"
+      description: "{gen.description}"
+      email: "{site.email}"
+
+  - name: "Gartner"
+    url: "https://gartner.com/"
+    type: form
+    method: POST
+    fields:
+      name: "{gen.title}"
+      url: "{site.url}"
+      description: "{gen.description}"
+      email: "{site.email}"
+
+  - name: "G2"
+    url: "https://g2.com/"
+    type: form
+    method: POST
+    fields:
+      name: "{gen.title}"
+      url: "{site.url}"
+      description: "{gen.description}"
+      email: "{site.email}"
+
+  - name: "News"
+    url: "https://news.ycombinator.com/"
+    type: form
+    method: POST
+    fields:
+      name: "{gen.title}"
+      url: "{site.url}"
+      description: "{gen.description}"
+      email: "{site.email}"
+
+  - name: "Aiinfinity Meetpatel"
+    url: "https://aiinfinity-meetpatel.notion.site/AI-Infinity-AI-Tools-Directory-0da673c487124ea2b6f8ebe59b75a231"
+    type: form
+    method: POST
+    fields:
+      name: "{gen.title}"
+      url: "{site.url}"
+      description: "{gen.description}"
+      email: "{site.email}"
+
+  - name: "Goodfirms"
+    url: "https://goodfirms.co/"
+    type: form
+    method: POST
+    fields:
+      name: "{gen.title}"
+      url: "{site.url}"
+      description: "{gen.description}"
+      email: "{site.email}"
+
+  - name: "Getapp"
+    url: "https://getapp.com/"
+    type: form
+    method: POST
+    fields:
+      name: "{gen.title}"
+      url: "{site.url}"
+      description: "{gen.description}"
+      email: "{site.email}"
+
+  - name: "Appsumo"
+    url: "https://appsumo.com/"
+    type: form
+    method: POST
+    fields:
+      name: "{gen.title}"
+      url: "{site.url}"
+      description: "{gen.description}"
+      email: "{site.email}"
+
+  - name: "Indiehackers"
+    url: "https://indiehackers.com/"
+    type: form
+    method: POST
+    fields:
+      name: "{gen.title}"
+      url: "{site.url}"
+      description: "{gen.description}"
+      email: "{site.email}"
+
+  - name: "Stackshare"
+    url: "https://stackshare.io/"
+    type: form
+    method: POST
+    fields:
+      name: "{gen.title}"
+      url: "{site.url}"
+      description: "{gen.description}"
+      email: "{site.email}"
+
+  - name: "Alternativeto"
+    url: "https://alternativeto.net/"
+    type: form
+    method: POST
+    fields:
+      name: "{gen.title}"
+      url: "{site.url}"
+      description: "{gen.description}"
+      email: "{site.email}"
+
+  - name: "Softwaresuggest"
+    url: "https://softwaresuggest.com/"
+    type: form
+    method: POST
+    fields:
+      name: "{gen.title}"
+      url: "{site.url}"
+      description: "{gen.description}"
+      email: "{site.email}"
+
+  - name: "Webwiki"
+    url: "https://webwiki.com/"
+    type: form
+    method: POST
+    fields:
+      name: "{gen.title}"
+      url: "{site.url}"
+      description: "{gen.description}"
+      email: "{site.email}"
+
+  - name: "Killerstartups"
+    url: "https://killerstartups.com/"
+    type: form
+    method: POST
+    fields:
+      name: "{gen.title}"
+      url: "{site.url}"
+      description: "{gen.description}"
+      email: "{site.email}"
+
+  - name: "Betalist"
+    url: "https://betalist.com/"
+    type: form
+    method: POST
+    fields:
+      name: "{gen.title}"
+      url: "{site.url}"
+      description: "{gen.description}"
+      email: "{site.email}"
+
+  - name: "Saasworthy"
+    url: "https://saasworthy.com/"
+    type: form
+    method: POST
+    fields:
+      name: "{gen.title}"
+      url: "{site.url}"
+      description: "{gen.description}"
+      email: "{site.email}"
+
+  - name: "Americaninno"
+    url: "https://americaninno.com/"
+    type: form
+    method: POST
+    fields:
+      name: "{gen.title}"
+      url: "{site.url}"
+      description: "{gen.description}"
+      email: "{site.email}"
+
+  - name: "Saashub"
+    url: "https://saashub.com/"
+    type: form
+    method: POST
+    fields:
+      name: "{gen.title}"
+      url: "{site.url}"
+      description: "{gen.description}"
+      email: "{site.email}"
+
+  - name: "Futurepedia"
+    url: "https://futurepedia.io/"
+    type: form
+    method: POST
+    fields:
+      name: "{gen.title}"
+      url: "{site.url}"
+      description: "{gen.description}"
+      email: "{site.email}"
+
+  - name: "Alltopstartups"
+    url: "http://alltopstartups.com/"
+    type: form
+    method: POST
+    fields:
+      name: "{gen.title}"
+      url: "{site.url}"
+      description: "{gen.description}"
+      email: "{site.email}"
+
+  - name: "Startupranking"
+    url: "https://startupranking.com/"
+    type: form
+    method: POST
+    fields:
+      name: "{gen.title}"
+      url: "{site.url}"
+      description: "{gen.description}"
+      email: "{site.email}"
+
+  - name: "Startupstash"
+    url: "https://startupstash.com/"
+    type: form
+    method: POST
+    fields:
+      name: "{gen.title}"
+      url: "{site.url}"
+      description: "{gen.description}"
+      email: "{site.email}"
+
+  - name: "Peerlist"
+    url: "https://peerlist.io/"
+    type: form
+    method: POST
+    fields:
+      name: "{gen.title}"
+      url: "{site.url}"
+      description: "{gen.description}"
+      email: "{site.email}"
+
+  - name: "Sideprojectors"
+    url: "https://sideprojectors.com/"
+    type: form
+    method: POST
+    fields:
+      name: "{gen.title}"
+      url: "{site.url}"
+      description: "{gen.description}"
+      email: "{site.email}"
+
+  - name: "Pitchwall"
+    url: "https://pitchwall.co/"
+    type: form
+    method: POST
+    fields:
+      name: "{gen.title}"
+      url: "{site.url}"
+      description: "{gen.description}"
+      email: "{site.email}"
+
+  - name: "Topai"
+    url: "https://topai.tools/"
+    type: form
+    method: POST
+    fields:
+      name: "{gen.title}"
+      url: "{site.url}"
+      description: "{gen.description}"
+      email: "{site.email}"
+
+  - name: "Alternative"
+    url: "https://alternative.me/"
+    type: form
+    method: POST
+    fields:
+      name: "{gen.title}"
+      url: "{site.url}"
+      description: "{gen.description}"
+      email: "{site.email}"
+
+  - name: "Appagg"
+    url: "http://appagg.com/"
+    type: form
+    method: POST
+    fields:
+      name: "{gen.title}"
+      url: "{site.url}"
+      description: "{gen.description}"
+      email: "{site.email}"
+
+  - name: "Aitoolguru"
+    url: "https://aitoolguru.com/"
+    type: form
+    method: POST
+    fields:
+      name: "{gen.title}"
+      url: "{site.url}"
+      description: "{gen.description}"
+      email: "{site.email}"
+
+  - name: "Peerspot"
+    url: "https://peerspot.com/"
+    type: form
+    method: POST
+    fields:
+      name: "{gen.title}"
+      url: "{site.url}"
+      description: "{gen.description}"
+      email: "{site.email}"
+
+  - name: "Serchen"
+    url: "https://serchen.com/"
+    type: form
+    method: POST
+    fields:
+      name: "{gen.title}"
+      url: "{site.url}"
+      description: "{gen.description}"
+      email: "{site.email}"
+
+  - name: "Launchingnext"
+    url: "https://launchingnext.com/"
+    type: form
+    method: POST
+    fields:
+      name: "{gen.title}"
+      url: "{site.url}"
+      description: "{gen.description}"
+      email: "{site.email}"
+
+  - name: "Techpluto"
+    url: "https://techpluto.com/"
+    type: form
+    method: POST
+    fields:
+      name: "{gen.title}"
+      url: "{site.url}"
+      description: "{gen.description}"
+      email: "{site.email}"
+
+  - name: "Cuspera"
+    url: "https://cuspera.com/"
+    type: form
+    method: POST
+    fields:
+      name: "{gen.title}"
+      url: "{site.url}"
+      description: "{gen.description}"
+      email: "{site.email}"
+
+  - name: "Sidebar"
+    url: "https://sidebar.io/"
+    type: form
+    method: POST
+    fields:
+      name: "{gen.title}"
+      url: "{site.url}"
+      description: "{gen.description}"
+      email: "{site.email}"
+
+  - name: "Ventureradar"
+    url: "https://ventureradar.com/"
+    type: form
+    method: POST
+    fields:
+      name: "{gen.title}"
+      url: "{site.url}"
+      description: "{gen.description}"
+      email: "{site.email}"
+
+  - name: "Theresanaiforthat"
+    url: "https://theresanaiforthat.com/"
+    type: form
+    method: POST
+    fields:
+      name: "{gen.title}"
+      url: "{site.url}"
+      description: "{gen.description}"
+      email: "{site.email}"
+
+  - name: "Startupguys"
+    url: "https://startupguys.net/"
+    type: form
+    method: POST
+    fields:
+      name: "{gen.title}"
+      url: "{site.url}"
+      description: "{gen.description}"
+      email: "{site.email}"
+
+  - name: "Saasgenius"
+    url: "http://saasgenius.com/"
+    type: form
+    method: POST
+    fields:
+      name: "{gen.title}"
+      url: "{site.url}"
+      description: "{gen.description}"
+      email: "{site.email}"
+
+  - name: "Jcount"
+    url: "https://jcount.com/"
+    type: form
+    method: POST
+    fields:
+      name: "{gen.title}"
+      url: "{site.url}"
+      description: "{gen.description}"
+      email: "{site.email}"
+
+  - name: "Startuplister"
+    url: "https://startuplister.com/"
+    type: form
+    method: POST
+    fields:
+      name: "{gen.title}"
+      url: "{site.url}"
+      description: "{gen.description}"
+      email: "{site.email}"
+
+  - name: "Softwareworld"
+    url: "https://softwareworld.co/"
+    type: form
+    method: POST
+    fields:
+      name: "{gen.title}"
+      url: "{site.url}"
+      description: "{gen.description}"
+      email: "{site.email}"
+
+  - name: "Activesearchresults"
+    url: "https://activesearchresults.com/"
+    type: form
+    method: POST
+    fields:
+      name: "{gen.title}"
+      url: "{site.url}"
+      description: "{gen.description}"
+      email: "{site.email}"
+
+  - name: "Startupbuffer"
+    url: "https://startupbuffer.com/"
+    type: form
+    method: POST
+    fields:
+      name: "{gen.title}"
+      url: "{site.url}"
+      description: "{gen.description}"
+      email: "{site.email}"
+
+  - name: "Launched"
+    url: "https://launched.io/"
+    type: form
+    method: POST
+    fields:
+      name: "{gen.title}"
+      url: "{site.url}"
+      description: "{gen.description}"
+      email: "{site.email}"
+
+  - name: "Startupdope"
+    url: "https://startupdope.com/"
+    type: form
+    method: POST
+    fields:
+      name: "{gen.title}"
+      url: "{site.url}"
+      description: "{gen.description}"
+      email: "{site.email}"
+
+  - name: "Sprout24"
+    url: "https://sprout24.com/"
+    type: form
+    method: POST
+    fields:
+      name: "{gen.title}"
+      url: "{site.url}"
+      description: "{gen.description}"
+      email: "{site.email}"
+
+  - name: "Entrepreneurloop"
+    url: "https://entrepreneurloop.com/"
+    type: form
+    method: POST
+    fields:
+      name: "{gen.title}"
+      url: "{site.url}"
+      description: "{gen.description}"
+      email: "{site.email}"
+
+  - name: "Futuretools"
+    url: "https://futuretools.io/"
+    type: form
+    method: POST
+    fields:
+      name: "{gen.title}"
+      url: "{site.url}"
+      description: "{gen.description}"
+      email: "{site.email}"
+
+  - name: "Dang"
+    url: "https://dang.ai/"
+    type: form
+    method: POST
+    fields:
+      name: "{gen.title}"
+      url: "{site.url}"
+      description: "{gen.description}"
+      email: "{site.email}"
+
+  - name: "Supertools"
+    url: "https://supertools.therundown.ai/"
+    type: form
+    method: POST
+    fields:
+      name: "{gen.title}"
+      url: "{site.url}"
+      description: "{gen.description}"
+      email: "{site.email}"
+
+  - name: "Nocodefounders"
+    url: "https://nocodefounders.com/"
+    type: form
+    method: POST
+    fields:
+      name: "{gen.title}"
+      url: "{site.url}"
+      description: "{gen.description}"
+      email: "{site.email}"
+
+  - name: "Spotsaas"
+    url: "https://spotsaas.com/"
+    type: form
+    method: POST
+    fields:
+      name: "{gen.title}"
+      url: "{site.url}"
+      description: "{gen.description}"
+      email: "{site.email}"
+
+  - name: "New Startups"
+    url: "https://new-startups.com/"
+    type: form
+    method: POST
+    fields:
+      name: "{gen.title}"
+      url: "{site.url}"
+      description: "{gen.description}"
+      email: "{site.email}"
+
+  - name: "Tools"
+    url: "http://tools.robingood.com/"
+    type: form
+    method: POST
+    fields:
+      name: "{gen.title}"
+      url: "{site.url}"
+      description: "{gen.description}"
+      email: "{site.email}"
+
+  - name: "News"
+    url: "https://news.bensbites.co/"
+    type: form
+    method: POST
+    fields:
+      name: "{gen.title}"
+      url: "{site.url}"
+      description: "{gen.description}"
+      email: "{site.email}"
+
+  - name: "Postmake"
+    url: "https://postmake.io/"
+    type: form
+    method: POST
+    fields:
+      name: "{gen.title}"
+      url: "{site.url}"
+      description: "{gen.description}"
+      email: "{site.email}"
+
+  - name: "10words"
+    url: "https://10words.io/"
+    type: form
+    method: POST
+    fields:
+      name: "{gen.title}"
+      url: "{site.url}"
+      description: "{gen.description}"
+      email: "{site.email}"
+
+  - name: "Cipinet"
+    url: "http://cipinet.com/"
+    type: form
+    method: POST
+    fields:
+      name: "{gen.title}"
+      url: "{site.url}"
+      description: "{gen.description}"
+      email: "{site.email}"
+
+  - name: "Aicyclopedia"
+    url: "https://aicyclopedia.com/"
+    type: form
+    method: POST
+    fields:
+      name: "{gen.title}"
+      url: "{site.url}"
+      description: "{gen.description}"
+      email: "{site.email}"
+
+  - name: "Webapprater"
+    url: "https://webapprater.com/"
+    type: form
+    method: POST
+    fields:
+      name: "{gen.title}"
+      url: "{site.url}"
+      description: "{gen.description}"
+      email: "{site.email}"
+
+  - name: "Toolify"
+    url: "https://toolify.ai/"
+    type: form
+    method: POST
+    fields:
+      name: "{gen.title}"
+      url: "{site.url}"
+      description: "{gen.description}"
+      email: "{site.email}"
+
+  - name: "Ikantam"
+    url: "http://ikantam.com/"
+    type: form
+    method: POST
+    fields:
+      name: "{gen.title}"
+      url: "{site.url}"
+      description: "{gen.description}"
+      email: "{site.email}"
+
+  - name: "Beingguru"
+    url: "https://beingguru.com/"
+    type: form
+    method: POST
+    fields:
+      name: "{gen.title}"
+      url: "{site.url}"
+      description: "{gen.description}"
+      email: "{site.email}"
+
+  - name: "Uneedbest"
+    url: "https://uneedbest.com/"
+    type: form
+    method: POST
+    fields:
+      name: "{gen.title}"
+      url: "{site.url}"
+      description: "{gen.description}"
+      email: "{site.email}"
+
+  - name: "Library"
+    url: "https://library.phygital.plus/"
+    type: form
+    method: POST
+    fields:
+      name: "{gen.title}"
+      url: "{site.url}"
+      description: "{gen.description}"
+      email: "{site.email}"
+
+  - name: "Easywithai"
+    url: "https://easywithai.com/"
+    type: form
+    method: POST
+    fields:
+      name: "{gen.title}"
+      url: "{site.url}"
+      description: "{gen.description}"
+      email: "{site.email}"
+
+  - name: "Aitools"
+    url: "https://aitools.fyi/"
+    type: form
+    method: POST
+    fields:
+      name: "{gen.title}"
+      url: "{site.url}"
+      description: "{gen.description}"
+      email: "{site.email}"
+
+  - name: "Ebool"
+    url: "http://ebool.com/"
+    type: form
+    method: POST
+    fields:
+      name: "{gen.title}"
+      url: "{site.url}"
+      description: "{gen.description}"
+      email: "{site.email}"
+
+  - name: "Joinly"
+    url: "https://joinly.xyz/"
+    type: form
+    method: POST
+    fields:
+      name: "{gen.title}"
+      url: "{site.url}"
+      description: "{gen.description}"
+      email: "{site.email}"
+
+  - name: "1000"
+    url: "https://1000.tools/"
+    type: form
+    method: POST
+    fields:
+      name: "{gen.title}"
+      url: "{site.url}"
+      description: "{gen.description}"
+      email: "{site.email}"
+
+  - name: "Promoteproject"
+    url: "https://promoteproject.com/"
+    type: form
+    method: POST
+    fields:
+      name: "{gen.title}"
+      url: "{site.url}"
+      description: "{gen.description}"
+      email: "{site.email}"
+
+  - name: "Discovercloud"
+    url: "https://discovercloud.com/"
+    type: form
+    method: POST
+    fields:
+      name: "{gen.title}"
+      url: "{site.url}"
+      description: "{gen.description}"
+      email: "{site.email}"
+
+  - name: "Softgist"
+    url: "https://softgist.com/"
+    type: form
+    method: POST
+    fields:
+      name: "{gen.title}"
+      url: "{site.url}"
+      description: "{gen.description}"
+      email: "{site.email}"
+
+  - name: "Stork"
+    url: "https://stork.ai/"
+    type: form
+    method: POST
+    fields:
+      name: "{gen.title}"
+      url: "{site.url}"
+      description: "{gen.description}"
+      email: "{site.email}"
+
+  - name: "Startupcollections"
+    url: "https://startupcollections.com/"
+    type: form
+    method: POST
+    fields:
+      name: "{gen.title}"
+      url: "{site.url}"
+      description: "{gen.description}"
+      email: "{site.email}"
+
+  - name: "Aitoolhunt"
+    url: "https://aitoolhunt.com/"
+    type: form
+    method: POST
+    fields:
+      name: "{gen.title}"
+      url: "{site.url}"
+      description: "{gen.description}"
+      email: "{site.email}"
+
+  - name: "Aitoptools"
+    url: "https://aitoptools.com/"
+    type: form
+    method: POST
+    fields:
+      name: "{gen.title}"
+      url: "{site.url}"
+      description: "{gen.description}"
+      email: "{site.email}"
+
+  - name: "Findmyaitool"
+    url: "https://findmyaitool.com/"
+    type: form
+    method: POST
+    fields:
+      name: "{gen.title}"
+      url: "{site.url}"
+      description: "{gen.description}"
+      email: "{site.email}"
+
+  - name: "Taalk"
+    url: "https://taalk.com/"
+    type: form
+    method: POST
+    fields:
+      name: "{gen.title}"
+      url: "{site.url}"
+      description: "{gen.description}"
+      email: "{site.email}"
+
+  - name: "Landing"
+    url: "https://landing.mycloudmedia.co.uk/apps-and-websites-submit-ai-or-saas-tool/"
+    type: form
+    method: POST
+    fields:
+      name: "{gen.title}"
+      url: "{site.url}"
+      description: "{gen.description}"
+      email: "{site.email}"
+
+  - name: "Aixploria"
+    url: "https://aixploria.com/"
+    type: form
+    method: POST
+    fields:
+      name: "{gen.title}"
+      url: "{site.url}"
+      description: "{gen.description}"
+      email: "{site.email}"
+
+  - name: "Saasaitools"
+    url: "https://saasaitools.com/"
+    type: form
+    method: POST
+    fields:
+      name: "{gen.title}"
+      url: "{site.url}"
+      description: "{gen.description}"
+      email: "{site.email}"
+
+  - name: "Startupanz"
+    url: "https://startupanz.com/"
+    type: form
+    method: POST
+    fields:
+      name: "{gen.title}"
+      url: "{site.url}"
+      description: "{gen.description}"
+      email: "{site.email}"
+
+  - name: "Aiscout"
+    url: "https://aiscout.net/"
+    type: form
+    method: POST
+    fields:
+      name: "{gen.title}"
+      url: "{site.url}"
+      description: "{gen.description}"
+      email: "{site.email}"
+
+  - name: "Thestartupinc"
+    url: "https://thestartupinc.com/"
+    type: form
+    method: POST
+    fields:
+      name: "{gen.title}"
+      url: "{site.url}"
+      description: "{gen.description}"
+      email: "{site.email}"
+
+  - name: "Startups"
+    url: "https://startups.fyi/"
+    type: form
+    method: POST
+    fields:
+      name: "{gen.title}"
+      url: "{site.url}"
+      description: "{gen.description}"
+      email: "{site.email}"
+
+  - name: "Makermove"
+    url: "http://makermove.com/"
+    type: form
+    method: POST
+    fields:
+      name: "{gen.title}"
+      url: "{site.url}"
+      description: "{gen.description}"
+      email: "{site.email}"
+
+  - name: "Toolscout"
+    url: "https://toolscout.ai/"
+    type: form
+    method: POST
+    fields:
+      name: "{gen.title}"
+      url: "{site.url}"
+      description: "{gen.description}"
+      email: "{site.email}"
+
+  - name: "Aicenter"
+    url: "https://aicenter.ai/"
+    type: form
+    method: POST
+    fields:
+      name: "{gen.title}"
+      url: "{site.url}"
+      description: "{gen.description}"
+      email: "{site.email}"
+
+  - name: "Popularaitools"
+    url: "https://popularaitools.ai/"
+    type: form
+    method: POST
+    fields:
+      name: "{gen.title}"
+      url: "{site.url}"
+      description: "{gen.description}"
+      email: "{site.email}"
+
+  - name: "Surges"
+    url: "https://surges.co/"
+    type: form
+    method: POST
+    fields:
+      name: "{gen.title}"
+      url: "{site.url}"
+      description: "{gen.description}"
+      email: "{site.email}"
+
+  - name: "Gpte"
+    url: "https://gpte.ai/"
+    type: form
+    method: POST
+    fields:
+      name: "{gen.title}"
+      url: "{site.url}"
+      description: "{gen.description}"
+      email: "{site.email}"
+
+  - name: "Ilib"
+    url: "https://ilib.com/"
+    type: form
+    method: POST
+    fields:
+      name: "{gen.title}"
+      url: "{site.url}"
+      description: "{gen.description}"
+      email: "{site.email}"
+
+  - name: "Domore"
+    url: "https://domore.ai/"
+    type: form
+    method: POST
+    fields:
+      name: "{gen.title}"
+      url: "{site.url}"
+      description: "{gen.description}"
+      email: "{site.email}"
+
+  - name: "Igniter"
+    url: "https://igniter.ai/"
+    type: form
+    method: POST
+    fields:
+      name: "{gen.title}"
+      url: "{site.url}"
+      description: "{gen.description}"
+      email: "{site.email}"
+
+  - name: "Uneed"
+    url: "https://uneed.best/"
+    type: form
+    method: POST
+    fields:
+      name: "{gen.title}"
+      url: "{site.url}"
+      description: "{gen.description}"
+      email: "{site.email}"
+
+  - name: "Aiwizard"
+    url: "https://aiwizard.ai/"
+    type: form
+    method: POST
+    fields:
+      name: "{gen.title}"
+      url: "{site.url}"
+      description: "{gen.description}"
+      email: "{site.email}"
+
+  - name: "Theaiexchange"
+    url: "https://theaiexchange.com/"
+    type: form
+    method: POST
+    fields:
+      name: "{gen.title}"
+      url: "{site.url}"
+      description: "{gen.description}"
+      email: "{site.email}"
+
+  - name: "Fuelup"
+    url: "https://fuelup.co/"
+    type: form
+    method: POST
+    fields:
+      name: "{gen.title}"
+      url: "{site.url}"
+      description: "{gen.description}"
+      email: "{site.email}"
+
+  - name: "Textify"
+    url: "https://textify.ai/"
+    type: form
+    method: POST
+    fields:
+      name: "{gen.title}"
+      url: "{site.url}"
+      description: "{gen.description}"
+      email: "{site.email}"
+
+  - name: "Airadar"
+    url: "https://airadar.getinference.com/"
+    type: form
+    method: POST
+    fields:
+      name: "{gen.title}"
+      url: "{site.url}"
+      description: "{gen.description}"
+      email: "{site.email}"
+
+  - name: "Aitoolnet"
+    url: "https://aitoolnet.com/"
+    type: form
+    method: POST
+    fields:
+      name: "{gen.title}"
+      url: "{site.url}"
+      description: "{gen.description}"
+      email: "{site.email}"
+
+  - name: "Aiawesome"
+    url: "https://aiawesome.com/"
+    type: form
+    method: POST
+    fields:
+      name: "{gen.title}"
+      url: "{site.url}"
+      description: "{gen.description}"
+      email: "{site.email}"
+
+  - name: "Startupsea"
+    url: "http://startupsea.com/"
+    type: form
+    method: POST
+    fields:
+      name: "{gen.title}"
+      url: "{site.url}"
+      description: "{gen.description}"
+      email: "{site.email}"
+
+  - name: "Aidepot"
+    url: "https://aidepot.co/"
+    type: form
+    method: POST
+    fields:
+      name: "{gen.title}"
+      url: "{site.url}"
+      description: "{gen.description}"
+      email: "{site.email}"
+
+  - name: "Lachief"
+    url: "https://lachief.io/"
+    type: form
+    method: POST
+    fields:
+      name: "{gen.title}"
+      url: "{site.url}"
+      description: "{gen.description}"
+      email: "{site.email}"
+
+  - name: "Microlaunch"
+    url: "https://microlaunch.net/"
+    type: form
+    method: POST
+    fields:
+      name: "{gen.title}"
+      url: "{site.url}"
+      description: "{gen.description}"
+      email: "{site.email}"
+
+  - name: "Fullstackai"
+    url: "https://fullstackai.co/"
+    type: form
+    method: POST
+    fields:
+      name: "{gen.title}"
+      url: "{site.url}"
+      description: "{gen.description}"
+      email: "{site.email}"
+
+  - name: "Apprater"
+    url: "https://apprater.net/"
+    type: form
+    method: POST
+    fields:
+      name: "{gen.title}"
+      url: "{site.url}"
+      description: "{gen.description}"
+      email: "{site.email}"
+
+  - name: "Topnocode"
+    url: "https://topnocode.tools/"
+    type: form
+    method: POST
+    fields:
+      name: "{gen.title}"
+      url: "{site.url}"
+      description: "{gen.description}"
+      email: "{site.email}"
+
+  - name: "Aitrendz"
+    url: "https://aitrendz.xyz/"
+    type: form
+    method: POST
+    fields:
+      name: "{gen.title}"
+      url: "{site.url}"
+      description: "{gen.description}"
+      email: "{site.email}"
+
+  - name: "Toolpilot"
+    url: "https://toolpilot.ai/"
+    type: form
+    method: POST
+    fields:
+      name: "{gen.title}"
+      url: "{site.url}"
+      description: "{gen.description}"
+      email: "{site.email}"
+
+  - name: "Startupaitools"
+    url: "https://startupaitools.com/"
+    type: form
+    method: POST
+    fields:
+      name: "{gen.title}"
+      url: "{site.url}"
+      description: "{gen.description}"
+      email: "{site.email}"
+
+  - name: "Toolspedia"
+    url: "https://toolspedia.io/"
+    type: form
+    method: POST
+    fields:
+      name: "{gen.title}"
+      url: "{site.url}"
+      description: "{gen.description}"
+      email: "{site.email}"
+
+  - name: "Thewarehouse"
+    url: "https://thewarehouse.ai/"
+    type: form
+    method: POST
+    fields:
+      name: "{gen.title}"
+      url: "{site.url}"
+      description: "{gen.description}"
+      email: "{site.email}"
+
+  - name: "Ai Search"
+    url: "https://ai-search.io/"
+    type: form
+    method: POST
+    fields:
+      name: "{gen.title}"
+      url: "{site.url}"
+      description: "{gen.description}"
+      email: "{site.email}"
+
+  - name: "Tooldirectory"
+    url: "https://tooldirectory.ai/"
+    type: form
+    method: POST
+    fields:
+      name: "{gen.title}"
+      url: "{site.url}"
+      description: "{gen.description}"
+      email: "{site.email}"
+
+  - name: "Aistash"
+    url: "https://aistash.co/"
+    type: form
+    method: POST
+    fields:
+      name: "{gen.title}"
+      url: "{site.url}"
+      description: "{gen.description}"
+      email: "{site.email}"
+
+  - name: "Toolsalad"
+    url: "https://toolsalad.com/"
+    type: form
+    method: POST
+    fields:
+      name: "{gen.title}"
+      url: "{site.url}"
+      description: "{gen.description}"
+      email: "{site.email}"
+
+  - name: "Thataicollection"
+    url: "https://thataicollection.com/"
+    type: form
+    method: POST
+    fields:
+      name: "{gen.title}"
+      url: "{site.url}"
+      description: "{gen.description}"
+      email: "{site.email}"
+
+  - name: "Aitoolboard"
+    url: "https://aitoolboard.com/"
+    type: form
+    method: POST
+    fields:
+      name: "{gen.title}"
+      url: "{site.url}"
+      description: "{gen.description}"
+      email: "{site.email}"
+
+  - name: "Gptdemo"
+    url: "https://gptdemo.net/"
+    type: form
+    method: POST
+    fields:
+      name: "{gen.title}"
+      url: "{site.url}"
+      description: "{gen.description}"
+      email: "{site.email}"
+
+  - name: "Appsandwebsites"
+    url: "https://appsandwebsites.com/"
+    type: form
+    method: POST
+    fields:
+      name: "{gen.title}"
+      url: "{site.url}"
+      description: "{gen.description}"
+      email: "{site.email}"
+
+  - name: "Aitoolmate"
+    url: "https://aitoolmate.com/"
+    type: form
+    method: POST
+    fields:
+      name: "{gen.title}"
+      url: "{site.url}"
+      description: "{gen.description}"
+      email: "{site.email}"
+
+  - name: "Pluginplay"
+    url: "https://pluginplay.ai/"
+    type: form
+    method: POST
+    fields:
+      name: "{gen.title}"
+      url: "{site.url}"
+      description: "{gen.description}"
+      email: "{site.email}"
+
+  - name: "Feedmystartup"
+    url: "https://feedmystartup.com/"
+    type: form
+    method: POST
+    fields:
+      name: "{gen.title}"
+      url: "{site.url}"
+      description: "{gen.description}"
+      email: "{site.email}"
+
+  - name: "Switbai"
+    url: "https://switbai.com/"
+    type: form
+    method: POST
+    fields:
+      name: "{gen.title}"
+      url: "{site.url}"
+      description: "{gen.description}"
+      email: "{site.email}"
+
+  - name: "Aioftheday"
+    url: "https://aioftheday.com/"
+    type: form
+    method: POST
+    fields:
+      name: "{gen.title}"
+      url: "{site.url}"
+      description: "{gen.description}"
+      email: "{site.email}"
+
+  - name: "Webofai"
+    url: "https://webofai.com/"
+    type: form
+    method: POST
+    fields:
+      name: "{gen.title}"
+      url: "{site.url}"
+      description: "{gen.description}"
+      email: "{site.email}"
+
+  - name: "Smart Tools"
+    url: "https://smart-tools.ai/"
+    type: form
+    method: POST
+    fields:
+      name: "{gen.title}"
+      url: "{site.url}"
+      description: "{gen.description}"
+      email: "{site.email}"
+
+  - name: "Humanornot"
+    url: "https://humanornot.co/"
+    type: form
+    method: POST
+    fields:
+      name: "{gen.title}"
+      url: "{site.url}"
+      description: "{gen.description}"
+      email: "{site.email}"
+
+  - name: "Aitoppicks"
+    url: "https://aitoppicks.com/"
+    type: form
+    method: POST
+    fields:
+      name: "{gen.title}"
+      url: "{site.url}"
+      description: "{gen.description}"
+      email: "{site.email}"
+
+  - name: "Getbyte"
+    url: "https://getbyte.tech/"
+    type: form
+    method: POST
+    fields:
+      name: "{gen.title}"
+      url: "{site.url}"
+      description: "{gen.description}"
+      email: "{site.email}"
+
+  # ═══ Playwright (JS forms) ═══════════════════
   - name: "Genai"
     url: "genai.works/applications"
     type: playwright
@@ -4649,6 +6004,11 @@ directories:
     type: playwright
 
   # ═══ Manual ════════════════════════════════════
+  - name: "Aiagentstore"
+    url: "aiagentstore.ai"
+    type: manual
+    notes: "Auto-downgraded (Playwright also failed)"
+
   - name: "Rundown"
     url: "rundown.ai/tools"
     type: manual
