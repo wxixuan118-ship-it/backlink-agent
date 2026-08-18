@@ -3921,7 +3921,8 @@ directories:
   # ═══ Playwright (JS forms) ═══════════════════
   - name: "Aiagentstore"
     url: "aiagentstore.ai"
-    type: playwright
+    type: manual
+    notes: "Auto-downgraded (Playwright also failed)"
 
   - name: "Genai"
     url: "genai.works/applications"
