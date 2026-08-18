@@ -1,14 +1,14 @@
 ## Backlink Report — fishcareai
 
-**Last run:** 2026-08-18T07:00:14.342908+00:00
+**Last run:** 2026-08-18T14:56:21.121230+00:00
 
 | Status | Count |
 |--------|-------|
-| ✅ Confirmed (auto + manual) | 167 |
-| ⚡ Auto-submitted            | 167 |
+| ✅ Confirmed (auto + manual) | 184 |
+| ⚡ Auto-submitted            | 184 |
 | 📝 Manually confirmed        | 0 |
 | 🖐 Pending manual            | 1 |
-| ❌ Auto-failed               | 204 |
+| ❌ Auto-failed               | 267 |
 
 ### All Submissions
 
@@ -21,11 +21,13 @@
 | AI41 | ✅ success | 200 | 2026-08-18 |
 | AIToolsMagic | ❌ failed | — | 2026-08-18 |
 | Acftcalculator2025 | ❌ failed | — | 2026-08-18 |
+| Activesearchresults | ✅ success | 200 | 2026-08-18 |
 | Affordhunt | ✅ success | 200 | 2026-08-18 |
 | Agentarius | ❌ failed | 405 | 2026-08-18 |
 | Agentwork | ✅ success | 200 | 2026-08-18 |
 | Ai Futuretools | ✅ success | 200 | 2026-08-18 |
 | Ai Hunter | ❌ failed | — | 2026-08-18 |
+| Ai Search | ❌ failed | 429 | 2026-08-18 |
 | Aiagentsbase | ❌ failed | 404 | 2026-08-18 |
 | Aiagentslist | ✅ success | 200 | 2026-08-18 |
 | Aiagentstore | 🖐 manual | — | 2026-08-18 |
@@ -34,6 +36,7 @@
 | Aibest | ✅ success | 200 | 2026-08-18 |
 | Aicenter | ✅ success | 200 | 2026-08-18 |
 | Aichief | ❌ failed | — | 2026-08-18 |
+| Aicyclopedia | ❌ failed | 404 | 2026-08-18 |
 | Aidepot | ✅ success | 200 | 2026-08-18 |
 | Aidirs | ❌ failed | 403 | 2026-08-18 |
 | Aifinder | ✅ success | 200 | 2026-08-18 |
@@ -42,30 +45,47 @@
 | Aiinfinity Meetpatel | ❌ failed | 404 | 2026-08-18 |
 | Ailaunch | ✅ success | 200 | 2026-08-18 |
 | Ailistify | ✅ success | 200 | 2026-08-18 |
+| Aioftheday | ❌ failed | 405 | 2026-08-18 |
 | Aipure | ✅ success | 200 | 2026-08-18 |
+| Airadar | ❌ failed | 404 | 2026-08-18 |
 | Airepo | ❌ failed | — | 2026-08-18 |
+| Aiscout | ❌ failed | 520 | 2026-08-18 |
 | Aisourcehub | ❌ failed | — | 2026-08-18 |
 | Aispaces | ❌ failed | — | 2026-08-18 |
 | Aistage | ✅ success | 200 | 2026-08-18 |
-| Aiteach | ❌ failed | — | 2026-08-18 |
+| Aistash | ❌ failed | — | 2026-08-18 |
+| Aiteach | ✅ success | 200 | 2026-08-18 |
 | Aitool | ❌ failed | 403 | 2026-08-18 |
+| Aitoolboard | ✅ success | 200 | 2026-08-18 |
 | Aitoolfame | ✅ success | 200 | 2026-08-18 |
-| Aitools | ❌ failed | 403 | 2026-08-18 |
+| Aitoolguru | ❌ failed | 200 | 2026-08-18 |
+| Aitoolhunt | ❌ failed | 404 | 2026-08-18 |
+| Aitoolmate | ❌ failed | 404 | 2026-08-18 |
+| Aitoolnet | ❌ failed | 403 | 2026-08-18 |
+| Aitools | ❌ failed | 405 | 2026-08-18 |
 | Aitoolscover | ❌ failed | 405 | 2026-08-18 |
 | Aitoolsnetwork | ❌ failed | 404 | 2026-08-18 |
 | Aitooltrek | ✅ success | 200 | 2026-08-18 |
+| Aitoppicks | ❌ failed | — | 2026-08-18 |
 | Aitoptools | ❌ failed | — | 2026-08-18 |
+| Aitrendz | ❌ failed | 404 | 2026-08-18 |
 | Aitrustlist | ✅ success | 200 | 2026-08-18 |
+| Aiwizard | ❌ failed | 405 | 2026-08-18 |
 | Aixcollection | ✅ success | 200 | 2026-08-18 |
+| Aixploria | ❌ failed | 404 | 2026-08-18 |
 | Akitaapp | ❌ failed | 404 | 2026-08-18 |
 | Allstartups | ❌ failed | — | 2026-08-18 |
 | Allthatsaas | ❌ failed | 404 | 2026-08-18 |
+| Alltopstartups | ❌ failed | 404 | 2026-08-18 |
 | Altern | ✅ success | 200 | 2026-08-18 |
 | Alternative | ❌ failed | 404 | 2026-08-18 |
 | Alternatives | ❌ failed | — | 2026-08-18 |
 | Alternativeto | ✅ success | 200 | 2026-08-18 |
+| Americaninno | ❌ failed | 403 | 2026-08-18 |
 | Antdirectory | ❌ failed | 403 | 2026-08-18 |
+| Appagg | ❌ failed | 200 | 2026-08-18 |
 | Appexchange | ✅ success | 200 | 2026-08-18 |
+| Apprater | ❌ failed | 403 | 2026-08-18 |
 | Apps | ✅ success | 200 | 2026-08-18 |
 | Appsandwebsites | ❌ failed | 404 | 2026-08-18 |
 | Appscreens | ✅ success | 200 | 2026-08-18 |
@@ -74,6 +94,7 @@
 | Artificin | ✅ success | 200 | 2026-08-18 |
 | Auraplusplus | ✅ success | 200 | 2026-08-18 |
 | Backlinks List | ❌ failed | — | 2026-08-18 |
+| Beingguru | ❌ failed | 404 | 2026-08-18 |
 | Bestdirectories | ✅ success | 200 | 2026-08-18 |
 | Bestfreeaiwebsites | ✅ success | 200 | 2026-08-18 |
 | Bestfreetools | ❌ failed | 405 | 2026-08-18 |
@@ -92,6 +113,7 @@
 | Brightlinksdirectory | ❌ failed | 404 | 2026-08-18 |
 | Bufferapps | ❌ failed | 404 | 2026-08-18 |
 | Capterra | ❌ failed | 403 | 2026-08-18 |
+| Cipinet | ✅ success | 200 | 2026-08-18 |
 | Clawcloud | ❌ failed | 404 | 2026-08-18 |
 | Cloudwards | ❌ failed | 404 | 2026-08-18 |
 | Comparasoftware | ✅ success | 200 | 2026-08-18 |
@@ -101,6 +123,7 @@
 | Creator | ❌ failed | 405 | 2026-08-18 |
 | Crozdesk | ❌ failed | 200 | 2026-08-18 |
 | Crunchbase | ❌ failed | 403 | 2026-08-18 |
+| Cuspera | ✅ success | 200 | 2026-08-18 |
 | Dang | ✅ success | 200 | 2026-08-18 |
 | Desifounder | ✅ success | 200 | 2026-08-18 |
 | DevPages | ✅ success | 200 | 2026-08-18 |
@@ -117,29 +140,34 @@
 | Directory | ✅ success | 200 | 2026-08-18 |
 | Directoryfame | ✅ success | 200 | 2026-08-18 |
 | Directoryhunt | ✅ success | 200 | 2026-08-18 |
-| Directoryscout | ❌ failed | 403 | 2026-08-18 |
+| Directoryscout | ✅ success | 200 | 2026-08-18 |
 | Discovercloud | ❌ failed | — | 2026-08-18 |
 | Discovercrm | ❌ failed | 404 | 2026-08-18 |
 | Dokeyai | ✅ success | 200 | 2026-08-18 |
 | Domainrank | ✅ success | 200 | 2026-08-18 |
+| Domore | ❌ failed | 403 | 2026-08-18 |
 | Donyotravel | ✅ success | 200 | 2026-08-18 |
 | Dr | ❌ failed | — | 2026-08-18 |
 | E27 | ❌ failed | 403 | 2026-08-18 |
+| Easywithai | ❌ failed | 403 | 2026-08-18 |
 | Ebool | ❌ failed | 405 | 2026-08-18 |
 | Efficient | ❌ failed | 429 | 2026-08-18 |
 | Elitedir | ❌ failed | 403 | 2026-08-18 |
 | Entireweb | ✅ success | 200 | 2026-08-18 |
+| Entrepreneurloop | ✅ success | 200 | 2026-08-18 |
 | Eorhq | ✅ success | 200 | 2026-08-18 |
 | Eu Startups | ❌ failed | 403 | 2026-08-18 |
 | Euroalternative | ✅ success | 200 | 2026-08-18 |
 | F6s | ❌ failed | 200 | 2026-08-18 |
-| Fastlaunch | ❌ failed | 200 | 2026-08-18 |
+| Fastlaunch | ✅ success | 200 | 2026-08-18 |
 | Favz | ✅ success | 200 | 2026-08-18 |
 | Fazier | ✅ success | 200 | 2026-08-18 |
 | Featuredcustomers | ✅ success | 200 | 2026-08-18 |
+| Feedmystartup | ❌ failed | 404 | 2026-08-18 |
 | Finance | ❌ failed | — | 2026-08-18 |
 | Financesonline | ❌ failed | 404 | 2026-08-18 |
 | Findcool | ❌ failed | 405 | 2026-08-18 |
+| Findmyaitool | ❌ failed | 405 | 2026-08-18 |
 | Findsaastools | ✅ success | 200 | 2026-08-18 |
 | Findseotools | ❌ failed | 405 | 2026-08-18 |
 | Findstack | ✅ success | 200 | 2026-08-18 |
@@ -147,6 +175,9 @@
 | Firsto | ✅ success | 200 | 2026-08-18 |
 | FiveTaco | ✅ success | 200 | 2026-08-18 |
 | Freemiumai | ❌ failed | 404 | 2026-08-18 |
+| Fuelup | ✅ success | 200 | 2026-08-18 |
+| Fullstackai | ❌ failed | 404 | 2026-08-18 |
+| Futurepedia | ❌ failed | 403 | 2026-08-18 |
 | Futuretools | ✅ success | 200 | 2026-08-18 |
 | Fwfw | ✅ success | 200 | 2026-08-18 |
 | G2 | ❌ failed | 403 | 2026-08-18 |
@@ -155,12 +186,15 @@
 | Genai | ❌ failed | — | 2026-08-18 |
 | Genppt | ✅ success | 200 | 2026-08-18 |
 | Getapp | ❌ failed | 403 | 2026-08-18 |
+| Getbyte | ❌ failed | — | 2026-08-18 |
 | Getlatka | ✅ success | 200 | 2026-08-18 |
 | Getmakerlog | ✅ success | 200 | 2026-08-18 |
 | Getworm | ✅ success | 200 | 2026-08-18 |
 | Giftscraftschina | ❌ failed | 404 | 2026-08-18 |
 | Gocafehunt | ❌ failed | 403 | 2026-08-18 |
+| Goodfirms | ❌ failed | 403 | 2026-08-18 |
 | Gptdemo | ✅ success | 200 | 2026-08-18 |
+| Gpte | ❌ failed | — | 2026-08-18 |
 | Gptforthat | ❌ failed | 404 | 2026-08-18 |
 | Growjo | ❌ failed | 403 | 2026-08-18 |
 | Growthhackers | ❌ failed | 404 | 2026-08-18 |
@@ -168,8 +202,12 @@
 | Hookest | ✅ success | 200 | 2026-08-18 |
 | Hopps | ❌ failed | 404 | 2026-08-18 |
 | Hoshiyomiai | ✅ success | 200 | 2026-08-18 |
+| Humanornot | ✅ success | 200 | 2026-08-18 |
 | Hunt0 | ✅ success | 200 | 2026-08-18 |
 | Huntifyai | ✅ success | 200 | 2026-08-18 |
+| Igniter | ❌ failed | — | 2026-08-18 |
+| Ikantam | ✅ success | 200 | 2026-08-18 |
+| Ilib | ❌ failed | 503 | 2026-08-18 |
 | Inc42 | ❌ failed | 404 | 2026-08-18 |
 | Indie | ✅ success | 200 | 2026-08-18 |
 | Indiehackers | ✅ success | 200 | 2026-08-18 |
@@ -182,18 +220,21 @@
 | Itcentralstation | ✅ success | 200 | 2026-08-18 |
 | Itqlick | ✅ success | 200 | 2026-08-18 |
 | Iuu | ✅ success | 200 | 2026-08-18 |
+| Jcount | ✅ success | 200 | 2026-08-18 |
 | Joinly | ✅ success | 200 | 2026-08-18 |
 | Jonapr | ✅ success | 200 | 2026-08-18 |
 | Justsimple | ✅ success | 200 | 2026-08-18 |
 | Katie | ❌ failed | 405 | 2026-08-18 |
-| Killerstartups | ❌ failed | 520 | 2026-08-18 |
+| Killerstartups | ❌ failed | 404 | 2026-08-18 |
 | Lachief | ❌ failed | — | 2026-08-18 |
+| Landing | ❌ failed | 405 | 2026-08-18 |
 | Landingfolio | ✅ success | 200 | 2026-08-18 |
 | Languagetools | ❌ failed | 404 | 2026-08-18 |
 | Launched | ❌ failed | — | 2026-08-18 |
 | Launchingnext | ❌ failed | 403 | 2026-08-18 |
 | Launchitx | ✅ success | 200 | 2026-08-18 |
 | Libhunt | ✅ success | 200 | 2026-08-18 |
+| Library | ❌ failed | 405 | 2026-08-18 |
 | Lilidi | ✅ success | 200 | 2026-08-18 |
 | Linkvertex | ❌ failed | 403 | 2026-08-18 |
 | ListAI | ✅ success | 200 | 2026-08-18 |
@@ -218,6 +259,7 @@
 | NavTools | ✅ success | 200 | 2026-08-18 |
 | Navfolders | ✅ success | 200 | 2026-08-18 |
 | Neede | ❌ failed | — | 2026-08-18 |
+| New Startups | ❌ failed | 503 | 2026-08-18 |
 | News | ✅ success | 200 | 2026-08-18 |
 | Newtool | ✅ success | 200 | 2026-08-18 |
 | Nextgentools | ❌ failed | 404 | 2026-08-18 |
@@ -233,9 +275,14 @@
 | Opensourceboilerplates | ❌ failed | 405 | 2026-08-18 |
 | Openstartup | ❌ failed | 405 | 2026-08-18 |
 | Opentools | ✅ success | 204 | 2026-08-18 |
+| Opentoolsai | ❌ failed | 404 | 2026-08-18 |
+| Peerlist | ❌ failed | 403 | 2026-08-18 |
 | Peerpush | ✅ success | 200 | 2026-08-18 |
+| Peerspot | ✅ success | 200 | 2026-08-18 |
 | Perso | ❌ failed | 405 | 2026-08-18 |
 | Pitchwall | ✅ success | 200 | 2026-08-18 |
+| Pluginplay | ❌ failed | — | 2026-08-18 |
+| Popularaitools | ❌ failed | 405 | 2026-08-18 |
 | Postmake | ✅ success | 200 | 2026-08-18 |
 | Praneetbrar | ❌ failed | 405 | 2026-08-18 |
 | Press | ❌ failed | 404 | 2026-08-18 |
@@ -261,6 +308,7 @@
 | Rhyzz | ❌ failed | 403 | 2026-08-18 |
 | Roxnation | ❌ failed | 405 | 2026-08-18 |
 | SaaSHub | ✅ success | 200 | 2026-08-18 |
+| Saasaitools | ❌ failed | 404 | 2026-08-18 |
 | Saasalliance | ✅ success | 200 | 2026-08-18 |
 | Saasbaba | ✅ success | 200 | 2026-08-18 |
 | Saasboilerplate | ❌ failed | 403 | 2026-08-18 |
@@ -290,9 +338,12 @@
 | ShareTool | ✅ success | 200 | 2026-08-18 |
 | Shipstry | ✅ success | 200 | 2026-08-18 |
 | Sick | ❌ failed | 404 | 2026-08-18 |
+| Sidebar | ❌ failed | 405 | 2026-08-18 |
 | Sideprojectors | ❌ failed | 403 | 2026-08-18 |
 | Sitelike | ❌ failed | 403 | 2026-08-18 |
 | Slant | ❌ failed | 403 | 2026-08-18 |
+| Smart Tools | ❌ failed | 402 | 2026-08-18 |
+| Softgist | ❌ failed | — | 2026-08-18 |
 | Softwareadvice | ❌ failed | 403 | 2026-08-18 |
 | Softwareontheweb | ❌ failed | 405 | 2026-08-18 |
 | Softwaresuggest | ✅ success | 200 | 2026-08-18 |
@@ -302,43 +353,61 @@
 | Soverin | ❌ failed | — | 2026-08-18 |
 | Spiceworks | ❌ failed | 200 | 2026-08-18 |
 | Spotsaas | ✅ success | 200 | 2026-08-18 |
+| Sprout24 | ❌ failed | 404 | 2026-08-18 |
 | Spsfeed | ❌ failed | — | 2026-08-18 |
 | Stack | ❌ failed | 403 | 2026-08-18 |
 | Stacklist | ❌ failed | 405 | 2026-08-18 |
 | Stackshare | ❌ failed | 429 | 2026-08-18 |
 | Stakenova | ❌ failed | 405 | 2026-08-18 |
 | Starterstory | ✅ success | 200 | 2026-08-18 |
+| Startupaitools | ❌ failed | 404 | 2026-08-18 |
+| Startupanz | ❌ failed | 404 | 2026-08-18 |
 | Startupbase | ✅ success | 200 | 2026-08-18 |
 | Startupbeat | ❌ failed | 404 | 2026-08-18 |
 | Startupbuffer | ❌ failed | 403 | 2026-08-18 |
+| Startupcollections | ❌ failed | 404 | 2026-08-18 |
+| Startupdope | ❌ failed | 404 | 2026-08-18 |
 | Startupfa | ✅ success | 200 | 2026-08-18 |
+| Startupguys | ✅ success | 200 | 2026-08-18 |
 | Startupinspire | ❌ failed | 403 | 2026-08-18 |
 | Startuplister | ❌ failed | 404 | 2026-08-18 |
 | Startupranking | ❌ failed | 403 | 2026-08-18 |
 | Startuproulette | ❌ failed | — | 2026-08-18 |
 | Startups | ✅ success | 200 | 2026-08-18 |
+| Startupsea | ❌ failed | 400 | 2026-08-18 |
 | Startupspotlight | ✅ success | 200 | 2026-08-18 |
 | Startupstage | ❌ failed | — | 2026-08-18 |
 | Startupstash | ❌ failed | 404 | 2026-08-18 |
 | Startuptile | ❌ failed | 403 | 2026-08-18 |
 | Startuptracker | ❌ failed | 405 | 2026-08-18 |
+| Stork | ❌ failed | 405 | 2026-08-18 |
 | Submitaitool | ❌ failed | 404 | 2026-08-18 |
 | Submitjuice | ❌ failed | 405 | 2026-08-18 |
 | Suitapp | ❌ failed | 404 | 2026-08-18 |
+| Supertools | ❌ failed | 410 | 2026-08-18 |
+| Surges | ❌ failed | 200 | 2026-08-18 |
 | Swhouses | ❌ failed | — | 2026-08-18 |
+| Switbai | ✅ success | 200 | 2026-08-18 |
 | T0ai | ✅ success | 200 | 2026-08-18 |
+| Taalk | ❌ failed | 404 | 2026-08-18 |
 | Tap4 | ✅ success | 200 | 2026-08-18 |
 | Techbehemoths | ❌ failed | 403 | 2026-08-18 |
+| Techcrunch | ❌ failed | 404 | 2026-08-18 |
 | Techdirectory | ❌ failed | 403 | 2026-08-18 |
 | Technologyadvice | ❌ failed | 403 | 2026-08-18 |
-| Techpluto | ❌ failed | 404 | 2026-08-18 |
+| Techpluto | ❌ failed | — | 2026-08-18 |
 | Tekpon | ✅ success | 200 | 2026-08-18 |
 | Template0 | ❌ failed | 200 | 2026-08-18 |
 | Templatefame | ✅ success | 200 | 2026-08-18 |
 | Testdev | ❌ failed | 404 | 2026-08-18 |
+| Textify | ❌ failed | 404 | 2026-08-18 |
+| Thataicollection | ❌ failed | 403 | 2026-08-18 |
+| Theaiexchange | ❌ failed | 405 | 2026-08-18 |
 | Theaigeneration | ❌ failed | 404 | 2026-08-18 |
 | Thenocodecrew | ❌ failed | 404 | 2026-08-18 |
 | Theralist | ❌ failed | 200 | 2026-08-18 |
+| Theresanaiforthat | ❌ failed | 403 | 2026-08-18 |
+| Thestartupinc | ❌ failed | 404 | 2026-08-18 |
 | Thestartuppitch | ❌ failed | — | 2026-08-18 |
 | Theteafinder | ❌ failed | — | 2026-08-18 |
 | Thetechindex | ❌ failed | 404 | 2026-08-18 |
@@ -350,17 +419,23 @@
 | ToolPilot | ✅ success | 200 | 2026-08-18 |
 | Toolaunch | ✅ success | 200 | 2026-08-18 |
 | Toolbloom | ✅ success | 200 | 2026-08-18 |
+| Tooldirectory | ❌ failed | 403 | 2026-08-18 |
 | Toolfame | ✅ success | 200 | 2026-08-18 |
 | Toolfinder | ✅ success | 200 | 2026-08-18 |
 | Toolhunt | ✅ success | 200 | 2026-08-18 |
+| Toolify | ❌ failed | 403 | 2026-08-18 |
 | Toolist | ✅ success | 200 | 2026-08-18 |
 | Toolpilot | ✅ success | 200 | 2026-08-18 |
 | Toolrain | ✅ success | 200 | 2026-08-18 |
-| Tools | ❌ failed | 405 | 2026-08-18 |
+| Tools | ❌ failed | — | 2026-08-18 |
+| Toolsalad | ❌ failed | 522 | 2026-08-18 |
+| Toolscout | ❌ failed | 405 | 2026-08-18 |
 | Toolsfine | ✅ success | 200 | 2026-08-18 |
 | Toolsformakers | ❌ failed | 404 | 2026-08-18 |
 | Toolsnocode | ❌ failed | 404 | 2026-08-18 |
+| Toolspedia | ❌ failed | 404 | 2026-08-18 |
 | Toools | ❌ failed | 200 | 2026-08-18 |
+| Topai | ❌ failed | 403 | 2026-08-18 |
 | Topboilerplate | ❌ failed | 405 | 2026-08-18 |
 | Topindie | ❌ failed | — | 2026-08-18 |
 | Topnocode | ❌ failed | 405 | 2026-08-18 |
@@ -375,9 +450,14 @@
 | Ugcpicks | ❌ failed | 405 | 2026-08-18 |
 | Under1000mrr | ❌ failed | — | 2026-08-18 |
 | Uneed | ✅ success | 200 | 2026-08-18 |
+| Uneedbest | ✅ success | 200 | 2026-08-18 |
 | Uno | ✅ success | 200 | 2026-08-18 |
 | Utilportal | ✅ success | 200 | 2026-08-18 |
+| Ventureradar | ✅ success | 200 | 2026-08-18 |
+| Webapprater | ❌ failed | 404 | 2026-08-18 |
+| Webofai | ❌ failed | 403 | 2026-08-18 |
 | Webuylandfast | ❌ failed | 404 | 2026-08-18 |
+| Webwiki | ❌ failed | 403 | 2026-08-18 |
 | Whattheai | ✅ success | 200 | 2026-08-18 |
 | Winneradspy | ✅ success | 200 | 2026-08-18 |
 | Wisepickai | ❌ failed | — | 2026-08-18 |
