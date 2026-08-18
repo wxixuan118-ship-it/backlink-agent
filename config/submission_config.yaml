@@ -5281,7 +5281,8 @@ directories:
   # ═══ Playwright (JS forms) ═══════════════════
   - name: "Genai"
     url: "genai.works/applications"
-    type: playwright
+    type: manual
+    notes: "Auto-downgraded (Playwright also failed)"
 
   - name: "Ai Hunter"
     url: "ai-hunter.io"
