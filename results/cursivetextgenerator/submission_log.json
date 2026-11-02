@@ -1977,8 +1977,8 @@
       "url": "https://freemiumai.net",
       "status": "failed",
       "http_status": 404,
-      "attempt": 2,
-      "timestamp": "2026-10-26T15:37:52.000418+00:00",
+      "attempt": 1,
+      "timestamp": "2026-11-02T18:58:54.177686+00:00",
       "notes": ""
     },
     {
@@ -1987,7 +1987,7 @@
       "status": "failed",
       "http_status": null,
       "attempt": 3,
-      "timestamp": "2026-10-26T15:39:00.338652+00:00",
+      "timestamp": "2026-11-02T18:59:05.509830+00:00",
       "notes": "Exceeded retries"
     },
     {
@@ -1996,7 +1996,7 @@
       "status": "failed",
       "http_status": null,
       "attempt": 3,
-      "timestamp": "2026-10-26T15:40:08.277487+00:00",
+      "timestamp": "2026-11-02T18:59:15.000921+00:00",
       "notes": "Exceeded retries"
     },
     {
@@ -2005,7 +2005,7 @@
       "status": "failed",
       "http_status": 404,
       "attempt": 1,
-      "timestamp": "2026-10-26T15:40:17.741655+00:00",
+      "timestamp": "2026-11-02T18:59:22.827271+00:00",
       "notes": ""
     },
     {
@@ -2014,7 +2014,7 @@
       "status": "failed",
       "http_status": 405,
       "attempt": 1,
-      "timestamp": "2026-10-26T15:41:29.438174+00:00",
+      "timestamp": "2026-11-02T18:59:35.633147+00:00",
       "notes": ""
     },
     {
@@ -2023,7 +2023,7 @@
       "status": "failed",
       "http_status": 403,
       "attempt": 1,
-      "timestamp": "2026-10-26T15:41:33.390038+00:00",
+      "timestamp": "2026-11-02T18:59:39.819056+00:00",
       "notes": ""
     },
     {
@@ -2032,7 +2032,7 @@
       "status": "failed",
       "http_status": 500,
       "attempt": 1,
-      "timestamp": "2026-10-26T15:41:41.305162+00:00",
+      "timestamp": "2026-11-02T18:59:47.415915+00:00",
       "notes": ""
     },
     {
@@ -2041,7 +2041,7 @@
       "status": "failed",
       "http_status": 405,
       "attempt": 1,
-      "timestamp": "2026-10-26T15:41:44.982174+00:00",
+      "timestamp": "2026-11-02T18:59:51.341287+00:00",
       "notes": ""
     },
     {
@@ -2050,7 +2050,7 @@
       "status": "failed",
       "http_status": 404,
       "attempt": 1,
-      "timestamp": "2026-10-26T15:41:50.955043+00:00",
+      "timestamp": "2026-11-02T18:59:57.709546+00:00",
       "notes": ""
     },
     {
@@ -2059,7 +2059,7 @@
       "status": "failed",
       "http_status": 404,
       "attempt": 1,
-      "timestamp": "2026-10-26T15:41:54.865129+00:00",
+      "timestamp": "2026-11-02T19:00:01.539990+00:00",
       "notes": ""
     },
     {
@@ -2068,7 +2068,7 @@
       "status": "failed",
       "http_status": 405,
       "attempt": 1,
-      "timestamp": "2026-10-26T15:41:58.447268+00:00",
+      "timestamp": "2026-11-02T19:00:05.335336+00:00",
       "notes": ""
     },
     {
@@ -2077,7 +2077,7 @@
       "status": "failed",
       "http_status": 405,
       "attempt": 1,
-      "timestamp": "2026-10-26T15:42:03.610419+00:00",
+      "timestamp": "2026-11-02T19:00:09.173317+00:00",
       "notes": ""
     },
     {
@@ -2086,17 +2086,17 @@
       "status": "failed",
       "http_status": 403,
       "attempt": 1,
-      "timestamp": "2026-10-26T15:42:07.260776+00:00",
+      "timestamp": "2026-11-02T19:00:12.697210+00:00",
       "notes": ""
     },
     {
       "name": "Wtcraft",
       "url": "https://wtcraft.com/",
       "status": "failed",
-      "http_status": null,
-      "attempt": 3,
-      "timestamp": "2026-10-26T15:42:44.641906+00:00",
-      "notes": "Exceeded retries"
+      "http_status": 404,
+      "attempt": 1,
+      "timestamp": "2026-11-02T19:00:16.114654+00:00",
+      "notes": ""
     },
     {
       "name": "Theralist",
@@ -2104,7 +2104,7 @@
       "status": "failed",
       "http_status": 200,
       "attempt": 1,
-      "timestamp": "2026-10-26T15:42:48.984153+00:00",
+      "timestamp": "2026-11-02T19:00:20.420185+00:00",
       "notes": ""
     },
     {
@@ -2113,7 +2113,7 @@
       "status": "failed",
       "http_status": null,
       "attempt": 3,
-      "timestamp": "2026-10-26T15:43:56.549112+00:00",
+      "timestamp": "2026-11-02T19:01:28.086733+00:00",
       "notes": "Exceeded retries"
     },
     {
@@ -2122,7 +2122,7 @@
       "status": "failed",
       "http_status": null,
       "attempt": 3,
-      "timestamp": "2026-10-26T15:44:04.457046+00:00",
+      "timestamp": "2026-11-02T19:01:36.006990+00:00",
       "notes": "Exceeded retries"
     },
     {
@@ -2131,7 +2131,7 @@
       "status": "failed",
       "http_status": 403,
       "attempt": 1,
-      "timestamp": "2026-10-26T15:44:09.239680+00:00",
+      "timestamp": "2026-11-02T19:01:40.878544+00:00",
       "notes": ""
     },
     {
@@ -2140,7 +2140,7 @@
       "status": "failed",
       "http_status": 403,
       "attempt": 1,
-      "timestamp": "2026-10-26T15:44:13.821543+00:00",
+      "timestamp": "2026-11-02T19:01:45.989101+00:00",
       "notes": ""
     },
     {
@@ -2149,7 +2149,7 @@
       "status": "failed",
       "http_status": 404,
       "attempt": 1,
-      "timestamp": "2026-10-26T15:44:17.543884+00:00",
+      "timestamp": "2026-11-02T19:01:49.531984+00:00",
       "notes": ""
     },
     {
@@ -2158,7 +2158,7 @@
       "status": "failed",
       "http_status": 403,
       "attempt": 1,
-      "timestamp": "2026-10-26T15:44:21.200625+00:00",
+      "timestamp": "2026-11-02T19:01:53.374139+00:00",
       "notes": ""
     },
     {
@@ -2167,7 +2167,7 @@
       "status": "failed",
       "http_status": 403,
       "attempt": 1,
-      "timestamp": "2026-10-26T15:44:25.099790+00:00",
+      "timestamp": "2026-11-02T19:01:58.017388+00:00",
       "notes": ""
     },
     {
@@ -2176,7 +2176,7 @@
       "status": "failed",
       "http_status": 403,
       "attempt": 1,
-      "timestamp": "2026-10-26T15:44:28.695343+00:00",
+      "timestamp": "2026-11-02T19:02:02.120416+00:00",
       "notes": ""
     },
     {
@@ -2185,7 +2185,7 @@
       "status": "failed",
       "http_status": 405,
       "attempt": 1,
-      "timestamp": "2026-10-26T15:44:32.502601+00:00",
+      "timestamp": "2026-11-02T19:02:05.818082+00:00",
       "notes": ""
     },
     {
@@ -2194,7 +2194,7 @@
       "status": "failed",
       "http_status": 405,
       "attempt": 1,
-      "timestamp": "2026-10-26T15:44:36.810910+00:00",
+      "timestamp": "2026-11-02T19:02:10.379420+00:00",
       "notes": ""
     },
     {
@@ -2203,7 +2203,7 @@
       "status": "failed",
       "http_status": 403,
       "attempt": 1,
-      "timestamp": "2026-10-26T15:44:40.360905+00:00",
+      "timestamp": "2026-11-02T19:02:14.454857+00:00",
       "notes": ""
     },
     {
@@ -2212,7 +2212,7 @@
       "status": "failed",
       "http_status": 403,
       "attempt": 1,
-      "timestamp": "2026-10-26T15:44:45.002847+00:00",
+      "timestamp": "2026-11-02T19:02:18.717980+00:00",
       "notes": ""
     },
     {
@@ -2221,7 +2221,7 @@
       "status": "failed",
       "http_status": 404,
       "attempt": 1,
-      "timestamp": "2026-10-26T15:44:49.925179+00:00",
+      "timestamp": "2026-11-02T19:02:26.507231+00:00",
       "notes": ""
     },
     {
@@ -2230,7 +2230,7 @@
       "status": "failed",
       "http_status": 403,
       "attempt": 1,
-      "timestamp": "2026-10-26T15:44:53.529176+00:00",
+      "timestamp": "2026-11-02T19:02:30.600700+00:00",
       "notes": ""
     },
     {
@@ -2239,7 +2239,7 @@
       "status": "failed",
       "http_status": 405,
       "attempt": 1,
-      "timestamp": "2026-10-26T15:44:58.335075+00:00",
+      "timestamp": "2026-11-02T19:02:35.334804+00:00",
       "notes": ""
     },
     {
@@ -2248,7 +2248,7 @@
       "status": "failed",
       "http_status": 403,
       "attempt": 1,
-      "timestamp": "2026-10-26T15:45:02.929952+00:00",
+      "timestamp": "2026-11-02T19:02:40.650643+00:00",
       "notes": ""
     },
     {
@@ -2257,7 +2257,7 @@
       "status": "failed",
       "http_status": 404,
       "attempt": 1,
-      "timestamp": "2026-10-26T15:45:07.050625+00:00",
+      "timestamp": "2026-11-02T19:02:45.271321+00:00",
       "notes": ""
     },
     {
@@ -2266,7 +2266,7 @@
       "status": "failed",
       "http_status": 405,
       "attempt": 1,
-      "timestamp": "2026-10-26T15:45:11.803840+00:00",
+      "timestamp": "2026-11-02T19:02:50.143973+00:00",
       "notes": ""
     },
     {
@@ -2275,7 +2275,7 @@
       "status": "failed",
       "http_status": 403,
       "attempt": 1,
-      "timestamp": "2026-10-26T15:45:15.756044+00:00",
+      "timestamp": "2026-11-02T19:02:54.174131+00:00",
       "notes": ""
     },
     {
@@ -2284,7 +2284,7 @@
       "status": "failed",
       "http_status": 405,
       "attempt": 1,
-      "timestamp": "2026-10-26T15:45:19.776433+00:00",
+      "timestamp": "2026-11-02T19:02:58.003608+00:00",
       "notes": ""
     },
     {
@@ -2293,7 +2293,7 @@
       "status": "failed",
       "http_status": 405,
       "attempt": 1,
-      "timestamp": "2026-10-26T15:45:23.272623+00:00",
+      "timestamp": "2026-11-02T19:03:01.842385+00:00",
       "notes": ""
     },
     {
@@ -2302,7 +2302,7 @@
       "status": "failed",
       "http_status": null,
       "attempt": 3,
-      "timestamp": "2026-10-26T15:45:31.723796+00:00",
+      "timestamp": "2026-11-02T19:03:09.682500+00:00",
       "notes": "Exceeded retries"
     },
     {
@@ -2310,8 +2310,8 @@
       "url": "https://directories.best/",
       "status": "failed",
       "http_status": 404,
-      "attempt": 1,
-      "timestamp": "2026-10-26T15:45:36.672361+00:00",
+      "attempt": 2,
+      "timestamp": "2026-11-02T19:03:58.343050+00:00",
       "notes": ""
     },
     {
@@ -2320,7 +2320,7 @@
       "status": "failed",
       "http_status": 403,
       "attempt": 1,
-      "timestamp": "2026-10-26T15:45:40.595012+00:00",
+      "timestamp": "2026-11-02T19:04:02.355800+00:00",
       "notes": ""
     },
     {
@@ -2329,7 +2329,7 @@
       "status": "failed",
       "http_status": null,
       "attempt": 3,
-      "timestamp": "2026-10-26T15:45:48.275564+00:00",
+      "timestamp": "2026-11-02T19:04:09.849987+00:00",
       "notes": "Exceeded retries"
     },
     {
@@ -2338,7 +2338,7 @@
       "status": "failed",
       "http_status": 405,
       "attempt": 1,
-      "timestamp": "2026-10-26T15:45:52.794586+00:00",
+      "timestamp": "2026-11-02T19:04:14.442721+00:00",
       "notes": ""
     },
     {
@@ -2347,7 +2347,7 @@
       "status": "failed",
       "http_status": null,
       "attempt": 3,
-      "timestamp": "2026-10-26T15:46:00.563307+00:00",
+      "timestamp": "2026-11-02T19:04:22.487768+00:00",
       "notes": "Exceeded retries"
     },
     {
@@ -2356,7 +2356,7 @@
       "status": "failed",
       "http_status": 404,
       "attempt": 1,
-      "timestamp": "2026-10-26T15:46:05.073842+00:00",
+      "timestamp": "2026-11-02T19:04:27.510438+00:00",
       "notes": ""
     },
     {
@@ -2365,7 +2365,7 @@
       "status": "failed",
       "http_status": null,
       "attempt": 3,
-      "timestamp": "2026-10-26T15:46:12.640832+00:00",
+      "timestamp": "2026-11-02T19:04:34.963799+00:00",
       "notes": "Exceeded retries"
     },
     {
@@ -2374,7 +2374,7 @@
       "status": "failed",
       "http_status": 405,
       "attempt": 1,
-      "timestamp": "2026-10-26T15:46:17.290509+00:00",
+      "timestamp": "2026-11-02T19:04:39.501106+00:00",
       "notes": ""
     },
     {
@@ -2383,7 +2383,7 @@
       "status": "failed",
       "http_status": 403,
       "attempt": 1,
-      "timestamp": "2026-10-26T15:46:20.842946+00:00",
+      "timestamp": "2026-11-02T19:04:43.148985+00:00",
       "notes": ""
     },
     {
@@ -2392,7 +2392,7 @@
       "status": "failed",
       "http_status": 403,
       "attempt": 1,
-      "timestamp": "2026-10-26T15:46:24.520518+00:00",
+      "timestamp": "2026-11-02T19:04:46.631073+00:00",
       "notes": ""
     },
     {
@@ -2401,7 +2401,7 @@
       "status": "failed",
       "http_status": 404,
       "attempt": 1,
-      "timestamp": "2026-10-26T15:46:29.278637+00:00",
+      "timestamp": "2026-11-02T19:04:52.798467+00:00",
       "notes": ""
     },
     {
@@ -2410,7 +2410,7 @@
       "status": "failed",
       "http_status": 404,
       "attempt": 1,
-      "timestamp": "2026-10-26T15:46:36.253293+00:00",
+      "timestamp": "2026-11-02T19:05:05.747725+00:00",
       "notes": ""
     },
     {
@@ -2419,7 +2419,7 @@
       "status": "failed",
       "http_status": 404,
       "attempt": 1,
-      "timestamp": "2026-10-26T15:46:40.336002+00:00",
+      "timestamp": "2026-11-02T19:05:10.024382+00:00",
       "notes": ""
     },
     {
@@ -2428,7 +2428,7 @@
       "status": "failed",
       "http_status": 405,
       "attempt": 1,
-      "timestamp": "2026-10-26T15:46:45.492465+00:00",
+      "timestamp": "2026-11-02T19:05:14.414283+00:00",
       "notes": ""
     },
     {
@@ -2437,7 +2437,7 @@
       "status": "failed",
       "http_status": null,
       "attempt": 3,
-      "timestamp": "2026-10-26T15:47:55.865760+00:00",
+      "timestamp": "2026-11-02T19:06:25.216794+00:00",
       "notes": "Exceeded retries"
     },
     {
@@ -2446,7 +2446,7 @@
       "status": "failed",
       "http_status": 403,
       "attempt": 1,
-      "timestamp": "2026-10-26T15:48:00.007424+00:00",
+      "timestamp": "2026-11-02T19:06:29.667728+00:00",
       "notes": ""
     },
     {
@@ -2455,7 +2455,7 @@
       "status": "failed",
       "http_status": 405,
       "attempt": 1,
-      "timestamp": "2026-10-26T15:48:03.566024+00:00",
+      "timestamp": "2026-11-02T19:06:33.557133+00:00",
       "notes": ""
     },
     {
@@ -2464,7 +2464,7 @@
       "status": "failed",
       "http_status": 405,
       "attempt": 1,
-      "timestamp": "2026-10-26T15:48:08.104496+00:00",
+      "timestamp": "2026-11-02T19:06:37.710036+00:00",
       "notes": ""
     },
     {
@@ -2473,7 +2473,7 @@
       "status": "failed",
       "http_status": 405,
       "attempt": 1,
-      "timestamp": "2026-10-26T15:48:12.194540+00:00",
+      "timestamp": "2026-11-02T19:06:42.958228+00:00",
       "notes": ""
     },
     {
@@ -2482,7 +2482,7 @@
       "status": "failed",
       "http_status": 404,
       "attempt": 1,
-      "timestamp": "2026-10-26T15:48:15.990563+00:00",
+      "timestamp": "2026-11-02T19:06:46.780568+00:00",
       "notes": ""
     },
     {
@@ -2491,7 +2491,7 @@
       "status": "failed",
       "http_status": 403,
       "attempt": 1,
-      "timestamp": "2026-10-26T15:48:19.590664+00:00",
+      "timestamp": "2026-11-02T19:06:50.433366+00:00",
       "notes": ""
     },
     {
@@ -2500,7 +2500,7 @@
       "status": "failed",
       "http_status": null,
       "attempt": 3,
-      "timestamp": "2026-10-26T15:48:27.914836+00:00",
+      "timestamp": "2026-11-02T19:06:59.540557+00:00",
       "notes": "Exceeded retries"
     },
     {
@@ -2509,7 +2509,7 @@
       "status": "failed",
       "http_status": null,
       "attempt": 3,
-      "timestamp": "2026-10-26T15:48:35.499496+00:00",
+      "timestamp": "2026-11-02T19:07:07.058717+00:00",
       "notes": "Exceeded retries"
     },
     {
@@ -2518,7 +2518,7 @@
       "status": "failed",
       "http_status": 405,
       "attempt": 1,
-      "timestamp": "2026-10-26T15:48:39.875742+00:00",
+      "timestamp": "2026-11-02T19:07:11.268196+00:00",
       "notes": ""
     },
     {
@@ -2527,7 +2527,7 @@
       "status": "failed",
       "http_status": null,
       "attempt": 3,
-      "timestamp": "2026-10-26T15:48:47.402346+00:00",
+      "timestamp": "2026-11-02T19:07:18.657117+00:00",
       "notes": "Exceeded retries"
     },
     {
@@ -2536,7 +2536,7 @@
       "status": "failed",
       "http_status": 404,
       "attempt": 1,
-      "timestamp": "2026-10-26T15:48:52.064576+00:00",
+      "timestamp": "2026-11-02T19:07:23.342116+00:00",
       "notes": ""
     },
     {
@@ -2545,7 +2545,7 @@
       "status": "failed",
       "http_status": null,
       "attempt": 3,
-      "timestamp": "2026-10-26T15:48:59.768226+00:00",
+      "timestamp": "2026-11-02T19:07:30.666402+00:00",
       "notes": "Exceeded retries"
     },
     {
@@ -2554,7 +2554,7 @@
       "status": "failed",
       "http_status": 405,
       "attempt": 1,
-      "timestamp": "2026-10-26T15:49:03.658643+00:00",
+      "timestamp": "2026-11-02T19:07:34.943278+00:00",
       "notes": ""
     },
     {
@@ -2563,7 +2563,7 @@
       "status": "failed",
       "http_status": null,
       "attempt": 3,
-      "timestamp": "2026-10-26T15:49:19.044589+00:00",
+      "timestamp": "2026-11-02T19:07:51.072084+00:00",
       "notes": "Exceeded retries"
     },
     {
@@ -2572,7 +2572,7 @@
       "status": "failed",
       "http_status": 405,
       "attempt": 1,
-      "timestamp": "2026-10-26T15:49:22.667926+00:00",
+      "timestamp": "2026-11-02T19:07:54.604996+00:00",
       "notes": ""
     },
     {
@@ -2581,7 +2581,7 @@
       "status": "failed",
       "http_status": 403,
       "attempt": 1,
-      "timestamp": "2026-10-26T15:49:26.419329+00:00",
+      "timestamp": "2026-11-02T19:07:58.879034+00:00",
       "notes": ""
     },
     {
@@ -2590,7 +2590,7 @@
       "status": "failed",
       "http_status": 404,
       "attempt": 1,
-      "timestamp": "2026-10-26T15:49:31.758779+00:00",
+      "timestamp": "2026-11-02T19:08:04.375941+00:00",
       "notes": ""
     },
     {
@@ -2599,7 +2599,7 @@
       "status": "failed",
       "http_status": null,
       "attempt": 3,
-      "timestamp": "2026-10-26T15:49:39.594703+00:00",
+      "timestamp": "2026-11-02T19:08:12.484844+00:00",
       "notes": "Exceeded retries"
     },
     {
@@ -2607,8 +2607,8 @@
       "url": "https://allthatsaas.com",
       "status": "failed",
       "http_status": 522,
-      "attempt": 2,
-      "timestamp": "2026-10-26T15:50:45.151103+00:00",
+      "attempt": 1,
+      "timestamp": "2026-11-02T19:08:55.151737+00:00",
       "notes": ""
     },
     {
@@ -2617,7 +2617,7 @@
       "status": "failed",
       "http_status": null,
       "attempt": 3,
-      "timestamp": "2026-10-26T15:50:56.870484+00:00",
+      "timestamp": "2026-11-02T19:09:06.997127+00:00",
       "notes": "Exceeded retries"
     },
     {
@@ -2626,7 +2626,7 @@
       "status": "failed",
       "http_status": null,
       "attempt": 3,
-      "timestamp": "2026-10-26T15:51:04.520402+00:00",
+      "timestamp": "2026-11-02T19:09:14.746021+00:00",
       "notes": "Exceeded retries"
     },
     {
@@ -2635,7 +2635,7 @@
       "status": "failed",
       "http_status": 404,
       "attempt": 1,
-      "timestamp": "2026-10-26T15:51:08.300058+00:00",
+      "timestamp": "2026-11-02T19:09:18.671512+00:00",
       "notes": ""
     },
     {
@@ -2644,7 +2644,7 @@
       "status": "failed",
       "http_status": 405,
       "attempt": 1,
-      "timestamp": "2026-10-26T15:51:12.004717+00:00",
+      "timestamp": "2026-11-02T19:09:23.133106+00:00",
       "notes": ""
     },
     {
@@ -2653,7 +2653,7 @@
       "status": "failed",
       "http_status": 403,
       "attempt": 1,
-      "timestamp": "2026-10-26T15:51:15.581232+00:00",
+      "timestamp": "2026-11-02T19:09:26.689048+00:00",
       "notes": ""
     },
     {
@@ -2662,7 +2662,7 @@
       "status": "failed",
       "http_status": 403,
       "attempt": 1,
-      "timestamp": "2026-10-26T15:51:19.331192+00:00",
+      "timestamp": "2026-11-02T19:09:30.294247+00:00",
       "notes": ""
     },
     {
@@ -2671,7 +2671,7 @@
       "status": "failed",
       "http_status": 405,
       "attempt": 1,
-      "timestamp": "2026-10-26T15:51:23.435221+00:00",
+      "timestamp": "2026-11-02T19:09:34.704521+00:00",
       "notes": ""
     },
     {
@@ -2680,7 +2680,7 @@
       "status": "failed",
       "http_status": 200,
       "attempt": 1,
-      "timestamp": "2026-10-26T15:51:27.690193+00:00",
+      "timestamp": "2026-11-02T19:09:39.581627+00:00",
       "notes": ""
     },
     {
@@ -2689,7 +2689,7 @@
       "status": "failed",
       "http_status": 403,
       "attempt": 1,
-      "timestamp": "2026-10-26T15:51:31.389508+00:00",
+      "timestamp": "2026-11-02T19:09:43.074892+00:00",
       "notes": ""
     },
     {
@@ -2698,7 +2698,7 @@
       "status": "failed",
       "http_status": 404,
       "attempt": 1,
-      "timestamp": "2026-10-26T15:51:35.787350+00:00",
+      "timestamp": "2026-11-02T19:09:47.513688+00:00",
       "notes": ""
     },
     {
@@ -2707,7 +2707,7 @@
       "status": "failed",
       "http_status": 403,
       "attempt": 1,
-      "timestamp": "2026-10-26T15:52:47.287836+00:00",
+      "timestamp": "2026-11-02T19:10:58.595028+00:00",
       "notes": ""
     },
     {
@@ -2716,7 +2716,7 @@
       "status": "failed",
       "http_status": 429,
       "attempt": 1,
-      "timestamp": "2026-10-26T15:52:55.237874+00:00",
+      "timestamp": "2026-11-02T19:11:05.931262+00:00",
       "notes": ""
     },
     {
@@ -2725,7 +2725,7 @@
       "status": "failed",
       "http_status": 403,
       "attempt": 1,
-      "timestamp": "2026-10-26T15:52:59.406775+00:00",
+      "timestamp": "2026-11-02T19:11:10.236572+00:00",
       "notes": ""
     },
     {
@@ -2734,7 +2734,7 @@
       "status": "failed",
       "http_status": 200,
       "attempt": 1,
-      "timestamp": "2026-10-26T15:53:03.186655+00:00",
+      "timestamp": "2026-11-02T19:11:14.105255+00:00",
       "notes": ""
     },
     {
@@ -2743,7 +2743,7 @@
       "status": "failed",
       "http_status": 404,
       "attempt": 1,
-      "timestamp": "2026-10-26T15:53:06.923545+00:00",
+      "timestamp": "2026-11-02T19:11:23.294912+00:00",
       "notes": ""
     },
     {
@@ -2752,7 +2752,7 @@
       "status": "failed",
       "http_status": 405,
       "attempt": 1,
-      "timestamp": "2026-10-26T15:53:10.986456+00:00",
+      "timestamp": "2026-11-02T19:11:27.116096+00:00",
       "notes": ""
     },
     {
@@ -2761,7 +2761,7 @@
       "status": "failed",
       "http_status": 403,
       "attempt": 1,
-      "timestamp": "2026-10-26T15:53:18.242929+00:00",
+      "timestamp": "2026-11-02T19:11:33.998345+00:00",
       "notes": ""
     },
     {
@@ -2770,7 +2770,7 @@
       "status": "failed",
       "http_status": 403,
       "attempt": 1,
-      "timestamp": "2026-10-26T15:53:25.537569+00:00",
+      "timestamp": "2026-11-02T19:11:41.349364+00:00",
       "notes": ""
     },
     {
@@ -2779,7 +2779,7 @@
       "status": "failed",
       "http_status": 403,
       "attempt": 1,
-      "timestamp": "2026-10-26T15:53:32.908949+00:00",
+      "timestamp": "2026-11-02T19:11:48.480752+00:00",
       "notes": ""
     },
     {
@@ -2788,16 +2788,16 @@
       "status": "failed",
       "http_status": 404,
       "attempt": 1,
-      "timestamp": "2026-10-26T15:53:39.095278+00:00",
+      "timestamp": "2026-11-02T19:11:53.536672+00:00",
       "notes": ""
     },
     {
       "name": "Gust",
       "url": "https://gust.com",
       "status": "failed",
-      "http_status": 404,
+      "http_status": 403,
       "attempt": 1,
-      "timestamp": "2026-10-26T15:53:43.493709+00:00",
+      "timestamp": "2026-11-02T19:11:57.027898+00:00",
       "notes": ""
     },
     {
@@ -2806,7 +2806,7 @@
       "status": "failed",
       "http_status": 404,
       "attempt": 1,
-      "timestamp": "2026-10-26T15:53:47.959479+00:00",
+      "timestamp": "2026-11-02T19:12:02.034161+00:00",
       "notes": ""
     },
     {
@@ -2815,7 +2815,7 @@
       "status": "failed",
       "http_status": 404,
       "attempt": 1,
-      "timestamp": "2026-10-26T15:53:53.577835+00:00",
+      "timestamp": "2026-11-02T19:12:06.952759+00:00",
       "notes": ""
     },
     {
@@ -2824,7 +2824,7 @@
       "status": "failed",
       "http_status": null,
       "attempt": 3,
-      "timestamp": "2026-10-26T15:54:01.400078+00:00",
+      "timestamp": "2026-11-02T19:12:14.585898+00:00",
       "notes": "Exceeded retries"
     },
     {
@@ -2833,7 +2833,7 @@
       "status": "failed",
       "http_status": 405,
       "attempt": 1,
-      "timestamp": "2026-10-26T15:54:05.417753+00:00",
+      "timestamp": "2026-11-02T19:12:19.045684+00:00",
       "notes": ""
     },
     {
@@ -2842,7 +2842,7 @@
       "status": "failed",
       "http_status": 404,
       "attempt": 1,
-      "timestamp": "2026-10-26T15:54:50.589074+00:00",
+      "timestamp": "2026-11-02T19:12:39.625640+00:00",
       "notes": ""
     },
     {
@@ -2851,7 +2851,7 @@
       "status": "failed",
       "http_status": 405,
       "attempt": 1,
-      "timestamp": "2026-10-26T15:54:58.037523+00:00",
+      "timestamp": "2026-11-02T19:12:47.380300+00:00",
       "notes": ""
     },
     {
@@ -2860,7 +2860,7 @@
       "status": "failed",
       "http_status": 500,
       "attempt": 1,
-      "timestamp": "2026-10-26T15:55:05.732959+00:00",
+      "timestamp": "2026-11-02T19:12:55.373784+00:00",
       "notes": ""
     },
     {
@@ -2869,7 +2869,7 @@
       "status": "failed",
       "http_status": 200,
       "attempt": 1,
-      "timestamp": "2026-10-26T15:55:13.924572+00:00",
+      "timestamp": "2026-11-02T19:13:03.400262+00:00",
       "notes": ""
     },
     {
@@ -2878,7 +2878,7 @@
       "status": "failed",
       "http_status": 405,
       "attempt": 1,
-      "timestamp": "2026-10-26T15:55:17.934826+00:00",
+      "timestamp": "2026-11-02T19:13:07.582221+00:00",
       "notes": ""
     },
     {
@@ -2887,7 +2887,7 @@
       "status": "failed",
       "http_status": null,
       "attempt": 3,
-      "timestamp": "2026-10-26T15:56:38.834052+00:00",
+      "timestamp": "2026-11-02T19:15:04.345885+00:00",
       "notes": "Exceeded retries"
     },
     {
@@ -2896,7 +2896,7 @@
       "status": "failed",
       "http_status": 520,
       "attempt": 1,
-      "timestamp": "2026-10-26T15:56:43.421691+00:00",
+      "timestamp": "2026-11-02T19:15:09.492630+00:00",
       "notes": ""
     },
     {
@@ -2905,7 +2905,7 @@
       "status": "failed",
       "http_status": 404,
       "attempt": 1,
-      "timestamp": "2026-10-26T15:56:51.310505+00:00",
+      "timestamp": "2026-11-02T19:15:17.694175+00:00",
       "notes": ""
     },
     {
@@ -2914,7 +2914,7 @@
       "status": "failed",
       "http_status": 404,
       "attempt": 1,
-      "timestamp": "2026-10-26T15:56:55.331691+00:00",
+      "timestamp": "2026-11-02T19:15:21.427360+00:00",
       "notes": ""
     },
     {
@@ -2923,7 +2923,7 @@
       "status": "failed",
       "http_status": 200,
       "attempt": 1,
-      "timestamp": "2026-10-26T15:56:59.242585+00:00",
+      "timestamp": "2026-11-02T19:15:25.222104+00:00",
       "notes": ""
     },
     {
@@ -2932,7 +2932,7 @@
       "status": "failed",
       "http_status": 403,
       "attempt": 1,
-      "timestamp": "2026-10-26T15:57:13.936851+00:00",
+      "timestamp": "2026-11-02T19:15:39.405085+00:00",
       "notes": ""
     },
     {
@@ -2941,7 +2941,7 @@
       "status": "failed",
       "http_status": 405,
       "attempt": 1,
-      "timestamp": "2026-10-26T15:57:18.329352+00:00",
+      "timestamp": "2026-11-02T19:15:42.983905+00:00",
       "notes": ""
     },
     {
@@ -2950,7 +2950,7 @@
       "status": "failed",
       "http_status": null,
       "attempt": 3,
-      "timestamp": "2026-10-26T15:57:26.027184+00:00",
+      "timestamp": "2026-11-02T19:15:50.452645+00:00",
       "notes": "Exceeded retries"
     },
     {
@@ -2959,7 +2959,7 @@
       "status": "failed",
       "http_status": null,
       "attempt": 3,
-      "timestamp": "2026-10-26T15:57:34.152487+00:00",
+      "timestamp": "2026-11-02T19:15:58.350917+00:00",
       "notes": "Exceeded retries"
     },
     {
@@ -2968,7 +2968,7 @@
       "status": "failed",
       "http_status": 404,
       "attempt": 1,
-      "timestamp": "2026-10-26T15:57:39.171785+00:00",
+      "timestamp": "2026-11-02T19:16:04.993937+00:00",
       "notes": ""
     },
     {
@@ -2977,7 +2977,7 @@
       "status": "failed",
       "http_status": 405,
       "attempt": 1,
-      "timestamp": "2026-10-26T15:57:43.021357+00:00",
+      "timestamp": "2026-11-02T19:16:08.773249+00:00",
       "notes": ""
     },
     {
@@ -2986,7 +2986,7 @@
       "status": "failed",
       "http_status": 405,
       "attempt": 1,
-      "timestamp": "2026-10-26T15:57:50.769940+00:00",
+      "timestamp": "2026-11-02T19:16:16.347258+00:00",
       "notes": ""
     },
     {
@@ -2995,17 +2995,17 @@
       "status": "failed",
       "http_status": 403,
       "attempt": 1,
-      "timestamp": "2026-10-26T15:57:58.606780+00:00",
+      "timestamp": "2026-11-02T19:16:23.984300+00:00",
       "notes": ""
     },
     {
       "name": "Sick",
       "url": "https://sick.tools",
       "status": "failed",
-      "http_status": 404,
-      "attempt": 1,
-      "timestamp": "2026-10-26T15:58:06.642594+00:00",
-      "notes": ""
+      "http_status": null,
+      "attempt": 3,
+      "timestamp": "2026-11-02T19:17:35.084552+00:00",
+      "notes": "Exceeded retries"
     },
     {
       "name": "Sitelike",
@@ -3013,7 +3013,7 @@
       "status": "failed",
       "http_status": 403,
       "attempt": 1,
-      "timestamp": "2026-10-26T15:58:13.679080+00:00",
+      "timestamp": "2026-11-02T19:17:42.436869+00:00",
       "notes": ""
     },
     {
@@ -3022,7 +3022,7 @@
       "status": "failed",
       "http_status": 403,
       "attempt": 1,
-      "timestamp": "2026-10-26T15:58:17.665168+00:00",
+      "timestamp": "2026-11-02T19:17:46.040159+00:00",
       "notes": ""
     },
     {
@@ -3031,7 +3031,7 @@
       "status": "failed",
       "http_status": 404,
       "attempt": 1,
-      "timestamp": "2026-10-26T15:58:22.294312+00:00",
+      "timestamp": "2026-11-02T19:17:51.775207+00:00",
       "notes": ""
     },
     {
@@ -3040,7 +3040,7 @@
       "status": "failed",
       "http_status": 403,
       "attempt": 1,
-      "timestamp": "2026-10-26T15:58:25.873135+00:00",
+      "timestamp": "2026-11-02T19:17:55.166121+00:00",
       "notes": ""
     },
     {
@@ -3049,7 +3049,7 @@
       "status": "failed",
       "http_status": 405,
       "attempt": 1,
-      "timestamp": "2026-10-26T15:58:29.664393+00:00",
+      "timestamp": "2026-11-02T19:17:58.950120+00:00",
       "notes": ""
     },
     {
@@ -3058,7 +3058,7 @@
       "status": "failed",
       "http_status": 403,
       "attempt": 1,
-      "timestamp": "2026-10-26T15:58:36.870050+00:00",
+      "timestamp": "2026-11-02T19:18:05.989467+00:00",
       "notes": ""
     },
     {
@@ -3067,7 +3067,7 @@
       "status": "failed",
       "http_status": 200,
       "attempt": 1,
-      "timestamp": "2026-10-26T15:58:40.603297+00:00",
+      "timestamp": "2026-11-02T19:18:09.475291+00:00",
       "notes": ""
     },
     {
@@ -3076,7 +3076,7 @@
       "status": "failed",
       "http_status": null,
       "attempt": 3,
-      "timestamp": "2026-10-26T15:58:48.067496+00:00",
+      "timestamp": "2026-11-02T19:18:17.224829+00:00",
       "notes": "Exceeded retries"
     },
     {
@@ -3085,7 +3085,7 @@
       "status": "failed",
       "http_status": 405,
       "attempt": 1,
-      "timestamp": "2026-10-26T15:58:51.987727+00:00",
+      "timestamp": "2026-11-02T19:18:21.014409+00:00",
       "notes": ""
     },
     {
@@ -3094,7 +3094,7 @@
       "status": "failed",
       "http_status": null,
       "attempt": 3,
-      "timestamp": "2026-10-26T15:59:10.817955+00:00",
+      "timestamp": "2026-11-02T19:18:40.072388+00:00",
       "notes": "Exceeded retries"
     },
     {
@@ -3103,7 +3103,7 @@
       "status": "failed",
       "http_status": 405,
       "attempt": 1,
-      "timestamp": "2026-10-26T15:59:18.730529+00:00",
+      "timestamp": "2026-11-02T19:18:50.840673+00:00",
       "notes": ""
     },
     {
@@ -3112,7 +3112,7 @@
       "status": "failed",
       "http_status": 404,
       "attempt": 1,
-      "timestamp": "2026-10-26T15:59:22.451846+00:00",
+      "timestamp": "2026-11-02T19:18:54.920228+00:00",
       "notes": ""
     },
     {
@@ -3121,7 +3121,7 @@
       "status": "failed",
       "http_status": 403,
       "attempt": 1,
-      "timestamp": "2026-10-26T15:59:26.355819+00:00",
+      "timestamp": "2026-11-02T19:18:58.470965+00:00",
       "notes": ""
     },
     {
@@ -3130,7 +3130,7 @@
       "status": "failed",
       "http_status": null,
       "attempt": 3,
-      "timestamp": "2026-10-26T15:59:37.722348+00:00",
+      "timestamp": "2026-11-02T19:19:09.705060+00:00",
       "notes": "Exceeded retries"
     },
     {
@@ -3139,26 +3139,26 @@
       "status": "failed",
       "http_status": 403,
       "attempt": 1,
-      "timestamp": "2026-10-26T15:59:41.600692+00:00",
+      "timestamp": "2026-11-02T19:19:13.372909+00:00",
       "notes": ""
     },
     {
       "name": "Marketplace",
       "url": "https://marketplace.stripe.com/",
-      "status": "failed",
+      "status": "success",
       "http_status": 200,
       "attempt": 1,
-      "timestamp": "2026-10-26T15:59:45.352883+00:00",
+      "timestamp": "2026-11-02T19:19:16.812876+00:00",
       "notes": ""
     },
     {
       "name": "Submitjuice",
       "url": "https://submitjuice.com",
-      "status": "failed",
-      "http_status": null,
-      "attempt": 3,
-      "timestamp": "2026-10-26T16:00:52.829575+00:00",
-      "notes": "Exceeded retries"
+      "status": "success",
+      "http_status": 200,
+      "attempt": 1,
+      "timestamp": "2026-11-02T19:19:20.653385+00:00",
+      "notes": ""
     },
     {
       "name": "Suitapp",
@@ -3166,7 +3166,7 @@
       "status": "failed",
       "http_status": 404,
       "attempt": 1,
-      "timestamp": "2026-10-26T16:00:56.716853+00:00",
+      "timestamp": "2026-11-02T19:19:24.517566+00:00",
       "notes": ""
     },
     {
@@ -3175,7 +3175,7 @@
       "status": "failed",
       "http_status": 403,
       "attempt": 1,
-      "timestamp": "2026-10-26T16:01:00.248028+00:00",
+      "timestamp": "2026-11-02T19:19:27.967717+00:00",
       "notes": ""
     },
     {
@@ -3184,7 +3184,7 @@
       "status": "failed",
       "http_status": 403,
       "attempt": 1,
-      "timestamp": "2026-10-26T16:01:03.939042+00:00",
+      "timestamp": "2026-11-02T19:19:31.725016+00:00",
       "notes": ""
     },
     {
@@ -3193,7 +3193,7 @@
       "status": "failed",
       "http_status": 403,
       "attempt": 1,
-      "timestamp": "2026-10-26T16:01:07.523241+00:00",
+      "timestamp": "2026-11-02T19:19:35.450804+00:00",
       "notes": ""
     },
     {
@@ -3202,7 +3202,7 @@
       "status": "failed",
       "http_status": null,
       "attempt": 3,
-      "timestamp": "2026-10-26T16:02:36.431433+00:00",
+      "timestamp": "2026-11-02T19:20:02.774892+00:00",
       "notes": "Exceeded retries"
     },
     {
@@ -3211,7 +3211,7 @@
       "status": "failed",
       "http_status": 404,
       "attempt": 1,
-      "timestamp": "2026-10-26T16:02:41.679177+00:00",
+      "timestamp": "2026-11-02T19:20:08.145589+00:00",
       "notes": ""
     },
     {
@@ -3220,7 +3220,7 @@
       "status": "failed",
       "http_status": 404,
       "attempt": 1,
-      "timestamp": "2026-10-26T16:02:46.100603+00:00",
+      "timestamp": "2026-11-02T19:20:11.996077+00:00",
       "notes": ""
     },
     {
@@ -3229,7 +3229,7 @@
       "status": "failed",
       "http_status": 405,
       "attempt": 1,
-      "timestamp": "2026-10-26T16:02:49.846215+00:00",
+      "timestamp": "2026-11-02T19:20:15.732854+00:00",
       "notes": ""
     },
     {
@@ -3238,7 +3238,7 @@
       "status": "failed",
       "http_status": null,
       "attempt": 3,
-      "timestamp": "2026-10-26T16:03:01.719887+00:00",
+      "timestamp": "2026-11-02T19:21:52.386900+00:00",
       "notes": "Exceeded retries"
     },
     {
@@ -3247,7 +3247,7 @@
       "status": "failed",
       "http_status": 200,
       "attempt": 1,
-      "timestamp": "2026-10-26T16:03:06.273722+00:00",
+      "timestamp": "2026-11-02T19:21:56.607907+00:00",
       "notes": ""
     },
     {
@@ -3256,7 +3256,7 @@
       "status": "failed",
       "http_status": 403,
       "attempt": 1,
-      "timestamp": "2026-10-26T16:03:13.634090+00:00",
+      "timestamp": "2026-11-02T19:22:04.202910+00:00",
       "notes": ""
     },
     {
@@ -3265,7 +3265,7 @@
       "status": "failed",
       "http_status": 403,
       "attempt": 1,
-      "timestamp": "2026-10-26T16:03:17.402516+00:00",
+      "timestamp": "2026-11-02T19:22:08.049666+00:00",
       "notes": ""
     },
     {
@@ -3274,7 +3274,7 @@
       "status": "failed",
       "http_status": null,
       "attempt": 3,
-      "timestamp": "2026-10-26T16:04:25.124792+00:00",
+      "timestamp": "2026-11-02T19:23:15.414862+00:00",
       "notes": "Exceeded retries"
     },
     {
@@ -3283,7 +3283,7 @@
       "status": "failed",
       "http_status": 404,
       "attempt": 1,
-      "timestamp": "2026-10-26T16:04:30.400688+00:00",
+      "timestamp": "2026-11-02T19:23:19.662122+00:00",
       "notes": ""
     },
     {
@@ -3292,7 +3292,7 @@
       "status": "failed",
       "http_status": 403,
       "attempt": 1,
-      "timestamp": "2026-10-26T16:04:33.819967+00:00",
+      "timestamp": "2026-11-02T19:23:23.058021+00:00",
       "notes": ""
     },
     {
@@ -3301,7 +3301,7 @@
       "status": "failed",
       "http_status": 404,
       "attempt": 1,
-      "timestamp": "2026-10-26T16:04:37.434011+00:00",
+      "timestamp": "2026-11-02T19:23:26.621526+00:00",
       "notes": ""
     },
     {
@@ -3310,7 +3310,7 @@
       "status": "failed",
       "http_status": 403,
       "attempt": 1,
-      "timestamp": "2026-10-26T16:04:41.215134+00:00",
+      "timestamp": "2026-11-02T19:23:30.846801+00:00",
       "notes": ""
     },
     {
@@ -3319,7 +3319,7 @@
       "status": "failed",
       "http_status": 403,
       "attempt": 1,
-      "timestamp": "2026-10-26T16:04:45.099155+00:00",
+      "timestamp": "2026-11-02T19:23:34.278437+00:00",
       "notes": ""
     },
     {
@@ -3328,7 +3328,7 @@
       "status": "failed",
       "http_status": 404,
       "attempt": 1,
-      "timestamp": "2026-10-26T16:04:50.223383+00:00",
+      "timestamp": "2026-11-02T19:23:38.546241+00:00",
       "notes": ""
     },
     {
@@ -3337,7 +3337,7 @@
       "status": "failed",
       "http_status": 403,
       "attempt": 1,
-      "timestamp": "2026-10-26T16:04:53.862943+00:00",
+      "timestamp": "2026-11-02T19:23:42.094914+00:00",
       "notes": ""
     },
     {
@@ -3346,7 +3346,7 @@
       "status": "failed",
       "http_status": 403,
       "attempt": 1,
-      "timestamp": "2026-10-26T16:04:57.454925+00:00",
+      "timestamp": "2026-11-02T19:23:45.456221+00:00",
       "notes": ""
     },
     {
@@ -3355,7 +3355,7 @@
       "status": "failed",
       "http_status": 429,
       "attempt": 1,
-      "timestamp": "2026-10-26T16:05:01.025569+00:00",
+      "timestamp": "2026-11-02T19:23:49.202498+00:00",
       "notes": ""
     },
     {
@@ -3364,7 +3364,7 @@
       "status": "failed",
       "http_status": 403,
       "attempt": 1,
-      "timestamp": "2026-10-26T16:05:05.285644+00:00",
+      "timestamp": "2026-11-02T19:23:52.935450+00:00",
       "notes": ""
     },
     {
@@ -3373,7 +3373,7 @@
       "status": "failed",
       "http_status": 404,
       "attempt": 1,
-      "timestamp": "2026-10-26T16:05:09.302240+00:00",
+      "timestamp": "2026-11-02T19:23:57.243723+00:00",
       "notes": ""
     },
     {
@@ -3382,7 +3382,7 @@
       "status": "failed",
       "http_status": 403,
       "attempt": 1,
-      "timestamp": "2026-10-26T16:05:12.845588+00:00",
+      "timestamp": "2026-11-02T19:24:00.638443+00:00",
       "notes": ""
     },
     {
@@ -3391,7 +3391,7 @@
       "status": "failed",
       "http_status": 403,
       "attempt": 1,
-      "timestamp": "2026-10-26T16:05:16.569810+00:00",
+      "timestamp": "2026-11-02T19:24:04.551347+00:00",
       "notes": ""
     },
     {
@@ -3400,7 +3400,7 @@
       "status": "failed",
       "http_status": 403,
       "attempt": 1,
-      "timestamp": "2026-10-26T16:05:20.272020+00:00",
+      "timestamp": "2026-11-02T19:24:08.013087+00:00",
       "notes": ""
     },
     {
@@ -3409,7 +3409,7 @@
       "status": "failed",
       "http_status": 404,
       "attempt": 1,
-      "timestamp": "2026-10-26T16:05:26.977273+00:00",
+      "timestamp": "2026-11-02T19:24:12.725126+00:00",
       "notes": ""
     },
     {
@@ -3418,7 +3418,7 @@
       "status": "failed",
       "http_status": 403,
       "attempt": 1,
-      "timestamp": "2026-10-26T16:05:31.084489+00:00",
+      "timestamp": "2026-11-02T19:24:16.455164+00:00",
       "notes": ""
     },
     {
@@ -3427,7 +3427,7 @@
       "status": "failed",
       "http_status": 404,
       "attempt": 1,
-      "timestamp": "2026-10-26T16:05:37.766717+00:00",
+      "timestamp": "2026-11-02T19:24:20.740104+00:00",
       "notes": ""
     },
     {
@@ -3436,7 +3436,7 @@
       "status": "failed",
       "http_status": 403,
       "attempt": 1,
-      "timestamp": "2026-10-26T16:05:41.925207+00:00",
+      "timestamp": "2026-11-02T19:24:24.123599+00:00",
       "notes": ""
     },
     {
@@ -3445,7 +3445,7 @@
       "status": "failed",
       "http_status": 403,
       "attempt": 1,
-      "timestamp": "2026-10-26T16:05:45.579696+00:00",
+      "timestamp": "2026-11-02T19:24:27.859073+00:00",
       "notes": ""
     },
     {
@@ -3454,7 +3454,7 @@
       "status": "failed",
       "http_status": 403,
       "attempt": 1,
-      "timestamp": "2026-10-26T16:05:49.458587+00:00",
+      "timestamp": "2026-11-02T19:24:31.274368+00:00",
       "notes": ""
     },
     {
@@ -3463,7 +3463,7 @@
       "status": "failed",
       "http_status": 404,
       "attempt": 1,
-      "timestamp": "2026-10-26T16:05:53.467720+00:00",
+      "timestamp": "2026-11-02T19:24:35.214412+00:00",
       "notes": ""
     },
     {
@@ -3472,7 +3472,7 @@
       "status": "failed",
       "http_status": 405,
       "attempt": 1,
-      "timestamp": "2026-10-26T16:05:56.955154+00:00",
+      "timestamp": "2026-11-02T19:24:38.963968+00:00",
       "notes": ""
     },
     {
@@ -3481,7 +3481,7 @@
       "status": "failed",
       "http_status": 522,
       "attempt": 1,
-      "timestamp": "2026-10-26T16:06:39.229235+00:00",
+      "timestamp": "2026-11-02T19:25:21.509892+00:00",
       "notes": ""
     },
     {
@@ -3490,7 +3490,7 @@
       "status": "failed",
       "http_status": 403,
       "attempt": 1,
-      "timestamp": "2026-10-26T16:06:42.943081+00:00",
+      "timestamp": "2026-11-02T19:25:25.256275+00:00",
       "notes": ""
     },
     {
@@ -3499,7 +3499,7 @@
       "status": "failed",
       "http_status": 403,
       "attempt": 1,
-      "timestamp": "2026-10-26T16:06:46.824827+00:00",
+      "timestamp": "2026-11-02T19:25:28.782431+00:00",
       "notes": ""
     },
     {
@@ -3508,7 +3508,7 @@
       "status": "failed",
       "http_status": 404,
       "attempt": 1,
-      "timestamp": "2026-10-26T16:06:58.994345+00:00",
+      "timestamp": "2026-11-02T19:25:36.841059+00:00",
       "notes": ""
     },
     {
@@ -3517,7 +3517,7 @@
       "status": "failed",
       "http_status": 405,
       "attempt": 1,
-      "timestamp": "2026-10-26T16:07:02.813001+00:00",
+      "timestamp": "2026-11-02T19:25:42.654367+00:00",
       "notes": ""
     },
     {
@@ -3526,7 +3526,7 @@
       "status": "failed",
       "http_status": 403,
       "attempt": 1,
-      "timestamp": "2026-10-26T16:07:06.592191+00:00",
+      "timestamp": "2026-11-02T19:25:46.064206+00:00",
       "notes": ""
     },
     {
@@ -3535,7 +3535,7 @@
       "status": "failed",
       "http_status": 404,
       "attempt": 1,
-      "timestamp": "2026-10-26T16:07:10.565131+00:00",
+      "timestamp": "2026-11-02T19:25:49.774967+00:00",
       "notes": ""
     },
     {
@@ -3544,7 +3544,7 @@
       "status": "failed",
       "http_status": 404,
       "attempt": 1,
-      "timestamp": "2026-10-26T16:07:14.818998+00:00",
+      "timestamp": "2026-11-02T19:25:54.009714+00:00",
       "notes": ""
     },
     {
@@ -3553,7 +3553,7 @@
       "status": "failed",
       "http_status": 403,
       "attempt": 1,
-      "timestamp": "2026-10-26T16:07:18.688363+00:00",
+      "timestamp": "2026-11-02T19:25:57.509562+00:00",
       "notes": ""
     },
     {
@@ -3562,7 +3562,7 @@
       "status": "failed",
       "http_status": 403,
       "attempt": 1,
-      "timestamp": "2026-10-26T16:07:22.308693+00:00",
+      "timestamp": "2026-11-02T19:26:01.005903+00:00",
       "notes": ""
     },
     {
@@ -3571,7 +3571,7 @@
       "status": "failed",
       "http_status": null,
       "attempt": 3,
-      "timestamp": "2026-10-26T16:07:59.728110+00:00",
+      "timestamp": "2026-11-02T19:26:10.097588+00:00",
       "notes": "Exceeded retries"
     },
     {
@@ -3580,7 +3580,7 @@
       "status": "failed",
       "http_status": 404,
       "attempt": 1,
-      "timestamp": "2026-10-26T16:08:04.524451+00:00",
+      "timestamp": "2026-11-02T19:26:15.461744+00:00",
       "notes": ""
     },
     {
@@ -3589,7 +3589,7 @@
       "status": "failed",
       "http_status": 403,
       "attempt": 1,
-      "timestamp": "2026-10-26T16:08:08.172716+00:00",
+      "timestamp": "2026-11-02T19:26:19.185309+00:00",
       "notes": ""
     },
     {
@@ -3598,7 +3598,7 @@
       "status": "failed",
       "http_status": 523,
       "attempt": 1,
-      "timestamp": "2026-10-26T16:08:17.894651+00:00",
+      "timestamp": "2026-11-02T19:26:29.089417+00:00",
       "notes": ""
     },
     {
@@ -3607,7 +3607,7 @@
       "status": "failed",
       "http_status": 405,
       "attempt": 1,
-      "timestamp": "2026-10-26T16:08:22.884320+00:00",
+      "timestamp": "2026-11-02T19:26:34.188687+00:00",
       "notes": ""
     },
     {
@@ -3616,7 +3616,7 @@
       "status": "failed",
       "http_status": 403,
       "attempt": 1,
-      "timestamp": "2026-10-26T16:08:26.732393+00:00",
+      "timestamp": "2026-11-02T19:26:37.929820+00:00",
       "notes": ""
     },
     {
@@ -3625,7 +3625,7 @@
       "status": "failed",
       "http_status": 404,
       "attempt": 1,
-      "timestamp": "2026-10-26T16:08:30.773959+00:00",
+      "timestamp": "2026-11-02T19:26:42.167095+00:00",
       "notes": ""
     },
     {
@@ -3634,7 +3634,7 @@
       "status": "failed",
       "http_status": 404,
       "attempt": 1,
-      "timestamp": "2026-10-26T16:08:36.597259+00:00",
+      "timestamp": "2026-11-02T19:26:48.648580+00:00",
       "notes": ""
     },
     {
@@ -3643,7 +3643,7 @@
       "status": "failed",
       "http_status": 404,
       "attempt": 1,
-      "timestamp": "2026-10-26T16:08:43.599691+00:00",
+      "timestamp": "2026-11-02T19:26:55.184141+00:00",
       "notes": ""
     },
     {
@@ -3652,7 +3652,7 @@
       "status": "failed",
       "http_status": 405,
       "attempt": 1,
-      "timestamp": "2026-10-26T16:08:47.852327+00:00",
+      "timestamp": "2026-11-02T19:26:59.969628+00:00",
       "notes": ""
     },
     {
@@ -3661,7 +3661,7 @@
       "status": "failed",
       "http_status": 403,
       "attempt": 1,
-      "timestamp": "2026-10-26T16:08:51.408289+00:00",
+      "timestamp": "2026-11-02T19:27:03.391305+00:00",
       "notes": ""
     },
     {
@@ -3670,16 +3670,16 @@
       "status": "failed",
       "http_status": 405,
       "attempt": 1,
-      "timestamp": "2026-10-26T16:08:55.205555+00:00",
+      "timestamp": "2026-11-02T19:27:07.000911+00:00",
       "notes": ""
     },
     {
       "name": "Ebool",
       "url": "http://ebool.com/",
       "status": "failed",
-      "http_status": 405,
+      "http_status": 403,
       "attempt": 1,
-      "timestamp": "2026-10-26T16:08:59.775415+00:00",
+      "timestamp": "2026-11-02T19:27:10.616507+00:00",
       "notes": ""
     },
     {
@@ -3688,7 +3688,7 @@
       "status": "failed",
       "http_status": 405,
       "attempt": 1,
-      "timestamp": "2026-10-26T16:09:03.545041+00:00",
+      "timestamp": "2026-11-02T19:27:14.327527+00:00",
       "notes": ""
     },
     {
@@ -3697,7 +3697,7 @@
       "status": "failed",
       "http_status": null,
       "attempt": 3,
-      "timestamp": "2026-10-26T16:10:11.203870+00:00",
+      "timestamp": "2026-11-02T19:28:21.883331+00:00",
       "notes": "Exceeded retries"
     },
     {
@@ -3706,8 +3706,17 @@
       "status": "failed",
       "http_status": null,
       "attempt": 3,
-      "timestamp": "2026-10-26T16:10:19.281775+00:00",
+      "timestamp": "2026-11-02T19:28:30.018373+00:00",
       "notes": "Exceeded retries"
+    },
+    {
+      "name": "Stork",
+      "url": "https://stork.ai/",
+      "status": "success",
+      "http_status": 200,
+      "attempt": 1,
+      "timestamp": "2026-11-02T19:28:34.330003+00:00",
+      "notes": ""
     },
     {
       "name": "Startupcollections",
@@ -3715,7 +3724,7 @@
       "status": "failed",
       "http_status": 404,
       "attempt": 1,
-      "timestamp": "2026-10-26T16:10:27.732755+00:00",
+      "timestamp": "2026-11-02T19:28:39.162464+00:00",
       "notes": ""
     },
     {
@@ -3724,7 +3733,7 @@
       "status": "failed",
       "http_status": 404,
       "attempt": 1,
-      "timestamp": "2026-10-26T16:10:33.741786+00:00",
+      "timestamp": "2026-11-02T19:28:44.376345+00:00",
       "notes": ""
     },
     {
@@ -3733,7 +3742,7 @@
       "status": "failed",
       "http_status": 405,
       "attempt": 1,
-      "timestamp": "2026-10-26T16:10:37.725327+00:00",
+      "timestamp": "2026-11-02T19:28:48.008759+00:00",
       "notes": ""
     },
     {
@@ -3742,7 +3751,7 @@
       "status": "failed",
       "http_status": 404,
       "attempt": 1,
-      "timestamp": "2026-10-26T16:10:42.495889+00:00",
+      "timestamp": "2026-11-02T19:28:54.850026+00:00",
       "notes": ""
     },
     {
@@ -3751,7 +3760,7 @@
       "status": "failed",
       "http_status": 405,
       "attempt": 1,
-      "timestamp": "2026-10-26T16:10:46.535728+00:00",
+      "timestamp": "2026-11-02T19:28:59.060229+00:00",
       "notes": ""
     },
     {
@@ -3760,7 +3769,7 @@
       "status": "failed",
       "http_status": 404,
       "attempt": 1,
-      "timestamp": "2026-10-26T16:10:52.728858+00:00",
+      "timestamp": "2026-11-02T19:29:05.582092+00:00",
       "notes": ""
     },
     {
@@ -3769,7 +3778,7 @@
       "status": "failed",
       "http_status": 404,
       "attempt": 1,
-      "timestamp": "2026-10-26T16:10:58.685037+00:00",
+      "timestamp": "2026-11-02T19:29:15.600083+00:00",
       "notes": ""
     },
     {
@@ -3778,7 +3787,7 @@
       "status": "failed",
       "http_status": 404,
       "attempt": 1,
-      "timestamp": "2026-10-26T16:11:04.224127+00:00",
+      "timestamp": "2026-11-02T19:29:20.751785+00:00",
       "notes": ""
     },
     {
@@ -3787,7 +3796,7 @@
       "status": "failed",
       "http_status": 520,
       "attempt": 1,
-      "timestamp": "2026-10-26T16:11:27.057231+00:00",
+      "timestamp": "2026-11-02T19:29:29.126428+00:00",
       "notes": ""
     },
     {
@@ -3796,7 +3805,7 @@
       "status": "failed",
       "http_status": 404,
       "attempt": 1,
-      "timestamp": "2026-10-26T16:11:31.410392+00:00",
+      "timestamp": "2026-11-02T19:29:34.324387+00:00",
       "notes": ""
     },
     {
@@ -3805,7 +3814,7 @@
       "status": "failed",
       "http_status": 404,
       "attempt": 1,
-      "timestamp": "2026-10-26T16:11:35.505640+00:00",
+      "timestamp": "2026-11-02T19:29:38.368541+00:00",
       "notes": ""
     },
     {
@@ -3814,7 +3823,7 @@
       "status": "failed",
       "http_status": 405,
       "attempt": 1,
-      "timestamp": "2026-10-26T16:11:39.589326+00:00",
+      "timestamp": "2026-11-02T19:29:42.630846+00:00",
       "notes": ""
     },
     {
@@ -3823,17 +3832,17 @@
       "status": "failed",
       "http_status": 405,
       "attempt": 1,
-      "timestamp": "2026-10-26T16:11:43.442298+00:00",
+      "timestamp": "2026-11-02T19:29:46.568342+00:00",
       "notes": ""
     },
     {
       "name": "Surges",
       "url": "https://surges.co/",
       "status": "failed",
-      "http_status": 200,
-      "attempt": 1,
-      "timestamp": "2026-10-26T16:11:47.997523+00:00",
-      "notes": ""
+      "http_status": null,
+      "attempt": 3,
+      "timestamp": "2026-11-02T19:30:50.850242+00:00",
+      "notes": "Exceeded retries"
     },
     {
       "name": "Gpte",
@@ -3841,7 +3850,7 @@
       "status": "failed",
       "http_status": null,
       "attempt": 3,
-      "timestamp": "2026-10-26T16:11:55.948650+00:00",
+      "timestamp": "2026-11-02T19:30:58.992983+00:00",
       "notes": "Exceeded retries"
     },
     {
@@ -3850,7 +3859,7 @@
       "status": "failed",
       "http_status": 403,
       "attempt": 1,
-      "timestamp": "2026-10-26T16:11:59.721914+00:00",
+      "timestamp": "2026-11-02T19:31:02.545062+00:00",
       "notes": ""
     },
     {
@@ -3859,7 +3868,7 @@
       "status": "failed",
       "http_status": null,
       "attempt": 3,
-      "timestamp": "2026-10-26T16:12:08.348643+00:00",
+      "timestamp": "2026-11-02T19:31:17.468993+00:00",
       "notes": "Exceeded retries"
     },
     {
@@ -3868,17 +3877,17 @@
       "status": "failed",
       "http_status": 405,
       "attempt": 1,
-      "timestamp": "2026-10-26T16:12:12.481132+00:00",
+      "timestamp": "2026-11-02T19:31:21.874338+00:00",
       "notes": ""
     },
     {
       "name": "Textify",
       "url": "https://textify.ai/",
       "status": "failed",
-      "http_status": null,
-      "attempt": 3,
-      "timestamp": "2026-10-26T16:12:40.574797+00:00",
-      "notes": "Exceeded retries"
+      "http_status": 404,
+      "attempt": 1,
+      "timestamp": "2026-11-02T19:31:26.405070+00:00",
+      "notes": ""
     },
     {
       "name": "Airadar",
@@ -3886,7 +3895,7 @@
       "status": "failed",
       "http_status": 404,
       "attempt": 1,
-      "timestamp": "2026-10-26T16:12:44.597722+00:00",
+      "timestamp": "2026-11-02T19:31:29.963622+00:00",
       "notes": ""
     },
     {
@@ -3895,7 +3904,7 @@
       "status": "failed",
       "http_status": 403,
       "attempt": 1,
-      "timestamp": "2026-10-26T16:12:48.257470+00:00",
+      "timestamp": "2026-11-02T19:31:33.718988+00:00",
       "notes": ""
     },
     {
@@ -3904,7 +3913,7 @@
       "status": "failed",
       "http_status": 400,
       "attempt": 1,
-      "timestamp": "2026-10-26T16:12:52.098284+00:00",
+      "timestamp": "2026-11-02T19:31:37.676740+00:00",
       "notes": ""
     },
     {
@@ -3913,7 +3922,7 @@
       "status": "failed",
       "http_status": 405,
       "attempt": 1,
-      "timestamp": "2026-10-26T16:13:00.535024+00:00",
+      "timestamp": "2026-11-02T19:31:45.935803+00:00",
       "notes": ""
     },
     {
@@ -3922,7 +3931,7 @@
       "status": "failed",
       "http_status": 404,
       "attempt": 1,
-      "timestamp": "2026-10-26T16:13:04.983887+00:00",
+      "timestamp": "2026-11-02T19:31:51.372455+00:00",
       "notes": ""
     },
     {
@@ -3931,7 +3940,7 @@
       "status": "failed",
       "http_status": 405,
       "attempt": 1,
-      "timestamp": "2026-10-26T16:13:08.850734+00:00",
+      "timestamp": "2026-11-02T19:31:54.759420+00:00",
       "notes": ""
     },
     {
@@ -3940,7 +3949,7 @@
       "status": "failed",
       "http_status": 404,
       "attempt": 1,
-      "timestamp": "2026-10-26T16:13:15.157212+00:00",
+      "timestamp": "2026-11-02T19:32:00.868993+00:00",
       "notes": ""
     },
     {
@@ -3949,7 +3958,7 @@
       "status": "failed",
       "http_status": 404,
       "attempt": 1,
-      "timestamp": "2026-10-26T16:13:20.715488+00:00",
+      "timestamp": "2026-11-02T19:32:09.782037+00:00",
       "notes": ""
     },
     {
@@ -3958,7 +3967,7 @@
       "status": "failed",
       "http_status": 404,
       "attempt": 1,
-      "timestamp": "2026-10-26T16:13:25.654742+00:00",
+      "timestamp": "2026-11-02T19:32:15.430625+00:00",
       "notes": ""
     },
     {
@@ -3967,7 +3976,7 @@
       "status": "failed",
       "http_status": null,
       "attempt": 3,
-      "timestamp": "2026-10-26T16:13:33.436909+00:00",
+      "timestamp": "2026-11-02T19:32:23.225810+00:00",
       "notes": "Exceeded retries"
     },
     {
@@ -3976,7 +3985,7 @@
       "status": "failed",
       "http_status": 429,
       "attempt": 1,
-      "timestamp": "2026-10-26T16:13:37.442623+00:00",
+      "timestamp": "2026-11-02T19:32:26.927828+00:00",
       "notes": ""
     },
     {
@@ -3985,7 +3994,7 @@
       "status": "failed",
       "http_status": 403,
       "attempt": 1,
-      "timestamp": "2026-10-26T16:13:41.082320+00:00",
+      "timestamp": "2026-11-02T19:32:30.289368+00:00",
       "notes": ""
     },
     {
@@ -3994,7 +4003,7 @@
       "status": "failed",
       "http_status": null,
       "attempt": 3,
-      "timestamp": "2026-10-26T16:13:49.571539+00:00",
+      "timestamp": "2026-11-02T19:32:47.957744+00:00",
       "notes": "Exceeded retries"
     },
     {
@@ -4003,7 +4012,7 @@
       "status": "failed",
       "http_status": 522,
       "attempt": 1,
-      "timestamp": "2026-10-26T16:14:32.161496+00:00",
+      "timestamp": "2026-11-02T19:33:30.481835+00:00",
       "notes": ""
     },
     {
@@ -4012,7 +4021,7 @@
       "status": "failed",
       "http_status": 403,
       "attempt": 1,
-      "timestamp": "2026-10-26T16:14:36.769807+00:00",
+      "timestamp": "2026-11-02T19:33:34.580006+00:00",
       "notes": ""
     },
     {
@@ -4021,7 +4030,7 @@
       "status": "failed",
       "http_status": null,
       "attempt": 3,
-      "timestamp": "2026-10-26T16:15:44.317259+00:00",
+      "timestamp": "2026-11-02T19:33:43.782032+00:00",
       "notes": "Exceeded retries"
     },
     {
@@ -4030,7 +4039,7 @@
       "status": "failed",
       "http_status": 404,
       "attempt": 1,
-      "timestamp": "2026-10-26T16:15:48.966789+00:00",
+      "timestamp": "2026-11-02T19:33:48.573422+00:00",
       "notes": ""
     },
     {
@@ -4039,7 +4048,7 @@
       "status": "failed",
       "http_status": null,
       "attempt": 3,
-      "timestamp": "2026-10-26T16:15:56.605039+00:00",
+      "timestamp": "2026-11-02T19:33:55.995262+00:00",
       "notes": "Exceeded retries"
     },
     {
@@ -4048,7 +4057,7 @@
       "status": "failed",
       "http_status": 404,
       "attempt": 1,
-      "timestamp": "2026-10-26T16:16:01.508988+00:00",
+      "timestamp": "2026-11-02T19:34:01.776776+00:00",
       "notes": ""
     },
     {
@@ -4057,7 +4066,7 @@
       "status": "failed",
       "http_status": 405,
       "attempt": 1,
-      "timestamp": "2026-10-26T16:16:05.072633+00:00",
+      "timestamp": "2026-11-02T19:34:05.681199+00:00",
       "notes": ""
     },
     {
@@ -4066,7 +4075,7 @@
       "status": "failed",
       "http_status": 403,
       "attempt": 1,
-      "timestamp": "2026-10-26T16:16:08.540671+00:00",
+      "timestamp": "2026-11-02T19:34:09.125378+00:00",
       "notes": ""
     },
     {
@@ -4075,7 +4084,7 @@
       "status": "failed",
       "http_status": null,
       "attempt": 3,
-      "timestamp": "2026-10-26T16:16:17.085704+00:00",
+      "timestamp": "2026-11-02T19:34:31.790872+00:00",
       "notes": "Exceeded retries"
     },
     {
@@ -4084,7 +4093,7 @@
       "status": "failed",
       "http_status": 405,
       "attempt": 1,
-      "timestamp": "2026-10-26T16:16:20.794993+00:00",
+      "timestamp": "2026-11-02T19:34:35.811113+00:00",
       "notes": ""
     },
     {
@@ -4092,7 +4101,7 @@
       "url": "https://ai-hunter.io",
       "status": "failed",
       "http_status": null,
-      "timestamp": "2026-10-26T16:16:25.415955+00:00",
+      "timestamp": "2026-11-02T19:34:41.594584+00:00",
       "notes": "Playwright error: Page.goto: net::ERR_CERT_COMMON_NAME_INVALID at https://ai-hunter.io/\nCall log:\n  - navigating to \"https://ai-hunter.io/\", waiting until \"domcontentloaded\"\n"
     },
     {
@@ -4100,7 +4109,7 @@
       "url": "https://wisepickai.com",
       "status": "failed",
       "http_status": null,
-      "timestamp": "2026-10-26T16:16:37.352481+00:00",
+      "timestamp": "2026-11-02T19:34:53.650887+00:00",
       "notes": "No fillable fields found"
     },
     {
@@ -4108,7 +4117,7 @@
       "url": "https://aichief.com",
       "status": "failed",
       "http_status": null,
-      "timestamp": "2026-10-26T16:16:49.448501+00:00",
+      "timestamp": "2026-11-02T19:35:05.841783+00:00",
       "notes": "No fillable fields found"
     },
     {
@@ -4116,15 +4125,15 @@
       "url": "https://aiapps.com",
       "status": "failed",
       "http_status": null,
-      "timestamp": "2026-10-26T16:16:54.402685+00:00",
-      "notes": "No fillable fields found"
+      "timestamp": "2026-11-02T19:35:29.762562+00:00",
+      "notes": "Playwright timeout"
     },
     {
       "name": "Soverin",
       "url": "https://soverin.ai",
       "status": "failed",
       "http_status": null,
-      "timestamp": "2026-10-26T16:16:59.598942+00:00",
+      "timestamp": "2026-11-02T19:36:06.391994+00:00",
       "notes": "No fillable fields found"
     },
     {
@@ -4132,7 +4141,7 @@
       "url": "https://lachief.io",
       "status": "failed",
       "http_status": null,
-      "timestamp": "2026-10-26T16:17:04.357626+00:00",
+      "timestamp": "2026-11-02T19:36:11.129699+00:00",
       "notes": "No fillable fields found"
     },
     {
@@ -4140,7 +4149,7 @@
       "url": "https://dessign.net",
       "status": "failed",
       "http_status": null,
-      "timestamp": "2026-10-26T16:17:10.150868+00:00",
+      "timestamp": "2026-11-02T19:36:17.270154+00:00",
       "notes": "No fillable fields found"
     },
     {
@@ -4148,7 +4157,7 @@
       "url": "https://stratup.ai/en/ais",
       "status": "failed",
       "http_status": null,
-      "timestamp": "2026-10-26T16:17:22.873383+00:00",
+      "timestamp": "2026-11-02T19:36:29.907818+00:00",
       "notes": "No fillable fields found"
     },
     {
@@ -4156,7 +4165,7 @@
       "url": "https://itirupati.com/ai-tools-apps",
       "status": "failed",
       "http_status": null,
-      "timestamp": "2026-10-26T16:17:28.443552+00:00",
+      "timestamp": "2026-11-02T19:36:37.669794+00:00",
       "notes": "No fillable fields found"
     },
     {
@@ -4164,7 +4173,7 @@
       "url": "https://topaitools.com/tools",
       "status": "failed",
       "http_status": null,
-      "timestamp": "2026-10-26T16:17:33.198211+00:00",
+      "timestamp": "2026-11-02T19:36:43.340616+00:00",
       "notes": "No submit button found"
     },
     {
@@ -4172,7 +4181,7 @@
       "url": "https://gpt3demo.com",
       "status": "failed",
       "http_status": null,
-      "timestamp": "2026-10-26T16:17:43.732022+00:00",
+      "timestamp": "2026-11-02T19:36:54.888584+00:00",
       "notes": "No fillable fields found"
     },
     {
@@ -4180,7 +4189,7 @@
       "url": "https://aiforeveryone.org",
       "status": "failed",
       "http_status": null,
-      "timestamp": "2026-10-26T16:18:00.869241+00:00",
+      "timestamp": "2026-11-02T19:37:13.699444+00:00",
       "notes": "No fillable fields found"
     },
     {
@@ -4188,7 +4197,7 @@
       "url": "https://powerfulai.tools",
       "status": "failed",
       "http_status": null,
-      "timestamp": "2026-10-26T16:19:09.714826+00:00",
+      "timestamp": "2026-11-02T19:38:20.637543+00:00",
       "notes": "No submit button found"
     },
     {
@@ -4196,7 +4205,7 @@
       "url": "https://aijourney.so",
       "status": "failed",
       "http_status": null,
-      "timestamp": "2026-10-26T16:43:55.677194+00:00",
+      "timestamp": "2026-11-02T20:03:00.992804+00:00",
       "notes": "No fillable fields found"
     },
     {
@@ -4204,7 +4213,7 @@
       "url": "https://aitechsuite.com",
       "status": "failed",
       "http_status": null,
-      "timestamp": "2026-10-26T16:44:07.693731+00:00",
+      "timestamp": "2026-11-02T20:03:18.020416+00:00",
       "notes": "No fillable fields found"
     },
     {
@@ -4212,7 +4221,7 @@
       "url": "https://app.aibase.com",
       "status": "failed",
       "http_status": null,
-      "timestamp": "2026-10-26T16:44:15.941045+00:00",
+      "timestamp": "2026-11-02T20:03:25.763806+00:00",
       "notes": "No fillable fields found"
     },
     {
@@ -4220,23 +4229,15 @@
       "url": "https://simplifyaitools.com",
       "status": "failed",
       "http_status": null,
-      "timestamp": "2026-10-26T16:45:22.105849+00:00",
+      "timestamp": "2026-11-02T20:23:23.101767+00:00",
       "notes": "No fillable fields found"
-    },
-    {
-      "name": "Stork",
-      "url": "https://stork.ai",
-      "status": "failed",
-      "http_status": null,
-      "timestamp": "2026-10-26T16:45:28.882718+00:00",
-      "notes": "Submitted via Playwright"
     },
     {
       "name": "Seofai",
       "url": "https://seofai.com",
       "status": "failed",
       "http_status": null,
-      "timestamp": "2026-10-26T16:45:34.030646+00:00",
+      "timestamp": "2026-11-02T20:23:28.614333+00:00",
       "notes": "No fillable fields found"
     },
     {
@@ -4244,7 +4245,7 @@
       "url": "https://brouseai.com",
       "status": "failed",
       "http_status": null,
-      "timestamp": "2026-10-26T16:45:38.921538+00:00",
+      "timestamp": "2026-11-02T20:23:33.544306+00:00",
       "notes": "No fillable fields found"
     },
     {
@@ -4252,7 +4253,7 @@
       "url": "https://navtools.ai",
       "status": "failed",
       "http_status": null,
-      "timestamp": "2026-10-26T16:46:43.863196+00:00",
+      "timestamp": "2026-11-02T20:24:39.832051+00:00",
       "notes": "No submit button found"
     },
     {
@@ -4260,7 +4261,7 @@
       "url": "https://listmyai.net/tools",
       "status": "failed",
       "http_status": null,
-      "timestamp": "2026-10-26T16:46:48.882483+00:00",
+      "timestamp": "2026-11-02T20:24:45.732150+00:00",
       "notes": "No fillable fields found"
     },
     {
@@ -4268,7 +4269,7 @@
       "url": "https://aitoolhub.net",
       "status": "failed",
       "http_status": null,
-      "timestamp": "2026-10-26T16:46:54.708736+00:00",
+      "timestamp": "2026-11-02T20:24:52.038113+00:00",
       "notes": "No submit button found"
     },
     {
@@ -4276,7 +4277,7 @@
       "url": "https://future-pedia.com",
       "status": "failed",
       "http_status": null,
-      "timestamp": "2026-10-26T16:47:29.581138+00:00",
+      "timestamp": "2026-11-02T20:25:27.602239+00:00",
       "notes": "No fillable fields found"
     },
     {
@@ -4284,17 +4285,17 @@
       "url": "https://iseoai.com",
       "status": "failed",
       "http_status": null,
-      "timestamp": "2026-10-26T16:47:53.627334+00:00",
-      "notes": "Playwright timeout"
+      "timestamp": "2026-11-02T20:25:39.105392+00:00",
+      "notes": "No fillable fields found"
     }
   ],
   "summary": {
     "total": 481,
-    "success": 218,
-    "failed": 262,
+    "success": 221,
+    "failed": 259,
     "skipped": 0,
     "manual": 1,
     "manually_submitted": 0,
-    "last_run": "2026-10-26T16:47:53.661783+00:00"
+    "last_run": "2026-11-02T20:25:39.159661+00:00"
   }
 }
