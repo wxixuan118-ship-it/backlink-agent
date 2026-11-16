@@ -2073,899 +2073,12 @@
       "notes": ""
     },
     {
-      "name": "Listmyai",
-      "url": "https://listmyai.net/tools",
-      "status": "failed",
-      "http_status": null,
-      "timestamp": "2026-11-02T19:58:18.636824+00:00",
-      "notes": "No fillable fields found"
-    },
-    {
-      "name": "Aitoolhub",
-      "url": "https://aitoolhub.net",
-      "status": "failed",
-      "http_status": null,
-      "timestamp": "2026-11-02T19:58:23.380296+00:00",
-      "notes": "No submit button found"
-    },
-    {
-      "name": "Future Pedia",
-      "url": "https://future-pedia.com",
-      "status": "failed",
-      "http_status": null,
-      "timestamp": "2026-11-02T19:58:58.365173+00:00",
-      "notes": "No fillable fields found"
-    },
-    {
-      "name": "Iseoai",
-      "url": "https://iseoai.com",
-      "status": "failed",
-      "http_status": null,
-      "timestamp": "2026-11-02T19:59:08.484974+00:00",
-      "notes": "No fillable fields found"
-    },
-    {
-      "name": "Freemiumai",
-      "url": "https://freemiumai.net",
-      "status": "failed",
-      "http_status": 404,
-      "attempt": 1,
-      "timestamp": "2026-11-09T19:19:21.823468+00:00",
-      "notes": ""
-    },
-    {
-      "name": "Aisourcehub",
-      "url": "https://aisourcehub.com/ai-tools",
-      "status": "failed",
-      "http_status": null,
-      "attempt": 3,
-      "timestamp": "2026-11-09T19:19:30.862163+00:00",
-      "notes": "Exceeded retries"
-    },
-    {
-      "name": "Aitoolsnetwork",
-      "url": "https://aitoolsnetwork.com",
-      "status": "failed",
-      "http_status": null,
-      "attempt": 3,
-      "timestamp": "2026-11-09T19:19:39.985082+00:00",
-      "notes": "Exceeded retries"
-    },
-    {
-      "name": "Nextgentools",
-      "url": "https://nextgentools.me",
-      "status": "failed",
-      "http_status": 404,
-      "attempt": 1,
-      "timestamp": "2026-11-09T19:19:48.146963+00:00",
-      "notes": ""
-    },
-    {
-      "name": "Thetoolbus",
-      "url": "https://thetoolbus.ai/ai-tools",
-      "status": "failed",
-      "http_status": 403,
-      "attempt": 1,
-      "timestamp": "2026-11-09T19:20:00.849309+00:00",
-      "notes": ""
-    },
-    {
-      "name": "Theaigeneration",
-      "url": "https://theaigeneration.com",
-      "status": "failed",
-      "http_status": 500,
-      "attempt": 1,
-      "timestamp": "2026-11-09T19:20:08.774022+00:00",
-      "notes": ""
-    },
-    {
-      "name": "Bigailist",
-      "url": "https://bigailist.com",
-      "status": "failed",
-      "http_status": 405,
-      "attempt": 1,
-      "timestamp": "2026-11-09T19:20:12.537520+00:00",
-      "notes": ""
-    },
-    {
-      "name": "Gptforthat",
-      "url": "https://gptforthat.com/discover",
-      "status": "failed",
-      "http_status": 404,
-      "attempt": 1,
-      "timestamp": "2026-11-09T19:20:19.005228+00:00",
-      "notes": ""
-    },
-    {
-      "name": "Aiagentsbase",
-      "url": "https://aiagentsbase.com",
-      "status": "failed",
-      "http_status": null,
-      "attempt": 3,
-      "timestamp": "2026-11-09T19:20:27.514210+00:00",
-      "notes": "Exceeded retries"
-    },
-    {
-      "name": "Aitoolscover",
-      "url": "https://aitoolscover.com",
-      "status": "failed",
-      "http_status": 405,
-      "attempt": 1,
-      "timestamp": "2026-11-09T19:20:31.159641+00:00",
-      "notes": ""
-    },
-    {
-      "name": "Woy",
-      "url": "https://woy.ai",
-      "status": "failed",
-      "http_status": 405,
-      "attempt": 1,
-      "timestamp": "2026-11-09T19:20:36.367702+00:00",
-      "notes": ""
-    },
-    {
-      "name": "Aidirs",
-      "url": "https://aidirs.org",
-      "status": "failed",
-      "http_status": 403,
-      "attempt": 1,
-      "timestamp": "2026-11-09T19:20:39.953079+00:00",
-      "notes": ""
-    },
-    {
-      "name": "Wtcraft",
-      "url": "https://wtcraft.com/",
-      "status": "failed",
-      "http_status": null,
-      "attempt": 3,
-      "timestamp": "2026-11-09T19:20:47.483972+00:00",
-      "notes": "Exceeded retries"
-    },
-    {
-      "name": "Theralist",
-      "url": "https://theralist.ca/",
-      "status": "failed",
-      "http_status": 200,
-      "attempt": 1,
-      "timestamp": "2026-11-09T19:20:51.904376+00:00",
-      "notes": ""
-    },
-    {
-      "name": "Topindie",
-      "url": "https://topindie.dev/",
-      "status": "failed",
-      "http_status": null,
-      "attempt": 3,
-      "timestamp": "2026-11-09T19:21:59.453940+00:00",
-      "notes": "Exceeded retries"
-    },
-    {
-      "name": "Dr",
-      "url": "https://dr.cchostvps.xyz/",
-      "status": "failed",
-      "http_status": null,
-      "attempt": 3,
-      "timestamp": "2026-11-09T19:22:07.654648+00:00",
-      "notes": "Exceeded retries"
-    },
-    {
-      "name": "Gocafehunt",
-      "url": "https://www.gocafehunt.com/",
-      "status": "failed",
-      "http_status": 403,
-      "attempt": 1,
-      "timestamp": "2026-11-09T19:22:12.095196+00:00",
-      "notes": ""
-    },
-    {
       "name": "Boyinthai",
       "url": "https://boyinthai.com/",
       "status": "success",
       "http_status": 200,
       "attempt": 1,
       "timestamp": "2026-11-09T19:22:17.017771+00:00",
-      "notes": ""
-    },
-    {
-      "name": "Testdev",
-      "url": "https://testdev.tools/",
-      "status": "failed",
-      "http_status": 404,
-      "attempt": 1,
-      "timestamp": "2026-11-09T19:22:20.769364+00:00",
-      "notes": ""
-    },
-    {
-      "name": "Linkvertex",
-      "url": "https://www.linkvertex.com/",
-      "status": "failed",
-      "http_status": 403,
-      "attempt": 1,
-      "timestamp": "2026-11-09T19:22:24.396260+00:00",
-      "notes": ""
-    },
-    {
-      "name": "Aihuntlist",
-      "url": "https://aihuntlist.com/",
-      "status": "failed",
-      "http_status": 403,
-      "attempt": 1,
-      "timestamp": "2026-11-09T19:22:28.025302+00:00",
-      "notes": ""
-    },
-    {
-      "name": "Wizdir",
-      "url": "https://www.wizdir.com/",
-      "status": "failed",
-      "http_status": 403,
-      "attempt": 1,
-      "timestamp": "2026-11-09T19:22:31.668647+00:00",
-      "notes": ""
-    },
-    {
-      "name": "Agentarius",
-      "url": "https://agentarius.ai/",
-      "status": "failed",
-      "http_status": 402,
-      "attempt": 1,
-      "timestamp": "2026-11-09T19:22:35.147186+00:00",
-      "notes": ""
-    },
-    {
-      "name": "Ugcpicks",
-      "url": "https://ugcpicks.com/",
-      "status": "failed",
-      "http_status": 405,
-      "attempt": 1,
-      "timestamp": "2026-11-09T19:22:39.246462+00:00",
-      "notes": ""
-    },
-    {
-      "name": "A2zdir",
-      "url": "https://www.a2zdir.com/",
-      "status": "failed",
-      "http_status": 403,
-      "attempt": 1,
-      "timestamp": "2026-11-09T19:22:42.846541+00:00",
-      "notes": ""
-    },
-    {
-      "name": "Dir",
-      "url": "https://www.dir.cx/",
-      "status": "failed",
-      "http_status": 403,
-      "attempt": 1,
-      "timestamp": "2026-11-09T19:22:47.394427+00:00",
-      "notes": ""
-    },
-    {
-      "name": "Brightlinksdirectory",
-      "url": "https://www.brightlinksdirectory.com/",
-      "status": "failed",
-      "http_status": 404,
-      "attempt": 1,
-      "timestamp": "2026-11-09T19:22:52.903662+00:00",
-      "notes": ""
-    },
-    {
-      "name": "Elitedir",
-      "url": "https://www.elitedir.com/",
-      "status": "failed",
-      "http_status": 403,
-      "attempt": 1,
-      "timestamp": "2026-11-09T19:22:56.502380+00:00",
-      "notes": ""
-    },
-    {
-      "name": "Katie",
-      "url": "https://katie.chat/",
-      "status": "failed",
-      "http_status": 405,
-      "attempt": 1,
-      "timestamp": "2026-11-09T19:23:01.449933+00:00",
-      "notes": ""
-    },
-    {
-      "name": "Mediaai",
-      "url": "https://www.mediaai.art/",
-      "status": "failed",
-      "http_status": 403,
-      "attempt": 1,
-      "timestamp": "2026-11-09T19:23:06.734392+00:00",
-      "notes": ""
-    },
-    {
-      "name": "Clawcloud",
-      "url": "https://clawcloud.im/",
-      "status": "failed",
-      "http_status": 404,
-      "attempt": 1,
-      "timestamp": "2026-11-09T19:23:10.870058+00:00",
-      "notes": ""
-    },
-    {
-      "name": "Ufind",
-      "url": "https://ufind.best/",
-      "status": "failed",
-      "http_status": 405,
-      "attempt": 1,
-      "timestamp": "2026-11-09T19:23:15.384337+00:00",
-      "notes": ""
-    },
-    {
-      "name": "Aihubs",
-      "url": "https://aihubs.ai/",
-      "status": "failed",
-      "http_status": 403,
-      "attempt": 1,
-      "timestamp": "2026-11-09T19:23:19.122909+00:00",
-      "notes": ""
-    },
-    {
-      "name": "Nuxtbase",
-      "url": "https://nuxtbase.com/",
-      "status": "failed",
-      "http_status": 405,
-      "attempt": 1,
-      "timestamp": "2026-11-09T19:23:22.796605+00:00",
-      "notes": ""
-    },
-    {
-      "name": "Shadcntemplates",
-      "url": "https://shadcntemplates.com/",
-      "status": "failed",
-      "http_status": 405,
-      "attempt": 1,
-      "timestamp": "2026-11-09T19:23:26.388819+00:00",
-      "notes": ""
-    },
-    {
-      "name": "Swhouses",
-      "url": "https://swhouses.com.br/",
-      "status": "failed",
-      "http_status": null,
-      "attempt": 3,
-      "timestamp": "2026-11-09T19:23:34.606067+00:00",
-      "notes": "Exceeded retries"
-    },
-    {
-      "name": "Directories",
-      "url": "https://directories.best/",
-      "status": "failed",
-      "http_status": 404,
-      "attempt": 1,
-      "timestamp": "2026-11-09T19:23:39.996183+00:00",
-      "notes": ""
-    },
-    {
-      "name": "Rhyzz",
-      "url": "https://www.rhyzz.com/web-directory-network.html",
-      "status": "failed",
-      "http_status": 403,
-      "attempt": 1,
-      "timestamp": "2026-11-09T19:23:44.137832+00:00",
-      "notes": ""
-    },
-    {
-      "name": "Coupon",
-      "url": "https://coupon.mkdirs.com/",
-      "status": "failed",
-      "http_status": null,
-      "attempt": 3,
-      "timestamp": "2026-11-09T19:23:51.667856+00:00",
-      "notes": "Exceeded retries"
-    },
-    {
-      "name": "Bestfreetools",
-      "url": "https://www.bestfreetools.io/",
-      "status": "failed",
-      "http_status": 405,
-      "attempt": 1,
-      "timestamp": "2026-11-09T19:23:55.936693+00:00",
-      "notes": ""
-    },
-    {
-      "name": "Prosaashub",
-      "url": "https://prosaashub.com/",
-      "status": "failed",
-      "http_status": null,
-      "attempt": 3,
-      "timestamp": "2026-11-09T19:24:03.764156+00:00",
-      "notes": "Exceeded retries"
-    },
-    {
-      "name": "Novavoice",
-      "url": "https://novavoice.app/",
-      "status": "failed",
-      "http_status": 404,
-      "attempt": 1,
-      "timestamp": "2026-11-09T19:24:08.401396+00:00",
-      "notes": ""
-    },
-    {
-      "name": "Tryhoudini",
-      "url": "https://www.tryhoudini.app/",
-      "status": "failed",
-      "http_status": null,
-      "attempt": 3,
-      "timestamp": "2026-11-09T19:24:15.888341+00:00",
-      "notes": "Exceeded retries"
-    },
-    {
-      "name": "Praneetbrar",
-      "url": "https://praneetbrar.com/backlink-marketplace",
-      "status": "failed",
-      "http_status": 405,
-      "attempt": 1,
-      "timestamp": "2026-11-09T19:24:20.474694+00:00",
-      "notes": ""
-    },
-    {
-      "name": "Antdirectory",
-      "url": "https://antdirectory.com/",
-      "status": "failed",
-      "http_status": 403,
-      "attempt": 1,
-      "timestamp": "2026-11-09T19:24:24.000391+00:00",
-      "notes": ""
-    },
-    {
-      "name": "Onefreepage",
-      "url": "https://onefreepage.com/",
-      "status": "failed",
-      "http_status": 403,
-      "attempt": 1,
-      "timestamp": "2026-11-09T19:24:27.689648+00:00",
-      "notes": ""
-    },
-    {
-      "name": "Giftscraftschina",
-      "url": "https://giftscraftschina.com/",
-      "status": "failed",
-      "http_status": 404,
-      "attempt": 1,
-      "timestamp": "2026-11-09T19:24:33.020816+00:00",
-      "notes": ""
-    },
-    {
-      "name": "Scooparticles",
-      "url": "https://www.scooparticles.com/",
-      "status": "failed",
-      "http_status": 404,
-      "attempt": 1,
-      "timestamp": "2026-11-09T19:24:39.544408+00:00",
-      "notes": ""
-    },
-    {
-      "name": "Webuylandfast",
-      "url": "https://webuylandfast.com/",
-      "status": "failed",
-      "http_status": 404,
-      "attempt": 1,
-      "timestamp": "2026-11-09T19:24:43.689113+00:00",
-      "notes": ""
-    },
-    {
-      "name": "Perso",
-      "url": "https://perso.ai/",
-      "status": "failed",
-      "http_status": 405,
-      "attempt": 1,
-      "timestamp": "2026-11-09T19:24:48.674742+00:00",
-      "notes": ""
-    },
-    {
-      "name": "Backlinks List",
-      "url": "https://backlinks-list.com/",
-      "status": "failed",
-      "http_status": null,
-      "attempt": 3,
-      "timestamp": "2026-11-09T19:25:58.778669+00:00",
-      "notes": "Exceeded retries"
-    },
-    {
-      "name": "Saasboilerplate",
-      "url": "https://saasboilerplate.fr/",
-      "status": "failed",
-      "http_status": 403,
-      "attempt": 1,
-      "timestamp": "2026-11-09T19:26:02.674223+00:00",
-      "notes": ""
-    },
-    {
-      "name": "Opensourceboilerplates",
-      "url": "https://opensourceboilerplates.com/",
-      "status": "failed",
-      "http_status": 405,
-      "attempt": 1,
-      "timestamp": "2026-11-09T19:26:06.278460+00:00",
-      "notes": ""
-    },
-    {
-      "name": "Saascore",
-      "url": "https://saascore.com/",
-      "status": "failed",
-      "http_status": 405,
-      "attempt": 1,
-      "timestamp": "2026-11-09T19:26:11.120682+00:00",
-      "notes": ""
-    },
-    {
-      "name": "Topboilerplate",
-      "url": "https://topboilerplate.com/",
-      "status": "failed",
-      "http_status": 405,
-      "attempt": 1,
-      "timestamp": "2026-11-09T19:26:15.236475+00:00",
-      "notes": ""
-    },
-    {
-      "name": "Saasboilerplates",
-      "url": "https://saasboilerplates.dev/",
-      "status": "failed",
-      "http_status": 404,
-      "attempt": 1,
-      "timestamp": "2026-11-09T19:26:19.010708+00:00",
-      "notes": ""
-    },
-    {
-      "name": "Stakenova",
-      "url": "https://stakenova.fun/",
-      "status": "failed",
-      "http_status": 403,
-      "attempt": 1,
-      "timestamp": "2026-11-09T19:26:22.542513+00:00",
-      "notes": ""
-    },
-    {
-      "name": "Finance",
-      "url": "https://finance.wiki/",
-      "status": "failed",
-      "http_status": null,
-      "attempt": 3,
-      "timestamp": "2026-11-09T19:26:30.644886+00:00",
-      "notes": "Exceeded retries"
-    },
-    {
-      "name": "Indievoice",
-      "url": "https://indievoice.app/",
-      "status": "failed",
-      "http_status": null,
-      "attempt": 3,
-      "timestamp": "2026-11-09T19:26:38.241309+00:00",
-      "notes": "Exceeded retries"
-    },
-    {
-      "name": "Roxnation",
-      "url": "https://roxnation.fr/",
-      "status": "failed",
-      "http_status": 405,
-      "attempt": 1,
-      "timestamp": "2026-11-09T19:26:42.155270+00:00",
-      "notes": ""
-    },
-    {
-      "name": "Pronunciationexercises",
-      "url": "https://pronunciationexercises.com/",
-      "status": "failed",
-      "http_status": null,
-      "attempt": 3,
-      "timestamp": "2026-11-09T19:26:49.625106+00:00",
-      "notes": "Exceeded retries"
-    },
-    {
-      "name": "Languagetools",
-      "url": "https://languagetools.directory/",
-      "status": "failed",
-      "http_status": 404,
-      "attempt": 1,
-      "timestamp": "2026-11-09T19:26:54.352600+00:00",
-      "notes": ""
-    },
-    {
-      "name": "Xiaobaotong",
-      "url": "https://www.xiaobaotong.me/",
-      "status": "failed",
-      "http_status": null,
-      "attempt": 3,
-      "timestamp": "2026-11-09T19:27:01.862081+00:00",
-      "notes": "Exceeded retries"
-    },
-    {
-      "name": "Nomadwise",
-      "url": "https://www.nomadwise.io/",
-      "status": "failed",
-      "http_status": 405,
-      "attempt": 1,
-      "timestamp": "2026-11-09T19:27:05.845205+00:00",
-      "notes": ""
-    },
-    {
-      "name": "Airepo",
-      "url": "https://airepo.io",
-      "status": "failed",
-      "http_status": 405,
-      "attempt": 1,
-      "timestamp": "2026-11-09T19:27:17.055410+00:00",
-      "notes": ""
-    },
-    {
-      "name": "Aitool",
-      "url": "https://aitool.ai",
-      "status": "failed",
-      "http_status": 403,
-      "attempt": 1,
-      "timestamp": "2026-11-09T19:27:20.597207+00:00",
-      "notes": ""
-    },
-    {
-      "name": "Akitaapp",
-      "url": "https://akitaapp.com/directory",
-      "status": "failed",
-      "http_status": 404,
-      "attempt": 1,
-      "timestamp": "2026-11-09T19:27:27.516339+00:00",
-      "notes": ""
-    },
-    {
-      "name": "Allstartups",
-      "url": "https://allstartups.info",
-      "status": "failed",
-      "http_status": null,
-      "attempt": 3,
-      "timestamp": "2026-11-09T19:27:35.791753+00:00",
-      "notes": "Exceeded retries"
-    },
-    {
-      "name": "Allthatsaas",
-      "url": "https://allthatsaas.com",
-      "status": "failed",
-      "http_status": 522,
-      "attempt": 1,
-      "timestamp": "2026-11-09T19:28:18.549540+00:00",
-      "notes": ""
-    },
-    {
-      "name": "Alternatives",
-      "url": "https://alternatives.co",
-      "status": "failed",
-      "http_status": null,
-      "attempt": 3,
-      "timestamp": "2026-11-09T19:28:30.503818+00:00",
-      "notes": "Exceeded retries"
-    },
-    {
-      "name": "Appsolite",
-      "url": "https://appsolite.com",
-      "status": "failed",
-      "http_status": null,
-      "attempt": 3,
-      "timestamp": "2026-11-09T19:28:38.496555+00:00",
-      "notes": "Exceeded retries"
-    },
-    {
-      "name": "Betterbuys",
-      "url": "https://betterbuys.com",
-      "status": "failed",
-      "http_status": 404,
-      "attempt": 1,
-      "timestamp": "2026-11-09T19:28:42.359339+00:00",
-      "notes": ""
-    },
-    {
-      "name": "Breakoutlist",
-      "url": "https://breakoutlist.com",
-      "status": "failed",
-      "http_status": 405,
-      "attempt": 1,
-      "timestamp": "2026-11-09T19:28:46.581966+00:00",
-      "notes": ""
-    },
-    {
-      "name": "Capterra",
-      "url": "https://capterra.com",
-      "status": "failed",
-      "http_status": 403,
-      "attempt": 1,
-      "timestamp": "2026-11-09T19:28:50.150307+00:00",
-      "notes": ""
-    },
-    {
-      "name": "Cloudwards",
-      "url": "https://cloudwards.net",
-      "status": "failed",
-      "http_status": 403,
-      "attempt": 1,
-      "timestamp": "2026-11-09T19:28:53.833940+00:00",
-      "notes": ""
-    },
-    {
-      "name": "Creator",
-      "url": "https://creator.supply",
-      "status": "failed",
-      "http_status": 405,
-      "attempt": 1,
-      "timestamp": "2026-11-09T19:28:57.702717+00:00",
-      "notes": ""
-    },
-    {
-      "name": "Crozdesk",
-      "url": "https://crozdesk.com",
-      "status": "failed",
-      "http_status": 200,
-      "attempt": 1,
-      "timestamp": "2026-11-09T19:29:05.933267+00:00",
-      "notes": ""
-    },
-    {
-      "name": "Crunchbase",
-      "url": "https://crunchbase.com",
-      "status": "failed",
-      "http_status": 403,
-      "attempt": 1,
-      "timestamp": "2026-11-09T19:29:10.127353+00:00",
-      "notes": ""
-    },
-    {
-      "name": "Discovercrm",
-      "url": "https://discovercrm.com",
-      "status": "failed",
-      "http_status": 404,
-      "attempt": 1,
-      "timestamp": "2026-11-09T19:29:14.050572+00:00",
-      "notes": ""
-    },
-    {
-      "name": "E27",
-      "url": "https://e27.co",
-      "status": "failed",
-      "http_status": 403,
-      "attempt": 1,
-      "timestamp": "2026-11-09T19:30:25.237643+00:00",
-      "notes": ""
-    },
-    {
-      "name": "Efficient",
-      "url": "https://efficient.app",
-      "status": "failed",
-      "http_status": 429,
-      "attempt": 1,
-      "timestamp": "2026-11-09T19:30:32.296826+00:00",
-      "notes": ""
-    },
-    {
-      "name": "Eu Startups",
-      "url": "https://eu-startups.com",
-      "status": "failed",
-      "http_status": 403,
-      "attempt": 1,
-      "timestamp": "2026-11-09T19:30:36.191189+00:00",
-      "notes": ""
-    },
-    {
-      "name": "F6s",
-      "url": "https://f6s.com",
-      "status": "failed",
-      "http_status": 200,
-      "attempt": 1,
-      "timestamp": "2026-11-09T19:30:40.037159+00:00",
-      "notes": ""
-    },
-    {
-      "name": "Financesonline",
-      "url": "https://financesonline.com",
-      "status": "failed",
-      "http_status": 404,
-      "attempt": 1,
-      "timestamp": "2026-11-09T19:30:43.796963+00:00",
-      "notes": ""
-    },
-    {
-      "name": "Findseotools",
-      "url": "https://findseotools.com",
-      "status": "failed",
-      "http_status": 405,
-      "attempt": 1,
-      "timestamp": "2026-11-09T19:30:47.612905+00:00",
-      "notes": ""
-    },
-    {
-      "name": "Stack",
-      "url": "https://stack.g2.com",
-      "status": "failed",
-      "http_status": 403,
-      "attempt": 1,
-      "timestamp": "2026-11-09T19:30:54.774440+00:00",
-      "notes": ""
-    },
-    {
-      "name": "Growjo",
-      "url": "https://growjo.com",
-      "status": "failed",
-      "http_status": 403,
-      "attempt": 1,
-      "timestamp": "2026-11-09T19:31:05.900525+00:00",
-      "notes": ""
-    },
-    {
-      "name": "Growthhackers",
-      "url": "https://growthhackers.com",
-      "status": "failed",
-      "http_status": 404,
-      "attempt": 1,
-      "timestamp": "2026-11-09T19:31:12.493506+00:00",
-      "notes": ""
-    },
-    {
-      "name": "Gust",
-      "url": "https://gust.com",
-      "status": "failed",
-      "http_status": 403,
-      "attempt": 1,
-      "timestamp": "2026-11-09T19:31:16.036218+00:00",
-      "notes": ""
-    },
-    {
-      "name": "Hopps",
-      "url": "https://hopps.io",
-      "status": "failed",
-      "http_status": 404,
-      "attempt": 1,
-      "timestamp": "2026-11-09T19:31:20.602507+00:00",
-      "notes": ""
-    },
-    {
-      "name": "Inc42",
-      "url": "https://inc42.com",
-      "status": "failed",
-      "http_status": 404,
-      "attempt": 1,
-      "timestamp": "2026-11-09T19:31:26.268372+00:00",
-      "notes": ""
-    },
-    {
-      "name": "Insanelycooltools",
-      "url": "https://insanelycooltools.com",
-      "status": "failed",
-      "http_status": null,
-      "attempt": 3,
-      "timestamp": "2026-11-09T19:31:33.992403+00:00",
-      "notes": "Exceeded retries"
-    },
-    {
-      "name": "Insanelyusefulwebsites",
-      "url": "https://insanelyusefulwebsites.com",
-      "status": "failed",
-      "http_status": 405,
-      "attempt": 1,
-      "timestamp": "2026-11-09T19:31:37.852967+00:00",
-      "notes": ""
-    },
-    {
-      "name": "Lunadio",
-      "url": "https://lunadio.com",
-      "status": "failed",
-      "http_status": 404,
-      "attempt": 1,
-      "timestamp": "2026-11-09T19:31:58.320018+00:00",
-      "notes": ""
-    },
-    {
-      "name": "Microacquire",
-      "url": "https://microacquire.com",
-      "status": "failed",
-      "http_status": 405,
-      "attempt": 1,
-      "timestamp": "2026-11-09T19:32:05.818171+00:00",
-      "notes": ""
-    },
-    {
-      "name": "Mrfreetools",
-      "url": "https://mrfreetools.com",
-      "status": "failed",
-      "http_status": 500,
-      "attempt": 1,
-      "timestamp": "2026-11-09T19:32:13.540840+00:00",
       "notes": ""
     },
     {
@@ -2978,12 +2091,867 @@
       "notes": ""
     },
     {
+      "name": "Freemiumai",
+      "url": "https://freemiumai.net",
+      "status": "failed",
+      "http_status": 404,
+      "attempt": 1,
+      "timestamp": "2026-11-16T19:03:16.050362+00:00",
+      "notes": ""
+    },
+    {
+      "name": "Aisourcehub",
+      "url": "https://aisourcehub.com/ai-tools",
+      "status": "failed",
+      "http_status": null,
+      "attempt": 3,
+      "timestamp": "2026-11-16T19:03:23.489089+00:00",
+      "notes": "Exceeded retries"
+    },
+    {
+      "name": "Aitoolsnetwork",
+      "url": "https://aitoolsnetwork.com",
+      "status": "failed",
+      "http_status": null,
+      "attempt": 3,
+      "timestamp": "2026-11-16T19:03:32.988373+00:00",
+      "notes": "Exceeded retries"
+    },
+    {
+      "name": "Nextgentools",
+      "url": "https://nextgentools.me",
+      "status": "failed",
+      "http_status": 404,
+      "attempt": 1,
+      "timestamp": "2026-11-16T19:03:40.008927+00:00",
+      "notes": ""
+    },
+    {
+      "name": "Thetoolbus",
+      "url": "https://thetoolbus.ai/ai-tools",
+      "status": "failed",
+      "http_status": 403,
+      "attempt": 1,
+      "timestamp": "2026-11-16T19:03:52.695747+00:00",
+      "notes": ""
+    },
+    {
+      "name": "Theaigeneration",
+      "url": "https://theaigeneration.com",
+      "status": "failed",
+      "http_status": 500,
+      "attempt": 1,
+      "timestamp": "2026-11-16T19:03:59.809851+00:00",
+      "notes": ""
+    },
+    {
+      "name": "Bigailist",
+      "url": "https://bigailist.com",
+      "status": "failed",
+      "http_status": 405,
+      "attempt": 1,
+      "timestamp": "2026-11-16T19:04:03.407275+00:00",
+      "notes": ""
+    },
+    {
+      "name": "Gptforthat",
+      "url": "https://gptforthat.com/discover",
+      "status": "failed",
+      "http_status": 404,
+      "attempt": 1,
+      "timestamp": "2026-11-16T19:04:10.331162+00:00",
+      "notes": ""
+    },
+    {
+      "name": "Aiagentsbase",
+      "url": "https://aiagentsbase.com",
+      "status": "failed",
+      "http_status": 405,
+      "attempt": 2,
+      "timestamp": "2026-11-16T19:04:45.270327+00:00",
+      "notes": ""
+    },
+    {
+      "name": "Aitoolscover",
+      "url": "https://aitoolscover.com",
+      "status": "failed",
+      "http_status": 405,
+      "attempt": 1,
+      "timestamp": "2026-11-16T19:04:48.970369+00:00",
+      "notes": ""
+    },
+    {
+      "name": "Woy",
+      "url": "https://woy.ai",
+      "status": "failed",
+      "http_status": 405,
+      "attempt": 1,
+      "timestamp": "2026-11-16T19:04:53.638106+00:00",
+      "notes": ""
+    },
+    {
+      "name": "Aidirs",
+      "url": "https://aidirs.org",
+      "status": "failed",
+      "http_status": 403,
+      "attempt": 1,
+      "timestamp": "2026-11-16T19:04:57.104912+00:00",
+      "notes": ""
+    },
+    {
+      "name": "Wtcraft",
+      "url": "https://wtcraft.com/",
+      "status": "failed",
+      "http_status": null,
+      "attempt": 3,
+      "timestamp": "2026-11-16T19:05:04.558455+00:00",
+      "notes": "Exceeded retries"
+    },
+    {
+      "name": "Theralist",
+      "url": "https://theralist.ca/",
+      "status": "failed",
+      "http_status": 403,
+      "attempt": 1,
+      "timestamp": "2026-11-16T19:05:08.199921+00:00",
+      "notes": ""
+    },
+    {
+      "name": "Topindie",
+      "url": "https://topindie.dev/",
+      "status": "failed",
+      "http_status": null,
+      "attempt": 3,
+      "timestamp": "2026-11-16T19:06:15.639365+00:00",
+      "notes": "Exceeded retries"
+    },
+    {
+      "name": "Dr",
+      "url": "https://dr.cchostvps.xyz/",
+      "status": "failed",
+      "http_status": null,
+      "attempt": 3,
+      "timestamp": "2026-11-16T19:06:23.057897+00:00",
+      "notes": "Exceeded retries"
+    },
+    {
+      "name": "Gocafehunt",
+      "url": "https://www.gocafehunt.com/",
+      "status": "failed",
+      "http_status": 403,
+      "attempt": 1,
+      "timestamp": "2026-11-16T19:06:27.372935+00:00",
+      "notes": ""
+    },
+    {
+      "name": "Testdev",
+      "url": "https://testdev.tools/",
+      "status": "failed",
+      "http_status": 404,
+      "attempt": 1,
+      "timestamp": "2026-11-16T19:06:30.931679+00:00",
+      "notes": ""
+    },
+    {
+      "name": "Linkvertex",
+      "url": "https://www.linkvertex.com/",
+      "status": "failed",
+      "http_status": 403,
+      "attempt": 1,
+      "timestamp": "2026-11-16T19:06:34.336720+00:00",
+      "notes": ""
+    },
+    {
+      "name": "Aihuntlist",
+      "url": "https://aihuntlist.com/",
+      "status": "failed",
+      "http_status": 403,
+      "attempt": 1,
+      "timestamp": "2026-11-16T19:06:37.773598+00:00",
+      "notes": ""
+    },
+    {
+      "name": "Wizdir",
+      "url": "https://www.wizdir.com/",
+      "status": "failed",
+      "http_status": 403,
+      "attempt": 1,
+      "timestamp": "2026-11-16T19:06:41.354303+00:00",
+      "notes": ""
+    },
+    {
+      "name": "Agentarius",
+      "url": "https://agentarius.ai/",
+      "status": "failed",
+      "http_status": 402,
+      "attempt": 1,
+      "timestamp": "2026-11-16T19:06:44.730250+00:00",
+      "notes": ""
+    },
+    {
+      "name": "Ugcpicks",
+      "url": "https://ugcpicks.com/",
+      "status": "failed",
+      "http_status": 405,
+      "attempt": 1,
+      "timestamp": "2026-11-16T19:06:48.487764+00:00",
+      "notes": ""
+    },
+    {
+      "name": "A2zdir",
+      "url": "https://www.a2zdir.com/",
+      "status": "failed",
+      "http_status": 403,
+      "attempt": 1,
+      "timestamp": "2026-11-16T19:06:52.033517+00:00",
+      "notes": ""
+    },
+    {
+      "name": "Dir",
+      "url": "https://www.dir.cx/",
+      "status": "failed",
+      "http_status": 403,
+      "attempt": 1,
+      "timestamp": "2026-11-16T19:06:55.773449+00:00",
+      "notes": ""
+    },
+    {
+      "name": "Brightlinksdirectory",
+      "url": "https://www.brightlinksdirectory.com/",
+      "status": "failed",
+      "http_status": 404,
+      "attempt": 1,
+      "timestamp": "2026-11-16T19:07:09.607461+00:00",
+      "notes": ""
+    },
+    {
+      "name": "Elitedir",
+      "url": "https://www.elitedir.com/",
+      "status": "failed",
+      "http_status": 403,
+      "attempt": 1,
+      "timestamp": "2026-11-16T19:07:13.014966+00:00",
+      "notes": ""
+    },
+    {
+      "name": "Katie",
+      "url": "https://katie.chat/",
+      "status": "failed",
+      "http_status": 405,
+      "attempt": 1,
+      "timestamp": "2026-11-16T19:07:17.433828+00:00",
+      "notes": ""
+    },
+    {
+      "name": "Mediaai",
+      "url": "https://www.mediaai.art/",
+      "status": "failed",
+      "http_status": 403,
+      "attempt": 1,
+      "timestamp": "2026-11-16T19:07:21.840122+00:00",
+      "notes": ""
+    },
+    {
+      "name": "Clawcloud",
+      "url": "https://clawcloud.im/",
+      "status": "failed",
+      "http_status": 404,
+      "attempt": 1,
+      "timestamp": "2026-11-16T19:07:25.672497+00:00",
+      "notes": ""
+    },
+    {
+      "name": "Ufind",
+      "url": "https://ufind.best/",
+      "status": "failed",
+      "http_status": 405,
+      "attempt": 1,
+      "timestamp": "2026-11-16T19:07:30.489698+00:00",
+      "notes": ""
+    },
+    {
+      "name": "Aihubs",
+      "url": "https://aihubs.ai/",
+      "status": "failed",
+      "http_status": 403,
+      "attempt": 1,
+      "timestamp": "2026-11-16T19:07:33.877552+00:00",
+      "notes": ""
+    },
+    {
+      "name": "Nuxtbase",
+      "url": "https://nuxtbase.com/",
+      "status": "failed",
+      "http_status": 405,
+      "attempt": 1,
+      "timestamp": "2026-11-16T19:07:37.904097+00:00",
+      "notes": ""
+    },
+    {
+      "name": "Shadcntemplates",
+      "url": "https://shadcntemplates.com/",
+      "status": "failed",
+      "http_status": 405,
+      "attempt": 1,
+      "timestamp": "2026-11-16T19:07:41.459137+00:00",
+      "notes": ""
+    },
+    {
+      "name": "Swhouses",
+      "url": "https://swhouses.com.br/",
+      "status": "failed",
+      "http_status": null,
+      "attempt": 3,
+      "timestamp": "2026-11-16T19:07:48.745377+00:00",
+      "notes": "Exceeded retries"
+    },
+    {
+      "name": "Directories",
+      "url": "https://directories.best/",
+      "status": "failed",
+      "http_status": 404,
+      "attempt": 1,
+      "timestamp": "2026-11-16T19:07:56.805266+00:00",
+      "notes": ""
+    },
+    {
+      "name": "Rhyzz",
+      "url": "https://www.rhyzz.com/web-directory-network.html",
+      "status": "failed",
+      "http_status": 403,
+      "attempt": 1,
+      "timestamp": "2026-11-16T19:08:00.250557+00:00",
+      "notes": ""
+    },
+    {
+      "name": "Coupon",
+      "url": "https://coupon.mkdirs.com/",
+      "status": "failed",
+      "http_status": null,
+      "attempt": 3,
+      "timestamp": "2026-11-16T19:08:07.561527+00:00",
+      "notes": "Exceeded retries"
+    },
+    {
+      "name": "Bestfreetools",
+      "url": "https://www.bestfreetools.io/",
+      "status": "failed",
+      "http_status": 405,
+      "attempt": 1,
+      "timestamp": "2026-11-16T19:08:11.775991+00:00",
+      "notes": ""
+    },
+    {
+      "name": "Prosaashub",
+      "url": "https://prosaashub.com/",
+      "status": "failed",
+      "http_status": null,
+      "attempt": 3,
+      "timestamp": "2026-11-16T19:08:19.910258+00:00",
+      "notes": "Exceeded retries"
+    },
+    {
+      "name": "Novavoice",
+      "url": "https://novavoice.app/",
+      "status": "failed",
+      "http_status": 404,
+      "attempt": 1,
+      "timestamp": "2026-11-16T19:08:25.405343+00:00",
+      "notes": ""
+    },
+    {
+      "name": "Tryhoudini",
+      "url": "https://www.tryhoudini.app/",
+      "status": "failed",
+      "http_status": null,
+      "attempt": 3,
+      "timestamp": "2026-11-16T19:08:32.705031+00:00",
+      "notes": "Exceeded retries"
+    },
+    {
+      "name": "Praneetbrar",
+      "url": "https://praneetbrar.com/backlink-marketplace",
+      "status": "failed",
+      "http_status": 405,
+      "attempt": 1,
+      "timestamp": "2026-11-16T19:08:37.029037+00:00",
+      "notes": ""
+    },
+    {
+      "name": "Antdirectory",
+      "url": "https://antdirectory.com/",
+      "status": "success",
+      "http_status": 200,
+      "attempt": 1,
+      "timestamp": "2026-11-16T19:08:41.458869+00:00",
+      "notes": ""
+    },
+    {
+      "name": "Onefreepage",
+      "url": "https://onefreepage.com/",
+      "status": "failed",
+      "http_status": 403,
+      "attempt": 1,
+      "timestamp": "2026-11-16T19:08:44.980921+00:00",
+      "notes": ""
+    },
+    {
+      "name": "Giftscraftschina",
+      "url": "https://giftscraftschina.com/",
+      "status": "failed",
+      "http_status": 404,
+      "attempt": 1,
+      "timestamp": "2026-11-16T19:08:49.580085+00:00",
+      "notes": ""
+    },
+    {
+      "name": "Scooparticles",
+      "url": "https://www.scooparticles.com/",
+      "status": "failed",
+      "http_status": 404,
+      "attempt": 1,
+      "timestamp": "2026-11-16T19:09:04.907439+00:00",
+      "notes": ""
+    },
+    {
+      "name": "Webuylandfast",
+      "url": "https://webuylandfast.com/",
+      "status": "failed",
+      "http_status": 404,
+      "attempt": 1,
+      "timestamp": "2026-11-16T19:09:09.060571+00:00",
+      "notes": ""
+    },
+    {
+      "name": "Perso",
+      "url": "https://perso.ai/",
+      "status": "failed",
+      "http_status": 405,
+      "attempt": 1,
+      "timestamp": "2026-11-16T19:09:13.304151+00:00",
+      "notes": ""
+    },
+    {
+      "name": "Backlinks List",
+      "url": "https://backlinks-list.com/",
+      "status": "failed",
+      "http_status": null,
+      "attempt": 3,
+      "timestamp": "2026-11-16T19:10:23.672437+00:00",
+      "notes": "Exceeded retries"
+    },
+    {
+      "name": "Saasboilerplate",
+      "url": "https://saasboilerplate.fr/",
+      "status": "failed",
+      "http_status": 403,
+      "attempt": 1,
+      "timestamp": "2026-11-16T19:10:28.042964+00:00",
+      "notes": ""
+    },
+    {
+      "name": "Opensourceboilerplates",
+      "url": "https://opensourceboilerplates.com/",
+      "status": "failed",
+      "http_status": 405,
+      "attempt": 1,
+      "timestamp": "2026-11-16T19:10:31.745129+00:00",
+      "notes": ""
+    },
+    {
+      "name": "Saascore",
+      "url": "https://saascore.com/",
+      "status": "failed",
+      "http_status": 405,
+      "attempt": 1,
+      "timestamp": "2026-11-16T19:10:36.735563+00:00",
+      "notes": ""
+    },
+    {
+      "name": "Topboilerplate",
+      "url": "https://topboilerplate.com/",
+      "status": "failed",
+      "http_status": 405,
+      "attempt": 1,
+      "timestamp": "2026-11-16T19:10:41.614822+00:00",
+      "notes": ""
+    },
+    {
+      "name": "Saasboilerplates",
+      "url": "https://saasboilerplates.dev/",
+      "status": "failed",
+      "http_status": 404,
+      "attempt": 1,
+      "timestamp": "2026-11-16T19:10:45.339744+00:00",
+      "notes": ""
+    },
+    {
+      "name": "Stakenova",
+      "url": "https://stakenova.fun/",
+      "status": "failed",
+      "http_status": 403,
+      "attempt": 1,
+      "timestamp": "2026-11-16T19:10:48.735869+00:00",
+      "notes": ""
+    },
+    {
+      "name": "Finance",
+      "url": "https://finance.wiki/",
+      "status": "failed",
+      "http_status": null,
+      "attempt": 3,
+      "timestamp": "2026-11-16T19:10:56.151404+00:00",
+      "notes": "Exceeded retries"
+    },
+    {
+      "name": "Indievoice",
+      "url": "https://indievoice.app/",
+      "status": "failed",
+      "http_status": null,
+      "attempt": 3,
+      "timestamp": "2026-11-16T19:11:03.492085+00:00",
+      "notes": "Exceeded retries"
+    },
+    {
+      "name": "Roxnation",
+      "url": "https://roxnation.fr/",
+      "status": "failed",
+      "http_status": 404,
+      "attempt": 1,
+      "timestamp": "2026-11-16T19:11:07.295407+00:00",
+      "notes": ""
+    },
+    {
+      "name": "Pronunciationexercises",
+      "url": "https://pronunciationexercises.com/",
+      "status": "failed",
+      "http_status": null,
+      "attempt": 3,
+      "timestamp": "2026-11-16T19:11:14.573915+00:00",
+      "notes": "Exceeded retries"
+    },
+    {
+      "name": "Languagetools",
+      "url": "https://languagetools.directory/",
+      "status": "failed",
+      "http_status": 404,
+      "attempt": 1,
+      "timestamp": "2026-11-16T19:11:19.133555+00:00",
+      "notes": ""
+    },
+    {
+      "name": "Xiaobaotong",
+      "url": "https://www.xiaobaotong.me/",
+      "status": "failed",
+      "http_status": null,
+      "attempt": 3,
+      "timestamp": "2026-11-16T19:11:26.436262+00:00",
+      "notes": "Exceeded retries"
+    },
+    {
+      "name": "Nomadwise",
+      "url": "https://www.nomadwise.io/",
+      "status": "failed",
+      "http_status": 405,
+      "attempt": 1,
+      "timestamp": "2026-11-16T19:11:30.288396+00:00",
+      "notes": ""
+    },
+    {
+      "name": "Airepo",
+      "url": "https://airepo.io",
+      "status": "failed",
+      "http_status": 405,
+      "attempt": 1,
+      "timestamp": "2026-11-16T19:11:41.046104+00:00",
+      "notes": ""
+    },
+    {
+      "name": "Aitool",
+      "url": "https://aitool.ai",
+      "status": "failed",
+      "http_status": 403,
+      "attempt": 1,
+      "timestamp": "2026-11-16T19:11:44.492565+00:00",
+      "notes": ""
+    },
+    {
+      "name": "Akitaapp",
+      "url": "https://akitaapp.com/directory",
+      "status": "failed",
+      "http_status": 404,
+      "attempt": 1,
+      "timestamp": "2026-11-16T19:11:51.520811+00:00",
+      "notes": ""
+    },
+    {
+      "name": "Allstartups",
+      "url": "https://allstartups.info",
+      "status": "failed",
+      "http_status": null,
+      "attempt": 3,
+      "timestamp": "2026-11-16T19:11:59.615260+00:00",
+      "notes": "Exceeded retries"
+    },
+    {
+      "name": "Allthatsaas",
+      "url": "https://allthatsaas.com",
+      "status": "failed",
+      "http_status": 522,
+      "attempt": 1,
+      "timestamp": "2026-11-16T19:12:42.160896+00:00",
+      "notes": ""
+    },
+    {
+      "name": "Alternatives",
+      "url": "https://alternatives.co",
+      "status": "failed",
+      "http_status": null,
+      "attempt": 3,
+      "timestamp": "2026-11-16T19:12:53.662416+00:00",
+      "notes": "Exceeded retries"
+    },
+    {
+      "name": "Appsolite",
+      "url": "https://appsolite.com",
+      "status": "failed",
+      "http_status": null,
+      "attempt": 3,
+      "timestamp": "2026-11-16T19:13:00.994363+00:00",
+      "notes": "Exceeded retries"
+    },
+    {
+      "name": "Betterbuys",
+      "url": "https://betterbuys.com",
+      "status": "failed",
+      "http_status": 404,
+      "attempt": 1,
+      "timestamp": "2026-11-16T19:13:05.160322+00:00",
+      "notes": ""
+    },
+    {
+      "name": "Breakoutlist",
+      "url": "https://breakoutlist.com",
+      "status": "failed",
+      "http_status": 405,
+      "attempt": 1,
+      "timestamp": "2026-11-16T19:13:08.953779+00:00",
+      "notes": ""
+    },
+    {
+      "name": "Capterra",
+      "url": "https://capterra.com",
+      "status": "failed",
+      "http_status": 403,
+      "attempt": 1,
+      "timestamp": "2026-11-16T19:13:12.346189+00:00",
+      "notes": ""
+    },
+    {
+      "name": "Cloudwards",
+      "url": "https://cloudwards.net",
+      "status": "failed",
+      "http_status": 403,
+      "attempt": 1,
+      "timestamp": "2026-11-16T19:13:15.980723+00:00",
+      "notes": ""
+    },
+    {
+      "name": "Creator",
+      "url": "https://creator.supply",
+      "status": "failed",
+      "http_status": 405,
+      "attempt": 1,
+      "timestamp": "2026-11-16T19:13:19.550389+00:00",
+      "notes": ""
+    },
+    {
+      "name": "Crozdesk",
+      "url": "https://crozdesk.com",
+      "status": "failed",
+      "http_status": 200,
+      "attempt": 1,
+      "timestamp": "2026-11-16T19:13:23.918047+00:00",
+      "notes": ""
+    },
+    {
+      "name": "Crunchbase",
+      "url": "https://crunchbase.com",
+      "status": "failed",
+      "http_status": 403,
+      "attempt": 1,
+      "timestamp": "2026-11-16T19:13:27.518620+00:00",
+      "notes": ""
+    },
+    {
+      "name": "Discovercrm",
+      "url": "https://discovercrm.com",
+      "status": "failed",
+      "http_status": 404,
+      "attempt": 1,
+      "timestamp": "2026-11-16T19:13:31.653269+00:00",
+      "notes": ""
+    },
+    {
+      "name": "E27",
+      "url": "https://e27.co",
+      "status": "failed",
+      "http_status": 403,
+      "attempt": 1,
+      "timestamp": "2026-11-16T19:14:42.440467+00:00",
+      "notes": ""
+    },
+    {
+      "name": "Efficient",
+      "url": "https://efficient.app",
+      "status": "failed",
+      "http_status": 429,
+      "attempt": 1,
+      "timestamp": "2026-11-16T19:14:49.686713+00:00",
+      "notes": ""
+    },
+    {
+      "name": "Eu Startups",
+      "url": "https://eu-startups.com",
+      "status": "failed",
+      "http_status": 403,
+      "attempt": 1,
+      "timestamp": "2026-11-16T19:14:53.218098+00:00",
+      "notes": ""
+    },
+    {
+      "name": "F6s",
+      "url": "https://f6s.com",
+      "status": "failed",
+      "http_status": 200,
+      "attempt": 1,
+      "timestamp": "2026-11-16T19:14:56.758159+00:00",
+      "notes": ""
+    },
+    {
+      "name": "Financesonline",
+      "url": "https://financesonline.com",
+      "status": "failed",
+      "http_status": 404,
+      "attempt": 1,
+      "timestamp": "2026-11-16T19:15:00.619626+00:00",
+      "notes": ""
+    },
+    {
+      "name": "Findseotools",
+      "url": "https://findseotools.com",
+      "status": "failed",
+      "http_status": 405,
+      "attempt": 1,
+      "timestamp": "2026-11-16T19:15:04.445311+00:00",
+      "notes": ""
+    },
+    {
+      "name": "Stack",
+      "url": "https://stack.g2.com",
+      "status": "failed",
+      "http_status": 403,
+      "attempt": 1,
+      "timestamp": "2026-11-16T19:15:11.607346+00:00",
+      "notes": ""
+    },
+    {
+      "name": "Growjo",
+      "url": "https://growjo.com",
+      "status": "failed",
+      "http_status": 403,
+      "attempt": 1,
+      "timestamp": "2026-11-16T19:15:22.237275+00:00",
+      "notes": ""
+    },
+    {
+      "name": "Growthhackers",
+      "url": "https://growthhackers.com",
+      "status": "failed",
+      "http_status": 404,
+      "attempt": 1,
+      "timestamp": "2026-11-16T19:15:27.975048+00:00",
+      "notes": ""
+    },
+    {
+      "name": "Gust",
+      "url": "https://gust.com",
+      "status": "failed",
+      "http_status": 403,
+      "attempt": 1,
+      "timestamp": "2026-11-16T19:15:31.351910+00:00",
+      "notes": ""
+    },
+    {
+      "name": "Hopps",
+      "url": "https://hopps.io",
+      "status": "failed",
+      "http_status": 404,
+      "attempt": 1,
+      "timestamp": "2026-11-16T19:15:35.808306+00:00",
+      "notes": ""
+    },
+    {
+      "name": "Inc42",
+      "url": "https://inc42.com",
+      "status": "failed",
+      "http_status": 404,
+      "attempt": 1,
+      "timestamp": "2026-11-16T19:15:40.738268+00:00",
+      "notes": ""
+    },
+    {
+      "name": "Insanelycooltools",
+      "url": "https://insanelycooltools.com",
+      "status": "failed",
+      "http_status": null,
+      "attempt": 3,
+      "timestamp": "2026-11-16T19:15:48.125384+00:00",
+      "notes": "Exceeded retries"
+    },
+    {
+      "name": "Insanelyusefulwebsites",
+      "url": "https://insanelyusefulwebsites.com",
+      "status": "failed",
+      "http_status": 405,
+      "attempt": 1,
+      "timestamp": "2026-11-16T19:15:51.949337+00:00",
+      "notes": ""
+    },
+    {
+      "name": "Lunadio",
+      "url": "https://lunadio.com",
+      "status": "failed",
+      "http_status": 404,
+      "attempt": 1,
+      "timestamp": "2026-11-16T19:16:12.643068+00:00",
+      "notes": ""
+    },
+    {
+      "name": "Microacquire",
+      "url": "https://microacquire.com",
+      "status": "failed",
+      "http_status": 405,
+      "attempt": 1,
+      "timestamp": "2026-11-16T19:16:19.935508+00:00",
+      "notes": ""
+    },
+    {
+      "name": "Mrfreetools",
+      "url": "https://mrfreetools.com",
+      "status": "failed",
+      "http_status": 404,
+      "attempt": 1,
+      "timestamp": "2026-11-16T19:16:31.314744+00:00",
+      "notes": ""
+    },
+    {
       "name": "Nocodedevs",
       "url": "https://nocodedevs.com",
       "status": "failed",
       "http_status": 200,
       "attempt": 1,
-      "timestamp": "2026-11-09T19:32:23.443417+00:00",
+      "timestamp": "2026-11-16T19:16:35.368850+00:00",
       "notes": ""
     },
     {
@@ -2992,7 +2960,7 @@
       "status": "failed",
       "http_status": 405,
       "attempt": 1,
-      "timestamp": "2026-11-09T19:32:27.153466+00:00",
+      "timestamp": "2026-11-16T19:16:38.828194+00:00",
       "notes": ""
     },
     {
@@ -3001,7 +2969,7 @@
       "status": "failed",
       "http_status": null,
       "attempt": 3,
-      "timestamp": "2026-11-09T19:33:04.271813+00:00",
+      "timestamp": "2026-11-16T19:16:46.398191+00:00",
       "notes": "Exceeded retries"
     },
     {
@@ -3010,7 +2978,7 @@
       "status": "failed",
       "http_status": 520,
       "attempt": 1,
-      "timestamp": "2026-11-09T19:33:08.874157+00:00",
+      "timestamp": "2026-11-16T19:16:50.696768+00:00",
       "notes": ""
     },
     {
@@ -3019,7 +2987,7 @@
       "status": "failed",
       "http_status": 404,
       "attempt": 1,
-      "timestamp": "2026-11-09T19:33:16.882302+00:00",
+      "timestamp": "2026-11-16T19:16:58.724596+00:00",
       "notes": ""
     },
     {
@@ -3028,7 +2996,7 @@
       "status": "failed",
       "http_status": 404,
       "attempt": 1,
-      "timestamp": "2026-11-09T19:33:20.981099+00:00",
+      "timestamp": "2026-11-16T19:17:02.447504+00:00",
       "notes": ""
     },
     {
@@ -3037,7 +3005,7 @@
       "status": "failed",
       "http_status": 200,
       "attempt": 1,
-      "timestamp": "2026-11-09T19:33:24.761716+00:00",
+      "timestamp": "2026-11-16T19:17:06.238972+00:00",
       "notes": ""
     },
     {
@@ -3046,7 +3014,7 @@
       "status": "failed",
       "http_status": 403,
       "attempt": 1,
-      "timestamp": "2026-11-09T19:33:39.530032+00:00",
+      "timestamp": "2026-11-16T19:17:19.963852+00:00",
       "notes": ""
     },
     {
@@ -3055,7 +3023,7 @@
       "status": "failed",
       "http_status": 405,
       "attempt": 1,
-      "timestamp": "2026-11-09T19:33:43.978918+00:00",
+      "timestamp": "2026-11-16T19:17:23.605114+00:00",
       "notes": ""
     },
     {
@@ -3064,7 +3032,7 @@
       "status": "failed",
       "http_status": null,
       "attempt": 3,
-      "timestamp": "2026-11-09T19:33:51.476240+00:00",
+      "timestamp": "2026-11-16T19:17:30.947120+00:00",
       "notes": "Exceeded retries"
     },
     {
@@ -3073,7 +3041,7 @@
       "status": "failed",
       "http_status": null,
       "attempt": 3,
-      "timestamp": "2026-11-09T19:33:59.509604+00:00",
+      "timestamp": "2026-11-16T19:17:38.441418+00:00",
       "notes": "Exceeded retries"
     },
     {
@@ -3082,7 +3050,7 @@
       "status": "failed",
       "http_status": 405,
       "attempt": 1,
-      "timestamp": "2026-11-09T19:34:03.075630+00:00",
+      "timestamp": "2026-11-16T19:17:41.791550+00:00",
       "notes": ""
     },
     {
@@ -3091,7 +3059,7 @@
       "status": "failed",
       "http_status": 405,
       "attempt": 1,
-      "timestamp": "2026-11-09T19:34:11.117270+00:00",
+      "timestamp": "2026-11-16T19:17:48.970463+00:00",
       "notes": ""
     },
     {
@@ -3100,7 +3068,7 @@
       "status": "failed",
       "http_status": 403,
       "attempt": 1,
-      "timestamp": "2026-11-09T19:34:18.873732+00:00",
+      "timestamp": "2026-11-16T19:17:56.046564+00:00",
       "notes": ""
     },
     {
@@ -3109,7 +3077,7 @@
       "status": "failed",
       "http_status": null,
       "attempt": 3,
-      "timestamp": "2026-11-09T19:34:59.807734+00:00",
+      "timestamp": "2026-11-16T19:18:06.939929+00:00",
       "notes": "Exceeded retries"
     },
     {
@@ -3118,7 +3086,7 @@
       "status": "failed",
       "http_status": 403,
       "attempt": 1,
-      "timestamp": "2026-11-09T19:35:06.886735+00:00",
+      "timestamp": "2026-11-16T19:18:13.873620+00:00",
       "notes": ""
     },
     {
@@ -3127,7 +3095,7 @@
       "status": "failed",
       "http_status": 403,
       "attempt": 1,
-      "timestamp": "2026-11-09T19:35:10.376975+00:00",
+      "timestamp": "2026-11-16T19:18:17.256630+00:00",
       "notes": ""
     },
     {
@@ -3136,7 +3104,7 @@
       "status": "failed",
       "http_status": 404,
       "attempt": 1,
-      "timestamp": "2026-11-09T19:35:15.028214+00:00",
+      "timestamp": "2026-11-16T19:18:21.795500+00:00",
       "notes": ""
     },
     {
@@ -3145,7 +3113,7 @@
       "status": "failed",
       "http_status": 403,
       "attempt": 1,
-      "timestamp": "2026-11-09T19:35:18.528704+00:00",
+      "timestamp": "2026-11-16T19:18:25.241698+00:00",
       "notes": ""
     },
     {
@@ -3154,7 +3122,7 @@
       "status": "failed",
       "http_status": 405,
       "attempt": 1,
-      "timestamp": "2026-11-09T19:35:22.456370+00:00",
+      "timestamp": "2026-11-16T19:18:29.005536+00:00",
       "notes": ""
     },
     {
@@ -3163,7 +3131,7 @@
       "status": "failed",
       "http_status": 403,
       "attempt": 1,
-      "timestamp": "2026-11-09T19:35:30.089913+00:00",
+      "timestamp": "2026-11-16T19:18:36.224086+00:00",
       "notes": ""
     },
     {
@@ -3172,7 +3140,7 @@
       "status": "failed",
       "http_status": 200,
       "attempt": 1,
-      "timestamp": "2026-11-09T19:35:33.758051+00:00",
+      "timestamp": "2026-11-16T19:18:39.659738+00:00",
       "notes": ""
     },
     {
@@ -3181,7 +3149,7 @@
       "status": "failed",
       "http_status": null,
       "attempt": 3,
-      "timestamp": "2026-11-09T19:35:42.120888+00:00",
+      "timestamp": "2026-11-16T19:18:46.957462+00:00",
       "notes": "Exceeded retries"
     },
     {
@@ -3190,7 +3158,7 @@
       "status": "failed",
       "http_status": 405,
       "attempt": 1,
-      "timestamp": "2026-11-09T19:35:45.895593+00:00",
+      "timestamp": "2026-11-16T19:18:50.537771+00:00",
       "notes": ""
     },
     {
@@ -3199,7 +3167,7 @@
       "status": "failed",
       "http_status": null,
       "attempt": 3,
-      "timestamp": "2026-11-09T19:36:04.970461+00:00",
+      "timestamp": "2026-11-16T19:19:08.698857+00:00",
       "notes": "Exceeded retries"
     },
     {
@@ -3208,7 +3176,7 @@
       "status": "failed",
       "http_status": 405,
       "attempt": 1,
-      "timestamp": "2026-11-09T19:36:13.120193+00:00",
+      "timestamp": "2026-11-16T19:19:16.305916+00:00",
       "notes": ""
     },
     {
@@ -3217,7 +3185,7 @@
       "status": "failed",
       "http_status": 404,
       "attempt": 1,
-      "timestamp": "2026-11-09T19:36:16.809394+00:00",
+      "timestamp": "2026-11-16T19:19:20.416871+00:00",
       "notes": ""
     },
     {
@@ -3226,7 +3194,7 @@
       "status": "failed",
       "http_status": 403,
       "attempt": 1,
-      "timestamp": "2026-11-09T19:36:20.337536+00:00",
+      "timestamp": "2026-11-16T19:19:24.388352+00:00",
       "notes": ""
     },
     {
@@ -3235,7 +3203,7 @@
       "status": "failed",
       "http_status": null,
       "attempt": 3,
-      "timestamp": "2026-11-09T19:36:32.164124+00:00",
+      "timestamp": "2026-11-16T19:19:35.355982+00:00",
       "notes": "Exceeded retries"
     },
     {
@@ -3244,7 +3212,7 @@
       "status": "failed",
       "http_status": 403,
       "attempt": 1,
-      "timestamp": "2026-11-09T19:36:36.060775+00:00",
+      "timestamp": "2026-11-16T19:19:39.188754+00:00",
       "notes": ""
     },
     {
@@ -3253,7 +3221,7 @@
       "status": "failed",
       "http_status": 404,
       "attempt": 1,
-      "timestamp": "2026-11-09T19:36:39.792488+00:00",
+      "timestamp": "2026-11-16T19:19:42.805971+00:00",
       "notes": ""
     },
     {
@@ -3262,7 +3230,7 @@
       "status": "failed",
       "http_status": 403,
       "attempt": 1,
-      "timestamp": "2026-11-09T19:36:43.325921+00:00",
+      "timestamp": "2026-11-16T19:19:46.356727+00:00",
       "notes": ""
     },
     {
@@ -3271,7 +3239,7 @@
       "status": "failed",
       "http_status": 403,
       "attempt": 1,
-      "timestamp": "2026-11-09T19:36:47.252143+00:00",
+      "timestamp": "2026-11-16T19:19:50.639720+00:00",
       "notes": ""
     },
     {
@@ -3280,7 +3248,7 @@
       "status": "failed",
       "http_status": 403,
       "attempt": 1,
-      "timestamp": "2026-11-09T19:36:50.671156+00:00",
+      "timestamp": "2026-11-16T19:19:54.113352+00:00",
       "notes": ""
     },
     {
@@ -3289,16 +3257,16 @@
       "status": "failed",
       "http_status": null,
       "attempt": 3,
-      "timestamp": "2026-11-09T19:37:03.218114+00:00",
+      "timestamp": "2026-11-16T19:20:06.258220+00:00",
       "notes": "Exceeded retries"
     },
     {
       "name": "Thetechindex",
       "url": "https://thetechindex.com",
       "status": "failed",
-      "http_status": 405,
+      "http_status": 404,
       "attempt": 1,
-      "timestamp": "2026-11-09T19:37:07.148590+00:00",
+      "timestamp": "2026-11-16T19:20:11.296479+00:00",
       "notes": ""
     },
     {
@@ -3307,7 +3275,7 @@
       "status": "failed",
       "http_status": 404,
       "attempt": 1,
-      "timestamp": "2026-11-09T19:37:13.319438+00:00",
+      "timestamp": "2026-11-16T19:20:15.333196+00:00",
       "notes": ""
     },
     {
@@ -3316,17 +3284,17 @@
       "status": "failed",
       "http_status": 405,
       "attempt": 1,
-      "timestamp": "2026-11-09T19:37:17.263746+00:00",
+      "timestamp": "2026-11-16T19:20:19.009607+00:00",
       "notes": ""
     },
     {
       "name": "Toolsformakers",
       "url": "https://toolsformakers.com",
       "status": "failed",
-      "http_status": null,
-      "attempt": 3,
-      "timestamp": "2026-11-09T19:38:33.822606+00:00",
-      "notes": "Exceeded retries"
+      "http_status": 405,
+      "attempt": 1,
+      "timestamp": "2026-11-16T19:20:30.323525+00:00",
+      "notes": ""
     },
     {
       "name": "Toools",
@@ -3334,7 +3302,7 @@
       "status": "failed",
       "http_status": 200,
       "attempt": 1,
-      "timestamp": "2026-11-09T19:38:38.592011+00:00",
+      "timestamp": "2026-11-16T19:20:35.004888+00:00",
       "notes": ""
     },
     {
@@ -3343,7 +3311,7 @@
       "status": "failed",
       "http_status": 403,
       "attempt": 1,
-      "timestamp": "2026-11-09T19:38:45.931713+00:00",
+      "timestamp": "2026-11-16T19:20:46.206012+00:00",
       "notes": ""
     },
     {
@@ -3352,7 +3320,7 @@
       "status": "failed",
       "http_status": 403,
       "attempt": 1,
-      "timestamp": "2026-11-09T19:38:49.667754+00:00",
+      "timestamp": "2026-11-16T19:20:49.578666+00:00",
       "notes": ""
     },
     {
@@ -3361,7 +3329,7 @@
       "status": "failed",
       "http_status": null,
       "attempt": 3,
-      "timestamp": "2026-11-09T19:39:57.148574+00:00",
+      "timestamp": "2026-11-16T19:21:56.951870+00:00",
       "notes": "Exceeded retries"
     },
     {
@@ -3370,7 +3338,7 @@
       "status": "failed",
       "http_status": 404,
       "attempt": 1,
-      "timestamp": "2026-11-09T19:40:01.682147+00:00",
+      "timestamp": "2026-11-16T19:22:01.569739+00:00",
       "notes": ""
     },
     {
@@ -3379,7 +3347,7 @@
       "status": "failed",
       "http_status": 403,
       "attempt": 1,
-      "timestamp": "2026-11-09T19:40:05.136947+00:00",
+      "timestamp": "2026-11-16T19:22:04.985564+00:00",
       "notes": ""
     },
     {
@@ -3388,7 +3356,7 @@
       "status": "failed",
       "http_status": 404,
       "attempt": 1,
-      "timestamp": "2026-11-09T19:40:08.911705+00:00",
+      "timestamp": "2026-11-16T19:22:08.610124+00:00",
       "notes": ""
     },
     {
@@ -3397,7 +3365,7 @@
       "status": "failed",
       "http_status": 403,
       "attempt": 1,
-      "timestamp": "2026-11-09T19:40:12.901130+00:00",
+      "timestamp": "2026-11-16T19:22:12.525867+00:00",
       "notes": ""
     },
     {
@@ -3406,7 +3374,7 @@
       "status": "failed",
       "http_status": 403,
       "attempt": 1,
-      "timestamp": "2026-11-09T19:40:16.451280+00:00",
+      "timestamp": "2026-11-16T19:22:15.959855+00:00",
       "notes": ""
     },
     {
@@ -3415,7 +3383,7 @@
       "status": "failed",
       "http_status": 404,
       "attempt": 1,
-      "timestamp": "2026-11-09T19:40:21.399134+00:00",
+      "timestamp": "2026-11-16T19:22:20.351917+00:00",
       "notes": ""
     },
     {
@@ -3424,7 +3392,7 @@
       "status": "failed",
       "http_status": 403,
       "attempt": 1,
-      "timestamp": "2026-11-09T19:40:25.252741+00:00",
+      "timestamp": "2026-11-16T19:22:23.863783+00:00",
       "notes": ""
     },
     {
@@ -3433,7 +3401,7 @@
       "status": "failed",
       "http_status": 403,
       "attempt": 1,
-      "timestamp": "2026-11-09T19:40:28.837674+00:00",
+      "timestamp": "2026-11-16T19:22:27.224335+00:00",
       "notes": ""
     },
     {
@@ -3442,7 +3410,7 @@
       "status": "failed",
       "http_status": 429,
       "attempt": 1,
-      "timestamp": "2026-11-09T19:40:32.447441+00:00",
+      "timestamp": "2026-11-16T19:22:30.547788+00:00",
       "notes": ""
     },
     {
@@ -3451,7 +3419,7 @@
       "status": "failed",
       "http_status": 403,
       "attempt": 1,
-      "timestamp": "2026-11-09T19:40:36.324857+00:00",
+      "timestamp": "2026-11-16T19:22:34.589348+00:00",
       "notes": ""
     },
     {
@@ -3460,7 +3428,7 @@
       "status": "failed",
       "http_status": 404,
       "attempt": 1,
-      "timestamp": "2026-11-09T19:40:40.164961+00:00",
+      "timestamp": "2026-11-16T19:22:39.060153+00:00",
       "notes": ""
     },
     {
@@ -3469,7 +3437,7 @@
       "status": "failed",
       "http_status": 403,
       "attempt": 1,
-      "timestamp": "2026-11-09T19:40:43.662969+00:00",
+      "timestamp": "2026-11-16T19:22:42.371780+00:00",
       "notes": ""
     },
     {
@@ -3478,7 +3446,7 @@
       "status": "failed",
       "http_status": 403,
       "attempt": 1,
-      "timestamp": "2026-11-09T19:40:47.550109+00:00",
+      "timestamp": "2026-11-16T19:22:46.248850+00:00",
       "notes": ""
     },
     {
@@ -3487,7 +3455,7 @@
       "status": "failed",
       "http_status": 403,
       "attempt": 1,
-      "timestamp": "2026-11-09T19:40:51.101360+00:00",
+      "timestamp": "2026-11-16T19:22:50.654774+00:00",
       "notes": ""
     },
     {
@@ -3496,7 +3464,7 @@
       "status": "failed",
       "http_status": 403,
       "attempt": 1,
-      "timestamp": "2026-11-09T19:40:54.556931+00:00",
+      "timestamp": "2026-11-16T19:22:54.203147+00:00",
       "notes": ""
     },
     {
@@ -3505,7 +3473,7 @@
       "status": "failed",
       "http_status": 404,
       "attempt": 1,
-      "timestamp": "2026-11-09T19:40:58.944104+00:00",
+      "timestamp": "2026-11-16T19:22:58.746865+00:00",
       "notes": ""
     },
     {
@@ -3514,7 +3482,7 @@
       "status": "failed",
       "http_status": 403,
       "attempt": 1,
-      "timestamp": "2026-11-09T19:41:02.583503+00:00",
+      "timestamp": "2026-11-16T19:23:02.411103+00:00",
       "notes": ""
     },
     {
@@ -3523,7 +3491,7 @@
       "status": "failed",
       "http_status": 403,
       "attempt": 1,
-      "timestamp": "2026-11-09T19:41:06.093696+00:00",
+      "timestamp": "2026-11-16T19:23:06.251042+00:00",
       "notes": ""
     },
     {
@@ -3532,7 +3500,7 @@
       "status": "failed",
       "http_status": 403,
       "attempt": 1,
-      "timestamp": "2026-11-09T19:41:09.963555+00:00",
+      "timestamp": "2026-11-16T19:23:10.098211+00:00",
       "notes": ""
     },
     {
@@ -3541,7 +3509,7 @@
       "status": "failed",
       "http_status": 404,
       "attempt": 1,
-      "timestamp": "2026-11-09T19:41:13.905714+00:00",
+      "timestamp": "2026-11-16T19:23:14.144368+00:00",
       "notes": ""
     },
     {
@@ -3550,7 +3518,7 @@
       "status": "failed",
       "http_status": 405,
       "attempt": 1,
-      "timestamp": "2026-11-09T19:41:17.429608+00:00",
+      "timestamp": "2026-11-16T19:23:17.776306+00:00",
       "notes": ""
     },
     {
@@ -3559,7 +3527,7 @@
       "status": "failed",
       "http_status": 522,
       "attempt": 1,
-      "timestamp": "2026-11-09T19:42:00.008763+00:00",
+      "timestamp": "2026-11-16T19:24:00.390681+00:00",
       "notes": ""
     },
     {
@@ -3568,7 +3536,7 @@
       "status": "failed",
       "http_status": 403,
       "attempt": 1,
-      "timestamp": "2026-11-09T19:42:03.643548+00:00",
+      "timestamp": "2026-11-16T19:24:04.125603+00:00",
       "notes": ""
     },
     {
@@ -3577,7 +3545,7 @@
       "status": "failed",
       "http_status": 403,
       "attempt": 1,
-      "timestamp": "2026-11-09T19:42:07.170887+00:00",
+      "timestamp": "2026-11-16T19:24:08.221925+00:00",
       "notes": ""
     },
     {
@@ -3586,7 +3554,7 @@
       "status": "failed",
       "http_status": 405,
       "attempt": 1,
-      "timestamp": "2026-11-09T19:42:10.925461+00:00",
+      "timestamp": "2026-11-16T19:24:12.211234+00:00",
       "notes": ""
     },
     {
@@ -3595,7 +3563,7 @@
       "status": "failed",
       "http_status": 403,
       "attempt": 1,
-      "timestamp": "2026-11-09T19:42:14.462575+00:00",
+      "timestamp": "2026-11-16T19:24:16.004980+00:00",
       "notes": ""
     },
     {
@@ -3604,7 +3572,7 @@
       "status": "failed",
       "http_status": 404,
       "attempt": 1,
-      "timestamp": "2026-11-09T19:42:18.326298+00:00",
+      "timestamp": "2026-11-16T19:24:19.610183+00:00",
       "notes": ""
     },
     {
@@ -3613,7 +3581,7 @@
       "status": "failed",
       "http_status": 404,
       "attempt": 1,
-      "timestamp": "2026-11-09T19:42:22.305871+00:00",
+      "timestamp": "2026-11-16T19:24:23.140385+00:00",
       "notes": ""
     },
     {
@@ -3622,7 +3590,7 @@
       "status": "failed",
       "http_status": 403,
       "attempt": 1,
-      "timestamp": "2026-11-09T19:42:26.054609+00:00",
+      "timestamp": "2026-11-16T19:24:27.088770+00:00",
       "notes": ""
     },
     {
@@ -3631,7 +3599,7 @@
       "status": "failed",
       "http_status": 403,
       "attempt": 1,
-      "timestamp": "2026-11-09T19:42:29.590386+00:00",
+      "timestamp": "2026-11-16T19:24:31.112257+00:00",
       "notes": ""
     },
     {
@@ -3640,7 +3608,7 @@
       "status": "failed",
       "http_status": null,
       "attempt": 3,
-      "timestamp": "2026-11-09T19:42:38.083520+00:00",
+      "timestamp": "2026-11-16T19:24:40.020842+00:00",
       "notes": "Exceeded retries"
     },
     {
@@ -3649,7 +3617,7 @@
       "status": "failed",
       "http_status": 404,
       "attempt": 1,
-      "timestamp": "2026-11-09T19:42:45.139399+00:00",
+      "timestamp": "2026-11-16T19:24:47.178561+00:00",
       "notes": ""
     },
     {
@@ -3658,7 +3626,7 @@
       "status": "failed",
       "http_status": 523,
       "attempt": 1,
-      "timestamp": "2026-11-09T19:42:54.915140+00:00",
+      "timestamp": "2026-11-16T19:24:57.157079+00:00",
       "notes": ""
     },
     {
@@ -3667,7 +3635,7 @@
       "status": "failed",
       "http_status": 405,
       "attempt": 1,
-      "timestamp": "2026-11-09T19:43:00.271597+00:00",
+      "timestamp": "2026-11-16T19:25:02.472749+00:00",
       "notes": ""
     },
     {
@@ -3676,7 +3644,7 @@
       "status": "failed",
       "http_status": 403,
       "attempt": 1,
-      "timestamp": "2026-11-09T19:43:03.818725+00:00",
+      "timestamp": "2026-11-16T19:25:06.625206+00:00",
       "notes": ""
     },
     {
@@ -3685,7 +3653,7 @@
       "status": "failed",
       "http_status": 404,
       "attempt": 1,
-      "timestamp": "2026-11-09T19:43:08.010935+00:00",
+      "timestamp": "2026-11-16T19:25:10.714751+00:00",
       "notes": ""
     },
     {
@@ -3694,7 +3662,7 @@
       "status": "failed",
       "http_status": 404,
       "attempt": 1,
-      "timestamp": "2026-11-09T19:43:13.276513+00:00",
+      "timestamp": "2026-11-16T19:25:16.195926+00:00",
       "notes": ""
     },
     {
@@ -3703,7 +3671,7 @@
       "status": "failed",
       "http_status": 404,
       "attempt": 1,
-      "timestamp": "2026-11-09T19:43:21.717204+00:00",
+      "timestamp": "2026-11-16T19:25:23.062552+00:00",
       "notes": ""
     },
     {
@@ -3712,7 +3680,7 @@
       "status": "failed",
       "http_status": 405,
       "attempt": 1,
-      "timestamp": "2026-11-09T19:43:25.814551+00:00",
+      "timestamp": "2026-11-16T19:25:27.457310+00:00",
       "notes": ""
     },
     {
@@ -3721,7 +3689,7 @@
       "status": "failed",
       "http_status": 403,
       "attempt": 1,
-      "timestamp": "2026-11-09T19:43:29.294109+00:00",
+      "timestamp": "2026-11-16T19:25:30.982751+00:00",
       "notes": ""
     },
     {
@@ -3730,7 +3698,7 @@
       "status": "failed",
       "http_status": 405,
       "attempt": 1,
-      "timestamp": "2026-11-09T19:43:33.083982+00:00",
+      "timestamp": "2026-11-16T19:25:35.442763+00:00",
       "notes": ""
     },
     {
@@ -3739,7 +3707,7 @@
       "status": "failed",
       "http_status": 403,
       "attempt": 1,
-      "timestamp": "2026-11-09T19:43:36.718984+00:00",
+      "timestamp": "2026-11-16T19:25:39.851307+00:00",
       "notes": ""
     },
     {
@@ -3748,7 +3716,7 @@
       "status": "failed",
       "http_status": 405,
       "attempt": 1,
-      "timestamp": "2026-11-09T19:43:40.370940+00:00",
+      "timestamp": "2026-11-16T19:25:43.662006+00:00",
       "notes": ""
     },
     {
@@ -3757,7 +3725,7 @@
       "status": "failed",
       "http_status": null,
       "attempt": 3,
-      "timestamp": "2026-11-09T19:44:47.869472+00:00",
+      "timestamp": "2026-11-16T19:26:51.012763+00:00",
       "notes": "Exceeded retries"
     },
     {
@@ -3766,7 +3734,7 @@
       "status": "failed",
       "http_status": null,
       "attempt": 3,
-      "timestamp": "2026-11-09T19:44:55.932943+00:00",
+      "timestamp": "2026-11-16T19:26:58.636400+00:00",
       "notes": "Exceeded retries"
     },
     {
@@ -3775,7 +3743,7 @@
       "status": "failed",
       "http_status": 404,
       "attempt": 1,
-      "timestamp": "2026-11-09T19:45:00.765863+00:00",
+      "timestamp": "2026-11-16T19:27:03.340606+00:00",
       "notes": ""
     },
     {
@@ -3784,7 +3752,7 @@
       "status": "failed",
       "http_status": 405,
       "attempt": 1,
-      "timestamp": "2026-11-09T19:45:04.793895+00:00",
+      "timestamp": "2026-11-16T19:27:07.106442+00:00",
       "notes": ""
     },
     {
@@ -3793,7 +3761,7 @@
       "status": "failed",
       "http_status": 404,
       "attempt": 1,
-      "timestamp": "2026-11-09T19:45:10.315008+00:00",
+      "timestamp": "2026-11-16T19:27:11.925672+00:00",
       "notes": ""
     },
     {
@@ -3802,7 +3770,7 @@
       "status": "failed",
       "http_status": 405,
       "attempt": 1,
-      "timestamp": "2026-11-09T19:45:14.414735+00:00",
+      "timestamp": "2026-11-16T19:27:16.035147+00:00",
       "notes": ""
     },
     {
@@ -3811,17 +3779,17 @@
       "status": "failed",
       "http_status": 404,
       "attempt": 1,
-      "timestamp": "2026-11-09T19:45:21.123871+00:00",
+      "timestamp": "2026-11-16T19:27:22.625256+00:00",
       "notes": ""
     },
     {
       "name": "Saasaitools",
       "url": "https://saasaitools.com/",
       "status": "failed",
-      "http_status": 404,
-      "attempt": 1,
-      "timestamp": "2026-11-09T19:45:28.353450+00:00",
-      "notes": ""
+      "http_status": null,
+      "attempt": 3,
+      "timestamp": "2026-11-16T19:28:30.499757+00:00",
+      "notes": "Exceeded retries"
     },
     {
       "name": "Aiscout",
@@ -3829,7 +3797,7 @@
       "status": "failed",
       "http_status": 520,
       "attempt": 1,
-      "timestamp": "2026-11-09T19:45:36.066335+00:00",
+      "timestamp": "2026-11-16T19:28:54.013749+00:00",
       "notes": ""
     },
     {
@@ -3838,7 +3806,7 @@
       "status": "failed",
       "http_status": 404,
       "attempt": 1,
-      "timestamp": "2026-11-09T19:45:39.970177+00:00",
+      "timestamp": "2026-11-16T19:28:58.272391+00:00",
       "notes": ""
     },
     {
@@ -3847,7 +3815,7 @@
       "status": "failed",
       "http_status": 404,
       "attempt": 1,
-      "timestamp": "2026-11-09T19:45:43.900928+00:00",
+      "timestamp": "2026-11-16T19:29:02.092669+00:00",
       "notes": ""
     },
     {
@@ -3856,7 +3824,7 @@
       "status": "failed",
       "http_status": 405,
       "attempt": 1,
-      "timestamp": "2026-11-09T19:45:48.338710+00:00",
+      "timestamp": "2026-11-16T19:29:08.234159+00:00",
       "notes": ""
     },
     {
@@ -3865,7 +3833,7 @@
       "status": "failed",
       "http_status": 405,
       "attempt": 1,
-      "timestamp": "2026-11-09T19:45:52.008041+00:00",
+      "timestamp": "2026-11-16T19:29:11.941773+00:00",
       "notes": ""
     },
     {
@@ -3874,7 +3842,7 @@
       "status": "failed",
       "http_status": null,
       "attempt": 3,
-      "timestamp": "2026-11-09T19:45:59.885873+00:00",
+      "timestamp": "2026-11-16T19:29:19.558611+00:00",
       "notes": "Exceeded retries"
     },
     {
@@ -3883,7 +3851,7 @@
       "status": "failed",
       "http_status": 403,
       "attempt": 1,
-      "timestamp": "2026-11-09T19:46:03.431328+00:00",
+      "timestamp": "2026-11-16T19:29:23.796462+00:00",
       "notes": ""
     },
     {
@@ -3892,7 +3860,7 @@
       "status": "failed",
       "http_status": null,
       "attempt": 3,
-      "timestamp": "2026-11-09T19:46:12.154874+00:00",
+      "timestamp": "2026-11-16T19:29:31.244195+00:00",
       "notes": "Exceeded retries"
     },
     {
@@ -3901,7 +3869,7 @@
       "status": "failed",
       "http_status": 405,
       "attempt": 1,
-      "timestamp": "2026-11-09T19:46:16.370423+00:00",
+      "timestamp": "2026-11-16T19:29:35.756671+00:00",
       "notes": ""
     },
     {
@@ -3910,7 +3878,7 @@
       "status": "failed",
       "http_status": 404,
       "attempt": 1,
-      "timestamp": "2026-11-09T19:46:29.452267+00:00",
+      "timestamp": "2026-11-16T19:29:40.453933+00:00",
       "notes": ""
     },
     {
@@ -3919,7 +3887,7 @@
       "status": "failed",
       "http_status": 404,
       "attempt": 1,
-      "timestamp": "2026-11-09T19:46:33.372454+00:00",
+      "timestamp": "2026-11-16T19:29:43.991839+00:00",
       "notes": ""
     },
     {
@@ -3928,16 +3896,16 @@
       "status": "failed",
       "http_status": 403,
       "attempt": 1,
-      "timestamp": "2026-11-09T19:46:36.886939+00:00",
+      "timestamp": "2026-11-16T19:29:47.861037+00:00",
       "notes": ""
     },
     {
       "name": "Startupsea",
       "url": "http://startupsea.com/",
       "status": "failed",
-      "http_status": 404,
+      "http_status": 400,
       "attempt": 1,
-      "timestamp": "2026-11-09T19:46:41.271464+00:00",
+      "timestamp": "2026-11-16T19:29:51.812766+00:00",
       "notes": ""
     },
     {
@@ -3946,7 +3914,7 @@
       "status": "failed",
       "http_status": 405,
       "attempt": 1,
-      "timestamp": "2026-11-09T19:46:49.856982+00:00",
+      "timestamp": "2026-11-16T19:29:59.585206+00:00",
       "notes": ""
     },
     {
@@ -3955,17 +3923,17 @@
       "status": "failed",
       "http_status": 404,
       "attempt": 1,
-      "timestamp": "2026-11-09T19:46:53.955869+00:00",
+      "timestamp": "2026-11-16T19:30:03.561245+00:00",
       "notes": ""
     },
     {
       "name": "Topnocode",
       "url": "https://topnocode.tools/",
       "status": "failed",
-      "http_status": 405,
-      "attempt": 1,
-      "timestamp": "2026-11-09T19:46:57.834149+00:00",
-      "notes": ""
+      "http_status": null,
+      "attempt": 3,
+      "timestamp": "2026-11-16T19:30:10.842212+00:00",
+      "notes": "Exceeded retries"
     },
     {
       "name": "Aitrendz",
@@ -3973,7 +3941,7 @@
       "status": "failed",
       "http_status": 404,
       "attempt": 1,
-      "timestamp": "2026-11-09T19:47:03.677702+00:00",
+      "timestamp": "2026-11-16T19:30:17.114045+00:00",
       "notes": ""
     },
     {
@@ -3982,7 +3950,7 @@
       "status": "failed",
       "http_status": 404,
       "attempt": 1,
-      "timestamp": "2026-11-09T19:47:10.656423+00:00",
+      "timestamp": "2026-11-16T19:30:23.218303+00:00",
       "notes": ""
     },
     {
@@ -3991,7 +3959,7 @@
       "status": "failed",
       "http_status": 404,
       "attempt": 1,
-      "timestamp": "2026-11-09T19:47:15.285103+00:00",
+      "timestamp": "2026-11-16T19:30:28.467115+00:00",
       "notes": ""
     },
     {
@@ -4000,7 +3968,7 @@
       "status": "failed",
       "http_status": 405,
       "attempt": 1,
-      "timestamp": "2026-11-09T19:47:18.780643+00:00",
+      "timestamp": "2026-11-16T19:30:31.822319+00:00",
       "notes": ""
     },
     {
@@ -4009,16 +3977,16 @@
       "status": "failed",
       "http_status": 429,
       "attempt": 1,
-      "timestamp": "2026-11-09T19:47:22.302001+00:00",
+      "timestamp": "2026-11-16T19:30:35.206515+00:00",
       "notes": ""
     },
     {
       "name": "Tooldirectory",
       "url": "https://tooldirectory.ai/",
       "status": "failed",
-      "http_status": 403,
+      "http_status": 405,
       "attempt": 1,
-      "timestamp": "2026-11-09T19:47:25.990638+00:00",
+      "timestamp": "2026-11-16T19:30:38.968613+00:00",
       "notes": ""
     },
     {
@@ -4027,7 +3995,7 @@
       "status": "failed",
       "http_status": null,
       "attempt": 3,
-      "timestamp": "2026-11-09T19:47:34.452265+00:00",
+      "timestamp": "2026-11-16T19:30:46.490075+00:00",
       "notes": "Exceeded retries"
     },
     {
@@ -4035,8 +4003,8 @@
       "url": "https://toolsalad.com/",
       "status": "failed",
       "http_status": 522,
-      "attempt": 1,
-      "timestamp": "2026-11-09T19:48:17.038973+00:00",
+      "attempt": 2,
+      "timestamp": "2026-11-16T19:32:10.799916+00:00",
       "notes": ""
     },
     {
@@ -4045,7 +4013,7 @@
       "status": "failed",
       "http_status": 403,
       "attempt": 1,
-      "timestamp": "2026-11-09T19:48:21.532109+00:00",
+      "timestamp": "2026-11-16T19:32:15.606781+00:00",
       "notes": ""
     },
     {
@@ -4054,7 +4022,7 @@
       "status": "failed",
       "http_status": null,
       "attempt": 3,
-      "timestamp": "2026-11-09T19:48:30.459719+00:00",
+      "timestamp": "2026-11-16T19:32:24.629960+00:00",
       "notes": "Exceeded retries"
     },
     {
@@ -4063,7 +4031,7 @@
       "status": "failed",
       "http_status": 404,
       "attempt": 1,
-      "timestamp": "2026-11-09T19:48:34.837203+00:00",
+      "timestamp": "2026-11-16T19:32:28.932579+00:00",
       "notes": ""
     },
     {
@@ -4072,7 +4040,7 @@
       "status": "failed",
       "http_status": null,
       "attempt": 3,
-      "timestamp": "2026-11-09T19:48:42.481886+00:00",
+      "timestamp": "2026-11-16T19:32:36.316203+00:00",
       "notes": "Exceeded retries"
     },
     {
@@ -4081,7 +4049,7 @@
       "status": "failed",
       "http_status": 404,
       "attempt": 1,
-      "timestamp": "2026-11-09T19:48:46.876587+00:00",
+      "timestamp": "2026-11-16T19:32:40.722034+00:00",
       "notes": ""
     },
     {
@@ -4090,7 +4058,7 @@
       "status": "failed",
       "http_status": 405,
       "attempt": 1,
-      "timestamp": "2026-11-09T19:48:50.461780+00:00",
+      "timestamp": "2026-11-16T19:32:44.400195+00:00",
       "notes": ""
     },
     {
@@ -4099,17 +4067,17 @@
       "status": "failed",
       "http_status": 403,
       "attempt": 1,
-      "timestamp": "2026-11-09T19:48:53.912934+00:00",
+      "timestamp": "2026-11-16T19:32:47.799116+00:00",
       "notes": ""
     },
     {
       "name": "Aitoppicks",
       "url": "https://aitoppicks.com/",
       "status": "failed",
-      "http_status": null,
-      "attempt": 3,
-      "timestamp": "2026-11-09T19:49:02.272467+00:00",
-      "notes": "Exceeded retries"
+      "http_status": 405,
+      "attempt": 1,
+      "timestamp": "2026-11-16T19:32:52.289017+00:00",
+      "notes": ""
     },
     {
       "name": "Getbyte",
@@ -4117,7 +4085,7 @@
       "status": "failed",
       "http_status": 405,
       "attempt": 1,
-      "timestamp": "2026-11-09T19:49:05.954363+00:00",
+      "timestamp": "2026-11-16T19:32:55.677561+00:00",
       "notes": ""
     },
     {
@@ -4125,7 +4093,7 @@
       "url": "https://ai-hunter.io",
       "status": "failed",
       "http_status": null,
-      "timestamp": "2026-11-09T19:49:11.398475+00:00",
+      "timestamp": "2026-11-16T19:33:04.412298+00:00",
       "notes": "Playwright error: Page.goto: net::ERR_CERT_COMMON_NAME_INVALID at https://ai-hunter.io/\nCall log:\n  - navigating to \"https://ai-hunter.io/\", waiting until \"domcontentloaded\"\n"
     },
     {
@@ -4133,7 +4101,7 @@
       "url": "https://wisepickai.com",
       "status": "failed",
       "http_status": null,
-      "timestamp": "2026-11-09T19:49:23.345338+00:00",
+      "timestamp": "2026-11-16T19:33:16.355308+00:00",
       "notes": "No fillable fields found"
     },
     {
@@ -4141,7 +4109,7 @@
       "url": "https://aichief.com",
       "status": "failed",
       "http_status": null,
-      "timestamp": "2026-11-09T19:49:35.560219+00:00",
+      "timestamp": "2026-11-16T19:33:28.297706+00:00",
       "notes": "No fillable fields found"
     },
     {
@@ -4149,15 +4117,15 @@
       "url": "https://aiapps.com",
       "status": "failed",
       "http_status": null,
-      "timestamp": "2026-11-09T19:49:40.692410+00:00",
-      "notes": "No fillable fields found"
+      "timestamp": "2026-11-16T19:33:51.916771+00:00",
+      "notes": "Playwright timeout"
     },
     {
       "name": "Soverin",
       "url": "https://soverin.ai",
       "status": "failed",
       "http_status": null,
-      "timestamp": "2026-11-09T19:49:46.072857+00:00",
+      "timestamp": "2026-11-16T19:33:56.526025+00:00",
       "notes": "No fillable fields found"
     },
     {
@@ -4165,7 +4133,7 @@
       "url": "https://lachief.io",
       "status": "failed",
       "http_status": null,
-      "timestamp": "2026-11-09T19:49:50.953970+00:00",
+      "timestamp": "2026-11-16T19:34:00.726434+00:00",
       "notes": "No fillable fields found"
     },
     {
@@ -4173,7 +4141,7 @@
       "url": "https://dessign.net",
       "status": "failed",
       "http_status": null,
-      "timestamp": "2026-11-09T19:49:56.733375+00:00",
+      "timestamp": "2026-11-16T19:34:06.367361+00:00",
       "notes": "No fillable fields found"
     },
     {
@@ -4181,7 +4149,7 @@
       "url": "https://stratup.ai/en/ais",
       "status": "failed",
       "http_status": null,
-      "timestamp": "2026-11-09T19:50:08.918773+00:00",
+      "timestamp": "2026-11-16T19:34:18.525615+00:00",
       "notes": "No fillable fields found"
     },
     {
@@ -4189,7 +4157,7 @@
       "url": "https://itirupati.com/ai-tools-apps",
       "status": "failed",
       "http_status": null,
-      "timestamp": "2026-11-09T19:50:14.497738+00:00",
+      "timestamp": "2026-11-16T19:34:23.477899+00:00",
       "notes": "No fillable fields found"
     },
     {
@@ -4197,7 +4165,7 @@
       "url": "https://topaitools.com/tools",
       "status": "failed",
       "http_status": null,
-      "timestamp": "2026-11-09T19:50:18.793354+00:00",
+      "timestamp": "2026-11-16T19:34:38.072927+00:00",
       "notes": "No fillable fields found"
     },
     {
@@ -4205,7 +4173,7 @@
       "url": "https://gpt3demo.com",
       "status": "failed",
       "http_status": null,
-      "timestamp": "2026-11-09T19:50:29.107583+00:00",
+      "timestamp": "2026-11-16T19:34:48.201096+00:00",
       "notes": "No fillable fields found"
     },
     {
@@ -4213,7 +4181,7 @@
       "url": "https://aiforeveryone.org",
       "status": "failed",
       "http_status": null,
-      "timestamp": "2026-11-09T19:50:45.847160+00:00",
+      "timestamp": "2026-11-16T19:35:04.902267+00:00",
       "notes": "No fillable fields found"
     },
     {
@@ -4221,7 +4189,7 @@
       "url": "https://powerfulai.tools",
       "status": "failed",
       "http_status": null,
-      "timestamp": "2026-11-09T19:51:55.453017+00:00",
+      "timestamp": "2026-11-16T19:36:10.433628+00:00",
       "notes": "No submit button found"
     },
     {
@@ -4229,7 +4197,7 @@
       "url": "https://aijourney.so",
       "status": "failed",
       "http_status": null,
-      "timestamp": "2026-11-09T20:16:35.283535+00:00",
+      "timestamp": "2026-11-16T20:00:50.115848+00:00",
       "notes": "No fillable fields found"
     },
     {
@@ -4237,7 +4205,7 @@
       "url": "https://aitechsuite.com",
       "status": "failed",
       "http_status": null,
-      "timestamp": "2026-11-09T20:16:47.472727+00:00",
+      "timestamp": "2026-11-16T20:01:02.125386+00:00",
       "notes": "No fillable fields found"
     },
     {
@@ -4245,23 +4213,23 @@
       "url": "https://app.aibase.com",
       "status": "failed",
       "http_status": null,
-      "timestamp": "2026-11-09T20:16:55.001865+00:00",
+      "timestamp": "2026-11-16T20:01:09.896844+00:00",
       "notes": "No fillable fields found"
     },
     {
       "name": "Simplifyaitools",
       "url": "https://simplifyaitools.com",
-      "status": "failed",
-      "http_status": null,
-      "timestamp": "2026-11-09T20:18:00.709818+00:00",
-      "notes": "No fillable fields found"
+      "status": "success",
+      "http_status": 200,
+      "timestamp": "2026-11-16T20:01:48.619252+00:00",
+      "notes": "Submitted via Playwright"
     },
     {
       "name": "Seofai",
       "url": "https://seofai.com",
       "status": "failed",
       "http_status": null,
-      "timestamp": "2026-11-09T20:18:05.685846+00:00",
+      "timestamp": "2026-11-16T20:01:53.851619+00:00",
       "notes": "No fillable fields found"
     },
     {
@@ -4269,7 +4237,7 @@
       "url": "https://brouseai.com",
       "status": "failed",
       "http_status": null,
-      "timestamp": "2026-11-09T20:18:10.221967+00:00",
+      "timestamp": "2026-11-16T20:01:58.260529+00:00",
       "notes": "No fillable fields found"
     },
     {
@@ -4277,17 +4245,49 @@
       "url": "https://navtools.ai",
       "status": "failed",
       "http_status": null,
-      "timestamp": "2026-11-09T20:18:15.003886+00:00",
+      "timestamp": "2026-11-16T20:02:02.990735+00:00",
+      "notes": "No fillable fields found"
+    },
+    {
+      "name": "Listmyai",
+      "url": "https://listmyai.net/tools",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-11-16T20:02:07.903398+00:00",
+      "notes": "No fillable fields found"
+    },
+    {
+      "name": "Aitoolhub",
+      "url": "https://aitoolhub.net",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-11-16T20:02:13.249039+00:00",
+      "notes": "No submit button found"
+    },
+    {
+      "name": "Future Pedia",
+      "url": "https://future-pedia.com",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-11-16T20:02:47.966750+00:00",
+      "notes": "No fillable fields found"
+    },
+    {
+      "name": "Iseoai",
+      "url": "https://iseoai.com",
+      "status": "failed",
+      "http_status": null,
+      "timestamp": "2026-11-16T20:02:58.560769+00:00",
       "notes": "No fillable fields found"
     }
   ],
   "summary": {
     "total": 480,
-    "success": 232,
-    "failed": 247,
+    "success": 234,
+    "failed": 245,
     "skipped": 0,
     "manual": 1,
     "manually_submitted": 0,
-    "last_run": "2026-11-09T20:18:15.075082+00:00"
+    "last_run": "2026-11-16T20:02:58.590398+00:00"
   }
 }
