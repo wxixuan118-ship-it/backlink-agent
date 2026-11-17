@@ -42,3 +42,13 @@ sites:
     owner_name: ""
     category: "Lifestyle"
     added_at: "2026-08-18"
+
+  - slug: lightvela
+    url: "https://lightvela.com"
+    title: "LightVela — Always-On AI Companion with Long-Term Memory"
+    description: "LightVela is an always-on personal AI companion with long-term memory, scheduled tasks and multi-channel access. It plugs into WeChat, QQ, WeCom, DingTalk and Feishu, learns your preferences over time, and handles research digests, reminders, group summaries and recurring workflows."
+    keywords: "AI companion, AI agent, always-on AI assistant, long-term memory AI, scheduled tasks, WeChat AI assistant, Feishu AI bot, DingTalk assistant, personal AI assistant, multi-channel AI, AI automation, AI productivity"
+    email: "wxixuan118@gmail.com"
+    owner_name: ""
+    category: "Technology"
+    added_at: "2026-11-17"
